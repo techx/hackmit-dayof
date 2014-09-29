@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title> HACKMIT - {% block title %} | Oct 4-5 {% endblock %}</title>
+  <link rel="icon"
+        type="image/png"
+        href="{{ url_for('static', filename='assets/images/hack-logo-favicon.png') }}">
+  <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link href="{{ url_for('static', filename='stylesheets/main.css') }}" rel="stylesheet" type="text/css">
+  <!--<script src={{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}></script>-->
+
+  <!-- Include Semantic-UI -->
+  <script src="{{ url_for('static', filename='bower_components/semantic-ui/build/packaged/javascript/semantic.min.js') }}"></script>
+  <link href="{{ url_for('static', filename='bower_components/semantic-ui/build/packaged/css/semantic.min.css') }}" rel="stylesheet" type="text/css">
+
+  <!-- for Facebook -->
+  <meta property="og:title" content="HACKMIT 2014"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="{{ url_for('static', filename='assets/images/hack-logo-fb.png') }}"/>
+  <meta property="og:url" content="http://hackmit.org"/>
+  <meta property="og:description" content="Get ready for a hackathon like none other. Oct 4-5, MIT."/>
+
+  <!-- for Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@hackmit">
+  <meta name="twitter:title" content="HACKMIT 2014">
+  <meta name="twitter:description" content="Get ready for a hackathon like none other. Oct 4-5, MIT.">
+  <meta name="twitter:image:src" content="{{ url_for('static', filename='assets/images/hack-logo-fb.png') }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    var csrftoken = "{{ csrf_token() }}";
+    $.ajaxSetup({
+      beforeSend: function(xhr, settings) {
+        if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type)) {
+          xhr.setRequestHeader("X-CSRFToken", csrftoken)
+        }
+      }
+    })
+  </script>
+
+  <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+
+  {% block head %}
+
+  {% endblock %}
+
+</head>
+
+{% block body %}
+<body>
+
+{% block nav %}
+<div class="nav">
+  <div class="ui secondary pointing menu">
+    <a class="logo montserrat bold item" href="{{ url_for('core.index') }}">
+      <img class="hacksquare" src="{{ url_for('static', filename='assets/images/hack-logo-black.png') }}"> HACKMIT
+    </a>
+    <div class="right menu">
+
+      {% block navItems %}
+
+      {% if current_user.is_authenticated() %}
+
+      <a class="item {{ 'active' if request.path == url_for('auth.dashboard') }}" href="{{ url_for('auth.dashboard') }}">
+        Dashboard
+      </a>
+
+        <div class="ui dropdown item">
+          Account <i class="icon dropdown"></i>
+          <div class="menu">
+            <a class="item {{ 'active' if request.path == url_for('auth.reset') }}" href="{{ url_for('auth.reset') }}">
+              Reset Password
+            </a>
+            <a class="item" href="{{ url_for('auth.logout') }}">
+              Logout
+            </a>
+          </div>
+        </div>
+
+      {% else %}
+
+        <a class="item {{ 'active' if request.path == url_for('auth.login') }}" href="{{ url_for('auth.login') }}">
+          Log In
+        </a>
+        {% if 'lottery_closing' not  in passed_dates %}
+        <a class="item {{ 'active' if request.path == url_for('auth.get_registration_page') }}" href="{{ url_for('auth.get_registration_page') }}">
+          Register
+        </a>
+        {% endif %}
+
+      {% endif %}
+
+      {% endblock %}
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+<div class="ui page dimmer">
+  <div class="content">
+    <div class="center">
+      <h1></h1>
+      <h2></h2>
+    </div>
+  </div>
+</div>
+
+{% block header %}
+<div id="header">
+  <div class="title">
+    {% block headerTitle %}
+    {% endblock %}
+  </div>
+</div>
+{% endblock %}
+
+<div class="main">
+  {% block content %}
+  {% endblock %}
+</div>
+
+</body>
+{% endblock %}
+</html>
