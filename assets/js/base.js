@@ -1,8 +1,7 @@
 $(document).ready(function(){
   $('.main')
       .transition('fade in');
-  $('.ui.dropdown')
-      .dropdown();
+  $('.ui.sidebar').sidebar();
 
   var $dimmer = $('.ui.page.dimmer');
 
@@ -14,7 +13,7 @@ $(document).ready(function(){
     setTimeout(function(){
       $dimmer.dimmer('hide');
       callback();
-    }, timeout)
-  }
+    }, timeout);
+  };
 
 });
