@@ -37,6 +37,10 @@ textarea {
   width: 1em;
 }
 
+#maps img {
+  width: 100%;
+}
+
 #header{
   background: url(/assets/img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
