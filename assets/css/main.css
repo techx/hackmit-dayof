@@ -91,6 +91,10 @@ textarea {
   display: none;
 }
 
+#hardware-col-1 {
+  text-align: right;
+}
+
 @media only screen and (max-width : 480px) {
 
   .ui.button {
@@ -100,5 +104,7 @@ textarea {
   .ui.page.grid {
     min-width: 300px !important;
   }
+  #hardware-col-1 {
+    text-align: left !important;
+  }
 }
-

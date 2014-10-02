@@ -2,6 +2,7 @@ $(document).ready(function(){
   $('.main')
       .transition('fade in');
   $('.ui.sidebar').sidebar();
+  $('.ui.accordion').accordion();
 
   var $dimmer = $('.ui.page.dimmer');
 
