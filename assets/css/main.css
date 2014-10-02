@@ -37,6 +37,11 @@ textarea {
   width: 1em;
 }
 
+#home iframe
+{
+  width: 100% !important;
+}
+
 #maps img {
   width: 100%;
 }
