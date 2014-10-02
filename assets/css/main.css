@@ -91,8 +91,13 @@ textarea {
   display: none;
 }
 
-#hardware-col-1 {
-  text-align: right;
+.width-limiter {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message-center .ui.message {
+  text-align: center;
 }
 
 #links-column a{
