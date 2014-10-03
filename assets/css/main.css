@@ -41,8 +41,11 @@ a {
   width: 1em;
 }
 
-#home .twitter-timeline {
-  height: 100%;
+#home iframe
+{
+  width: 100% !important;
+  min-height: 800px;
+  height: 100% !important;
 }
 
 #maps img {
