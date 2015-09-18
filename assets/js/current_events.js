@@ -10,12 +10,22 @@ var HackMITCurrentEvents = (function() {
   }
 
   function addEvent(hackEvent) {
+    function formatTime(t) {
+      t = parseFloat(t)%24;
+      var m = t >= 12 ? 'pm' : 'am';
+      var min = Math.floor((t%1)*60)
+      var hr = Math.floor(t)%12;
+      if (hr === 0) hr = 12;
+      if (min < 10) min = '0'+min;
+      return hr + ':' + min + m;
+    }
+
     //get the tr to append
     var tr = document.createElement('tr');
     var start = document.createElement('td');
-    start.innerHTML = hackEvent[0];
+    start.innerHTML = formatTime(hackEvent[0]);
     var end = document.createElement('td');
-    end.innerHTML = hackEvent[1];
+    end.innerHTML = formatTime(hackEvent[1]);
     var title = document.createElement('td');
     title.innerHTML = hackEvent[2];
     var location = document.createElement('td');
