@@ -123,6 +123,22 @@ a {
   }
 }
 
-td.current-events {
-  background-color: #B8FC90 !important;
+.current-events {
+  background-color: #473899 !important;
+  border-radius: 5px 5px 0 0;
+  padding: 1em !important;
+  color: white !important;
+}
+
+.current-events h1 {
+  margin: 0;
+}
+
+.announcements {
+  background-color: #FFE552 !important;
+  color: #473899 !important;
+}
+
+.links {
+  background-color: #E76482 !important;
 }

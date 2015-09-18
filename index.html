@@ -91,17 +91,21 @@
 
 <div id="home" class="main">
   <div class="ui stackable page grid">
-    <div class="sixteen wide column">
+    <div class="sixteen wide column" id="current-events-cont"
+         style="display: none">
       <table class="ui table segment">
         <tbody id="current-events-table">
           <tr>
-            <td class="active current-events" colspan="4">Current events</td>
+            <td class="active current-events" colspan="4">
+              <h1>Current events</h1>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
+
     <div class="ten wide column">
-      <div class="ui top attached segment inverted blue">
+      <div class="ui top attached segment inverted announcements">
         <h1>Announcements</h1>
       </div>
       <div class="ui bottom attached segment">
@@ -110,7 +114,7 @@
       </div>
     </div>
     <div id="links-column" class="six wide column">
-      <div class="ui segment top attached inverted teal">
+      <div class="ui segment top attached inverted links">
         <h1>Important Links</h1>
       </div>
       <div class="ui segment bottom attached">

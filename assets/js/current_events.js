@@ -5,21 +5,18 @@ var HackMITCurrentEvents = (function() {
   /**************
    * work funcs */
   function initHackMITCurrentEvents() {
-    //todo
-    addEvent(HMIT_EVTS[0]);
+    var time = 8+28*Math.random();
+    loadEventsForTime(time);
+  }
+
+  function loadEventsForTime(t) {
+    var evts = getEventsContainingT(t);
+    console.log(formatTime(t));
+    clearEvents(evts.length === 0);
+    evts.map(function(evt) { addEvent(evt); });
   }
 
   function addEvent(hackEvent) {
-    function formatTime(t) {
-      t = parseFloat(t)%24;
-      var m = t >= 12 ? 'pm' : 'am';
-      var min = Math.floor((t%1)*60)
-      var hr = Math.floor(t)%12;
-      if (hr === 0) hr = 12;
-      if (min < 10) min = '0'+min;
-      return hr + ':' + min + m;
-    }
-
     //get the tr to append
     var tr = document.createElement('tr');
     var start = document.createElement('td');
@@ -36,10 +33,12 @@ var HackMITCurrentEvents = (function() {
     tr.appendChild(location);
 
     //append it
-    document.getElementById('current-events-table').appendChild(tr);
+    var table = document.getElementById('current-events-table');
+    table.appendChild(tr);
+    document.getElementById('current-events-cont').style.display = 'block';
   }
 
-  function clearEvents() {
+  function clearEvents(hide) {
     var table = document.getElementById('current-events-table');
     var evts = Array.prototype.filter.call(
       table.childNodes,
@@ -50,6 +49,26 @@ var HackMITCurrentEvents = (function() {
     for (var ai = 1; ai < evts.length; ai++) {
       table.removeChild(evts[ai]);
     }
+
+    if (hide) {
+      document.getElementById('current-events-cont').style.display = 'none';
+    }
+  }
+
+  function getEventsContainingT(t) {
+    return HMIT_EVTS.filter(function(evt) {
+      return evt[0] <= t && evt[1] >= t;
+    });
+  }
+
+  function formatTime(t) {
+    t = parseFloat(t)%24;
+    var m = t >= 12 ? 'pm' : 'am';
+    var min = Math.floor((t%1)*60)
+    var hr = Math.floor(t)%12;
+    if (hr === 0) hr = 12;
+    if (min < 10) min = '0'+min;
+    return hr + ':' + min + m;
   }
 
   return {
