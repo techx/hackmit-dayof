@@ -6,9 +6,9 @@ var HackMITCurrentEvents = (function() {
   var SAT_MIDNIGHT = 1442635200000;
   var FRI_MIDNIGHT = SAT_MIDNIGHT - 24*60*60*1000;
   var ZERO_DATE = FRI_MIDNIGHT;
-  var SPEED = 60*60/5; //increase to aid debugging; default is 1 hr/hr
-  if (SPEED !== 1) ZERO_DATE = +new Date();
-  var INCR = 5*1000; //poll every 5 seconds; it's computationally cheap & easy
+  var SPEED = 60*60; //increase to aid debugging; default is 1 hr/hr
+  if (SPEED !== 1) ZERO_DATE = +new Date() - 8*60*60*1000/SPEED;
+  var INCR = 1000; //poll every 5 seconds; it's computationally cheap & easy
 
   /**************
    * work funcs */
@@ -31,43 +31,36 @@ var HackMITCurrentEvents = (function() {
   function addEvent(hackEvent) {
     //get the tr to append
     var tr = document.createElement('tr');
-    var start = document.createElement('td');
-    start.innerHTML = formatTime(hackEvent[0]);
-    var end = document.createElement('td');
-    end.innerHTML = formatTime(hackEvent[1]);
     var title = document.createElement('td');
-    title.innerHTML = hackEvent[2];
-    var location = document.createElement('td');
-    location.innerHTML = hackEvent[3];
-    tr.appendChild(start);
-    tr.appendChild(end);
+    title.innerHTML = hackEvent[2] +' @ ' + hackEvent[3];
+    var time = document.createElement('td');
+    time.innerHTML = 'from ' + formatTime(hackEvent[0]) + ' to ';
+    time.innerHTML += formatTime(hackEvent[1]);
     tr.appendChild(title);
-    tr.appendChild(location);
+    tr.appendChild(time);
 
     //append it
-    var table = document.getElementById('current-events-table');
-    table.appendChild(tr);
+    var tbody = document.getElementById('current-events-tbody');
+    tbody.appendChild(tr);
     //internet probs messed with jquery & semantic
-    var oldClasses = document.getElementById('current-events-cont').className;
-    var newClasses = oldClasses.replace(/invisible/gi, '');
-    newClasses = newClasses.trim().replace(/[ ]+/g, ' ')
-    document.getElementById('current-events-cont').className = newClasses;
+    document.getElementById('current-events-cont').style.display = 'block';
   }
 
   function clearEvents(hide) {
-    var table = document.getElementById('current-events-table');
+    var tbody = document.getElementById('current-events-tbody');
     var evts = Array.prototype.filter.call(
-      table.childNodes,
+      tbody.childNodes,
       function(evt) {
         return evt.nodeName.toLowerCase() === 'tr';
       }
     );
     for (var ai = 1; ai < evts.length; ai++) {
-      table.removeChild(evts[ai]);
+      tbody.removeChild(evts[ai]);
     }
 
     if (hide) {
-      document.getElementById('current-events-cont').className += ' invisible';
+      var cont = document.getElementById('current-events-cont');
+      cont.setAttribute('style', 'display: none !important');
     }
   }
 
