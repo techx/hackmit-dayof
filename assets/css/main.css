@@ -86,8 +86,12 @@ a {
   color: white;
 }
 
+.display {
+  display: block !important;
+}
+
 .invisible {
-  display: none;
+  display: none !important;
 }
 
 .width-limiter {
@@ -141,4 +145,8 @@ a {
 
 .links {
   background-color: #E76482 !important;
+}
+
+#current-events-container.invisible {
+  display: none !important;
 }

@@ -35,7 +35,11 @@ var HackMITCurrentEvents = (function() {
     //append it
     var table = document.getElementById('current-events-table');
     table.appendChild(tr);
-    document.getElementById('current-events-cont').style.display = 'block';
+    //internet probs messed with jquery & semantic
+    var oldClasses = document.getElementById('current-events-cont').className;
+    var newClasses = oldClasses.replace(/invisible/gi, '');
+    newClasses = newClasses.trim().replace(/[ ]+/g, ' ')
+    document.getElementById('current-events-cont').className = newClasses;
   }
 
   function clearEvents(hide) {
@@ -51,7 +55,7 @@ var HackMITCurrentEvents = (function() {
     }
 
     if (hide) {
-      document.getElementById('current-events-cont').style.display = 'none';
+      document.getElementById('current-events-cont').className += ' invisible';
     }
   }
 
