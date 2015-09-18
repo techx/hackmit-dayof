@@ -3,6 +3,7 @@ var HackMITCurrentEvents = (function() {
 
   /**********
    * config */
+  var FUDGE = 0.25; //how much earlier to start showing events, in hours
   var SAT_MIDNIGHT = 1442635200000;
   var FRI_MIDNIGHT = SAT_MIDNIGHT - 24*60*60*1000;
   var ZERO_DATE = FRI_MIDNIGHT;
@@ -66,7 +67,7 @@ var HackMITCurrentEvents = (function() {
 
   function getEventsContainingT(t) {
     return HMIT_EVTS.filter(function(evt) {
-      return evt[0] <= t && evt[1] >= t;
+      return evt[0] - FUDGE <= t && evt[1] >= t;
     });
   }
 
