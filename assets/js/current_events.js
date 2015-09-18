@@ -1,17 +1,29 @@
 var HackMITCurrentEvents = (function() {
+  'use strict';
+
   /**********
    * config */
+  var SAT_MIDNIGHT = 1442635200000;
+  var FRI_MIDNIGHT = SAT_MIDNIGHT - 24*60*60*1000;
+  var ZERO_DATE = FRI_MIDNIGHT;
+  var SPEED = 60*60/5; //increase to aid debugging; default is 1 hr/hr
+  if (SPEED !== 1) ZERO_DATE = +new Date();
+  var INCR = 5*1000; //poll every 5 seconds; it's computationally cheap & easy
 
   /**************
    * work funcs */
   function initHackMITCurrentEvents() {
-    var time = 8+28*Math.random();
-    loadEventsForTime(time);
+    setInterval(function() {
+      //hours since the zero-date
+      var time = ((+new Date) - ZERO_DATE)/(60*60*1000);
+      loadEventsForTime(time);
+    }, INCR);
   }
 
   function loadEventsForTime(t) {
+    t *= SPEED; //time since the zero date
+    window.location.hash = t;
     var evts = getEventsContainingT(t);
-    console.log(formatTime(t));
     clearEvents(evts.length === 0);
     evts.map(function(evt) { addEvent(evt); });
   }
