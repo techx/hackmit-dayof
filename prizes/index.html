@@ -5,11 +5,15 @@
   <title>HackMIT Day Of Info</title>
   <link rel="icon"
         type="image/png"
-        href="../assets/img/hack-logo-favicon.png">
+        href="../assets/img/hack-logo-favicon-2015.png">
   <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+
+  <!-- sponsor prizes logic -->
+  <script src="../assets/js/sponsor_data.js"></script>
+  <script src="../assets/js/sponsor_prizes.js"></script>
 
   <!-- Include Semantic-UI -->
   <script src="../assets/js/semantic.min.js"></script>
@@ -88,28 +92,7 @@
 </div>
 
 <div class="ui stackable page grid" id="prize-container">
-  <div class="sixteen wide column" id="current-events-cont"
-       style="display: none !important;">
-    <table class="ui table segment current-events-table">
-      <tbody id="current-events-tbody">
-        <tr>
-          <td class="active current-events" colspan="4">
-            <h1>Current events</h1>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="eight wide column">
-    <div class="ui segment top attached inverted">
-      <h2>Facebook + Parse</h2>
-    </div>
-    <div class="ui segment bottom attached">
-      <h3>Best use of Parse, $1000</h3>
-      <p>$1000 awarded to the team that best uses Parse</p>
-    </div>
-  </div>
+  <!-- populated dynamically -->
 </div>
 
 </body>
