@@ -32,7 +32,7 @@ var HMIT_EVTS = [
   [18, 19, "Dinner", "Tent", 2],
   [19, 20, "Therapy Dogs", "Johnson Lobby", 0],
   [19.25, 20, "Microsoft Platinum Tech Talk", "Media Room", 1],
-  [20.25, 21, "Google Platinum Tech Talk", "Media Room", 1],
+  [20.25, 21, "Google Platinum Tech Talk", "Mezzanine", 1],
   [21, 21.5, "Fireside Chat w/ Clarifai", "Johnson", 1],
   [21, 23, "FoMu's Plant Based Ice Cream sponsored by Rough Draft", "Johnson Lobby", 2],
   [21.5, 22, "Fireside Chat w/ Indico", "Johnson", 1],
