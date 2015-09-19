@@ -54,7 +54,7 @@
       <i class="home icon"></i>
       Day Of
     </a>
-    <a class="item active" href="../maps/">
+    <a class="item" href="../maps/">
       <i class="map icon"></i>
       Maps
     </a>
@@ -62,7 +62,7 @@
       <i class="calendar icon"></i>
       Schedule
     </a>
-    <a class="item" href="../prizes/">
+    <a class="item active" href="../prizes/">
       <i class="trophy icon"></i>
       Sponsor Prizes
     </a>
@@ -83,59 +83,34 @@
 
 <div id="banner">
   <div class="content">
-    Maps
+    Sponsor Prizes
   </div>
 </div>
 
-<div id="maps" class="main message-center">
-  <div style="text-align: center;">
-    <p>
-    <h3>
-      Below are a couple of maps you may find useful. whereis.mit.edu provides an interactive map of MIT's campus.
-    </h3>
-    </p>
-    <p>
-    <h3>
-      For shuttle schedules, download the MIT Mobile App from the App Store or Google Play Store.
-    </h3>
-    </p>
-    <a class="ui basic labeled icon button" href="//whereis.mit.edu">
-      whereis.mit.edu
-      <i class="map icon"></i>
-    </a>
-    <a class="ui basic labeled icon button" href="//ist.mit.edu/mit-mobile/android-ios">
-      MIT Mobile App
-      <i class="tablet icon"></i>
-    </a>
+<div class="ui stackable page grid" id="prize-container">
+  <div class="sixteen wide column" id="current-events-cont"
+       style="display: none !important;">
+    <table class="ui table segment current-events-table">
+      <tbody id="current-events-tbody">
+        <tr>
+          <td class="active current-events" colspan="4">
+            <h1>Current events</h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-  <br>
-  <br>
-
-  <div class="ui stackable two column page grid">
-    <div class="column">
-      <div class="ui header">
-        Map of HackMIT
-      </div>
-      <img src="../assets/img/map.png" /><br /><br />
-      <img src="../assets/img/map2.png" />
+  <div class="eight wide column">
+    <div class="ui segment top attached inverted">
+      <h2>Facebook + Parse</h2>
     </div>
-    <div class="column">
-      <div class="ui header">
-        Map of Kendall/MIT T Stop
-      </div>
-      <img src="../assets/img/mitmap.png" />
+    <div class="ui segment bottom attached">
+      <h3>Best use of Parse, $1000</h3>
+      <p>$1000 awarded to the team that best uses Parse</p>
     </div>
   </div>
 </div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 </body>
 </html>

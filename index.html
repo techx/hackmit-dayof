@@ -11,12 +11,18 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link href="assets/css/main.css" rel="stylesheet" type="text/css">
 
+  <!-- events data -->
+  <script src="../assets/js/hackmit_events.js"></script>
+
+  <!-- current events logic -->
+  <script src="../assets/js/current_events.js"></script>
+
   <!-- Include Semantic-UI -->
   <script src="assets/js/semantic.min.js"></script>
   <link href="assets/css/semantic.min.css" rel="stylesheet" type="text/css">
 
   <!-- for Facebook -->
-  <meta property="og:title" content="HACKMIT 2014"/>
+  <meta property="og:title" content="HACKMIT 2015"/>
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="assets/img/hack-logo-fb.png"/>
   <meta property="og:url" content="http://hackmit.org"/>
@@ -25,8 +31,8 @@
   <!-- for Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@hackmit">
-  <meta name="twitter:title" content="HACKMIT 2014">
-  <meta name="twitter:description" content="Get ready for a hackathon like none other. Oct 4-5, MIT.">
+  <meta name="twitter:title" content="HACKMIT 2015">
+  <meta name="twitter:description" content="Get ready for a hackathon like none other. Sep 19-20, MIT.">
   <meta name="twitter:image:src" content="assets/img/hack-logo-fb.png"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,13 +60,17 @@
       <i class="home icon"></i>
       Day Of
     </a>
+    <a class="item" href="./maps/">
+      <i class="map icon"></i>
+      Maps
+    </a>
     <a class="item" href="./schedule/">
       <i class="calendar icon"></i>
       Schedule
     </a>
-    <a class="item" href="./logistics/">
-      <i class="question icon"></i>
-      FAQs
+    <a class="item" href="./prizes/">
+      <i class="trophy icon"></i>
+      Sponsor Prizes
     </a>
     <a class="item" href="./hardware/">
       <i class="rocket icon"></i>
@@ -70,9 +80,9 @@
       <i class="plane icon"></i>
       Travel Info
     </a>
-    <a class="item" href="./maps/">
-      <i class="map icon"></i>
-      Maps
+    <a class="item" href="./faq/">
+      <i class="question icon"></i>
+      FAQs
     </a>
   </div>
 </div>
@@ -85,37 +95,28 @@
 
 <div id="home" class="main">
   <div class="ui stackable page grid">
-    <div class="ten wide column">
-      <div class="ui top attached segment inverted blue">
-        <h1>Announcements</h1>
-      </div>
-      <div class="ui bottom attached segment">
-        <a class="twitter-timeline" href="https://twitter.com/search?q=from%3AHackMIT%20exclude%3Areplies" data-widget-id="517505083227901952">Tweets about "from:HackMIT exclude:replies"</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
+    <div class="sixteen wide column" id="current-events-cont"
+         style="display: none !important;">
+      <table class="ui table segment current-events-table">
+        <tbody id="current-events-tbody">
+          <tr>
+            <td class="active current-events" colspan="4">
+              <h1>Current events</h1>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <div id="links-column" class="six wide column">
-      <div class="ui segment top attached inverted teal">
-        <h1>Important Links</h1>
+
+    <div id="links-column" class="eight wide column">
+      <div class="ui segment top attached inverted">
+        <h1>Important Info</h1>
       </div>
       <div class="ui segment bottom attached">
         <h3>
           Wifi:
+          <div class="ui label" style="text-transform: none">much-internet</div>
         </h3>
-        <div class="ui list">
-          <div class="item">
-            <div class="header">
-              Network Name:
-            </div>
-            hackmit14
-          </div>
-          <div class="item">
-            <div class="header">
-            PASSWORD</div>
-            fancycat
-          </div>
-        </div>
-
         <h3> Event Links </h3>
         <div class="ui link list">
           <a class="item" href="//apis.hackmit.org">
@@ -124,16 +125,10 @@
               API Directory
             </div>
           </a>
-          <a class="item" href="//hackmit2014.challengepost.com">
+          <a class="item" href="//go.hackmit.org/submit">
             <i class="legal icon"></i>
             <div class="content">
-              ChallengePost
-            </div>
-          </a>
-          <a class="item" href="https://hackmit.org/mentormatching">
-            <i class="users icon"></i>
-            <div class="content">
-              Mentor Matching
+              Submit project
             </div>
           </a>
           <a class="item" href="http://q.hackmit.org">
@@ -142,93 +137,7 @@
               Mentor Queue
             </div>
           </a>
-          <a class="item" href="https://hackmit.org/massages">
-            <i class="refresh icon"></i>
-            <div class="content">
-              Massage Signup
-            </div>
-          </a>
         </div>
-
-        <h3> Livestreams </h3>
-        <div class="ui link list">
-          <a class="item" href="//www.youtube.com/watch?v=KjO6k6lQa0U">
-            <i class="flag icon"></i>
-            <div class="content">
-              Opening Ceremony
-            </div>
-          </a>
-
-          <a class="item" href="//www.youtube.com/watch?v=eX7Rrhe2vJk">
-            <i class="checkered flag icon"></i>
-            <div class="content">
-              Closing Ceremony
-            </div>
-          </a>
-
-          <a class="item" href="//www.youtube.com/watch?v=Ah8EVbh9cy0">
-            <i class="info icon"></i>
-            <div class="content">
-              Johnson Talks
-            </div>
-          </a>
-
-
-          <a class="item" href="//www.youtube.com/watch?v=0c1UrFzW4h8">
-            <i class="tag icon"></i>
-            <div class="content">
-              Student Center Talks
-            </div>
-          </a>
-
-          <a class="item" href="//www.youtube.com/watch?v=4zjeIeGtZCs">
-            <i class="comment icon"></i>
-            <div class="content">
-              Platinum Sponsor Tech Talks
-            </div>
-          </a>
-
-        </div>
-
-        <h3> Contact </h3>
-        <div class="ui link list">
-          <a class="item" href="tel:507-307-4225">
-            <i class="phone icon"></i>
-            <div class="content">
-              (507) 307-HACK
-            </div>
-          </a>
-          <a class="item" href="mailto:team@hackmit.org">
-            <i class="mail icon"></i>
-            <div class="content">
-              team@hackmit.org
-            </div>
-          </a>
-          <a class="item" href="//ist.mit.edu/mit-mobile/android-ios">
-            <i class="tablet icon"></i>
-            <div class="content">
-              MIT Mobile App
-            </div>
-          </a>
-        </div>
-
-        <h3> Social Media </h3>
-          <a class="ui facebook button" href="//facebook.com/HackMIT">
-            <i class="facebook icon"></i>
-            Facebook
-          </a>
-          <br>
-          <a class="ui twitter button" href="//twitter.com/hackmit">
-            <i class="twitter icon"></i>
-            Twitter
-          </a>
-          <br>
-          <a class="ui vk button" href="//hackmit.tumblr.com">
-            <i class="tumblr icon"></i>
-            Tumblr
-          </a>
-
-
         <h3> Emergency </h3>
           <div class="horizontal list">
             <a class="ui basic labeled icon button" href="tel:617-253-1212">
@@ -236,10 +145,54 @@
               <i class="medkit icon"></i>
             </a>
           </div>
-        </div>
+      </div>
+    </div>
+
+    <div id="contacts-column" class="eight wide column">
+      <div class="ui segment top attached inverted">
+        <h1>Contact</h1>
+      </div>
+      <div class="ui segment bottom attached">
+      <div class="ui link list">
+        <a class="item" href="tel:507-307-4225">
+          <i class="phone icon"></i>
+          <div class="content">
+            (507) 307-HACK
+          </div>
+        </a>
+        <a class="item" href="mailto:team@hackmit.org">
+          <i class="mail icon"></i>
+          <div class="content">
+            team@hackmit.org
+          </div>
+        </a>
+        <a class="item" href="//ist.mit.edu/mit-mobile/android-ios">
+          <i class="tablet icon"></i>
+          <div class="content">
+            MIT Mobile App
+          </div>
+        </a>
+      </div>
+
+      <h3> Social Media </h3>
+        <a class="ui facebook button" href="//facebook.com/HackMIT">
+          <i class="facebook icon"></i>
+          Facebook
+        </a>
+        <br>
+        <a class="ui twitter button" href="//twitter.com/hackmit">
+          <i class="twitter icon"></i>
+          Twitter
+        </a>
+        <br>
+        <a class="ui vk button" href="//hackmit.tumblr.com">
+          <i class="tumblr icon"></i>
+          Tumblr
+        </a>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 </body>
