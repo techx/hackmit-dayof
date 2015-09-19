@@ -11,11 +11,13 @@ var HackMITCurrentEvents = (function() {
   /**************
    * work funcs */
   function initHackMITCurrentEvents() {
-    setInterval(function() {
+    var refreshEvents = function() {
       //hours since the zero-date
       var time = ((+new Date) - ZERO_DATE)/(60*60*1000);
       loadEventsForTime(time);
-    }, INCR);
+    };
+    setInterval(refreshEvents, INCR);
+    refreshEvents();
   }
 
   function loadEventsForTime(t) {

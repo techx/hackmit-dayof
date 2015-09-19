@@ -32,7 +32,7 @@ var SponsorPrizeViewGen = (function() {
     var tiDiv = document.createElement('div');
     tiDiv.className = 'ui segment bottom attached';
     var h3 = document.createElement('h3');
-    h3.innerHTML = 'Amount: ' + prizeVal;
+    h3.innerHTML = 'Prize: ' + prizeVal;
     var p = document.createElement('p');
     p.innerHTML = descr;
     tiDiv.appendChild(h3);
