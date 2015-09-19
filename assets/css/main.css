@@ -53,7 +53,9 @@ a {
 }
 
 #banner {
-  background: url(../img/background.jpg);
+  background: url(../img/tintedphoto_bg_big.jpg);
+  background-size: cover;
+  background-position: center;
   margin-top: 12px;
   margin-bottom: 36px;
 }
@@ -65,6 +67,14 @@ a {
     font-weight: 300;
   text-align: center;
   padding: 1em 0;
+}
+
+#links-column div.ui.segment.top.attached {
+  background-color: #E76482;
+}
+
+#contacts-column div.ui.segment.top.attached {
+  background-color: #4C82CC;
 }
 
 .ui.hack.button {
