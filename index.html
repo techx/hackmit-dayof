@@ -11,6 +11,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link href="assets/css/main.css" rel="stylesheet" type="text/css">
 
+  <!-- events data -->
+  <script src="../assets/js/hackmit_events.js"></script>
+
+  <!-- current events logic -->
+  <script src="../assets/js/current_events.js"></script>
+
   <!-- Include Semantic-UI -->
   <script src="assets/js/semantic.min.js"></script>
   <link href="assets/css/semantic.min.css" rel="stylesheet" type="text/css">
@@ -84,17 +90,21 @@
 </div>
 
 <div id="home" class="main">
-  <div class="ui stackable two column page grid">
-    <!--<div class="ten wide column">
-      <div class="ui top attached segment inverted blue">
-        <h1>Announcements</h1>
-      </div>
-      <div class="ui bottom attached segment">
-        <a class="twitter-timeline" href="https://twitter.com/search?q=from%3AHackMIT%20exclude%3Areplies" data-widget-id="517505083227901952">Tweets about "from:HackMIT exclude:replies"</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-    </div>-->
-    <div id="links-column" class="column">
+  <div class="ui stackable page grid">
+    <div class="sixteen wide column" id="current-events-cont"
+         style="display: none !important;">
+      <table class="ui table segment current-events-table">
+        <tbody id="current-events-tbody">
+          <tr>
+            <td class="active current-events" colspan="4">
+              <h1>Current events</h1>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="links-column" class="eight wide column">
       <div class="ui segment top attached inverted">
         <h1>Important Links</h1>
       </div>
@@ -168,7 +178,7 @@
       </div>
     </div>
 
-    <div id="contacts-column" class="column">
+    <div id="contacts-column" class="eight wide column">
       <div class="ui segment top attached inverted">
         <h1>Contact</h1>
       </div>
@@ -224,6 +234,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
 </body>

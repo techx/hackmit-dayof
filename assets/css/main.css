@@ -96,8 +96,12 @@ a {
   color: white;
 }
 
+.display {
+  display: block !important;
+}
+
 .invisible {
-  display: none;
+  display: none !important;
 }
 
 .width-limiter {
@@ -135,4 +139,32 @@ a {
 
 #faq-accordion {
   margin-bottom: 4em;
+}
+
+table.ui tr td.active.current-events {
+  background-color: #473899 !important;
+  border-radius: 5px 5px 0 0;
+  padding: 1em !important;
+  color: white !important;
+}
+
+table.current-events-table {
+  padding: 0 !important;
+}
+
+.current-events h1 {
+  margin: 0;
+}
+
+.announcements {
+  background-color: #FFE552 !important;
+  color: #473899 !important;
+}
+
+.links {
+  background-color: #E76482 !important;
+}
+
+div div#current-events-container.invisible {
+  display: none !important;
 }
