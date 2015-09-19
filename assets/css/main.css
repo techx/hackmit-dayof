@@ -122,3 +122,7 @@ a {
     text-align: left !important;
   }
 }
+
+#faq-accordion {
+  margin-bottom: 4em;
+}
