@@ -168,3 +168,11 @@ table.current-events-table {
 div div#current-events-container.invisible {
   display: none !important;
 }
+
+.hmit-pink { background-color: #E76482 !important;}
+.hmit-blue { background-color: #4C82CC !important;}
+.hmit-purple { background-color: #473899 !important;}
+.hmit-yellow {
+  background-color: #FFE552 !important;
+  color: #404040 !important;
+}
