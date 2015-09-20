@@ -42,6 +42,7 @@ var HMIT_EVTS = [
   [34, 34.5, "Mentor Brunch", "Johnson", 1],
   [34.25, 35, "Hacker Brunch", "Johnson Lobby", 1],
   [35, 36.5, "Expo Judging", "Hacker Space", 0],
-  [37, 38, "Panel and Sponsor Judging", "Hacker Space", 0],
+  [36.5, 38, "Sponsor Judging", "Hacker Space", 0],
+  [37, 38, "Finalist Judging", "Media Room", 0],
   [38, 39, "The Closing Ceremony", "Rockwell Cage", 0]
 ];
