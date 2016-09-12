@@ -4,16 +4,19 @@ var HackMITCurrentEvents = (function() {
   /**********
    * config */
   var FUDGE = 0.25; //how much earlier to start showing events, in hours
-  var SAT_MIDNIGHT = 1442635200000;
+  // var SAT_MIDNIGHT = 1473646580057 - 9*3600*1000;
+  var SAT_MIDNIGHT = +new Date();
   var ZERO_DATE = SAT_MIDNIGHT;
-  var INCR = 5000; //poll every 5 seconds; it's computationally cheap & easy
+  var INCR = 500; //poll every 5 seconds; it's computationally cheap & easy
+  var MULTIPLIER = 4000;
 
   /**************
    * work funcs */
   function initHackMITCurrentEvents() {
     var refreshEvents = function() {
       //hours since the zero-date
-      var time = ((+new Date) - ZERO_DATE)/(60*60*1000);
+      var time = MULTIPLIER*((+new Date) - ZERO_DATE)/(60*60*1000);
+      console.log(time);
       loadEventsForTime(time);
     };
     setInterval(refreshEvents, INCR);
