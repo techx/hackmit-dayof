@@ -5,7 +5,7 @@
   <title>HackMIT Day Of Info</title>
   <link rel="icon"
         type="image/png"
-        href="../assets/img/hack-logo-favicon-2015.png">
+        href="../assets/img/hack-logo-favicon-2016.png">
   <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -13,6 +13,7 @@
 
   <!-- events data -->
   <script src="../assets/js/hackmit_events.js"></script>
+  <script src="../assets/js/schedule.js"></script>
 
   <!-- Include Semantic-UI -->
   <script src="../assets/js/semantic.min.js"></script>
@@ -78,7 +79,7 @@
     </a>
     <a class="item" href="../prizes/">
       <i class="trophy icon"></i>
-      Sponsor Prizes
+      Prizes
     </a>
     <a class="item" href="../hardware/">
       <i class="rocket icon"></i>
@@ -115,109 +116,11 @@
           <th>Event</th>
           <th>Location</th>
         </tr></thead>
-        <tbody>
+        <tbody id="general-schedule">
           <tr>
             <td class="active" colspan="4">Saturday</td>
-          </tr><tr>
-            <td>8:00am</td>
-            <td>10:00am</td>
-            <td>Check-in</td>
-            <td>Tent</td>
-          </tr><tr>
-            <td>8:00am</td>
-            <td>10:00am</td>
-            <td>Breakfast</td>
-            <td>Tent</td>
-          </tr><tr>
-            <td>9:00am</td>
-            <td>10:00am</td>
-            <td>Sponsor Check-in</td>
-            <td>Tent</td>
-          </tr><tr>
-            <td>10:00am</td>
-            <td>11:00am</td>
-            <td>The Opening Ceremony</td>
-            <td>Kresge Auditorium</td>
-          </tr><tr>
-            <td>11:00am</td>
-            <td>11:30am</td>
-            <td>Mentor Orientation</td>
-            <td>Mentor Lounge</td>
-          </tr><tr>
-            <td>11:00am</td>
-            <td>12:00pm</td>
-            <td>Team Formation</td>
-            <td>Tent</td>
-          </tr><tr>
-            <td>12:00pm</td>
-            <td>1:00pm</td>
-            <td>Lunch</td>
-            <td>Tent</td>
-          </tr><tr>
-            <td>6:00pm</td>
-            <td>7:00pm</td>
-            <td>Dinner</td>
-            <td>Tent</td>
-          </tr><tr>
-            <td>7:00pm</td>
-            <td>8:00pm</td>
-            <td>Therapy Dogs</td>
-            <td>Johnson Lobby</td>
-          </tr><tr>
-            <td>9:00pm</td>
-            <td>11:00pm</td>
-            <td>FoMu's Plant Based Ice Cream sponsored by Rough Draft</td>
-            <td>Johnson Lobby</td>
-          </tr><tr>
-            <td>10:00pm</td>
-            <td>10:30pm</td>
-            <td>Ladies Storm Hackathons Meetup</td>
-            <td>Media Room</td>
           </tr>
-
-          <tr>
-            <td class="active" colspan="4">Sunday</td>
-          </tr><tr>
-            <td>12:00am</td>
-            <td>12:30am</td>
-            <td>Midnight Excursion</td>
-            <td>Johnson Lobby</td>
-          </tr><tr>
-            <td>12:00am</td>
-            <td>1:00am</td>
-            <td>Waffle Cabin sponsored by TripAdvisor</td>
-            <td>Johnson Lobby</td>
-          </tr><tr>
-            <td>10:00am</td>
-            <td>10:30am</td>
-            <td>Mentor Brunch</td>
-            <td>Johnson</td>
-          </tr><tr>
-            <td>10:15am</td>
-            <td>11:00am</td>
-            <td>Hacker Brunch</td>
-            <td>Johnson Lobby</td>
-          </tr><tr>
-            <td>11:00am</td>
-            <td>12:30pm</td>
-            <td>Expo Judging</td>
-            <td>Hacker Space</td>
-          </tr><tr>
-            <td>12:30pm</td>
-            <td>2:00pm</td>
-            <td>Sponsor Judging</td>
-            <td>Hacker Space</td>
-          </tr><tr>
-            <td>1:00pm</td>
-            <td>2:00pm</td>
-            <td>Finalist Judging</td>
-            <td>Media Room</td>
-          </tr><tr>
-            <td>2:00pm</td>
-            <td>3:00pm</td>
-            <td>The Closing Ceremony</td>
-            <td>Rockwell Cage</td>
-          </tr>
+          <!-- populated dynamically -->
         </tbody>
       </table>
     </div>
@@ -233,65 +136,11 @@
           <th>Title</th>
           <th>Location</th>
         </tr></thead>
-        <tbody>
+        <tbody id="workshop-schedule">
           <tr>
             <td class="active" colspan="5">Saturday Afternoon</td>
-          </tr><tr>
-            <td>2:00pm</td>
-            <td>2:30pm</td>
-            <td>KPCB Workshop</td>
-            <td>Mezzanine</td>
-          </tr><tr>
-            <td>2:00pm</td>
-            <td>2:30pm</td>
-            <td>TripAdvisor Workshop</td>
-            <td>20 Chimneys</td>
-          </tr><tr>
-            <td>2:45pm</td>
-            <td>3:30pm</td>
-            <td>Patreon Platinum Tech Talk</td>
-            <td>Media Room</td>
-          </tr><tr>
-            <td>3:30pm</td>
-            <td>4:00pm</td>
-            <td>Parse Workshop</td>
-            <td>Mezzanine</td>
-          </tr><tr>
-            <td>3:30pm</td>
-            <td>4:00pm</td>
-            <td>Google Workshop</td>
-            <td>20 Chimneys</td>
-          </tr><tr>
-            <td>4:15pm</td>
-            <td>5:00pm</td>
-            <td>Amadeus Platinum Tech Talk</td>
-            <td>Media Room</td>
-          </tr><tr>
-            <td>5:15pm</td>
-            <td>6:00pm</td>
-            <td>AQR Platinum Tech Talk</td>
-            <td>Media Room</td>
-          </tr><tr>
-            <td>7:15pm</td>
-            <td>8:00pm</td>
-            <td>Microsoft Platinum Tech Talk</td>
-            <td>Media Room</td>
-          </tr><tr>
-            <td>8:15pm</td>
-            <td>9:00pm</td>
-            <td>Google Platinum Tech Talk</td>
-            <td>Mezzanine</td>
-          </tr><tr>
-            <td>9:00pm</td>
-            <td>9:30pm</td>
-            <td>Fireside Chat w/ Clarifai</td>
-            <td>Johnson</td>
-          </tr><tr>
-            <td>9:30pm</td>
-            <td>10:00pm</td>
-            <td>Fireside Chat w/ Indico</td>
-            <td>Johnson</td>
           </tr>
+          <!-- populated dynamically -->
         </tbody>
       </table>
     </div>

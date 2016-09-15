@@ -5,15 +5,15 @@
   <title>HackMIT Day Of Info</title>
   <link rel="icon"
         type="image/png"
-        href="../assets/img/hack-logo-favicon-2015.png">
+        href="../assets/img/hack-logo-favicon-2016.png">
   <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
 
   <!-- sponsor prizes logic -->
-  <script src="../assets/js/sponsor_data.js"></script>
-  <script src="../assets/js/sponsor_prizes.js"></script>
+  <script src="../assets/js/prize_data.js"></script>
+  <script src="../assets/js/prizes.js"></script>
 
   <!-- Include Semantic-UI -->
   <script src="../assets/js/semantic.min.js"></script>
@@ -79,7 +79,7 @@
     </a>
     <a class="item active" href="../prizes/">
       <i class="trophy icon"></i>
-      Sponsor Prizes
+      Prizes
     </a>
     <a class="item" href="../hardware/">
       <i class="rocket icon"></i>
@@ -98,13 +98,20 @@
 
 <div id="banner">
   <div class="content">
-    Sponsor Prizes
+    Prizes
   </div>
 </div>
 
-<div class="ui stackable page grid" id="prize-container">
+<center><h1>General Prizes</h1></center>
+<div class="ui stackable page grid" id="general-prize-container">
   <!-- populated dynamically -->
 </div>
+
+<center><h1>Sponsor Prizes</h1></center>
+<div class="ui stackable page grid" id="sponsor-prize-container">
+  <!-- populated dynamically -->
+</div>
+
 
 </body>
 </html>

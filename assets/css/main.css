@@ -70,11 +70,11 @@ a {
 }
 
 #links-column div.ui.segment.top.attached {
-  background-color: #E76482;
+  background-color: rgba(241,100,93,1);
 }
 
 #contacts-column div.ui.segment.top.attached {
-  background-color: #4C82CC;
+  background-color: #4ecdc4;
 }
 
 .ui.hack.button {
@@ -169,10 +169,11 @@ div div#current-events-container.invisible {
   display: none !important;
 }
 
-.hmit-pink { background-color: #E76482 !important;}
-.hmit-blue { background-color: #4C82CC !important;}
-.hmit-purple { background-color: #473899 !important;}
+.hmit-red { background-color: #fc5454 !important;}
+.hmit-turquoise { background-color: #4ecdc4 !important;}
 .hmit-yellow {
-  background-color: #FFE552 !important;
+  background-color: #ffe86b !important;
   color: #404040 !important;
 }
+.hmit-green { background-color: #c9d41b !important;}
+.hmit-orange { background-color: #ffbc29 !important;}

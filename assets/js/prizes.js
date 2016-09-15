@@ -4,24 +4,31 @@ var SponsorPrizeViewGen = (function() {
   /**********
    * config */
   var COLOR_CLASSES = [
-    'hmit-pink', 'hmit-blue', 'hmit-purple', 'hmit-yellow'
+      'hmit-red', 'hmit-turquoise', 'hmit-yellow', 'hmit-green', 'hmit-orange'
   ];
 
   /******************
    * work functions */
   function initSponsorPrizes() {
+    GENERAL_PRIZE_DATA.map(function(prize, idx) {
+      var box = getBox(
+        COLOR_CLASSES[idx%COLOR_CLASSES.length],
+        prize.title,
+        prize.description
+      );
+      document.getElementById('general-prize-container').appendChild(box);
+    });
     SPONSOR_PRIZE_DATA.map(function(prize, idx) {
       var box = getBox(
         COLOR_CLASSES[idx%COLOR_CLASSES.length],
         prize.title,
-        prize.description,
-        prize.amount
+        prize.description
       );
-      document.getElementById('prize-container').appendChild(box);
+      document.getElementById('sponsor-prize-container').appendChild(box);
     });
   }
 
-  function getBox(colorClass, title, descr, prizeVal) {
+  function getBox(colorClass, title, descr) {
     var div = document.createElement('div');
     div.className = 'eight wide column';
     var spDiv = document.createElement('div');
@@ -31,11 +38,8 @@ var SponsorPrizeViewGen = (function() {
     spDiv.appendChild(h2);
     var tiDiv = document.createElement('div');
     tiDiv.className = 'ui segment bottom attached';
-    var h3 = document.createElement('h3');
-    h3.innerHTML = 'Prize: ' + prizeVal;
-    var p = document.createElement('p');
+    var p = document.createElement('h4');
     p.innerHTML = descr;
-    tiDiv.appendChild(h3);
     tiDiv.appendChild(p);
     div.appendChild(spDiv);
     div.appendChild(tiDiv);
