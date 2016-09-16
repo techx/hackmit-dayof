@@ -18,7 +18,7 @@ var HMIT_EVTS = [
     [8, 9.5, "Hacker Check-in + Breakfast", "Tent", 2],
     [8, 10, "Sponsor Check-in", "Tent", 0],
     [9.5, 10, "Walk-in Registration + Team Formation", "Tent", 0],
-    [10, 11, "The Opening Ceremony", "Rockwell", 0],
+    [10, 11, "Opening Ceremony", "Rockwell", 0],
     [11, 11.5, "Mentor Orientation", "Media Room", 0],
     [12, 13, "Lunch", "Tent", 2],
     [13.5, 14, "Amadeus Tech Talk", "Media Room", 1],
@@ -45,5 +45,5 @@ var HMIT_EVTS = [
     [34.5, 35, "Judging Orientation", "Media Room", 0],
     [35, 37, "Expo Judging", "Johnson Ice Rink", 0],
     [37, 38, "Sponsor + Panel Judging", "Johnson Ice Rink", 0],
-    [38, 39, "The Closing Ceremony", "Rockwell", 0]
+    [38, 39, "Closing Ceremony", "Rockwell", 0]
 ];

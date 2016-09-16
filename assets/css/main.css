@@ -1,3 +1,4 @@
+body { background: #fffefa }
 body,
 input,
 .ui.input input,
@@ -55,16 +56,17 @@ a {
 #banner {
   background: url(../img/dayofbanner-01.png);
   background-size: cover;
-  background-position: center top;
+  background-position: center bottom;
   margin-top: 12px;
   margin-bottom: 36px;
 }
 
 #banner .content{
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
-    color: black;
-    font-weight: 300;
+    color: #0b3b4b;
+    font-weight: 600;
   text-align: center;
   padding: 1em 0;
 }
@@ -88,12 +90,12 @@ a {
 
 .ui.hack.button.completed {
   background: rgb(35, 177, 150);
-  color: white;
+  color: #fffefa;
 }
 
 .ui.hack.button:hover {
   background: rgb(35, 177, 150);
-  color: white;
+  color: #fffefa;
 }
 
 .display {
@@ -145,7 +147,7 @@ table.ui tr td.active.current-events {
   background-color: #473899 !important;
   border-radius: 5px 5px 0 0;
   padding: 1em !important;
-  color: white !important;
+  color: #fffefa !important;
 }
 
 table.current-events-table {
