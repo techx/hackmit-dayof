@@ -18,6 +18,22 @@ var SponsorPrizeViewGen = (function() {
       );
       document.getElementById('general-prize-container').appendChild(box);
     });
+    CATEGORY_PRIZE_DATA.map(function(prize, idx) {
+      var box = getBox(
+        COLOR_CLASSES[idx%COLOR_CLASSES.length],
+        prize.title,
+        prize.description
+      );
+      document.getElementById('category-prize-container').appendChild(box);
+    });
+    FUN_PRIZE_DATA.map(function(prize, idx) {
+      var box = getBox(
+        COLOR_CLASSES[idx%COLOR_CLASSES.length],
+        prize.title,
+        prize.description
+      );
+      document.getElementById('fun-prize-container').appendChild(box);
+    });
     SPONSOR_PRIZE_DATA.map(function(prize, idx) {
       var box = getBox(
         COLOR_CLASSES[idx%COLOR_CLASSES.length],

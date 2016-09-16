@@ -53,9 +53,9 @@ a {
 }
 
 #banner {
-  background: url(../img/tintedphoto_bg_big.jpg);
+  background: url(../img/dayofbanner-01.png);
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   margin-top: 12px;
   margin-bottom: 36px;
 }
@@ -63,7 +63,7 @@ a {
 #banner .content{
   text-transform: uppercase;
   font-size: 3em;
-    color: white;
+    color: black;
     font-weight: 300;
   text-align: center;
   padding: 1em 0;
