@@ -4,7 +4,7 @@ var HackMITCurrentEvents = (function() {
   /**********
    * config */
   var FUDGE = 0.25; //how much earlier to start showing events, in hours
-  var SAT_MIDNIGHT = 1442635200000;
+  var SAT_MIDNIGHT = 1474084800000;
   var ZERO_DATE = SAT_MIDNIGHT;
   var INCR = 5000; //poll every 5 seconds; it's computationally cheap & easy
 

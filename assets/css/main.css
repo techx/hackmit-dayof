@@ -1,3 +1,4 @@
+body { background: #fffefa }
 body,
 input,
 .ui.input input,
@@ -53,28 +54,38 @@ a {
 }
 
 #banner {
-  background: url(../img/tintedphoto_bg_big.jpg);
+  background: url(../img/dayofbanner-01.png);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   margin-top: 12px;
   margin-bottom: 36px;
 }
 
 #banner .content{
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
-    color: white;
-    font-weight: 300;
+    color: #0b3b4b;
+    font-weight: 600;
   text-align: center;
   padding: 1em 0;
 }
 
 #links-column div.ui.segment.top.attached {
-  background-color: #E76482;
+  background-color: rgba(241,100,93,1);
 }
 
 #contacts-column div.ui.segment.top.attached {
-  background-color: #4C82CC;
+  background-color: #4ecdc4;
+}
+
+.ui.facebook.button {
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.ui.twitter.button {
+  margin-bottom: 5px;
 }
 
 .ui.hack.button {
@@ -88,12 +99,12 @@ a {
 
 .ui.hack.button.completed {
   background: rgb(35, 177, 150);
-  color: white;
+  color: #fffefa;
 }
 
 .ui.hack.button:hover {
   background: rgb(35, 177, 150);
-  color: white;
+  color: #fffefa;
 }
 
 .display {
@@ -145,7 +156,7 @@ table.ui tr td.active.current-events {
   background-color: #473899 !important;
   border-radius: 5px 5px 0 0;
   padding: 1em !important;
-  color: white !important;
+  color: #fffefa !important;
 }
 
 table.current-events-table {
@@ -169,10 +180,11 @@ div div#current-events-container.invisible {
   display: none !important;
 }
 
-.hmit-pink { background-color: #E76482 !important;}
-.hmit-blue { background-color: #4C82CC !important;}
-.hmit-purple { background-color: #473899 !important;}
+.hmit-red { background-color: #fc5454 !important;}
+.hmit-turquoise { background-color: #4ecdc4 !important;}
 .hmit-yellow {
-  background-color: #FFE552 !important;
+  background-color: #ffe86b !important;
   color: #404040 !important;
 }
+.hmit-green { background-color: #c9d41b !important;}
+.hmit-orange { background-color: #ffbc29 !important;}
