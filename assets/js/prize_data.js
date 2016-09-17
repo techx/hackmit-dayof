@@ -37,7 +37,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best use of Capital One's API - Nessie",
-        "description":"$250 Amazon Gift Card",
+        "description":"$400 Amazon Gift Card",
     },
     {
         "title":"Best App Under 4K Executable Size (Datto)",
