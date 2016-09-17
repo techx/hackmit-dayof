@@ -122,5 +122,21 @@ var SPONSOR_PRIZE_DATA = [
     {
         "title":"Best Low Level / High Performance Hack (Hudson River Trading)",
         "description":"See sponsor's booth for details",
+    },
+    {
+        "title":"Activity Classification with Smartphone Data Data source (Philips)",
+        "description":"Philips Sonicare HealthyWhite+ for best use of <a href=\"http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones\">human activity recognition using smartphone data</a>."
+    },
+    {
+        "title": "Mitosis detection for breast cancer diagnosis Data source (Philips)",
+        "description": "Philips Sonicare HealthyWhite+ (See <a href=\"https://grand-challenge.org/site/MITOS-ATYPIA-14/\">https://grand-challenge.org/site/MITOS-ATYPIA-14/</a> and <a href=\"http://amida13.isi.uu.nl/\">http://amida13.isi.uu.nl/</a>)"
+    },
+    {
+        "title":"Focus based document summarization (Philips)",
+        "description":"Philips Sonicare HealthyWhite+. Data source: <a href=\"http://l3s.de/~gtran/timeline/Timeline17.zip\">http://l3s.de/~gtran/timeline/Timeline17.zip</a>"
+    },
+    {
+        "title":"Best use of Firebase",
+        "description":"4 Posh Micro Phones, 4 Lego architecture sets, 1 awesome flame trophy"
     }
 ];
