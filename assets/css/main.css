@@ -79,6 +79,15 @@ a {
   background-color: #4ecdc4;
 }
 
+.ui.facebook.button {
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.ui.twitter.button {
+  margin-bottom: 5px;
+}
+
 .ui.hack.button {
   box-shadow: none;
   border: 2px solid rgb(35,177,150);

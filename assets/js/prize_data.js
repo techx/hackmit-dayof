@@ -1,11 +1,11 @@
 var GENERAL_PRIZE_DATA = [
     {"title":"First Place","description":"Ticket and flight to a tech conference of your choice (up to $1000 per hacker)"},
-    {"title":"Runner-Up","description":"HackMIT Developer Pack (Adobe Creative Suite, Cypress Posoc, or a Monitor)"},
+    {"title":"Runner-Up","description":"HackMIT developer pack (choice of hardware/software up to $500 per hacker)"},
 ];
 
 var CATEGORY_PRIZE_DATA = [
-    {"title":"Machine Learning","description":"???"},
-    {"title":"Algorithms","description":"The 21 Bitcoin Computer"},
+    {"title":"Best Machine Learning Hack","description":"GTX 1080 GPU or $600 of AWS or Azure credit"},
+    {"title":"Best use of Algorithms","description":"The 21 Bitcoin Computer"},
     {"title":"Made from Scratch","description":"3D Printer Kit"}
 ];
 
@@ -25,39 +25,39 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Google Cardboard Development Prize",
-        "description":"???",
+        "description":"See sponsor's booth for details",
     },
     {
         "description":"$500 in Postmates Delivery Credit",
-        "title":"Postmates: Best On-Demand Hack",
+        "title":"Best On-Demand Hack (Postmates)",
     },
     {
         "description":"OpenXC Hardware and 4 Tickets to Team O'Neil Rally School",
-        "title":"Ford: Best Creative Car Hack",
+        "title":"Best Creative Car Hack (Ford)",
     },
     {
         "title":"Best use of Capital One's API - Nessie",
         "description":"$250 Amazon Gift Card",
     },
     {
-        "title":"Datto: Best App Under 4K Executable Size",
+        "title":"Best App Under 4K Executable Size (Datto)",
         "description":"Amazon Gift Card",
     },
     {
         "description":"1st Prize: DJI Phantom 2 drone, 2nd prize: Raspberry Pi 3 Model B",
-        "title":"Most interesting use of Wikipedia data on current political events (Kensho)",
+        "title":"Most interesting use of Wikipedia data around the US presidential candidates, campaigns and/or upcoming election (Kensho)",
     },
     {
         "title":"Best use of Amadeus APIs",
         "description":"$500 Visa gift card",
     },
     {
-        "description":"$150 Amazon or Apple Gift Card",
-        "title":"Progress: Best NativeScript App",
+        "description":"$100 Amazon or Apple Gift Card",
+        "title":"Best NativeScript App (Progress)",
     },
     {
-        "description":"$150 Amazon or Apple Gift Card",
-        "title":"Progress: Best NativeScript App for IOT",
+        "description":"$100 Amazon or Apple Gift Card",
+        "title":"Best NativeScript App for IOT (Progress)",
     },
     {
         "description":"All expense paid trip to MarketSite, where you'll be broadcast onto Times Square and take part in the closing bell ceremony!",
@@ -88,7 +88,7 @@ var SPONSOR_PRIZE_DATA = [
         "title":"Most Innovative use of Synaptics Large Touch Sensor",
     },
     {
-        "title":"Disney: Best Use of Emerging Technology",
+        "title":"Best Use of Emerging Technology (Disney)",
         "description":"Sphero BB-8 droids",
     },
     {
@@ -97,14 +97,14 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "description":"Oculus Rift Developers Kit Dk2 for each team member",
-        "title":"Oculus Prize",
+        "title":"Oculus Prize (Facebook)",
     },
     {
-        "description":"$250 Amazon gift card for each team member",
-        "title":"BNP Paribas: Most Insightful Hack",
+        "description":"$250 Worth of Amazon Gift Cards (For Up to 4 People, Total Value = $250)",
+        "title":"Most Insightful Hack (BNP Paribas)",
     },
     {
-        "description":"$250 Amazon gift card for each team member",
+        "description":"$250 Worth of Amazon Gift Cards (For Up to 4 People, Total Value = $250)",
         "title":"Best Use of Artificial Intelligence Applied in Banking Compliance Field (BNP Paribas)",
     },
     {
@@ -117,6 +117,6 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best Low Level / High Performance Hack (Hudson River Trading)",
-        "description":"???",
+        "description":"See sponsor's booth for details",
     }
 ];
