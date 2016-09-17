@@ -24,6 +24,10 @@ var SPONSOR_PRIZE_DATA = [
         "description":"Play Station 4",
     },
     {
+        "title":"Two Sigma Prize",
+        "description":"$1000 Visa gift card for the most creative submission using the Beaker notebook (<a href=\"http://beakernotebook.com\">http://beakernotebook.com</a>)",
+    },
+    {
         "title":"Google Cardboard Development Prize",
         "description":"See sponsor's booth for details",
     },
