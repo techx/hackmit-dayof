@@ -1,17 +1,17 @@
 var GENERAL_PRIZE_DATA = [
-    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker) <br> Description: "},
-    {"title":"Runner-Up","description":"Prize: HackMIT developer pack (choice of hardware/software up to $500 per hacker) <br> Description: "},
+    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker)"},
+    {"title":"Runner-Up","description":"Prize: HackMIT developer pack (choice of hardware/software up to $500 per hacker)"},
 ];
 
 var CATEGORY_PRIZE_DATA = [
-    {"title":"Made from Scratch","description":"Prize: <br> Description: "},
-    {"title":"Best Hardware Softwhere all Around", "description": "Prize: <br> Description: "},
-    {"title":"Lifehack", "description": "Prize: <br> Description: "}
+    {"title":"Made from Scratch","description":"Prize: DIY RepRap Prusa I3 3D Printer Kit <br> Description: "},
+    {"title":"Best Hardware/Softwhere Hack", "description": "Prize: 3DR Solo Quadcopter <br> Description: "},
+    {"title":"Hack", "description": "Prize: <br> Description: hack /hak/ verb. To use something in a way it was not originally intended to be used. This prize goes to the project that best embodies the original hacker ethos and reinvents something everyday in an unexpected way to make something awesome. Surprise us! ;) "}
 ];
 
 var FUN_PRIZE_DATA = [
-    {"title":"Best","description":"Prize: <br> Description: "},
-    {"title":"Best","description":"Prize: <br> Description: "}
+    {"title":"Dystopian Future Hack","description":"Prize: Snap Spectacles<br> Description: The dystopian future is here! 😱 Build a project most likely to be in a new episode of Black Mirror and win your own pair of Spectacles to record all your nightmarish memories! 😳"},
+    {"title":"Moonshot","description":"Prize: ??? (mystery!) <br> Description: Every beginner has to begin somewhere! This prize goes to the team that shot for the moon and missed, but with the best effort and smarts that they could muster. Just try your best! [Team must contain at least one first-time hackathon participant.]"}
 ];
 
 var SPONSOR_PRIZE_DATA = [
