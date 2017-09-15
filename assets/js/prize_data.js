@@ -1,6 +1,6 @@
 var GENERAL_PRIZE_DATA = [
-    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker)"},
-    {"title":"Runner-Up","description":"Prize: HackMIT developer pack (choice of hardware/software up to $500 per hacker)"},
+    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker) <br> Description: "},
+    {"title":"Runner-Up","description":"Prize: HackMIT developer pack (choice of hardware/software up to $500 per hacker) <br> Description: "},
 ];
 
 var CATEGORY_PRIZE_DATA = [
@@ -17,7 +17,7 @@ var FUN_PRIZE_DATA = [
 var SPONSOR_PRIZE_DATA = [
     {
         "title":"Best Use of Amadeus APIs",
-        "description":"Company: Amadeus <br> Prize: $2000 in Visa Gift Cards for the winning team."),
+        "description":("Company: Amadeus <br> Prize: $2000 in Visa Gift Cards for the winning team."),
     },
     {
         "title":"Best Use of Storytelling",
