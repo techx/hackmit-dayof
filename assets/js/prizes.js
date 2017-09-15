@@ -4,7 +4,7 @@ var SponsorPrizeViewGen = (function() {
   /**********
    * config */
   var COLOR_CLASSES = [
-      'hmit-red', 'hmit-turquoise', 'hmit-yellow', 'hmit-green', 'hmit-orange'
+      'hmit-red', 'hmit-blue', 'hmit-red', 'hmit-blue', 'hmit-blue'
   ];
 
   /******************

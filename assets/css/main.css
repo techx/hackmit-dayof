@@ -54,7 +54,7 @@ a {
 }
 
 #banner {
-  background: url(../img/dayofbanner-01.png);
+  background: url(../img/tintedphoto_1920_1080_low.jpg);
   background-size: cover;
   background-position: center bottom;
   margin-top: 12px;
@@ -65,18 +65,18 @@ a {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
-    color: #0b3b4b;
+    color: #fffefa;
     font-weight: 600;
   text-align: center;
   padding: 1em 0;
 }
 
 #links-column div.ui.segment.top.attached {
-  background-color: rgba(241,100,93,1);
+  background-color: #FF585D;
 }
 
 #contacts-column div.ui.segment.top.attached {
-  background-color: #4ecdc4;
+  background-color: #74D1EA;
 }
 
 .ui.facebook.button {
@@ -90,20 +90,20 @@ a {
 
 .ui.hack.button {
   box-shadow: none;
-  border: 2px solid rgb(35,177,150);
-  color: rgb(35,177,150);
+  border: 2px solid #74D1EA;
+  color: #74D1EA;
   background: none;
   min-width: 288px;
   width: 30%;
 }
 
 .ui.hack.button.completed {
-  background: rgb(35, 177, 150);
+  background: #74D1EA;
   color: #fffefa;
 }
 
 .ui.hack.button:hover {
-  background: rgb(35, 177, 150);
+  background: #74D1EA;
   color: #fffefa;
 }
 
@@ -180,11 +180,5 @@ div div#current-events-container.invisible {
   display: none !important;
 }
 
-.hmit-red { background-color: #fc5454 !important;}
-.hmit-turquoise { background-color: #4ecdc4 !important;}
-.hmit-yellow {
-  background-color: #ffe86b !important;
-  color: #404040 !important;
-}
-.hmit-green { background-color: #c9d41b !important;}
-.hmit-orange { background-color: #ffbc29 !important;}
+.hmit-red { background-color: #FF585D !important;}
+.hmit-blue { background-color: #74D1EA !important;}

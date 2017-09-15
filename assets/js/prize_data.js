@@ -4,9 +4,9 @@ var GENERAL_PRIZE_DATA = [
 ];
 
 var CATEGORY_PRIZE_DATA = [
-    {"title":"Best Machine Learning Hack","description":"GTX 1080 GPU or $600 of AWS or Azure credit"},
-    {"title":"Best use of Algorithms","description":"The 21 Bitcoin Computer"},
-    {"title":"Made from Scratch","description":"3D Printer Kit"}
+    {"title":"Made from Scratch","description":"3D Printer Kit"},
+    {"title":"Best Hardware Softwhere all Around", "description": ""},
+    {"title":"Lifehack", "description": ""}
 ];
 
 var FUN_PRIZE_DATA = [
@@ -16,68 +16,68 @@ var FUN_PRIZE_DATA = [
 
 var SPONSOR_PRIZE_DATA = [
     {
-        "description":"1 btc",
-        "title":"Best use of Coinbase API",
+        "title":"Best Use of Amadeus APIs",
+        "description":"Company: Amadeus, Prize: $2000 in Visa Gift Cards for the winning team.",
     },
     {
-        "title":"Play Station Network Prize",
-        "description":"Play Station 4",
+        "title":"Best Use of Storytelling",
+        "description":"Company: Disney, Prize: Special Edition BB-8 Droids",
     },
     {
-        "title":"Two Sigma Prize",
-        "description":"$1000 Visa gift card for the most creative submission using the Beaker notebook (<a href=\"http://beakernotebook.com\">http://beakernotebook.com</a>)",
+        "title":"Most Innovative Use of IBM Technology",
+        "description":"Company: IBM, Prize Not Finalized: Opportunity to attend large IBM Conference in 2018 and present their solution to conference attendees. Includes mentoring with IBM Subject Matter Experts and IBM Executives.",
     },
     {
-        "title":"Google Cardboard Development Prize",
-        "description":"See sponsor's booth for details",
+        "title":"Not Finalized: Best Use of IBM Technology: 3D Printed TJ BOT",
+        "description":"Company: IBM, Prize: TJ BOT (3D Printed in Cardboard, but not assembled)",
     },
     {
-        "description":"$500 in Postmates Delivery Credit",
-        "title":"Best On-Demand Hack (Postmates)",
+        "title":"Best Microsoft Hack",
+        "description":"Company: Microsoft, Prize: Microsoft Surface Laptop for each team member (up to 4), To qualify for the “Best Microsoft Hack”, hackers need to incorporate at least one of the following into their project: Microsoft API http://aka.ms/api.lib Microsoft Azure Cloud http://aka.ms/azureeast Bot Framework http://dev.botframework.com/ Kinect http://aka.ms/kinectdev-center HoloLens http://aka.ms/hololensdev-center Universal Windows (UWP) App https://docs.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp",
     },
     {
-        "description":"OpenXC Hardware and 4 Tickets to Team O'Neil Rally School",
-        "title":"Best Creative Car Hack (Ford)",
+        "description":"Best Use of Encryption",
+        "title":"Company: Datto, Prize: ?",
     },
     {
-        "title":"Best use of Capital One's API - Nessie",
-        "description":"$400 Amazon Gift Card",
+        "title":"Best Use of Facebook API",
+        "description":"Company: Facebook, Prize: All Expense Paid Trip to Facebook HQ for up to 4 Team Members for Hackathon Finals",
     },
     {
-        "title":"Best App Under 4K Executable Size (Datto)",
-        "description":"Amazon Gift Card",
+        "title":"Best Roomba 980 Hack",
+        "description":"Company: iRobot Corportation, Prize: Rooma 980, Description: We will give each of the first prize winners for our hackathon a Roomba 980. The Roomba 980 robot vacuum gives you cleaner floors, throughout your entire home, all at the push of a button. Roomba 980 seamlessly navigates an entire level of your home, keeping track of its location and recharging as needed until the job is done. The AeroForce™ Cleaning System with Carpet Boost automatically increases power on carpets where it's needed most. And with the iRobot HOME App, you can clean and schedule on the go.",
     },
     {
-        "description":"1st Prize: DJI Phantom 2 drone, 2nd prize: Raspberry Pi 3 Model B",
-        "title":"Most interesting use of Wikipedia data around the US presidential candidates, campaigns and/or upcoming election (Kensho)",
+        "title":"Raffle - Roomba 880",
+        "description":"Company: iRobot Corporation, Prize: Roomba 880",
     },
     {
-        "title":"Best use of Amadeus APIs",
-        "description":"$500 Visa gift card",
+        "title":"Best Travel Hack",
+        "description":"Company: Concur, Prize: GoPro HERO Session, Description: We're looking for hacks that in any way help with travel headaches. The team with the best and most innovative idea will be the winner!",
     },
     {
-        "description":"$100 Amazon or Apple Gift Card",
-        "title":"Best NativeScript App (Progress)",
+        "title":"Hack Most Likely to Change How We Communicate",
+        "description":"Company: GIPHY, Prize: One on one with the GIPHY CTO, Description: A one on one meeting with our CTO to discuss anything and everything. What's more, he's an MIT alumni.",
     },
     {
-        "description":"$100 Amazon or Apple Gift Card",
-        "title":"Best NativeScript App for IOT (Progress)",
+        "title":"Best Data Visualization",
+        "description":"Company: Goldman Sachs, Prize: Snapchat Spectacles",
     },
     {
-        "description":"All expense paid trip to MarketSite, where you'll be broadcast onto Times Square and take part in the closing bell ceremony!",
-        "title":"Nasdaq MarketSite Prize",
+        "title":"Second Best Data Visualization",
+        "description":"Company: Goldman Sachs, Prize: Remote Control Paper Planes",
     },
     {
-        "title":"Concur Prize for Best Travel Hack",
-        "description":"Code Black Drone with HD Camera",
+        "title":"Most Interesting Use of Data",
+        "description":"Company: Hudson River Trading, Prize: Oculus Rift (or Cash Equivalent)",
     },
     {
-        "description":"Surface Pro 4 i7 and Keyboard",
-        "title":"Best Use of Microsoft Technology",
+        "title":"Best Re-imagination of Market",
+        "description":"Company: Nasdaq, Prize: Internship/full-time job interview; Trip to Nasdaq HQ (NYC) or Entrepreneurial Center (SF); Lunch with senior Nasdaq leader. Winning team will have their picture on Nasdaq's Times Square screen and will be shared on Nasdaq's social media platforms., Description: Hack today's financial markets. We are looking for hacks that introduce a new way to look at financial markets. Examples: • Face recognition technology parallel to creating financial landmarks • Electrical signal process to find financial signals • Using Amazon Alexa, chat bots for financial use case • VR for a financial use-case • Graph technology for finance • Visualization of some analysis; visualize market data as a tree growing • Show streaming market data in context of historical norms • Identify inflection point on streaming market data • Chart of chocolate milk production vs. Nasdaq-100 index performance",
     },
     {
-        "title":"KCG Prize",
-        "description":"$50 American Express Gift Card",
+        "title":"Best Security Hack",
+        "description":"$Company: Illumio, Prize: $1000 in Amazon gift cards for the best security hack (shared among teammates)", Description: "We’re looking for creative solutions to all sorts of security problems! Every day at Illumio, we work on solving challenges related to authentication and encryption, authorization and ACLs, network traffic and packet filtering, vulnerability and anomaly detection, and policy deployment at massive scale. But don’t confine yourself to the traditional definitions of security – be creative! Projects will be evaluated based on their complexity, novelty, and implementation.",
     },
     {
         "title":"Best Use of Wolfram Technologies",
