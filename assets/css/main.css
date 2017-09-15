@@ -107,6 +107,13 @@ a {
   color: #fffefa;
 }
 
+.speaker img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 300px;
+    margin: 0px auto 0px auto;
+}
+
 .display {
   display: block !important;
 }
@@ -143,6 +150,8 @@ a {
   .ui.page.grid {
     min-width: 300px !important;
   }
+    
+    
   #hardware-col-1 {
     text-align: left !important;
   }
