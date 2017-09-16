@@ -4,9 +4,9 @@ var GENERAL_PRIZE_DATA = [
 ];
 
 var CATEGORY_PRIZE_DATA = [
-    {"title":"Made from Scratch","description":"Prize: DIY RepRap Prusa I3 3D Printer Kit <br> Description: "},
-    {"title":"Best Hardware/Softwhere Hack", "description": "Prize: 3DR Solo Quadcopter <br> Description: "},
-    {"title":"Hack", "description": "Prize: <br> Description: hack /hak/ verb. To use something in a way it was not originally intended to be used. This prize goes to the project that best embodies the original hacker ethos and reinvents something everyday in an unexpected way to make something awesome. Surprise us! ;) "}
+    {"title":"Made from Scratch","description":"Prize: DIY RepRap Prusa I3 3D Printer Kit <br> Description: Forget APIs and prepackaged products -- the core parts of the winning project here will be entirely built from scratch. Libraries and frameworks are allowed, but the part of the project that makes it awesome should be written or built by you!"},
+    {"title":"Master of Both Worlds", "description": "Prize: 3DR Solo Quadcopter <br> Description: Some hacks rock the software and other rock the hardware, but this prize goes to the project that masters both worlds. The hardware and software components of the winning project should both be substantial, technically challenging, and awesome on their own, and even better rolled in one project!"},
+    {"title":"Hack", "description": "Prize: Lockpicking Set + One Choice of: GeForce GTX 1070 OR Saleae Logic Analyzer <br> Description: hack /hak/ verb. To use something in a way it was not originally intended to be used. This prize goes to the project that best embodies the original hacker ethos and reinvents something everyday in an unexpected way to make something awesome. Surprise us! ;) "}
 ];
 
 var FUN_PRIZE_DATA = [
@@ -17,7 +17,7 @@ var FUN_PRIZE_DATA = [
 var SPONSOR_PRIZE_DATA = [
     {
         "title":"Best Use of Amadeus APIs",
-        "description":("Company: Amadeus <br> Prize: $2000 in Visa Gift Cards for the winning team."),
+        "description":("Company: Amadeus <br> Prize: $2000 in Visa Gift Cards for the winning team. <br> Description: Our easy-to-use REST/JSON APIs gives you access to test and prototype with one of the world’s largest repositories of Travel Records, as well as industry leading flight search, hotel search and much more. <br> Regarding the challenge: Most innovative mobile/web travel application using Amadeus Travel Innovation Sandbox (https://sandbox.amadeus.com/)."),
     },
     {
         "title":"Best Use of Storytelling",
@@ -33,11 +33,12 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best Microsoft Hack",
-        "description":"Company: Microsoft <br> Prize: Microsoft Surface Laptop for each team member (up to 4) <br> Description: To qualify for the “Best Microsoft Hack”, hackers need to incorporate at least one of the following into their project: Microsoft API http://aka.ms/api.lib Microsoft Azure Cloud http://aka.ms/azureeast Bot Framework http://dev.botframework.com/ Kinect http://aka.ms/kinectdev-center HoloLens http://aka.ms/hololensdev-center Universal Windows (UWP) App https://docs.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp",
+        "description":"Company: Microsoft <br> Prize: Microsoft Surface Laptop for each team member (up to 4) <br> Description: To qualify for the “Best Microsoft Hack”, hackers need to incorporate at least one of the following into their project: <br> Microsoft API http://aka.ms/api.lib <br> Microsoft Azure Cloud http://aka.ms/azureeast <br> Bot Framework http://dev.botframework.com/ <br> Kinect http://aka.ms/kinectdev-center <br> HoloLens http://aka.ms/hololensdev-center Universal Windows (UWP) App <br> https://docs.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp",
     },
     {
         "title":"Best Use of Encryption",
-        "description":"Company: Datto <br> Prize: ?",
+        "description":"Company: Datto <br> Prize: $200 Amex Gift Card for Team <br> Description: Your project must use some form of encryption, and the prize will be given to the team that goes above and beyond with encryption practices.
+",
     },
     {
         "title":"Best Use of Facebook API",
@@ -69,7 +70,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Most Interesting Use of Data",
-        "description":"Company: Hudson River Trading <br> Prize: Oculus Rift (or Cash Equivalent)",
+        "description":"Company: Hudson River Trading <br> Prize: Oculus Rift (or Cash Equivalent) <br> Description: Any project that gathers and uses data to infer non-obvious relationships would be eligible.  Some concrete examples would be twists on collaborative filtering, or (for example), identifying shifts in a corpus over time.",
     },
     {
         "title":"Best Re-imagination of Market",
