@@ -15,13 +15,13 @@
  */
 var HMIT_EVTS_YEAR = 2017;
 var HMIT_EVTS = [
-    [8, 9.5, "Hacker Check-in + Breakfast", "Tent", 2],
+    [8, 10, "Hacker Check-in + Breakfast", "Tent", 2],
     [8, 10, "Sponsor Check-in", "Tent", 0],
     [9.5, 10, "Walk-in Registration", "Tent", 0],
-    [10, 11, "Opening Ceremony", "Kresge", 0],
-    [11, 11.5, "Team Formation", "Johnson Lobby", 0],
-    [11, 11.5, "Mentor Orientation", "Johnson Media Room", 0],
-    [11.5, 12.5, "Beginner Office Hours", "Johnson Media Room", 0],
+    [10:30, 11.5, "Opening Ceremony", "Kresge", 0],
+    [11.5, 12, "Team Formation", "Johnson Lobby", 0],
+    [11.5, 12, "Mentor Orientation", "Johnson Media Room", 0],
+    [12, 12.5, "Beginner Office Hours", "Johnson Media Room", 0],
     [12, 13, "Lunch by Cafe Luna", "Tent", 2],
     [12.5, 13, "Tech Talk 1: Baidu", "Johnson Media Room", 1],
     [13.25, 13.75, "Tech Talk 2: Microsoft", "Johnson Media Room", 1],
