@@ -25,7 +25,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Most Innovative Use of IBM Technology",
-        "description":"Company: IBM <br> Prize Not Finalized: Opportunity to attend large IBM Conference in 2018 and present their solution to conference attendees. Includes mentoring with IBM Subject Matter Experts and IBM Executives.",
+        "description":"Company: IBM <br> Prize: Opportunity to attend large IBM Conference in 2018 and present their solution to conference attendees. Includes mentoring with IBM Subject Matter Experts and IBM Executives.",
     },
     {
         "title":"Not Finalized: Best Use of IBM Technology: 3D Printed TJ BOT",
