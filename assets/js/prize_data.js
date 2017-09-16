@@ -57,7 +57,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best Roomba 980 Hack",
-        "description":"Company: iRobot Corportation <br> Prize: Rooma 980 <br> Description: We will give each of the first prize winners for our hackathon a Roomba 980. The Roomba 980 robot vacuum gives you cleaner floors, throughout your entire home, all at the push of a button. Roomba 980 seamlessly navigates an entire level of your home, keeping track of its location and recharging as needed until the job is done. The AeroForce™ Cleaning System with Carpet Boost automatically increases power on carpets where it's needed most. And with the iRobot HOME App, you can clean and schedule on the go.",
+        "description":"<a href='https://go.hackmit.org/roomba'><em>Challenge details</em></a> <br><br> Company: iRobot Corportation <br> Prize: Rooma 980 <br> Description: We will give each of the first prize winners for our hackathon a Roomba 980. The Roomba 980 robot vacuum gives you cleaner floors, throughout your entire home, all at the push of a button. Roomba 980 seamlessly navigates an entire level of your home, keeping track of its location and recharging as needed until the job is done. The AeroForce™ Cleaning System with Carpet Boost automatically increases power on carpets where it's needed most. And with the iRobot HOME App, you can clean and schedule on the go. <br><br> Second place winners will earn a Create 2 robot per team member, and extra raffle tickets for the Roomba 880!",
     },
     {
         "title":"Raffle - Roomba 880",
