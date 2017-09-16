@@ -20,6 +20,22 @@ var SPONSOR_PRIZE_DATA = [
         "description":("Company: Amadeus <br> Prize: $2000 in Visa Gift Cards for the winning team. <br> Description: Our easy-to-use REST/JSON APIs gives you access to test and prototype with one of the world’s largest repositories of Travel Records, as well as industry leading flight search, hotel search and much more. <br> Regarding the challenge: Most innovative mobile/web travel application using Amadeus Travel Innovation Sandbox (https://sandbox.amadeus.com/)."),
     },
     {
+        "title":"Best Paddle Hack - First Place",
+        "description":"Company: Baidu <br> Prize: Ten thousand dollars in cash <br> Description: The prize will be rewarded to the best application of Paddle in this Hackathon. Paddle is an open source deep learning framework with an industry focus that many core products within Baidu use. Please come to the workshop scheduled if you are interested in this prize or you just want to learn how to power up your deep learning backed applications. We are looking for teams that focus on making major impact on people’s lives using Paddle, or have interesting use cases for Paddle. <br> Notes: <br> • Subject to taxation <br>  • Code audit (can be done by the event organizers): All code written during hacking hours, Paddle is used nontrivially. <br>  • Subject to a small interview <br> • Photo release",
+    },
+    {
+        "title":"Best Paddle Hack - Second Place",
+        "description":"Company: Baidu <br> Prize: A New GPU - 1080 GeForce<br> Description: The prize will be rewarded to the best application of Paddle in this Hackathon. Paddle is an open source deep learning framework with an industry focus that many core products within Baidu use. Please come to the workshop scheduled if you are interested in this prize or you just want to learn how to power up your deep learning backed applications. We are looking for teams that focus on making major impact on people’s lives using Paddle, or have interesting use cases for Paddle. <br> Notes: <br> • Subject to taxation <br>  • Code audit (can be done by the event organizers): All code written during hacking hours, Paddle is used nontrivially. <br>  • Subject to a small interview <br> • Photo release",
+    },
+    {
+        "title":"AI for Developing Countries / Hack for Social Good",
+        "description":"Company: Baidu <br> Prize: 1 Week Travel to Beijing for Team Representatives <br> Description: For up to 2 teams, we would like to bring the team representatives to Beijing for a week, empowering them the opportunity to see the opportunities there and do their research in person. <br> Notes: <br> • One rep per team <br> • Up to 2 teams <br> • Travel plan ahead of time <br> • Baidu campus visit needs to be pre-approved <br> • Winners may be subjected to a code audit and a small interview <br> • Photo release <br> • Travel and lodging up to 1500 USD per person.",
+    },
+    {
+        "title":"Best Leveraging of Open Source/API Creation/ML Hack/Education/Researcher Productivity, Etc.",
+        "description":"Company: Baidu <br> Prize: Ten thousand dollars in cash <br> Description: In addition to these two prizes, we are also giving out another GPU, and 5 prizes, each consisting of $200 in Amazon gift certificates, all in additional to onsite interviews at Baidu USA, which does AI research, big data research, vision, RL, and autonomous driving, to entire teams that may fit into at least 1 of the following categories. <br> Categories: <br> • Best Machine Learning Hack <br> • Best machine learning education, such as a clear, well-written tutorial <br> • Best researcher productivity tools <br> • Best use of machine learning frameworks <br> • Best leveraging/contribution of open source technology <br> Best API creation <br> Notes: <br> • Onsite interviews and internships are subjected to a resume submission to find the best fit. <br> • Open source prizes may require some of the resulting application to be open sourced.",
+    },
+    {
         "title":"Best Use of Storytelling",
         "description":"Company: Disney <br> Prize: Special Edition BB-8 Droids",
     },
