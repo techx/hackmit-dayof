@@ -1,6 +1,6 @@
 var GENERAL_PRIZE_DATA = [
     {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker) <br> Prize from IBM: Grand prize HackMIT winners will receive passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site: “How I won HackMIT.”"},
-    {"title":"Runner-Up","description":"Prize: HackMIT developer pack (choice of hardware/software up to $500 per hacker)"},
+    {"title":"Runner-Up","description":"Prize: HackMIT Developer Pack (Choice of hardware/software up to $500 per hacker)"},
 ];
 
 var CATEGORY_PRIZE_DATA = [
@@ -97,6 +97,6 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title": "Spot the HENRY",
-        "description": "Company: BNP Paribas <br> Prize: TBA <br> Description: Use publicly available datasets from social media or other sources to spot the HENRY (High-Earning-Not-Rich-Yet)!"
+        "description": "Company: BNP Paribas <br> Prize: $250 Amazon gift card for each team member <br> Description: Use publicly available datasets from social media or other sources to spot the HENRY (High-Earning-Not-Rich-Yet)!"
     }
 ];
