@@ -1,5 +1,5 @@
 var GENERAL_PRIZE_DATA = [
-    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker) <br> Prize from IBM: Grand prize HackMIT winners will receive passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site: “How I won HackMIT.”"},
+    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker)"},
     {"title":"Runner-Up","description":"Prize: HackMIT Developer Pack (Choice of hardware/software up to $500 per hacker)"},
 ];
 
@@ -41,11 +41,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Most Innovative Use of IBM Technology",
-        "description":"Company: IBM <br> Prize: Opportunity to attend large IBM Conference in 2018 and present their solution to conference attendees. Includes mentoring with IBM Subject Matter Experts and IBM Executives.",
-    },
-    {
-        "title":"Not Finalized: Best Use of IBM Technology: 3D Printed TJ BOT",
-        "description":"Company: IBM <br> Prize: TJ BOT (3D Printed in Cardboard, but not assembled)",
+        "description":"Company: IBM <br> Prize: Grand prize will receive passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site.",
     },
     {
         "title":"Best Microsoft Hack",
