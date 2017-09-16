@@ -162,7 +162,7 @@ a {
 }
 
 table.ui tr td.active.current-events {
-  background-color: #473899 !important;
+  background-color: #FF585D !important;
   border-radius: 5px 5px 0 0;
   padding: 1em !important;
   color: #fffefa !important;
@@ -177,12 +177,12 @@ table.current-events-table {
 }
 
 .announcements {
-  background-color: #FFE552 !important;
+  background-color: #74D1EA !important;
   color: #473899 !important;
 }
 
 .links {
-  background-color: #E76482 !important;
+  background-color: #74D1EA !important;
 }
 
 div div#current-events-container.invisible {
