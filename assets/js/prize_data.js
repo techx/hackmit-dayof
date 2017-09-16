@@ -41,7 +41,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Most Innovative Use of IBM Technology",
-        "description":"Company: IBM <br> Prize: Grand prize will receive passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site.",
+        "description":"Company: IBM <br> Prize: Grand prize will receive up to 4 passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site.",
     },
     {
         "title":"Best Microsoft Hack",
