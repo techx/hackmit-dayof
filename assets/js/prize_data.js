@@ -1,5 +1,5 @@
 var GENERAL_PRIZE_DATA = [
-    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker)"},
+    {"title":"First Place","description":"Prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker) <br> Prize from IBM: Grand prize HackMIT winners will receive passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site: “How I won HackMIT.”"},
     {"title":"Runner-Up","description":"Prize: HackMIT developer pack (choice of hardware/software up to $500 per hacker)"},
 ];
 
@@ -33,12 +33,11 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best Microsoft Hack",
-        "description":"Company: Microsoft <br> Prize: Microsoft Surface Laptop for each team member (up to 4) <br> Description: To qualify for the “Best Microsoft Hack”, hackers need to incorporate at least one of the following into their project: <br> Microsoft API http://aka.ms/api.lib <br> Microsoft Azure Cloud http://aka.ms/azureeast <br> Bot Framework http://dev.botframework.com/ <br> Kinect http://aka.ms/kinectdev-center <br> HoloLens http://aka.ms/hololensdev-center Universal Windows (UWP) App <br> https://docs.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp",
+        "description":"Company: Microsoft <br> Prize: Microsoft Surface Laptop for each team member (up to 4) <br> Description: To qualify for the “Best Microsoft Hack”, hackers need to incorporate at least one of the following into their project: <br> • Microsoft API (http://aka.ms/api.lib) <br> • Microsoft Azure Cloud (http://aka.ms/azureeast) <br> • Bot Framework (http://dev.botframework.com) <br> • Kinect (http://aka.ms/kinectdev-center) <br> • HoloLens (http://aka.ms/hololensdev-center) <br> • Universal Windows (UWP) App <br> (https://docs.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp)",
     },
     {
         "title":"Best Use of Encryption",
-        "description":"Company: Datto <br> Prize: $200 Amex Gift Card for Team <br> Description: Your project must use some form of encryption, and the prize will be given to the team that goes above and beyond with encryption practices.
-",
+        "description":"Company: Datto <br> Prize: $200 Amex Gift Card for Team <br> Description: Your project must use some form of encryption, and the prize will be given to the team that goes above and beyond with encryption practices.",
     },
     {
         "title":"Best Use of Facebook API",
@@ -94,6 +93,10 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best Hack with Startup Opportunity",
-        "description":"Company: Jumpstart <br> Prize: Flight and hotel to Vegas for the team <br> Description: Some of the fastest growing tech companies have started from from teams hacking together a solution to a real life problem. Can you build the next one? Jumpstart's prize will focus on the team that builds the best hack with startup / business potential. <br> Our judging criteria includes: <br> **Originality:** How creative is the idea? <br> **Execution:** Was the demo a working product? Did the team execute and explain the problem? <br> **Fundability:** Is there a potential business model? <br> **Scalability:** Can the solution scale?",
+        "description":"Company: Jumpstart <br> Prize: Flight and hotel to Vegas for the team <br> Description: Some of the fastest growing tech companies have started from from teams hacking together a solution to a real life problem. Can you build the next one? Jumpstart's prize will focus on the team that builds the best hack with startup / business potential. <br> Our judging criteria includes: <br> • Originality: How creative is the idea? <br> • Execution: Was the demo a working product? Did the team execute and explain the problem? <br> • Fundability: Is there a potential business model? <br> • Scalability: Can the solution scale?",
+    },
+    {
+        "title": "Spot the HENRY",
+        "description": "Company: BNP Paribas <br> Prize: TBA <br> Description: Use publicly available datasets from social media or other sources to spot the HENRY (High-Earning-Not-Rich-Yet)!"
     }
 ];
