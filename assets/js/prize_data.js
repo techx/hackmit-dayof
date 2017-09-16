@@ -40,8 +40,12 @@ var SPONSOR_PRIZE_DATA = [
         "description":"Company: Disney <br> Prize: Special Edition BB-8 Droids",
     },
     {
-        "title":"Most Innovative Use of IBM Technology",
-        "description":"Company: IBM <br> Prize: Grand prize will receive up to 4 passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site on how you won this award at HackMIT.",
+        "title":"Most Innovative Use of IBM Technology - 1st Place",
+        "description":"Company: IBM <br> Prize: Winning team will receive 4 passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site on how you won this award at HackMIT.",
+    },
+    {
+        "title":"Most Innovative Use of IBM Technology - Runner Up",
+        "description":"Company: IBM <br> Prize: TJ Bot (Giving away 15) <br> Description: Must use IBM Watson",
     },
     {
         "title":"Best Microsoft Hack",
