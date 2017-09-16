@@ -21,11 +21,11 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Best Paddle Hack - First Place",
-        "description":"Company: Baidu <br> Prize: Ten thousand dollars in cash <br> Description: The prize will be rewarded to the best application of Paddle in this Hackathon. Paddle is an open source deep learning framework with an industry focus that many core products within Baidu use. Please come to the workshop scheduled if you are interested in this prize or you just want to learn how to power up your deep learning backed applications. We are looking for teams that focus on making major impact on people’s lives using Paddle, or have interesting use cases for Paddle. <br> Notes: <br> • Subject to taxation <br>  • Code audit (can be done by the event organizers): All code written during hacking hours, Paddle is used nontrivially. <br>  • Subject to a small interview <br> • Photo release",
+        "description":"Company: Baidu <br> Prize: Ten thousand dollars in cash <br> Description: The prize will be rewarded to the best application of Paddle in this Hackathon. Paddle is an open source deep learning framework with an industry focus that many core products within Baidu use. Please come to the workshop scheduled if you are interested in this prize or you just want to learn how to power up your deep learning backed applications. We are looking for teams that focus on making major impact on people’s lives using Paddle, or have interesting use cases for Paddle. <br> Notes: <br> • Subject to taxation <br>  • Code audit (can be done by the event organizers): All code written during hacking hours, Paddle is used nontrivially. <br>  • Subject to a small interview <br> • Photo release <br> Resources: <br> • Docs: bit.ly/HackMIT-PaddleDoc <br> • Slack: bit.ly/HackMIT-baidu <br> • Email: mimee@baidu.com",
     },
     {
         "title":"Best Paddle Hack - Second Place",
-        "description":"Company: Baidu <br> Prize: A New GPU - 1080 GeForce<br> Description: The prize will be rewarded to the best application of Paddle in this Hackathon. Paddle is an open source deep learning framework with an industry focus that many core products within Baidu use. Please come to the workshop scheduled if you are interested in this prize or you just want to learn how to power up your deep learning backed applications. We are looking for teams that focus on making major impact on people’s lives using Paddle, or have interesting use cases for Paddle. <br> Notes: <br> • Subject to taxation <br>  • Code audit (can be done by the event organizers): All code written during hacking hours, Paddle is used nontrivially. <br>  • Subject to a small interview <br> • Photo release",
+        "description":"Company: Baidu <br> Prize: A New GPU - 1080 GeForce<br> Description: The prize will be rewarded to the best application of Paddle in this Hackathon. Paddle is an open source deep learning framework with an industry focus that many core products within Baidu use. Please come to the workshop scheduled if you are interested in this prize or you just want to learn how to power up your deep learning backed applications. We are looking for teams that focus on making major impact on people’s lives using Paddle, or have interesting use cases for Paddle. <br> Notes: <br> • Subject to taxation <br>  • Code audit (can be done by the event organizers): All code written during hacking hours, Paddle is used nontrivially. <br>  • Subject to a small interview <br> • Photo release <br> Resources: <br> • Docs: bit.ly/HackMIT-PaddleDoc <br> • Slack: bit.ly/HackMIT-baidu <br> • Email: mimee@baidu.com",
     },
     {
         "title":"AI for Developing Countries / Hack for Social Good",
@@ -41,7 +41,7 @@ var SPONSOR_PRIZE_DATA = [
     },
     {
         "title":"Most Innovative Use of IBM Technology - 1st Place",
-        "description":"Company: IBM <br> Prize: Winning team will receive 4 passes to a large developer conference in San Francisco this coming February and the chance to showcase the solution in a dedicated session on-site on how you won this award at HackMIT.",
+        "description":"Company: IBM <br> Prize: Winning team will receive 4 passes to a large developer conference in San Francisco this coming February and the chance to showcase your hack in a dedicated session on-site on how you won this award at HackMIT. Includes mentoring with IBM Subject Matter Experts and IBM Executives.",
     },
     {
         "title":"Most Innovative Use of IBM Technology - Runner Up",
