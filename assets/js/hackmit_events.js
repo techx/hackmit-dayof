@@ -43,7 +43,7 @@ var HMIT_EVTS = [
     [20, 20.5, "Fireside Chat 1: Limor Fried", "Johnson Media Room", 1],
     [20, 21, "Destress with Therapy Dogs!", "Johnson Lobby", 0],
     [20.75, 21.75, "Q&A with Maria, Charlie, and Austin McChord", "Johnson Media Room", 1],
-    [21, 22, "Insomnia Cookies", "Johnson Library", 2],
+    [21, 22, "Insomnia Cookies", "Johnson Lobby", 2],
     [22, 22.5, "Fireside Chat 2: Poulomi Damany", "Johnson Media Room", 1],
     [22.15, 22.5, "Red Blue Battle #2", "Johnson Lobby", 0],
     [22.75, 23.25, "Fireside Chat 3: Andrew", "Johnson Media Room", 1],
