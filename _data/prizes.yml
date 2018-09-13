@@ -1,0 +1,17 @@
+- title: General Prizes
+  prizes:
+    - title: First Place
+      prize: Ticket and flight to a tech conference of your choice (up to $1000 per hacker)
+    - title: Runner-up
+      prize: HackMIT Developer Pack (Choice of hardware/software up to $500 per hacker)
+- title: Category Prizes
+  prizes:
+    - title: Made from Scratch
+      prize: DIY RepRap Prusa I3 3D Printer Kit
+      description: Forget APIs and prepackaged products -- the core parts of the winning project here will be entirely built from scratch. Libraries and frameworks are allowed, but the part of the project that makes it awesome should be written or built by you!
+- title: Sponsor Prizes
+  description: See sponsor booths for more details!
+  prizes:
+    - title: Best Use of Amadeus APIs
+      prize: $2000 in Visa Gift Cards for the winning team
+      description: "Our easy-to-use REST/JSON APIs gives you access to test and prototype with one of the world’s largest repositories of Travel Records, as well as industry leading flight search, hotel search and much more. Regarding the challenge: Most innovative mobile/web travel application using Amadeus Travel Innovation Sandbox (https://sandbox.amadeus.com/)."

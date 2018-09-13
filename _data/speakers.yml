@@ -1,0 +1,10 @@
+- title: Keynote Speakers
+  speakers:
+    - name: Steve Huffman
+      title: CEO and Co-founder of Reddit
+      image: steve.jpg
+      description: Steve Huffman is CEO and co-founder of Reddit. For Steve, the love of programming was instantaneous— and everlasting. A native of Virginia, programming has been the only consistent hobby he’s had. Steve turned his passion into a career as co-founder of Reddit and the co-founder of Hipmunk. In these roles, he’s had the opportunity to do what he loves while also creating companies that have changed the way people use the Internet.
+    - name: Kyle Vogt
+      title: CEO and Founder of Cruise Automation
+      image: kyle.jpg
+      description: Kyle Vogt is the CEO and founder of Cruise Automation, the driverless car startup that was acquired for roughly $1 billion by GM in 2016. An engineer at heart, Kyle’s interest in self-driving technology can be traced back to his time at MIT. As an undergrad, he worked on the 2005 DARPA Grand Challenge, where he co-led a team to retrofit a truck to drive across the Nevada desert. Kyle also co-founded Twitch, Socialcam, and Justin.tv - but his life passion is to deploy self-driving cars at scale in order to make automobile accidents a thing of the past. A native of Kansas City, he currently resides in San Francisco with his wife Tracy and his dog, Charlie.

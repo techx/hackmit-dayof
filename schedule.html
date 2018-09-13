@@ -1,0 +1,121 @@
+---
+layout: default
+title: Schedule
+---
+<style type="text/css">
+table {
+  width: 100%;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.segmented-control {
+  border: 2px #fff solid;
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.segmented-control .option {
+  cursor: pointer;
+  flex: 1 1;
+  height: 36px;
+}
+
+.segmented-control .option.selected {
+  background: #fff;
+  color: #180724;
+}
+
+.segmented-control .option p {
+  line-height: 36px;
+  text-align: center;
+}
+
+.day {
+  background: #fff;
+  color: #180724;
+  text-align: center;
+}
+
+.day td {
+  border-radius: 4px;
+  padding: 4px 0;
+}
+
+.space {
+  height: 8px;
+}
+
+.space.big {
+  height: 16px;
+}
+</style>
+
+<h1>Schedule</h1>
+<div class="segmented-control">
+  <div class="option selected" option="0">
+    <p>General Events</p>
+  </div>
+  <div class="option" option="1">
+    <p>Workshops</p>
+  </div>
+</div>
+<table>
+  <thead>
+    <tr>
+      <td>Start</td>
+      <td>End</td>
+      <td>Event</td>
+      <td>Location</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="space"></tr>
+    <tr class="day">
+      <td colspan="4">Saturday</td>
+    </tr>
+    <tr class="space"></tr>
+    {% for event in site.data.events.events.saturday %}
+    <tr option="0">
+      <td>{{ event.start }}</td>
+      <td>{{ event.end }}</td>
+      <td>{{ event.name }}</td>
+      <td>{{ event.location }}</td>
+    </tr>
+    {% endfor %}
+    {% for event in site.data.events.workshops.saturday %}
+    <tr class="hidden" option="1">
+      <td>{{ event.start }}</td>
+      <td>{{ event.end }}</td>
+      <td>{{ event.name }}</td>
+      <td>{{ event.location }}</td>
+    </tr>
+    {% endfor %}
+    <tr class="big space"></tr>
+    <tr class="day">
+      <td colspan="4">Sunday</td>
+    </tr>
+    <tr class="space"></tr>
+    {% for event in site.data.events.events.sunday %}
+    <tr option="0">
+      <td>{{ event.start }}</td>
+      <td>{{ event.end }}</td>
+      <td>{{ event.name }}</td>
+      <td>{{ event.location }}</td>
+    </tr>
+    {% endfor %}
+    {% for event in site.data.events.workshops.sunday %}
+    <tr class="hidden" option="1">
+      <td>{{ event.start }}</td>
+      <td>{{ event.end }}</td>
+      <td>{{ event.name }}</td>
+      <td>{{ event.location }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<script src="schedule.js"></script>

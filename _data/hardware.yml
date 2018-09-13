@@ -1,0 +1,47 @@
+-
+  - name: Components
+    hardware:
+      - 1000uF Electrolytics Caps
+      - 12V 500mA LDO Regulator
+      - 3.3V Voltage Regulator
+      - 555 Timer
+      - 5V 1.5-A, Fixed Linear Regulator
+      - 5V 500mA LDO Regulator
+      - 8-bit Shift Register
+      - Adafruit Single Toggle Switches
+      - Assorted LEDs
+      - Big Toggle Switch
+      - H Bridge
+      - Mini Pushbuttons
+      - MOSFET
+      - OP Amp
+      - Rubber Bumpers
+      - Sparkfun USB Host Shields
+      - Various Miscellaneous ICs and Components
+  - name: Wireless
+    hardware:
+      - Bluetooth Breakout
+      - CC2650MODA BLE BoosterPack
+      - CC3100 Wi-Fi BoosterPack
+      - NFC Shield
+      - WiFi Module
+-
+  - name: Microcontrollers
+    hardware:
+      - Arduino Uno
+      - BeagleBone Black
+      - MSP430 LaunchPad
+      - MSP432 LaunchPad (ARM M4)
+      - Particle Photon Maker Kit
+      - Pi Zero Kit
+      - Sidekick for TI LaunchPad
+      - Teensy 3.2
+# -
+#   - name: Output / Power
+#     hardware:
+#       - 16x2 LCD
+#       - 5V Buzzer
+#       - OLED display
+#       - Robot Chassis
+#       - 5V 2A Barrel Jack Power Supply
+#       - 9v 1A Barrel Jack Power Supply

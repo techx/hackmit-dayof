@@ -1,0 +1,84 @@
+---
+layout: default
+title: Speakers
+---
+<style type="text/css">
+.speakers {
+  display: flex;
+}
+
+.column {
+  flex: 1 1;
+}
+
+.speaker {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.speaker.top {
+  margin-top: 0;
+}
+
+.speaker h3 {
+  color: #ff36bf;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.speaker img {
+  border-radius: 50%;
+  margin: 8px 0;
+  width: 75%;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.highlight {
+  color: #b9f734;
+  margin-bottom: 4px;
+}
+</style>
+
+<h1>Speakers, Workshops, Tech Talks, and Fireside Chats</h1>
+{% for section in site.data.speakers %}
+<h2>{{ section.title }}</h2>
+{% if section.description != null %}
+<h3>{{ section.description }}</h3>
+{% endif %}
+<div class="speakers">
+  <div class="column">
+    {% for speaker in section.speakers %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod != 0 %}
+    <div class="speaker{% if forloop.index == 1 %} top{% endif %}">
+      <h3>{{ speaker.name }}</h3>
+      <p class="highlight">{{ speaker.title }}</p>
+      <img src="/img/speakers/{{ speaker.image }}" />
+      <p>{{ speaker.description }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="column">
+    {% for speaker in section.speakers %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}
+    <div class="speaker{% if forloop.index == 2 %} top{% endif %}">
+      <h3>{{ speaker.name }}</h3>
+      <p class="highlight">{{ speaker.title }}</p>
+      <img src="/img/speakers/{{ speaker.image }}" />
+      <p>{{ speaker.description }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,8 @@
+- prompt: How do I connect to Wi-Fi?
+  answer: In Johnson arena, connect to the network called <span class="code">HackMIT Wifi</span> with the password <span class="code">greatscott</span>. Everywhere else at MIT, connect to the open network <span class="code">MIT GUEST</span>
+- prompt: I'm tired! How do I go to sleep?
+  answer: Call your host, ask them to pick you up, and they'll escort you to their not-at-all cramped rooms.
+- prompt: Can I leave Johnson whenever I want?
+  answer: For security reasons, if you want to leave Johnson you'll need to call your host and have him/her escort you back.
+- prompt: I need technical help. How do I get help on [API, language]?
+  answer: We have a <a href="https://q.hackmit.org" target="_blank">help queue</a> and mentors to help you along!

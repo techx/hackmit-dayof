@@ -1,0 +1,34 @@
+events:
+  saturday:
+    - start: 8:00am
+      end: 10:00am
+      name: Hacker Check-in + Breakfast
+      location: Tent
+    - start: 8:00am
+      end: 10:00am
+      name: Sponsor Check-in
+      location: Tent
+    - start: 9:30am
+      end: 10:00am
+      name: Walk-in Registration
+      location: Tent
+    - start: 10:30am
+      end: 11:30am
+      name: Opening Ceremony
+      location: Kresge
+  sunday:
+    - start: 1:00am
+      end: 2:00am
+      name: Thirst Juice Smoothies by Citadel
+      location: Johnson Lobby
+workshops:
+  saturday:
+    - start: 12:30pm
+      end: 1:00pm
+      name: "Tech Talk 1: Baidu"
+      location: Johnson Media Room
+  sunday:
+    - start: 1:00am
+      end: 2:00am
+      name: Testing
+      location: Johnson

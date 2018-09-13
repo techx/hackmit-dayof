@@ -1,0 +1,76 @@
+---
+layout: default
+title: Prizes
+---
+<style type="text/css">
+.prizes {
+  display: flex;
+}
+
+.column {
+  flex: 1 1;
+}
+
+.prize {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.prize.top {
+  margin-top: 0;
+}
+
+.prize h3 {
+  color: #ff36bf;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.highlight {
+  color: #b9f734;
+  margin-bottom: 4px;
+}
+</style>
+
+<h1>Prizes</h1>
+{% for section in site.data.prizes %}
+<h2>{{ section.title }}</h2>
+{% if section.description != null %}
+<h3>{{ section.description }}</h3>
+{% endif %}
+<div class="prizes">
+  <div class="column">
+    {% for prize in section.prizes %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod != 0 %}
+    <div class="prize{% if forloop.index == 1 %} top{% endif %}">
+      <h3>{{ prize.title }}</h3>
+      <p class="highlight">{{ prize.prize }}</p>
+      <p>{{ prize.description }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="column">
+    {% for prize in section.prizes %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}
+    <div class="prize{% if forloop.index == 2 %} top{% endif %}">
+      <h3>{{ prize.title }}</h3>
+      <p class="highlight">{{ prize.prize }}</p>
+      <p>{{ prize.description }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

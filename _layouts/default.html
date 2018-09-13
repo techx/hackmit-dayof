@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <nav class="desktop">
+    <div class="container">
+      <a href="https://hackmit.org" target="_blank">
+        <img class="logo" src="./img/logo.png" />
+      </a>
+      <ul>
+        {% for node in site.data.pages.pages %}
+          {% if page.url == node.url %}
+            <li class="active"><a href="{{ node.url }}">{{node.title}}</a></li>
+          {% else %}
+            <li><a href="{{ node.url }}">{{node.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+  <nav class="mobile">
+    <img class="hamburger" id="hamburger" src="./img/icon/hamburger.svg" />
+    <img class="logo" src="./img/logo.png" />
+  </nav>
+  <div id="mobile-nav" class="hidden">
+    <img id="close" src="./img/icon/close.svg" />
+    <ul>
+      {% for node in site.data.pages.pages %}
+      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <main>
+    {{ content }}
+  </main>
+  <script type="text/javascript">
+  document.getElementById("hamburger").onclick = function(e) {
+    document.getElementById("mobile-nav").classList.remove("hidden");
+  };
+
+  document.getElementById("close").onclick = function(e) {
+    document.getElementById("mobile-nav").classList.add("hidden");
+  };
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+pages:
+  - title: Day Of
+    url: /
+  - title: Maps
+    url: /maps.html
+  - title: Schedule
+    url: /schedule.html
+  - title: Prizes
+    url: /prizes.html
+  - title: Speakers
+    url: /speakers.html
+  - title: Hardware
+    url: /hardware.html
+  - title: Travel
+    url: /travel.html
+  - title: FAQs
+    url: /faqs.html
