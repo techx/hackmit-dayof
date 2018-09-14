@@ -2,7 +2,7 @@ let options = document.getElementsByClassName("option");
 
 for (var i = 0; i < options.length; i++) {
   options[i].onclick = function(e) {
-    let option = e.target.parentElement.getAttribute("option");
+    let option = e.target.parentElement.parentElement.getAttribute("option");
     let rows = document.getElementsByTagName("tr");
 
     for (var j = 0; j < rows.length; j++) {
