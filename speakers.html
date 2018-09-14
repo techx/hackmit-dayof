@@ -61,7 +61,7 @@ h3 {
     <div class="speaker{% if forloop.index == 1 %} top{% endif %}">
       <h3>{{ speaker.name }}</h3>
       <p class="highlight">{{ speaker.title }}</p>
-      <img src="/img/speakers/{{ speaker.image }}" />
+      <img src="{{ "/img/speakers/" | append: speaker.image | relative_url }}" />
       <p>{{ speaker.description }}</p>
     </div>
     {% endif %}
@@ -74,7 +74,7 @@ h3 {
     <div class="speaker{% if forloop.index == 2 %} top{% endif %}">
       <h3>{{ speaker.name }}</h3>
       <p class="highlight">{{ speaker.title }}</p>
-      <img src="/img/speakers/{{ speaker.image }}" />
+      <img src="{{ "/img/speakers/" | append: speaker.image | relative_url }}" />
       <p>{{ speaker.description }}</p>
     </div>
     {% endif %}
