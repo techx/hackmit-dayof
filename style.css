@@ -26,7 +26,7 @@ html, body {
 }
 
 body {
-  color: #fff;
+  color: #edfaf0;
   font-family: "Brandon Grotesque", serif;
 }
 
@@ -70,7 +70,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #edfaf0;
   text-decoration: none;
 }
 
@@ -195,7 +195,7 @@ nav.mobile .hamburger {
 }
 
 #mobile-nav li a {
-  color: #fff;
+  color: #edfaf0;
   font-size: 28px;
   font-weight: bold;
   line-height: 42px;
