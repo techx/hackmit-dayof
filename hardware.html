@@ -26,16 +26,30 @@ title: Hardware
 <h1>Hardware</h1>
 <p class="notice">Here's some of the hardware we are lending out to hackers during the hackathon. Go to <a href="https://hardware.hackmit.org" target="_blank">hardware.hackmit.org</a> for more information! Please come to the Hardware section in Johnson Ice Rink if you want to hack on hardware provided by HackMIT.</p>
 <div class="hardware">
-{% for column in site.data.hardware %}
-<div class="column">
-  {% for section in column %}
-  <div class="section">
-    <h2>{{ section.name }}</h2>
-    {% for hardware in section.hardware %}
-    <p>{{ hardware }}</p>
+  <div class="column">
+    {% for section in site.data.hardware %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}
+    <div class="section">
+      <h2>{{ section.name }}</h2>
+      {% for hardware in section.hardware %}
+      <p>{{ hardware }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
     {% endfor %}
   </div>
-  {% endfor %}
-</div>
-{% endfor %}
+  <div class="column">
+    {% for section in site.data.hardware %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 1 %}
+    <div class="section">
+      <h2>{{ section.name }}</h2>
+      {% for hardware in section.hardware %}
+      <p>{{ hardware }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>

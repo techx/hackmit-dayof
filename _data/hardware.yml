@@ -1,47 +1,95 @@
--
-  - name: Components
-    hardware:
-      - 1000uF Electrolytics Caps
-      - 12V 500mA LDO Regulator
-      - 3.3V Voltage Regulator
-      - 555 Timer
-      - 5V 1.5-A, Fixed Linear Regulator
-      - 5V 500mA LDO Regulator
-      - 8-bit Shift Register
-      - Adafruit Single Toggle Switches
-      - Assorted LEDs
-      - Big Toggle Switch
-      - H Bridge
-      - Mini Pushbuttons
-      - MOSFET
-      - OP Amp
-      - Rubber Bumpers
-      - Sparkfun USB Host Shields
-      - Various Miscellaneous ICs and Components
-  - name: Wireless
-    hardware:
-      - Bluetooth Breakout
-      - CC2650MODA BLE BoosterPack
-      - CC3100 Wi-Fi BoosterPack
-      - NFC Shield
-      - WiFi Module
--
-  - name: Microcontrollers
-    hardware:
-      - Arduino Uno
-      - BeagleBone Black
-      - MSP430 LaunchPad
-      - MSP432 LaunchPad (ARM M4)
-      - Particle Photon Maker Kit
-      - Pi Zero Kit
-      - Sidekick for TI LaunchPad
-      - Teensy 3.2
-# -
-#   - name: Output / Power
-#     hardware:
-#       - 16x2 LCD
-#       - 5V Buzzer
-#       - OLED display
-#       - Robot Chassis
-#       - 5V 2A Barrel Jack Power Supply
-#       - 9v 1A Barrel Jack Power Supply
+- name: Actuators
+  hardware:
+    - DC Motor
+    - High Torque Metal Gear Servo
+    - Motor Shield
+    - Stepper Motor (NEMA-17 Size)
+- name: Connectivity
+  hardware:
+    - Bluetooth Breakout
+    - Bluetooth USB Adapter
+    - FTDI Cable 3.3v
+    - FTDI Cable 5v
+    - NFC Shield
+    - USB Wi-Fi Adapter
+- name: ICs
+  hardware:
+    - 555 Timer
+    - 8-bit Shift Register
+    - Op Amp
+- name: Kits
+  hardware:
+    - Arduino Starter Kit
+    - Robot Chassis
+- name: Microcontrollers
+  hardware:
+    - Arduino Uno
+    - Arduino Duo
+    - Arduino MKR Wi-Fi 1010
+    - Arduino MKR Vidor 4000
+    - BeagleBone Black
+    - Cypress BLE PSoC Kit
+    - Cypress 5LP PSoC
+    - Photon Dev Kit
+    - PocketBeagle
+    - Raspberry Pi 3 Model B
+    - Sparkfun Dev Kit
+- name: Output
+  hardware:
+    - 16x2 LCD
+    - Assorted LEDs
+    - Audio Amplifier
+    - Neopixel Ring
+    - Neopixel Strip
+    - OLED Display
+    - Piezo Buzzers
+    - RGB Smart LED Matrix
+    - Speaker
+- name: Passive Components
+  hardware:
+    - Assorted Capacitors
+    - Assorted Resistors
+    - Assorted Transistors
+    - Potentiometer
+- name: Power
+  hardware:
+    - 2xAA Battery Holder
+    - 4xAA Battery Holder
+    - 3.3V Voltage Regulator
+    - 5V 1.5-A Fixed Linear Regulator
+    - 5V Micro USB Power Supply
+    - 9V 1000mA Power Supply (Barrel Plug)
+    - 9V Batteries
+    - 9V Battery Snap
+    - AA Batteries
+- name: Prototyping
+  hardware:
+    - 40xF/F Jumpers
+    - 40xF/M Jumpers
+    - 40xM/M Jumpers
+    - Alligator Clips
+    - Breadboards
+    - Electrical Tape
+    - Female Headers
+    - Male Header Pins
+    - Jumper Wire Kit (140 pc)
+    - Protoboard
+- name: Sensors
+  hardware:
+    - 9 Axis Motion Shield
+    - Accelerometer
+    - Air Quality Sensor
+    - Alcohol Sensor
+    - Capacitive Touch Sensor
+    - Hall Effect Sensor
+    - IMU
+    - Kinect
+    - Microphone
+    - Photoresistors
+    - Pi Camera
+    - Push Button
+    - Temperature & Humidity Sensor
+    - Toggle Switch
+    - Ultrasonic Sensor
+    - Water Sensor
+    - Weather Shield
