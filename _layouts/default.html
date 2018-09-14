@@ -11,8 +11,9 @@
         <img class="logo" src="{{ "/img/logo.png" | relative_url }}" />
       </a>
       <ul>
-        {% for node in site.data.pages.pages %}
-          {% if page.url == node.url %}
+        {% for node in site.data.pages %}
+          {% assign route = page.url | replace: ".html", "" %}
+          {% if route == node.url %}
             <li class="active"><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
           {% else %}
             <li><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
@@ -28,7 +29,7 @@
   <div id="mobile-nav" class="hidden">
     <img id="close" src="{{ "/img/icon/close.svg" | relative_url }}" />
     <ul>
-      {% for node in site.data.pages.pages %}
+      {% for node in site.data.pages %}
       <li><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
       {% endfor %}
     </ul>
