@@ -38,7 +38,7 @@ td.nowrap {
 .segmented-control .option {
   cursor: pointer;
   flex: 1 1;
-  height: 36px;
+  min-height: 36px;
 }
 
 .segmented-control .option.selected {
@@ -46,9 +46,16 @@ td.nowrap {
   color: #180724;
 }
 
+.segmented-control .option .text-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
 .segmented-control .option p {
-  line-height: 36px;
+  display: table-cell;
   text-align: center;
+  vertical-align: middle;
 }
 
 .day {
@@ -80,10 +87,14 @@ td.nowrap {
 <h1>Schedule</h1>
 <div class="segmented-control">
   <div class="option selected" option="0">
-    <p>General Events</p>
+    <div class="text-container">
+      <p>General Events</p>
+    </div>
   </div>
   <div class="option" option="1">
-    <p>Workshops</p>
+    <div class="text-container">
+      <p>Workshops, Tech Talks, and Fireside Chats</p>
+    </div>
   </div>
 </div>
 <table>
