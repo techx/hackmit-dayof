@@ -1,34 +1,190 @@
-events:
-  saturday:
-    - start: 8:00am
-      end: 10:00am
-      name: Hacker Check-in + Breakfast
-      location: Tent
-    - start: 8:00am
-      end: 10:00am
-      name: Sponsor Check-in
-      location: Tent
-    - start: 9:30am
-      end: 10:00am
-      name: Walk-in Registration
-      location: Tent
-    - start: 10:30am
-      end: 11:30am
-      name: Opening Ceremony
-      location: Kresge
-  sunday:
-    - start: 1:00am
-      end: 2:00am
-      name: Thirst Juice Smoothies by Citadel
-      location: Johnson Lobby
-workshops:
-  saturday:
-    - start: 12:30pm
-      end: 1:00pm
-      name: "Tech Talk 1: Baidu"
-      location: Johnson Media Room
-  sunday:
-    - start: 1:00am
-      end: 2:00am
-      name: Testing
-      location: Johnson
+saturday:
+  - start: 8:00am
+    end: 10:00am
+    name: Check In & Breakfast
+    location: Tent
+  - start: 10:00am
+    end: 11:00am
+    name: Opening Ceremony
+    location: Kresge Auditorium
+  - start: 11:00am
+    name: Hacking Starts!
+  - start: 11:30am
+    end: 12:00pm
+    name: Team Formation
+    location: Kresge Rehearsal Room B
+  - start: 11:30am
+    end: 12:00pm
+    name: Beginner Office Hours
+    location: Johnson Media Room
+    workshop: true
+  - start: 12:00pm
+    end: 1:00pm
+    name: Lunch by Cafe Luna
+    location: Tent
+  - start: 12:30pm
+    end: 1:00pm
+    name: "QVC: Video Based Retailing"
+    location: Johnson Media Room
+    workshop: true
+  - start: 12:30pm
+    end: 1:00pm
+    name: "Arduino: FPGA"
+    location: Mezzanine Lounge
+    workshop: true
+  - start: 1:00pm
+    end: 2:00pm
+    name: Making a Difference in the World with AI and IBM Cloud
+    location: Johnson Media Room
+    workshop: true
+  - start: 2:00pm
+    end: 6:00pm
+    name: GM Ride and Drive
+    location: Kresge Turnaround
+    workshop: true
+  - start: 2:00pm
+    end: 2:30pm
+    name: "Beyond Cryptocurrency: Blockchain for Real-World Assets by Stellar"
+    location: Johnson Media Room
+    workshop: true
+  - start: 2:30pm
+    end: 3:00pm
+    name: Amadeus Tech Talk
+    location: Johnson Media Room
+    workshop: true
+  - start: 3:00pm
+    end: 4:00pm
+    name: "Bookbub: Hacking on Prototypes with React"
+    location: Johnson Media Room
+    workshop: true
+  - start: 3:00pm
+    end: 4:00pm
+    name: "Rigetti: How to Program a Quantum Computer"
+    location: Mezzanine Lounge
+    workshop: true
+  - start: 4:00pm
+    end: 4:30pm
+    name: "Caging the Dragon: The Story of Etsy's Data Platform Cloud Migration"
+    location: Johnson Media Room
+    workshop: true
+  - start: 4:30pm
+    end: 5:00pm
+    name: How to Play Rocket League with your Cadillac by GM
+    location: Johnson Media Room
+    workshop: true
+  - start: 5:00pm
+    end: 5:30pm
+    name: Enable Your Users with AI by Microsoft
+    location: Johnson Media Room
+    workshop: true
+  - start: 5:00pm
+    end: 5:30pm
+    name: Intro to Common NLP Techniques by Quora
+    location: Mezzanine Lounge
+    workshop: true
+  - start: 5:00pm
+    end: 5:30pm
+    name: Outdoor Mini-Events
+    location: Briggs Field
+  - start: 5:30pm
+    end: 6:00pm
+    name: "Rev: Intro to TypeScript - Bringing Sanity to Web Dev"
+    location: Johnson Media Room
+    workshop: true
+  - start: 6:00pm
+    end: 8:00pm
+    name: BU/MIT Tech & Cyberlaw Clinic Office Hours
+    location: PDR 1
+    workshop: true
+  - start: 6:00pm
+    end: 7:00pm
+    name: Dinner by Sebastian's
+    location: Tent
+  - start: 6:30pm
+    end: 7:00pm
+    name: Intro to Distributed Databases by Cockroach Labs
+    location: Johnson Media Room
+    workshop: true
+  - start: 7:00pm
+    end: 7:30pm
+    name: Explore Artificial Neural Networks with RBC CM
+    location: Johnson Media Room
+    workshop: true
+  - start: 7:00pm
+    end: 7:30pm
+    name: Abs & Meditation with Jenny
+    location: Tent
+  - start: 7:30pm
+    end: 8:00pm
+    name: "Diving into Google Products: Intro to Google Cloud & an Exploration of Daydream VR"
+    location: Johnson Media Room
+    workshop: true
+  - start: 8:00pm
+    end: 9:00pm
+    name: "Q&A: Heather and Alex"
+    location: Johnson Media Room
+    workshop: true
+  - start: 8:00pm
+    end: 9:00pm
+    name: Dance Workshop
+    location: T-Club
+  - start: 9:00pm
+    end: 10:00pm
+    name: Fireside Chat with Michael Seibel
+    location: Johnson Media Room
+    workshop: true
+  - start: 9:00pm
+    end: 10:00pm
+    name: De-stress with Therapy Dogs!
+    location: Johnson Lobby
+  - start: 10:00pm
+    end: 10:30pm
+    name: Fireside Chat with Marten Mickos
+    location: Johnson Media Room
+    workshop: true
+  - start: 10:30pm
+    end: 11:00pm
+    name: Bubble Tea by Kung Fu Tea
+    location: Johnson Lobby
+  - start: 10:45pm
+    end: 11:45pm
+    name: "Q&A: Adam D'Angelo"
+    location: Johnson Media Room
+    workshop: true
+  - start: 11:00pm
+    end: 12:00am
+    name: Night-time Photobooth & Mocktail Bar
+    location: Johnson Lobby
+sunday:
+  - start: 12:00am
+    end: 1:00am
+    name: Pizza by Domino's
+    location: Johnson Lobby
+  - start: 2:00am
+    end: 3:00am
+    name: Insomnia Cookies
+    location: Johnson Lobby
+  - start: 2:00am
+    end: 3:00am
+    name: Trivia Night
+    location: Johnson Media Room
+  - start: 8:00am
+    end: 9:00am
+    name: Breakfast by Sebastian's
+    location: Tent
+  - start: 11:00am
+    name: Hacking Ends / Judging Begins!
+  - start: 12:00pm
+    end: 1:00pm
+    name: Lunch by Cafe Luna
+    location: Tent
+  - start: 2:15pm
+    end: 3:00pm
+    name: Project Expo Begins!
+    location: Johnson Arena
+  - start: 3:00pm
+    end: 5:00pm
+    name: Closing Ceremony
+    location: Kresge Auditorium
+  - start: 5:00pm
+    name: Buses Leave

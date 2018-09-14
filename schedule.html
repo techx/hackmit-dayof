@@ -12,6 +12,22 @@ thead {
   font-size: 20px;
 }
 
+td {
+  line-height: 24px;
+}
+
+td.center {
+  text-align: center;
+}
+
+td.spacer {
+  width: 12px;
+}
+
+td.nowrap {
+  white-space: nowrap;
+}
+
 .segmented-control {
   border: 2px #fff solid;
   border-radius: 8px;
@@ -68,53 +84,75 @@ thead {
   <thead>
     <tr>
       <td>Start</td>
+      <td class="spacer"></td>
       <td>End</td>
+      <td class="spacer"></td>
       <td>Event</td>
+      <td class="spacer"></td>
       <td>Location</td>
     </tr>
   </thead>
   <tbody>
     <tr class="space"></tr>
     <tr class="day">
-      <td colspan="4">Saturday</td>
+      <td colspan="7">Saturday</td>
     </tr>
     <tr class="space"></tr>
-    {% for event in site.data.events.events.saturday %}
+    {% for event in site.data.events.saturday %}
+    {% if event.workshop == null %}
     <tr option="0">
+      {% if event.end == null %}
+      <td class="center" colspan="3">{{ event.start }}</td>
+      {% else %}
       <td>{{ event.start }}</td>
+      <td class="spacer"></td>
       <td>{{ event.end }}</td>
+      {% endif %}
+      <td class="spacer"></td>
       <td>{{ event.name }}</td>
-      <td>{{ event.location }}</td>
+      <td class="spacer"></td>
+      <td class="nowrap">{{ event.location }}</td>
     </tr>
+    {% endif %}
     {% endfor %}
-    {% for event in site.data.events.workshops.saturday %}
+    {% for event in site.data.events.saturday %}
+    {% if event.workshop %}
     <tr class="hidden" option="1">
+      {% if event.end == null %}
+      <td class="center" colspan="3">{{ event.start }}</td>
+      {% else %}
       <td>{{ event.start }}</td>
+      <td class="spacer"></td>
       <td>{{ event.end }}</td>
+      {% endif %}
+      <td class="spacer"></td>
       <td>{{ event.name }}</td>
-      <td>{{ event.location }}</td>
+      <td class="spacer"></td>
+      <td class="nowrap">{{ event.location }}</td>
     </tr>
+    {% endif %}
     {% endfor %}
     <tr class="big space"></tr>
-    <tr class="day">
-      <td colspan="4">Sunday</td>
+    <tr class="day" option="0">
+      <td colspan="7">Sunday</td>
     </tr>
     <tr class="space"></tr>
-    {% for event in site.data.events.events.sunday %}
+    {% for event in site.data.events.sunday %}
+    {% if event.workshop == null %}
     <tr option="0">
+      {% if event.end == null %}
+      <td class="center" colspan="3">{{ event.start }}</td>
+      {% else %}
       <td>{{ event.start }}</td>
+      <td class="spacer"></td>
       <td>{{ event.end }}</td>
+      {% endif %}
+      <td class="spacer"></td>
       <td>{{ event.name }}</td>
-      <td>{{ event.location }}</td>
+      <td class="spacer"></td>
+      <td class="nowrap">{{ event.location }}</td>
     </tr>
-    {% endfor %}
-    {% for event in site.data.events.workshops.sunday %}
-    <tr class="hidden" option="1">
-      <td>{{ event.start }}</td>
-      <td>{{ event.end }}</td>
-      <td>{{ event.name }}</td>
-      <td>{{ event.location }}</td>
-    </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>
