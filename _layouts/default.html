@@ -8,28 +8,28 @@
   <nav class="desktop">
     <div class="container">
       <a href="https://hackmit.org" target="_blank">
-        <img class="logo" src="./img/logo.png" />
+        <img class="logo" src="{{ "/img/logo.png" | relative_url }}" />
       </a>
       <ul>
         {% for node in site.data.pages.pages %}
           {% if page.url == node.url %}
-            <li class="active"><a href="{{ node.url }}">{{node.title}}</a></li>
+            <li class="active"><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
           {% else %}
-            <li><a href="{{ node.url }}">{{node.title}}</a></li>
+            <li><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>
     </div>
   </nav>
   <nav class="mobile">
-    <img class="hamburger" id="hamburger" src="./img/icon/hamburger.svg" />
-    <img class="logo" src="./img/logo.png" />
+    <img class="hamburger" id="hamburger" src="{{ "/img/icon/hamburger.svg" | relative_url }}" />
+    <img class="logo" src="{{ "/img/logo.png" | relative_url }}" />
   </nav>
   <div id="mobile-nav" class="hidden">
-    <img id="close" src="./img/icon/close.svg" />
+    <img id="close" src="{{ "/img/icon/close.svg" | relative_url }}" />
     <ul>
       {% for node in site.data.pages.pages %}
-      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      <li><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
