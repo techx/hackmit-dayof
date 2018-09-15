@@ -10,10 +10,13 @@
   prizes:
     - title: Hack for a Night Out
       prize: Launchpad
+      description: How can you make a night on the town even better?
     - title: Take Us on an Adventure
       prize: Misfit Vapor Smartwatch
+      description: How can you provide an experience unlike any seen before?
     - title: Explore New Territory
       prize: Parrot Jumping Sumo
+      description: How willing are you to get out of your comfort zone?
 - title: Sponsor Prizes
   description: See sponsor booths for more details!
   prizes:
