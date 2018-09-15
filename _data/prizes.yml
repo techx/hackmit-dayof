@@ -20,6 +20,12 @@
     - title: Best Disaster Preparedness & Relief Solutions for IBM Call for Code Challenge
       prize: $2,000 for first place, $1,000 for second place, priority placement for IBM internships at MIT/IBM Watson AI Lab
       description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Call for Code Challenge\", hackers need to incorporate at least one of the API services from https://console.bluemix.net/catalog/ into their project Submissions will be judged across 4 areas: Completeness and Transferability Effectiveness and Efficiency Design and Usability Creativity and Innovation."
+    - title: Best Use of Data
+      prize: $800 gift card for Southwest Airlines
+      description: This will be judged best on usefulness, How does the data you are collecting help the people you want to serve? In order to be eligible, you must use at least one Amadeus API. This prize will be awarded to the winning team. There is no minimum or maximum number of members per team.
+    - title: Best in Show
+      prize: $1,000 gift card for Southwest Airlines
+      description: Best overall Hack using the an Amadeus API. Factors that will be considered include but are not limited to business use, mass appeal, and how well the final product works. In order to be eligible, you must use at least one Amadeus API. This prize will be awarded to the winning team. There is no minimum or maximum number of members per team.
     - title: Best Use of BNP Paribas APIs
       prize: Shadow our Artificial Intelligence lab for a day, and interview for a summer internship in New York
       description: BNP Paribas provides a number of APIs to third parties to access financial market information as well as query information from client accounts. Consume these APIs and propose an innovative way of interacting with the bank for our clients. The winning team will be invited for a day to shadow our NY Innovation lab working on Artificial Intelligence, and to onsite interviews for a summer internship in New York.
