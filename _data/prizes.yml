@@ -19,7 +19,7 @@
   prizes:
     - title: Best Use of GIPHY API
       prize: 3D Printing Pen
-      description: This award will go to the team with the most creative, unique use of the GIPHY API, as judged by our attending mentors. GIPHY API: https://developers.giphy.com/docs/.
+      description: "This award will go to the team with the most creative, unique use of the GIPHY API, as judged by our attending mentors. GIPHY API: https://developers.giphy.com/docs/."
     - title: Best use of the Plaid API
       prize: $1,000 cash
       description: The Plaid API allows for developers to build applications on top of banking data. Apps like Venmo, Robinhood, Coinbase, and Drop use Plaid to build out their products - helping people make more sense of their financial lives. Use Plaid to pull real time transactions, check the balance of an account, or get identity data associated with the account. We're excited to award a $1000 prize to the most innovative usage of the Plaid API at HackMIT!
@@ -86,7 +86,7 @@
     - title: Nasdaq Best "Markets Everywhere" Hack
       prize: Job Interview, Trip to Nasdaq, Lunch at Nasdaq, Picture in Times Square
       description: Winners get an internship/full-time job interview, a trip to Nasdaq HQ in New York City, lunch with senior Nasdaq leader, and the winning team will have their picture on Nasdaq's Times Square screen and will be shared on Nasdaq's social media platforms.
-    - title: “Best Innovative Use of Artificial Intelligence, Data Science, & Machine Learning” Presented by RBC Capital Markets (2)
+    - title: "\"Best Innovative Use of Artificial Intelligence, Data Science, & Machine Learning\" Presented by RBC Capital Markets"
       prize: iPads, $100 gift cards
       description: "RBC Capital Markets strives to always promote innovation and creativity! We are looking for an original solution that utilizes artificial intelligence, data science, and machine learning, for example, a hack that: is applicable to a financial services use case, helps our clients make smarter decisions with use of AI/ML models, tackles different levels of data latency and workflows (i.e. microbatching and/or streaming), provides color to market research, trading signals, or trade anomalies, or uses natural language processing that helps structure obscure market data. 1st place winners get the newest iPad. Runners up get $100 gift cards for each team member."
     - title: Most Novel Data Mobility Hack by Dell
