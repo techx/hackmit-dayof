@@ -17,6 +17,9 @@
 - title: Sponsor Prizes
   description: See sponsor booths for more details!
   prizes:
+    - title: Rigetti Quantum Prize
+      prize: Beta account for Rigetti Quantum Cloud Services, priority access to Rigetti's next QPUs and platform
+      description: We will award a prize to the team that comes up with the most novel use of Rigetti's quantum computing platform.
     - title: Best Use of GIPHY API
       prize: 3D Printing Pen
       description: "This award will go to the team with the most creative, unique use of the GIPHY API, as judged by our attending mentors. GIPHY API: https://developers.giphy.com/docs/."
