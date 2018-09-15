@@ -60,8 +60,8 @@ saturday:
     name: Amadeus Tech Talk
     location: Johnson Media Room
     workshop: true
-  - start: 3:00pm
-    end: 4:00pm
+  - start: 3:15pm
+    end: 4:15pm
     name: "Rigetti: How to Program a Quantum Computer"
     location: Mezzanine Lounge
     workshop: true
@@ -85,8 +85,8 @@ saturday:
     name: Enable Your Users with AI by Microsoft
     location: Johnson Media Room
     workshop: true
-  - start: 5:00pm
-    end: 5:30pm
+  - start: 5:15pm
+    end: 5:45pm
     name: Intro to Common NLP Techniques by Quora
     location: Mezzanine Lounge
     workshop: true
