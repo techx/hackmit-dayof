@@ -50,19 +50,14 @@ saturday:
     name: GM Ride and Drive
     location: Kresge Turnaround
     workshop: true
-  - start: 2:00pm
-    end: 2:30pm
+  - start: 2:15pm
+    end: 2:45pm
     name: "Beyond Cryptocurrency: Blockchain for Real-World Assets by Stellar"
-    location: Mezzanine Lounge
-    workshop: true
-  - start: 2:30pm
-    end: 3:00pm
-    name: Amadeus Tech Talk
     location: Johnson Media Room
     workshop: true
-  - start: 3:00pm
-    end: 4:00pm
-    name: "Bookbub: Hacking on Prototypes with React"
+  - start: 2:45pm
+    end: 3:15pm
+    name: Amadeus Tech Talk
     location: Johnson Media Room
     workshop: true
   - start: 3:00pm
@@ -70,18 +65,23 @@ saturday:
     name: "Rigetti: How to Program a Quantum Computer"
     location: Mezzanine Lounge
     workshop: true
-  - start: 4:00pm
-    end: 4:30pm
+  - start: 3:15pm
+    end: 4:15pm
+    name: "Bookbub: Hacking on Prototypes with React"
+    location: Johnson Media Room
+    workshop: true
+  - start: 4:15pm
+    end: 4:45pm
     name: "Caging the Dragon: The Story of Etsy's Data Platform Cloud Migration"
     location: Johnson Media Room
     workshop: true
-  - start: 4:30pm
-    end: 5:00pm
+  - start: 4:45pm
+    end: 5:15pm
     name: How to Play Rocket League with your Cadillac by GM
     location: Johnson Media Room
     workshop: true
-  - start: 5:00pm
-    end: 5:30pm
+  - start: 5:15pm
+    end: 5:45pm
     name: Enable Your Users with AI by Microsoft
     location: Johnson Media Room
     workshop: true
@@ -94,8 +94,8 @@ saturday:
     end: 5:30pm
     name: Outdoor Mini-Events
     location: Briggs Field
-  - start: 5:30pm
-    end: 6:00pm
+  - start: 5:45pm
+    end: 6:15pm
     name: "Rev: Intro to TypeScript - Bringing Sanity to Web Dev"
     location: Johnson Media Room
     workshop: true
