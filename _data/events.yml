@@ -127,7 +127,7 @@ saturday:
     name: "Diving into Google Products: Intro to Google Cloud & an Exploration of Daydream VR"
     location: Johnson Media Room
     workshop: true
-  - start: 8:00pm
+  - start: 8:15pm
     end: 9:00pm
     name: "Q&A: Heather and Alex"
     location: Johnson Media Room
@@ -136,8 +136,8 @@ saturday:
     end: 9:00pm
     name: Dance Workshop
     location: T-Club
-  - start: 9:00pm
-    end: 10:00pm
+  - start: 9:15pm
+    end: 9:45pm
     name: Fireside Chat with Michael Seibel
     location: Johnson Media Room
     workshop: true
@@ -155,7 +155,7 @@ saturday:
     name: Bubble Tea by Kung Fu Tea
     location: Johnson Lobby
   - start: 10:45pm
-    end: 11:45pm
+    end: 11:15pm
     name: "Q&A: Adam D'Angelo"
     location: Johnson Media Room
     workshop: true
