@@ -9,6 +9,10 @@ saturday:
     location: Kresge Auditorium
   - start: 11:00am
     name: Hacking Starts!
+  - start: 11:00am
+    end: 11:30am
+    name: Mentor Orientation
+    location: Johnson Media Room
   - start: 11:30am
     end: 12:00pm
     name: Team Formation
