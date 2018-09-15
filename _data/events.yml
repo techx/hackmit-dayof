@@ -32,16 +32,16 @@ saturday:
     location: Tent
   - start: 12:30pm
     end: 1:00pm
-    name: "QVC: Video Based Retailing"
-    location: Johnson Media Room
-    workshop: true
-  - start: 12:30pm
-    end: 1:00pm
     name: "Arduino: FPGA"
     location: Mezzanine Lounge
     workshop: true
-  - start: 1:00pm
-    end: 2:00pm
+  - start: 12:45pm
+    end: 1:15pm
+    name: "QVC: Video Based Retailing"
+    location: Johnson Media Room
+    workshop: true
+  - start: 1:15pm
+    end: 2:15pm
     name: Making a Difference in the World with AI and IBM Cloud
     location: Johnson Media Room
     workshop: true
