@@ -17,6 +17,9 @@
 - title: Sponsor Prizes
   description: See sponsor booths for more details!
   prizes:
+    - title: Best Disaster Preparedness & Relief Solutions for IBM Call for Code Challenge
+      prize: $2,000 for first place, $1,000 for second place, priority placement for IBM internships at MIT/IBM Watson AI Lab
+      description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Call for Code Challenge\", hackers need to incorporate at least one of the API services from https://console.bluemix.net/catalog/ into their project Submissions will be judged across 4 areas: Completeness and Transferability Effectiveness and Efficiency Design and Usability Creativity and Innovation."
     - title: Best Use of BNP Paribas APIs
       prize: Shadow our Artificial Intelligence lab for a day, and interview for a summer internship in New York
       description: BNP Paribas provides a number of APIs to third parties to access financial market information as well as query information from client accounts. Consume these APIs and propose an innovative way of interacting with the bank for our clients. The winning team will be invited for a day to shadow our NY Innovation lab working on Artificial Intelligence, and to onsite interviews for a summer internship in New York.
