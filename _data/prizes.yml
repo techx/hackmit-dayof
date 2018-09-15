@@ -3,9 +3,9 @@
     - title: First Place
       prize: Reimbursement to a Tech Conference
     - title: Second Place
-      prize: Nintendo Switch + SMO
-    - title: Third Place
       prize: DJI Phantom Drone w/ HD Camera
+    - title: Third Place
+      prize: Nintendo Switch + SMO
 - title: Category Prizes
   prizes:
     - title: Hack for a Night Out
