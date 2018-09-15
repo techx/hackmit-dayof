@@ -23,6 +23,10 @@ saturday:
     location: Johnson Media Room
     workshop: true
   - start: 12:00pm
+    end: 12:30pm
+    name: Beginner Office Hours
+    location: Johnson Media Room
+  - start: 12:00pm
     end: 1:00pm
     name: Lunch by Cafe Luna
     location: Tent
