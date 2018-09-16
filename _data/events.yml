@@ -180,6 +180,8 @@ sunday:
     end: 9:00am
     name: Breakfast by Sebastian's
     location: Tent
+  - start: 10:00am
+    name: Project Submissions Due on Devpost
   - start: 11:00am
     name: Hacking Ends / Judging Begins!
   - start: 12:00pm
