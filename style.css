@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Brandon Grotesque";
+  font-family: "Geomanist";
   font-weight: 300;
   src: url(./font/Geomanist-Light.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Brandon Grotesque";
+  font-family: "Geomanist";
   font-weight: 400;
   src: url(./font/Geomanist-Regular.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Brandon Grotesque";
+  font-family: "Geomanist";
   font-weight: 600;
   src: url(./font/Geomanist-Medium.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Brandon Grotesque";
+  font-family: "Geomanist";
   font-weight: 700;
   src: url(./font/Geomanist-Bold.otf) format("truetype");
 }
@@ -33,7 +33,7 @@ html, body {
 
 body {
   color: #000;
-  font-family: "Brandon Grotesque", serif;
+  font-family: "Geomanist", serif;
 }
 
 a {
@@ -74,9 +74,9 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
-  margin-left: 32px;
+  margin-left: 28px;
   line-height: 72px;
 }
 
