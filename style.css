@@ -51,9 +51,14 @@ nav {
 }
 
 nav .logo {
-  display: inline-block;
-  height: 48px;
-  margin-top: 12px;
+  height: 36px;
+}
+
+nav .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 760px;
 }
 
 .container {
@@ -70,7 +75,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 32px;
   line-height: 72px;
 }
@@ -160,6 +165,10 @@ main .box p {
 
 nav.mobile {
   display: none;
+}
+
+nav.mobile .container {
+  display: table;
 }
 
 nav.mobile .logo {

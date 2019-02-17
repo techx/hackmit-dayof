@@ -1,12 +1,17 @@
-- title: Day Of
+- title: day of
   url: /
-- title: Maps
-  url: /maps
-- title: Schedule
+- title: schedule
   url: /schedule
-- title: Prizes
+- title: maps
+  url: /maps
+- title: tech talks
+  url: /tech-talks
+- title: prizes
   url: /prizes
+<<<<<<< HEAD
 - title: Speakers
   url: /speakers
+=======
+>>>>>>> 7d2a61508401c0c58bcf3343795276103c044005
 - title: FAQs
   url: /faqs
