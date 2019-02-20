@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="description" content="Hack, create, and explore at MIT's largest hackathon. September 15-16." />
-  <meta name="keywords" content="HackMIT, hackathon, MIT" />
-  <meta name="theme-color" content="#180724" />
+  <meta name="description" content="Learn, imagine, and create at MIT's premier high school hackathon. February 23-24." />
+  <meta name="keywords" content="hackmit, hackathon, mit, blueprint, high, school, event, coding, programming, hacking" />
+  <meta name="theme-color" content="#34bac8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:url" content="https://dayof.hackmit.org" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="HackMIT | Day Of" />
-  <meta property="og:description" content="Hack, create, and explore at MIT's largest hackathon. September 15-16." />
+  <meta property="og:title" content="MIT Blueprint | Day Of" />
+  <meta property="og:description" content="Learn, imagine, and create at MIT's premier high school hackathon. February 23-24." />
   <meta property="og:image" content="https://hackmit.org/assets/graphics/hackcover7.png" />
-  <title>{{ "HackMIT | " | append: page.title }}</title>
+  <title>{{ "Blueprint | " | append: page.title }}</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -32,8 +32,8 @@
     </div>
   </nav>
   <nav class="mobile">
-    <img class="hamburger" id="hamburger" src="{{ "/img/icon/hamburger.svg" | relative_url }}" />
-    <img class="logo" src="{{ "/img/logo.png" | relative_url }}" />
+    <img class="hamberder" id="hamberder" src="{{ "/img/icon/hamberder.svg" | relative_url }}" />
+    <img class="logo" src="{{ "/img/logo.svg" | relative_url }}" />
   </nav>
   <div id="mobile-nav" class="hidden">
     <img id="close" src="{{ "/img/icon/close.svg" | relative_url }}" />
@@ -47,7 +47,7 @@
     {{ content }}
   </main>
   <script type="text/javascript">
-  document.getElementById("hamburger").onclick = function(e) {
+  document.getElementById("hamberder").onclick = function(e) {
     document.getElementById("mobile-nav").classList.remove("hidden");
   };
 
