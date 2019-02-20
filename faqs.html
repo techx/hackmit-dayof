@@ -8,7 +8,11 @@ main {
 }
 
 h3, p {
-  text-align: center;
+  text-align: left;
+}
+
+h3 {
+  color: #34bac8;
 }
 
 p {
@@ -16,7 +20,12 @@ p {
 }
 </style>
 
-<h1>F<span>A</span><span color="black">Q</span></h1>
+<h1>
+  <span style='color: #ec5760'>F</span>
+  <span style='color: #34bac8'>A</span>
+  <span style='color: #f6c55e'>Q</span>
+</h1>
+
 <p>Got a question that isn't in this list? Go to the help desk! If you're not in the Stata Center or the Media Lab, call our hotline at <a href="tel:7742904225">(774) 290-HACK</a>.</p>
 {% for question in site.data.questions %}
 <h3>{{ question.prompt }}</h3>
