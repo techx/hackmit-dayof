@@ -117,11 +117,12 @@ main h3 {
 
 main .box-container {
   display: flex;
+  width: 960px;
 }
 
 main .box {
   flex: 1 1;
-  margin: 0 16px;
+  margin: 0;
 }
 
 main .box p {
