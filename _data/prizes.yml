@@ -1,112 +1,17 @@
-- title: General Prizes
+- title:
   prizes:
-    - title: First Place
-      prize: Reimbursement to a Tech Conference
-    - title: Second Place
-      prize: Hardware Package
-    - title: Third Place
-      prize: Nintendo Switch + SMO
-- title: Category Prizes
-  prizes:
-    - title: Hack for a Night Out
-      prize: Launchpad
-      description: How can you make a night on the town even better?
-    - title: Take Us on an Adventure
-      prize: Fitbit Versa
-      description: How can you provide an experience unlike any seen before?
-    - title: Explore New Territory
-      prize: Parrot Jumping Sumo
-      description: How willing are you to get out of your comfort zone?
-- title: Sponsor Prizes
-  description: See sponsor booths for more details!
-  prizes:
-    - title: Rigetti Quantum Prize
-      prize: Beta account for Rigetti Quantum Cloud Services, priority access to Rigetti's next QPUs and platform
-      description: We will award a prize to the team that comes up with the most novel use of Rigetti's quantum computing platform.
-    - title: Best Use of GIPHY API
-      prize: 3D Printing Pen
-      description: "This award will go to the team with the most creative, unique use of the GIPHY API, as judged by our attending mentors. GIPHY API: https://developers.giphy.com/docs/."
-    - title: Best use of the Plaid API
-      prize: $1,000 cash
-      description: The Plaid API allows for developers to build applications on top of banking data. Apps like Venmo, Robinhood, Coinbase, and Drop use Plaid to build out their products - helping people make more sense of their financial lives. Use Plaid to pull real time transactions, check the balance of an account, or get identity data associated with the account. We're excited to award a $1000 prize to the most innovative usage of the Plaid API at HackMIT!
-    - title: VR Zone by Google
-      prize: Vive VR Kit
-      description: Win a Vive VR Kit by creating a unique VR project.
-    - title: Best Disaster Preparedness & Relief Solutions for IBM Call for Code Challenge
-      prize: $2,000 for first place, $1,000 for second place, priority placement for IBM internships at MIT/IBM Watson AI Lab
-      description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Call for Code Challenge\", hackers need to incorporate at least one of the API services from https://console.bluemix.net/catalog/ into their project Submissions will be judged across 4 areas: Completeness and Transferability Effectiveness and Efficiency Design and Usability Creativity and Innovation."
-    - title: Best Use of Data
-      prize: $800 gift card for Southwest Airlines
-      description: This will be judged best on usefulness, How does the data you are collecting help the people you want to serve? In order to be eligible, you must use at least one Amadeus API. This prize will be awarded to the winning team. There is no minimum or maximum number of members per team.
-    - title: Best in Show
-      prize: $1,000 gift card for Southwest Airlines
-      description: Best overall Hack using the an Amadeus API. Factors that will be considered include but are not limited to business use, mass appeal, and how well the final product works. In order to be eligible, you must use at least one Amadeus API. This prize will be awarded to the winning team. There is no minimum or maximum number of members per team.
-    - title: Best Use of BNP Paribas APIs
-      prize: Shadow our Artificial Intelligence lab for a day, and interview for a summer internship in New York
-      description: BNP Paribas provides a number of APIs to third parties to access financial market information as well as query information from client accounts. Consume these APIs and propose an innovative way of interacting with the bank for our clients. The winning team will be invited for a day to shadow our NY Innovation lab working on Artificial Intelligence, and to onsite interviews for a summer internship in New York.
-    - title: Best Use of DocuSign's eSignature API
-      prize: $2,000 cash, internship/full-time job interview, VIP passes to DocuSign Momentum, pitch your winning product to SVP engineering
-      description: "We are looking for novel hacks that involve preparing, signing, sending, and managing the status of \"digital envelopes.\" Some examples include: Natural language processing on contracts to determine sentiment, ML to authenticate wet signatures, faces, finger prints, etc., using Amazon Alexa, chat bots to accept your DocuSign job offer! The winning hack will likely incorporate at least one of the following DocuSign API features into their project: authentication, connect/event notifications, embedded signing, composite templates, DocuSign payments. Check out https://developers.docusign.com/ for more information! 1st place winners get: $2000 Cash, internship/full-time job interview, VIP Passes to DocuSign Momentum Conference in San Francisco, pitch your winning project to SVP Engineering. Winning team will be featured on the Developer Center and will be showcased on DocuSign's social media platforms. Runners up get $1000 Cash. For more information, go to <a href=\"https://github.com/DocuSign-Hackathons/getting-started\" target=\"_blank\">https://github.com/DocuSign-Hackathons/getting-started</a>"
-    - title: Best Use of Facebook API
-      prize: Invitation to Facebook Global Hack Finals
-      description: Each member of the winning team for the best use of Facebook's API will be invited to our Facebook Global Hack Finals at our headquarters office located in Menlo Park, CA. We will take care of all your travel and hotel accommodations!
-    - title: Best Use of Google Cloud Platform or Firebase
-      prize: Google Home Minis
-      description: Win Google Home Minis for yourself and your three teammates by demonstrating the best use of Google Cloud Platform in your hack.
-    - title: Azure Champ
-      prize: Advance to Imagine Cup 2019 Semi-Finals, 4 Xbox One Xs
-      description: "Any team that chooses to enter will evaluated on the following criteria: Judging criteria: 1. Was the project developed using Microsoft Azure? (required for entry) 2. Does the project address a clear need, problem, or opportunity and is the solution clearly explained? (10 points) 3. Does the project include innovations in technical design and/or implementation of services (e.g., Cognitive Services, Bot Services, IoT Hub, Functions) and/or user experience? (20 points) 4. Does the project have a clear target market or audience? (5 points) 5. Is the project’s purpose and basic functionality easily understood? (5 points) 6. Does the project have a professional degree of production in terms of performance, user interface, visuals, and audio? (10 points) Winner is highest total score out of 50 Tie-break: Does the team have a credible plan for getting their project to market in terms of business model, any required partnerships, or other factors? Winners get automatic entry in Imagine Cup 2019 Semi-Finals and two chances to become one of the few elite teams at our regional finals, plus 4 Xbox One Xs"
-    - title: Most Interesting Use of Text-Based Machine Learning by Quora
-      prize: Visa gift cards
-      description: Most interesting use of text based machine learning during hacking. Winners get Visa gift cards.
-    - title: Shopping in 3D Gaming and Other Applications for the World’s leading Video Retailer, QVC
-      prize: Trip to QVC's offices, Oculus Go
-      description: "Hack the way the world shops. We are looking for the coolest hacks that redefine shopping, using 3D product technologies to enhance the shopping experience. Examples: Gamification – loyalty programs or marketing campaigns | Augmented Reality – enhance the at-home experience | Virtual Reality – use VR in exciting new ways. Grand prize: Your team will be flown to QVC’s offices to present to QVC executives and a VIP tour the offices and Philadelphia - 2 days, 1 night. The runner up team will each receive an Oculus Go - 3D Virtual Reality headset."
-    - title: Best Use of RevSpeech
-      prize: $1,000 per teammate
-      description: RevSpeech is the most accurate Speech-to-Text service on the market. We want to see what you can do with it! This prize will go to the team that creates the most novel use of our Speech-to-Text engine. We want to see you leverage our RevSpeech API as creatively and effectively as possible. Winners get $1000 per teammate.
-    - title: Best Use of Location Data
-      prize: Philips Hue LED Starter Kit
-      description: At Samsara, we believe that sensor data will increase the safety and efficiency of physical operations, and that new technologies will bring an explosion of sensors into environments where they've never been possible before. We will be awarding the hack with the best use of location data a Philips Hue Lights Starter Kit for each team member. Winners get Philips - Hue White and Color Ambiance A19 LED Starter Kit.
-    - title: "\"The Future Sooner\" (Best Dev Tool)"
-      prize: $1,000 cash prize
-      description: Award for the best tool that makes developers more productive and brings the future sooner. Winners get $1000 cash prize.
-    - title: Best Spell API hack
-      prize: Mavic Air Drone
-      description: Best use of the Spell API. The Spell API allows you to programmatically schedule and manage machine learning experiments using Spell's cloud GPU services. We want to see your ideas for training and running neural networks using Spell's platform! Winners get a Mavic Air (drone).
-    - title: Best Use of Stellar Network
-      prize: Ledger Nano S, $1,000 of Stellar Lumens
-      description: "Prize will be awarded to the best usage of the Stellar network within an application. Example ideas include: data visualizations and analytics of quorums, transactions, path payments, and other objects on the Stellar network; hardware and IoT hacks; novel usage of tokens (assets) in games (pay-per-play, unlockable content, achievements, etc.); money flow visualizations, trading bots, wash trade detectors, and other finance focused apps, and anything else you can think of! Many ideas can be found on Galactic Talk, a community forum dedicated to Stellar: https://galactictalk.org/. 1st place winners get one Ledger Nano S per team member and $1000 of Stellar Lumens (XLM) per team. Runners up get one Ledger Nano S per team member and $250 of Stellar Lumens (XLM) per team. More information can be found at <a href=\"https://docs.google.com/document/d/1s8gvLPzzca5jRTpd7QS0e5J-Bw1PSp7-bMEUex-k18I/edit\" target=\"_blank\">https://bit.ly/stellar-hackmit2018</a>"
-    - title: Niantic Augmented Reality Prize
-      prize: $4,000 and a Pikachu beanbag bed
-      description: Make the world a more interesting place with AR! We are looking for novel applications of AR that are utilitarian, assistive, or just plain cool. Use whatever APIs or hardware you want - though we are most excited by visual AR. Winners get $4000 cash (split among team members) and 1 full-sized Pikachu beanbag bed.
-    - title: Best Use of Wolfram Technologies
-      prize: Wolfram|One Personal Edition, Wolfram|Alpha Pro, $100 in cash
-      description: Wolfram|One is the world's first fully cloud-desktop hybrid, integrated computation platform—the ideal entry point to using the full capabilities of the Wolfram technology stack. Wolfram|Alpha Pro lets you do more with Wolfram|Alpha. Upload your own data and images for analysis, get customized and interactive visuals for presentations, download data, get more computation time, access optimized web apps… and support the long-term development of Wolfram|Alpha as a resource for the world. Winners get 1 year of Wolfram|One Personal Edition, 1 year of Wolfram|Alpha Pro, and $100 cash for each person on the winning team (Up to 5 people).
-    - title: Best Use of Deep Neural Networks
-      prize: $200 of Spell credit
-      description: We want to see your creative applications of deep neural networks. Maybe it's an art project, a generated book of poetry, or an app that predicts housing prices. As long as it uses a pre-trained network and Spell's cloud GPU, it's fair game! Winners get $200 free credit on Spell.
-    - title: element14 Presents a Robotics Kit
-      prize: Texas Instruments RSLK Advanced Kit
-      description: The TI-RSLK Maze Edition Advanced Kit builds on the concepts and materials found in the basic kit, adding wireless communication concepts with TI’s SimpleLink Bluetooth low energy CC2650 module BoosterPack plug-in module and SimpleLink Wi-Fi CC3120 wireless network processor BoosterPack plug-in module that enable the robot to be competition-ready against other TI-RSLK robots. This robot can solve its way through a maze using both obstacle avoidance and line detection through more accurate distance sensing with infrared sensors. The kit includes a tachometer (encoder) that allows the user to control the speed and direction of the motor and introduces the concept of closed loop control systems. In addition, an optional monochrome LCD screen (Newark part no.53W5865, manufacturer part no. 338) can be purchased separately, which allows students to easily debug code while reading data from the sensors. Winners get a Texas Instruments RSLK Advanced Kit.
-    - title: Nasdaq Best "Markets Everywhere" Hack
-      prize: Job Interview, Trip to Nasdaq, Lunch at Nasdaq, Picture in Times Square
-      description: Winners get an internship/full-time job interview, a trip to Nasdaq HQ in New York City, lunch with senior Nasdaq leader, and the winning team will have their picture on Nasdaq's Times Square screen and will be shared on Nasdaq's social media platforms.
-    - title: "\"Best Innovative Use of Artificial Intelligence, Data Science, & Machine Learning\" Presented by RBC Capital Markets"
-      prize: iPads, $100 gift cards
-      description: "RBC Capital Markets strives to always promote innovation and creativity! We are looking for an original solution that utilizes artificial intelligence, data science, and machine learning, for example, a hack that: is applicable to a financial services use case, helps our clients make smarter decisions with use of AI/ML models, tackles different levels of data latency and workflows (i.e. microbatching and/or streaming), provides color to market research, trading signals, or trade anomalies, or uses natural language processing that helps structure obscure market data. 1st place winners get the newest iPad. Runners up get $100 gift cards for each team member."
-    - title: Most Novel Data Mobility Hack by Dell
-      prize: Alienware 34-inch Curved Gaming Monitor
-      description: With so many storage types File, block, object(cloud) - seamlessly mobilizing the data where its economical and most useful depending on application needs. If you build this for any Dell line of functions or products then would get an edge over others. Winners get an Alienware 34-inch Curved Gaming Monitor.
-    - title: "Best \"Impossible\" Hack"
-      prize: Dinner with Pear VC team
-      description: The most world-changing things often seem impossible or unbelievable at first - because of hard technical challenges, paradigm shifts in how we think about an industry, or the discovery of new problem spaces that others just haven't recognized. This prize goes to the team with the most compelling project that hacks tech or problems in a way that didn't seem originally possible. Winners get a dinner with the Pear VC team + opportunity to pitch to Pear VC partners.
-    - title: Best Use of Kensho Knowledge Graph API
-      prize: Audio-Technica or Bose Headphones, $50 Amazon gift card
-      description: "Challenge: Use the Kensho Knowledge Graph API in the most clever / novel / creative / insightful way. We want you to use our API to provide some interesting insight, prediction, or visualization of some world event (s) (does not have to finance). API Info / Instructions Kensho Knowledge Graph API - Be the first ever (literally, we've opened this up last week!) Non-client user of the Kensho Knowledge Graph API. We provide years of data on events, companies, people and going ons of the world of finance + geopolitics. You're looking for dates on presidential speeches, missile launches, mergers, or product releases, we've got it! 1st place winners get one pair of Audio-Technica ATH-M50x or Bose QuietComfort 25 headphones per team member. Runners up get one $50 Amazon gift card per team member."
-    - title: "Cadillac: Time = Luxury"
-      prize: All-expenses-paid trip to Martha's Vineyard, Cadillac swag
-      description: For some, luxury means being able to kick back and let technology do the work for you. Develop an app for the Cadillac in-vehicle infotainment system that enables luxury for a Cadillac owner in the form of peace of mind and/or saving time. Winners get an all-expenses-paid trip to Martha's Vineyard ($1,500 value), and Cadillac swag for the team ($100 value).
-    - title: "Cadillac: Mobility as a Service"
-      prize: All-expenses-paid trip to NYC, Cadillac swag
-      description: With mobility options; vehicle subscriptions, metro, e-bikes, scooters, etc. ever-expanding, customers are spoilt for choice. Develop an app that enables mixed mobility as a service, while ensuring the experience is luxury, e.g. seamless transitions. Winners get an all-expenses paid trip to NYC ($1,500 value), and Cadillac swag for the team ($100 value).
+    - title: 1st Beginner
+      prize: Prize- Coolest Prize!!!
+    - title: 1st Experienced
+      prize: Prize- Best Prize!!!
+    - title: 2nd Beginner
+      prize: Prize- Cooler Prize!!
+    - title: 2nd Experienced
+      prize: Prize- Better Prize!!
+    - title: 3rd Beginner
+      prize: Prize- Cool Prize!
+    - title: 3rd Experienced
+      prize: Prize - Good Prize!
+
+
+
