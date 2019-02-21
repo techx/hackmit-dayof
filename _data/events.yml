@@ -1,200 +1,120 @@
-saturday:
-  - start: 8:00am
-    end: 10:00am
-    name: Check In & Breakfast
-    location: Tent
-  - start: 10:00am
-    end: 11:00am
-    name: Opening Ceremony
-    location: Kresge Auditorium
-  - start: 11:00am
-    name: Hacking Starts!
-  - start: 11:00am
-    end: 11:30am
-    name: Mentor Orientation
-    location: Johnson Media Room
-  - start: 11:30am
-    end: 12:00pm
-    name: Team Formation
-    location: Kresge Rehearsal Room B
-  - start: 11:30am
-    end: 12:00pm
-    name: Beginner Office Hours
-    location: Johnson Media Room
-    workshop: true
-  - start: 12:00pm
-    end: 12:30pm
-    name: Beginner Office Hours
-    location: Johnson Media Room
-  - start: 12:00pm
-    end: 1:00pm
-    name: Lunch by Cafe Luna
-    location: Tent
-  - start: 12:30pm
-    end: 1:00pm
-    name: "Arduino: FPGA"
-    location: Mezzanine Lounge
-    workshop: true
-  - start: 12:45pm
-    end: 1:15pm
-    name: "QVC: Video Based Retailing"
-    location: Johnson Media Room
-    workshop: true
-  - start: 1:15pm
-    end: 2:15pm
-    name: Making a Difference in the World with AI and IBM Cloud
-    location: Johnson Media Room
-    workshop: true
-  - start: 2:00pm
-    end: 6:00pm
-    name: GM Ride and Drive
-    location: Kresge Turnaround
-    workshop: true
-  - start: 2:15pm
-    end: 2:45pm
-    name: "Beyond Cryptocurrency: Blockchain for Real-World Assets by Stellar"
-    location: Johnson Media Room
-    workshop: true
-  - start: 2:45pm
-    end: 3:15pm
-    name: Amadeus Tech Talk
-    location: Johnson Media Room
-    workshop: true
-  - start: 3:15pm
-    end: 4:15pm
-    name: "Rigetti: How to Program a Quantum Computer"
-    location: Mezzanine Lounge
-    workshop: true
-  - start: 3:15pm
-    end: 4:15pm
-    name: "Bookbub: Hacking on Prototypes with React"
-    location: Johnson Media Room
-    workshop: true
-  - start: 4:15pm
-    end: 4:45pm
-    name: "Caging the Dragon: The Story of Etsy's Data Platform Cloud Migration"
-    location: Johnson Media Room
-    workshop: true
-  - start: 4:45pm
-    end: 5:15pm
-    name: How to Play Rocket League with your Cadillac by GM
-    location: Johnson Media Room
-    workshop: true
-  - start: 5:15pm
-    end: 5:45pm
-    name: Enable Your Users with AI by Microsoft
-    location: Johnson Media Room
-    workshop: true
-  - start: 5:15pm
-    end: 5:45pm
-    name: Intro to Common NLP Techniques by Quora
-    location: Mezzanine Lounge
-    workshop: true
-  - start: 5:00pm
-    end: 5:30pm
-    name: Outdoor Mini-Events
-    location: Briggs Field
-  - start: 5:45pm
-    end: 6:15pm
-    name: "Rev: Intro to TypeScript - Bringing Sanity to Web Dev"
-    location: Johnson Media Room
-    workshop: true
-  - start: 6:00pm
-    end: 8:00pm
-    name: BU/MIT Tech & Cyberlaw Clinic Office Hours
-    location: PDR 1
-    workshop: true
-  - start: 6:00pm
-    end: 7:00pm
-    name: Dinner by Sebastian's
-    location: Tent
-  - start: 6:30pm
-    end: 7:00pm
-    name: Intro to Distributed Databases by Cockroach Labs
-    location: Johnson Media Room
-    workshop: true
-  - start: 7:00pm
-    end: 7:30pm
-    name: Explore Artificial Neural Networks with RBC CM
-    location: Johnson Media Room
-    workshop: true
-  - start: 7:30pm
-    end: 8:00pm
-    name: Abs & Meditation with Jenny
-    location: Tent
-  - start: 7:30pm
-    end: 8:15pm
-    name: "Diving into Google Products: Intro to Google Cloud & an Exploration of Daydream VR"
-    location: Johnson Media Room
-    workshop: true
-  - start: 8:15pm
-    end: 9:00pm
-    name: "Q&A: Heather and Alex"
-    location: Johnson Media Room
-    workshop: true
-  - start: 8:00pm
-    end: 9:00pm
-    name: Dance Workshop
-    location: T-Club
-  - start: 9:15pm
-    end: 9:45pm
-    name: Fireside Chat with Michael Seibel
-    location: Johnson Media Room
-    workshop: true
-  - start: 9:00pm
-    end: 10:00pm
-    name: De-stress with Therapy Dogs!
-    location: Johnson Lobby
-  - start: 10:00pm
-    end: 10:30pm
-    name: Fireside Chat with Marten Mickos
-    location: Johnson Media Room
-    workshop: true
-  - start: 10:30pm
-    end: 11:00pm
-    name: Bubble Tea by Kung Fu Tea
-    location: Johnson Lobby
-  - start: 10:45pm
-    end: 11:15pm
-    name: "Q&A: Adam D'Angelo"
-    location: Johnson Media Room
-    workshop: true
-  - start: 11:00pm
-    end: 12:00am
-    name: Night-time Photobooth & Mocktail Bar
-    location: Johnson Lobby
-sunday:
-  - start: 12:00am
-    end: 1:00am
-    name: Pizza by Domino's
-    location: Johnson Lobby
-  - start: 2:00am
-    end: 3:00am
-    name: Insomnia Cookies
-    location: Johnson Lobby
-  - start: 2:00am
-    end: 3:00am
-    name: Trivia Night
-    location: Johnson Media Room
-  - start: 8:00am
-    end: 9:00am
-    name: Breakfast by Sebastian's
-    location: Tent
-  - start: 10:00am
-    name: Project Submissions Due on Devpost
-  - start: 11:00am
-    name: Hacking Ends / Judging Begins!
-  - start: 12:00pm
-    end: 1:00pm
-    name: Lunch by Cafe Luna
-    location: Tent
-  - start: 2:15pm
-    end: 3:00pm
-    name: Project Expo Begins!
-    location: Johnson Arena
-  - start: 3:00pm
-    end: 4:00pm
-    name: Closing Ceremony
-    location: Kresge Auditorium
-  - start: 5:00pm
-    name: Buses Leave
+- name: learnathon
+  color: yellow
+  date: saturday, feb 23
+  location: mit stata center
+  events:
+    - name: check-in & breakfast
+      time: 8:30 AM
+      location: check-in desk
+    - name: opening ceremony
+      time: 9:30 AM
+      location: 32-123
+      color: blue
+    - name: laptop checkout
+      time: 9:45 AM
+      location: check-in desk
+    - name: workshop &#35;1
+      color: yellow
+      time: 10 AM
+      events:
+        - name: web
+          location: 32-155
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: tech talks
+      time: 11:30 AM
+      color: blue
+      events:
+        - name: talk &#35;1
+          location: 32-155
+        - name: talk &#35;2
+          location: 32-141
+    - name: lunch
+      time: 12 PM
+      location: student street
+    - name: workshop &#35;2
+      time: 1 PM
+      color: yellow
+      events:
+        - name: web
+          location: 32-155
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: workshop &#35;3
+      time: 2 PM
+      color: yellow
+      events:
+        - name: web
+          location: 32-155
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: tech talks
+      time: 3 PM
+      color: blue
+      events:
+        - name: talk &#35;1
+          location: 32-155
+        - name: talk &#35;2
+          location: 32-141
+    - name: workshop &#35;4
+      time: 3:30 PM
+      color: yellow
+      events:
+        - name: web
+          location: 32-155
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: closing ceremony
+      time: 4:30 PM
+      location: 32-123
+      color: blue
+- name: hackathon
+  color: red
+  date: sunday, feb 24
+  location: mit media lab
+  events:
+    - name: check-in & breakfast
+      time: 7 AM
+      location: check-in desk
+    - name: opening ceremony
+      time: 8 AM
+      location: multi-purpose room (MPR)
+    - name: hacking starts at 8:30 AM!
+      time: 8:30 AM
+      color: red
+      events:
+        - name: laptop checkout
+          color: gray
+          location: help desk
+        - name: team formation & ideation
+          location: lecture hall
+    - name: student panel
+      time: 11:30 AM
+      location: lecture hall
+      color: blue
+    - name: lunch
+      time: 12:30 PM
+      location: kitchen
+    - name: campus excursion
+      time: 2:30 PM
+      location: MIT
+    - name: submission deadline 5:30 PM!
+      color: red
+      events: none
+    - name: dinner
+      time: 5:30 PM - 7 PM
+      location: kitchen
+    - name: project judging
+      time: 6 PM - 7 PM
+      location: everywhere!
+    - name: closing ceremony
+      time: 7 PM
+      location: multi-purpose room (MPR)
