@@ -3,23 +3,150 @@ layout: default
 title: maps
 ---
 <style type="text/css">
-main {
-  max-width: 600px;
+.maps-container {
+  display: flex;
+  width: 960px;
 }
 
-p {
-  font-size: 18px;
+.left {
+  flex-basis: 25%;
+  margin-right: 32px;
+}
+
+.left h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.buttons {
+  margin-bottom: 36px;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 24px;
+  padding: 8px;
+  position: relative;
   text-align: center;
 }
 
-img.map {
-  margin-top: 24px;
+.button h2 {
+  margin-bottom: 0;
+}
+
+.button.yellow {
+  background: rgb(239, 198, 111);
+}
+
+.button.blue {
+  background: rgb(172, 218, 222);
+}
+
+.button.red {
+  background: rgb(219, 97, 100);
+}
+
+.button .arrow {
+  width: 0;
+  height: 0;
+
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid transparent;
+
+  display: none;
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button.active .arrow, .button:hover .arrow {
+  display: block;
+}
+
+.button.yellow .arrow {
+  border-left-color: rgb(239, 198, 111);
+}
+
+.button.blue .arrow {
+  border-left-color: rgb(172, 218, 222);
+}
+
+.button.red .arrow {
+  border-left-color: rgb(219, 97, 100);
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+p a {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.right {
+  flex-basis: 75%;
+}
+
+#map {
   width: 100%;
 }
 </style>
 
-<h1>maps!</h1>
-<p>Below are a couple of maps that you may find useful. <a href="https://whereis.mit.edu" target="_blank">whereis.mit.edu</a> also provides an interactive map of MIT's campus. For shuttle schedules, download the <a href="https://ist.mit.edu/mit-mobile/android-ios" target="_blank">MIT Mobile App</a> from the <a href="https://itunes.apple.com/us/app/mit-mobile/id353590319?mt=8" target="_blank">App Store</a> or the <a href="https://play.google.com/store/apps/details?id=edu.mit.mitmobile2&hl=en_US" target="_blank">Google Play Store</a>.</p>
-<img class="map" src="{{ "/img/stata_map.png" | relative_url }}" />
-<img class="map" src="{{ "/img/medialab_map.png" | relative_url }}" />
-<img class="map" src="{{ "/img/mitmap.png" | relative_url }}" />
+<div class="maps-container">
+  <div class="left">
+    <h1>maps!</h1>
+    <div class="buttons">
+      {% for map in site.data.maps %}
+      <div class="button {{ map.color }}">
+        <h2>{{ map.name }}</h2>
+        <div class="arrow"></div>
+      </div>
+      {% endfor %}
+    </div>
+    <p><a href="https://whereis.mit.edu" target="_blank">whereis.mit.edu</a> provides an interactive map of MIT's campus.</p>
+    <p>For shuttle schedules, download the <a href="https://ist.mit.edu/mit-mobile-app" target="_blank">MIT Mobile App</a> from the App Store or Google Play Store.</p>
+  </div>
+  <div class="right">
+    <img id="map" src="{{ "/img/stata_map.png" | relative_url }}" />
+  </div>
+</div>
+
+<script type="text/javascript">
+  var active = "{{ site.data.maps.first.name }}";
+  var buttons = document.getElementsByClassName("button");
+
+  buttons[0].classList.add("active");
+
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function(event) {
+      var target = event.target;
+
+      if (target.tagName.toLowerCase() !== "h2") {
+        target = target.childNodes[1];
+      }
+
+      for (var j = 0; j < buttons.length; j++) {
+        buttons[j].classList.remove("active");
+
+        if (buttons[j].childNodes[1].innerHTML == target.innerHTML) {
+          buttons[j].classList.add("active");
+
+          var map = document.getElementById("map");
+
+          if (j === 0) {
+            map.setAttribute("src", "{{ site.data.maps.first.url | relative_url }}");
+          } else {
+            map.setAttribute("src", "{{ site.data.maps.last.url | relative_url }}");
+          }
+        }
+      }
+    });
+  }
+</script>
