@@ -3,174 +3,230 @@ layout: default
 title: Schedule
 ---
 <style type="text/css">
-table {
-  width: 100%;
-}
-
-thead {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-td {
-  line-height: 24px;
-}
-
-td.center {
-  text-align: center;
-}
-
-td.spacer {
-  width: 12px;
-}
-
-td.nowrap {
-  white-space: nowrap;
-}
-
-.segmented-control {
-  border: 2px #edfaf0 solid;
-  border-radius: 8px;
+.schedule-container {
   display: flex;
-  margin-bottom: 32px;
-}
-
-.segmented-control .option {
-  cursor: pointer;
-  flex: 1 1;
-  min-height: 36px;
-}
-
-.segmented-control .option.selected {
-  background: #edfaf0;
-  color: #180724;
-}
-
-.segmented-control .option .text-container {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.segmented-control .option p {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  margin: 0 auto;
+  width: 760px;
 }
 
 .day {
-  background: #edfaf0;
-  color: #180724;
+  flex: 1;
+  margin: 0 16px;
+}
+
+.day-name-box {
+  width: 100%;
+}
+
+.day-name {
+  padding: 8px;
+  width: 100%;
+}
+
+.day-name-box .arrow {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #000;
+
+  width: 0;
+  height: 0;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.day.yellow .arrow {
+  border-top-color: rgb(239, 198, 111);
+}
+
+.day.red .arrow {
+  border-top-color: rgb(219, 97, 100);
+}
+
+.day-name h2 {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
   text-align: center;
 }
 
-.day td {
-  border-radius: 4px;
-  padding: 4px 0;
+.day.yellow .day-name {
+  background: rgb(239, 198, 111);
 }
 
-.space {
-  height: 8px;
+.day.red .day-name {
+  background: rgb(219, 97, 100);
 }
 
-.space.big {
-  height: 16px;
+.day .day-details {
+  letter-spacing: 0.05em;
+  margin-top: 18px;
+  margin-bottom: 22px;
 }
 
-@media only screen and (max-width: 760px) {
-  td.nowrap {
-    white-space: normal;
-  }
+.day .day-details p:first-of-type {
+  margin-bottom: 4px;
+}
+
+.day .day-details span {
+  font-weight: 600;
+}
+
+.day.yellow .day-details span {
+  color: rgb(239, 198, 111);
+}
+
+.day.red .day-details span {
+  color: rgb(219, 97, 100);
+}
+
+.events {
+  border-left: 2px solid rgb(239, 198, 111);
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+.day.yellow .events {
+  border-color: rgb(239, 198, 111);
+}
+
+.day.red .events {
+  border-color: rgb(219, 97, 100);
+}
+
+.event {
+  background: rgb(223, 226, 229);
+  color: #000;
+  margin: 8px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.event:first-of-type {
+  margin-top: 0;
+}
+
+.event:last-of-type {
+  margin-bottom: 0;
+}
+
+.event.yellow {
+  background: rgb(239, 198, 111);
+}
+
+.event.blue {
+  background: rgb(172, 218, 222);
+}
+
+.event.red {
+  background: rgb(219, 97, 100);
+  color: #fff;
+}
+
+.event .name {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+}
+
+.event .details {
+  letter-spacing: 0.05em;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading .circle {
+  background: rgb(239, 198, 111);
+  border-radius: 50%;
+  height: 12px;
+  left: -13px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 12px;
+}
+
+.heading.blue .circle {
+  background: rgb(172, 218, 222);
+}
+
+.heading.red .circle {
+  background: rgb(219, 97, 100);
+}
+
+.heading > p {
+  color: rgb(239, 198, 111);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-left: 8px;
+}
+
+.heading.blue > p {
+  color: rgb(172, 218, 222);
+}
+
+.heading.red > p {
+  color: rgb(219, 97, 100);
+}
+
+.heading .subevents {
+  display: flex;
+}
+
+.heading .subevents .event {
+  flex: 1;
+  margin: 8px 4px;
+}
+
+.heading .subevents .event:first-of-type {
+  margin-left: 0;
+}
+
+.heading .subevents .event:last-of-type {
+  margin-right: 0;
 }
 </style>
 
-<h1>Schedule</h1>
-<div class="segmented-control">
-  <div class="option selected" option="0">
-    <div class="text-container">
-      <p>General Events</p>
+<div class="schedule-container">
+  {% for day in site.data.events %}
+  <div class="day {{ day.color }}">
+    <div class="day-name-box">
+      <div class="day-name">
+        <h2>{{ day.name }}</h2>
+      </div>
+      <div class="arrow"></div>
+    </div>
+    <div class="day-details">
+      <p><span>date:</span> {{ day.date }}</p>
+      <p><span>location:</span> {{ day.location }}</p>
+    </div>
+    <div class="events">
+      {% for event in day.events %}
+        {% if event.events %}
+        <div class="heading {{ event.color | default: "" }}">
+          <div class="circle"></div>
+          <p>{{ event.name }}</p>
+          <div class="subevents">
+            {% if event.events != "none" %}
+            {% for subevent in event.events %}
+            <div class="event subevent {{ subevent.color | default: event.color | default: "" }}">
+              <p class="name">{{ subevent.name }}</p>
+              <p class="details">{{ event.time }}</p>
+              <p class="details">{{ subevent.location }}</p>
+            </div>
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+        {% else %}
+        <div class="event {{ event.color | default: "" }}">
+          <p class="name">{{ event.name }}</p>
+          <p class="details">{{ event.time }} | {{ event.location }}</p>
+        </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
-  <div class="option" option="1">
-    <div class="text-container">
-      <p>Workshops, Tech Talks, and Fireside Chats</p>
-    </div>
-  </div>
+  {% endfor %}
 </div>
-<table>
-  <thead>
-    <tr>
-      <td>Start</td>
-      <td class="spacer"></td>
-      <td>End</td>
-      <td class="spacer"></td>
-      <td>Event</td>
-      <td class="spacer"></td>
-      <td>Location</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="space"></tr>
-    <tr class="day">
-      <td colspan="7">Saturday</td>
-    </tr>
-    <tr class="space"></tr>
-    {% for event in site.data.events.saturday %}
-    {% if event.workshop == null %}
-    <tr option="0">
-      {% if event.end == null %}
-      <td class="center" colspan="3">{{ event.start }}</td>
-      {% else %}
-      <td>{{ event.start }}</td>
-      <td class="spacer"></td>
-      <td>{{ event.end }}</td>
-      {% endif %}
-      <td class="spacer"></td>
-      <td>{{ event.name }}</td>
-      <td class="spacer"></td>
-      <td class="nowrap">{{ event.location }}</td>
-    </tr>
-    {% endif %}
-    {% endfor %}
-    {% for event in site.data.events.saturday %}
-    {% if event.workshop %}
-    <tr class="hidden" option="1">
-      {% if event.end == null %}
-      <td class="center" colspan="3">{{ event.start }}</td>
-      {% else %}
-      <td>{{ event.start }}</td>
-      <td class="spacer"></td>
-      <td>{{ event.end }}</td>
-      {% endif %}
-      <td class="spacer"></td>
-      <td>{{ event.name }}</td>
-      <td class="spacer"></td>
-      <td class="nowrap">{{ event.location }}</td>
-    </tr>
-    {% endif %}
-    {% endfor %}
-    <tr class="big space"></tr>
-    <tr class="day" option="0">
-      <td colspan="7">Sunday</td>
-    </tr>
-    <tr class="space"></tr>
-    {% for event in site.data.events.sunday %}
-    {% if event.workshop == null %}
-    <tr option="0">
-      {% if event.end == null %}
-      <td class="center" colspan="3">{{ event.start }}</td>
-      {% else %}
-      <td>{{ event.start }}</td>
-      <td class="spacer"></td>
-      <td>{{ event.end }}</td>
-      {% endif %}
-      <td class="spacer"></td>
-      <td>{{ event.name }}</td>
-      <td class="spacer"></td>
-      <td class="nowrap">{{ event.location }}</td>
-    </tr>
-    {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
-<script src="schedule.js"></script>
