@@ -42,6 +42,11 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: #34bac8;
+  letter-spacing: .1em;
+}
+
 .hidden {
   display: none;
 }

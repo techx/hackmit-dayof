@@ -1,18 +1,8 @@
-- prompt: How do I connect to Wi-Fi?
-  answer: In Johnson arena, connect to the network called <span class="code">HackMIT</span> with the password <span class="code">onatrip!</span>
-- prompt: I'm tired! How do I go to sleep?
-  answer: Call your host, ask them to pick you up, and they'll escort you to their not-at-all cramped rooms.
-- prompt: Can I leave Johnson whenever I want?
-  answer: For security reasons, if you want to leave Johnson you'll need to call your host and have him/her escort you back.
-- prompt: I need technical help. How do I get help on [API, language]?
-  answer: We have a <a href="https://q.hackmit.org" target="_blank">help queue</a> and mentors to help you along!
-- prompt: I'm hungry! How do I get food?
-  answer: We'll have food events throughout the day/night; check the day-of booklet or this website for information. We also have an abundant supply of healthy and non-healthy snacks at the SnackMIT stand in Johnson hallway.
-- prompt: Something isn't working! I'm confused! What even is doge???
-  answer: Please come to the Help Desk and tell us – we'll be happy to help!
-- prompt: When do I need to submit my project by?
-  answer: You'll need to <a href="https://go.hackmit.org/submit" target="_blank">submit your project</a> by 11am on Sunday.
-- prompt: When do I need to form my team by?
-  answer: We will have a team formation event from 11am - 11:30am on Saturday in Kresge Rehearsal Room B. Let us know who's on your team and where you're all working as soon as you can. You'll need to tell us your team and location (table number) by Sunday morning.
-- prompt: How does judging work?
-  answer: We will have a judging expo on Sunday from 11am - 1pm. Feel free to wander around and check out other projects, but make sure at least one of your team members is at your table to present to judges. The top teams will move on to an additional round of panel judging.
+- prompt: I came late / I don’t know where to go!
+  answer: Come to Help Desk and we’ll get you up to speed!
+- prompt: What if I don’t have a team?
+  answer: No worries! We’ll be holding a team formation event Sunday morning to allow hackers who came without a team to find one. Feel free to also form spontaneous teams with new friends you meet through the Blueprint Facebook group or throughout the weekend!
+- prompt: How many people are allowed on a team?
+  answer: Teams can be up to four people.
+- prompt: What am I supposed to build/hack this weekend?
+  answer: There are no constraints on what you can build on Sunday! Your finished hack doesn’t have to be polished or perfect; we know there isn’t nearly enough time to build a big project -- we hope Blueprint is a launchpad for you to continue hacking on it past this weekend!
