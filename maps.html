@@ -97,6 +97,44 @@ p a {
 #map {
   width: 100%;
 }
+
+@media only screen and (max-width: 960px) {
+  .maps-container {
+    display: table;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .box img {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h1, h2 {
+    margin-left: 0;
+  }
+
+  .button {
+    display: block;
+    margin: 0 auto 16px;
+    width: 100%;
+  }
+
+  .button.active .arrow, .button:hover .arrow {
+    display: none;
+  }
+
+  .left {
+    margin-right: 0;
+  }
+
+  .right {
+    margin-top: 32px;
+  }
+}
 </style>
 
 <div class="maps-container">

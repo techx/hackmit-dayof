@@ -33,8 +33,12 @@ html, body {
 }
 
 body {
+  background: url(/img/circles.png);
+  background-size: 100px;
+  background-repeat: repeat;
   color: #000;
   font-family: "Geomanist", serif;
+  min-height: 100vh;
 }
 
 a {
@@ -102,6 +106,10 @@ main {
   max-width: 960px;
   padding: 0 24px;
   width: 100%;
+}
+
+main.skinny {
+  max-width: 760px;
 }
 
 main h1 {
@@ -181,9 +189,10 @@ nav.mobile .container {
 nav.mobile .logo {
   display: inline-block;
   margin-left: calc(50% - 24px * 3);
+  margin-top: 18px;
 }
 
-nav.mobile .hamburger {
+nav.mobile .hamberder {
   display: inline-block;
   margin: 24px 0 0 24px;
   height: 24px;
@@ -196,7 +205,8 @@ nav.mobile .hamburger {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #180724;
+  background: #0c416c;
+  z-index: 100;
 }
 
 #mobile-nav ul {

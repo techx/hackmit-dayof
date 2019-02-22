@@ -1,14 +1,14 @@
-- title: 
+- title:
   speakers:
-    - name: NAME 1 + NAME 2
-      title: Blockchain Machine Learning in the Cloud + time
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - name: NAME 1 + NAME 2
-      title: Blockchain Machine Learning in the Cloud + time
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - name: NAME 1 + NAME 2
-      title: Blockchain Machine Learning in the Cloud + time
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - name: NAME 1 + NAME 2
-      title: Blockchain Machine Learning in the Cloud + time
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - name: Olivia Brode-Roger
+      title: How does a computer work?
+      description: "Olivia is incredibly excited about... just about anything. At MIT, she switched majors 4 times and took a year to work for iCivics, a civic education non-profit. She’s still at MIT for her Master’s. Her days are filled by teaching: she teaches, takes classes about teaching, and is researching teaching techniques. She particularly loves taking what seems ordinary and revealing inner awesomeness - be it in her students, or in a computer system."
+    - name: Divya Gopinath + Rohan Kodialam
+      title: "Decoding for Dummies: How to Crack Ciphers Using Machine Learning"
+      description: Divya Gopinath and Rohan Kodialam are seniors majoring in Course 6 (Rohan’s a double major with physics, and Divya’s minoring in music). They are both from the tri-state area and think New England is overrated, with the sole exception of MIT. Their research interests lie in algorithms and machine learning, and they are both sticking around campus for another year to complete their Master’s degrees. When they are not in class, lab, rehearsal (Divya), or their frat house (Rohan), they like to lament the lack of good bagels and pizza in Boston.
+    - name: Babak Kia
+      title: What does computing mean for students and humanity?
+      description: Babak Kia is a Senior Lecturer at the BU College of Engineering where he focuses on the confluence of Innovation, Technology, and Education into the Engineering curriculum.
+    - name: MIT Rocket Team
+      title: Rockets 101
+      description: The MIT Rocket Team is a well established independent student group focused on rocket-related projects. In its 14 year history, the team has focused on projects ranging from designing and building a custom centrifugal liquid engine to the development of lighter, stronger composite airframes.

@@ -3,6 +3,12 @@ layout: default
 title: Schedule
 ---
 <style type="text/css">
+h1 {
+  display: block;
+  margin: 0 auto;
+  width: 760px;
+}
+
 .schedule-container {
   display: flex;
   margin: 0 auto;
@@ -186,8 +192,25 @@ title: Schedule
 .heading .subevents .event:last-of-type {
   margin-right: 0;
 }
+
+@media only screen and (max-width: 760px) {
+  h1 {
+    text-align: center;
+    width: auto;
+  }
+
+  .schedule-container {
+    display: block;
+    width: 100%;
+  }
+
+  .day:last-of-type {
+    margin-top: 32px;
+  }
+}
 </style>
 
+<h1>schedule!</h1>
 <div class="schedule-container">
   {% for day in site.data.events %}
   <div class="day {{ day.color }}">
