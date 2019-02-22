@@ -33,7 +33,6 @@ html, body {
 }
 
 body {
-  background: url(/img/circles.png);
   background-size: 100px;
   background-repeat: repeat;
   color: #000;
