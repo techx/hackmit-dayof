@@ -181,9 +181,10 @@ nav.mobile .container {
 nav.mobile .logo {
   display: inline-block;
   margin-left: calc(50% - 24px * 3);
+  margin-top: 18px;
 }
 
-nav.mobile .hamburger {
+nav.mobile .hamberder {
   display: inline-block;
   margin: 24px 0 0 24px;
   height: 24px;
@@ -196,7 +197,8 @@ nav.mobile .hamburger {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #180724;
+  background: #0c416c;
+  z-index: 100;
 }
 
 #mobile-nav ul {
