@@ -13,7 +13,7 @@
     - name: laptop checkout
       time: 9:45 AM
       location: check-in desk
-    - name: workshop &#35;1
+    - name: "workshop #1"
       color: yellow
       time: 10 AM
       events:
@@ -27,14 +27,14 @@
       time: 11:30 AM
       color: blue
       events:
-        - name: talk &#35;1
+        - name: how does a computer work?
           location: 32-155
-        - name: talk &#35;2
+        - name: what does computing mean for students and humanity?
           location: 32-141
     - name: lunch
       time: 12 PM
       location: student street
-    - name: workshop &#35;2
+    - name: "workshop #2"
       time: 1 PM
       color: yellow
       events:
@@ -44,7 +44,7 @@
           location: 32-144
         - name: starthacking
           location: 32-141
-    - name: workshop &#35;3
+    - name: "workshop #3"
       time: 2 PM
       color: yellow
       events:
@@ -58,11 +58,11 @@
       time: 3 PM
       color: blue
       events:
-        - name: talk &#35;1
+        - name: "decoding for dummies: how to crack ciphers using machine learning"
           location: 32-155
-        - name: talk &#35;2
+        - name: "mit rocket team: rockets 101"
           location: 32-141
-    - name: workshop &#35;4
+    - name: "workshop #4"
       time: 3:30 PM
       color: yellow
       events:
