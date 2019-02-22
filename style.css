@@ -108,6 +108,10 @@ main {
   width: 100%;
 }
 
+main.skinny {
+  max-width: 760px;
+}
+
 main h1 {
   margin-bottom: 16px;
 }

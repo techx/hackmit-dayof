@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tech Talks
+skinny: true
 ---
 <style type="text/css">
     .speakers {
@@ -8,13 +9,13 @@ title: Tech Talks
     }
     .column {
       flex: 1 1;
-      
+
     }
     .speaker {
       text-align: left;
       margin-right: 20px;
       margin-bottom: 20px;
-      
+
     }
     .speaker.top {
       margin-top: 0;
@@ -25,7 +26,7 @@ title: Tech Talks
       color: #0c416c;
       font-size: 20px;
       margin-bottom: 4px;
-      
+
     }
     .speaker img {
       border-radius: 50%;
@@ -37,7 +38,7 @@ title: Tech Talks
       margin-bottom: 24px;
       text-align: left;
       letter-spacing:.1em;
-      
+
     }
     .highlight {
       color: #0c416c;
@@ -58,7 +59,7 @@ title: Tech Talks
       }
     }
     </style>
-    
+
     <h1>tech talks!</h1>
     {% for section in site.data.speakers %}
     <h2>{{ section.title }}</h2>

@@ -43,7 +43,7 @@
       {% endfor %}
     </ul>
   </div>
-  <main>
+  <main{% if page.skinny %} class="skinny"{% endif %}>
     {{ content }}
   </main>
   <script type="text/javascript">
