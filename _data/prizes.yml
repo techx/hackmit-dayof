@@ -2,16 +2,13 @@
   prizes:
     - title: 1st Beginner
       prize: Prize - Coolest Prize!!!
-    - title: 1st Experienced
+    - title: 1st Main
       prize: Prize - Best Prize!!!
     - title: 2nd Beginner
       prize: Prize - Cooler Prize!!
-    - title: 2nd Experienced
+    - title: 2nd Main
       prize: Prize - Better Prize!!
     - title: 3rd Beginner
       prize: Prize - Cool Prize!
-    - title: 3rd Experienced
+    - title: 3rd Main
       prize: Prize - Good Prize!
-
-
-
