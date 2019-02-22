@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Tech Talks
+title: Speakers
 ---
 <style type="text/css">
     .speakers {
       display: flex;
+      width: 760px;
+      margin-right: 0px;
     }
     .column {
       flex: 1 1;
@@ -59,7 +61,7 @@ title: Tech Talks
     }
     </style>
     
-    <h1>tech talks!</h1>
+    <h1> speakers!</h1>
     {% for section in site.data.speakers %}
     <h2>{{ section.title }}</h2>
     {% if section.description != null %}
