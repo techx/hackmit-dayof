@@ -43,6 +43,11 @@ body {
 a {
   color: #0c416c;
   text-decoration: none;
+  transition: 0.25s ease color;
+}
+
+a:hover {
+  color: #34bac8;
 }
 
 h1 {
