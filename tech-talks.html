@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Speakers
+title: Tech Talks
 skinny: true
 ---
 <style type="text/css">
@@ -17,6 +17,7 @@ skinny: true
       text-align: left;
       margin-right: 20px;
       margin-bottom: 20px;
+      line-height: 1.5em;
 
     }
     .speaker.top {
@@ -61,13 +62,8 @@ skinny: true
       }
     }
     </style>
-<<<<<<< HEAD:speakers.html
     
     <h1> speakers!</h1>
-=======
-
-    <h1>tech talks!</h1>
->>>>>>> 43aecd133199d4c79d56b230e6f0b9c14f21dcbd:tech-talks.html
     {% for section in site.data.speakers %}
     <h2>{{ section.title }}</h2>
     {% if section.description != null %}
