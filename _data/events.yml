@@ -27,9 +27,9 @@
       time: 11:30 AM
       color: blue
       events:
-        - name: how does a computer work?
-          location: 32-155
         - name: what does computing mean for students and humanity?
+          location: 32-155
+        - name: how does a computer work?
           location: 32-141
     - name: lunch
       time: 12 PM
