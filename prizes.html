@@ -3,138 +3,54 @@ layout: default
 title: Prizes
 skinny: true
 ---
-<style type="text/css">
-.prizes {
-  display: flex;
-  width: 760px;
-  margin-right: 0px;
-}
-.column {
-  flex: 1 1;
-}
-
-.prize {
-  margin: 16px;
-  margin-left: 0px;
-  padding: 12px 16px;
-  padding-left: 0px;
-  padding-bottom: 16px;
-  text-align: left;
-}
-
-.prize.top {
-  margin-top: 0;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-.prize h3 {
-  color: #0c416c ;
-  font-size: 20px;
-  margin-bottom: 4px;
-  letter-spacing: .07em;
-}
-
-h3 {
-  font-size: 22px;
-  margin-bottom: 24px;
-  text-align: left;
-}
-
-
-.highlight {
-  color: black;
-  margin-bottom: 4px;
-}
-
-.column.desktop{
-line-height: 1.5em;
-}
-
-.mobile {
-  display: none;
-}
-
-@media only screen and (max-width: 760px) {
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: inherit;
-  }
-
-  main .prizes {
-    display: block;
-    margin: 0 auto;
-  }
-
-  main .column {
-    flex: none;
-    margin: 0;
-    width: 100%;
-  }
-
-  main .column:nth-child(2) {
-    margin-top: 16px;
-  }
-}
-</style>
-
 <h1>judging and prizes!</h1>
-
 {% for section in site.data.prizes %}
-<h2>{{ section.title }}</h2>
-{% if section.description != null %}
-<h3>{{ section.description }}</h3>
-{% endif %}
-<div class="prizes">
-  <div class="column desktop">
-    {% for prize in section.prizes %}
-    {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod != 0 %}
-    <div class="prize{% if forloop.index == 1 %} top{% endif %}">
-      <h3>{{ prize.title }}</h3>
-      <p class="highlight">{{ prize.prize }}</p>
-      <p>{{ prize.description }}</p>
+  <h2>{{ section.title }}</h2>
+  {% if section.description != null %}
+    <h3>{{ section.description }}</h3>
+  {% endif %}
+  <div class="prizes">
+    <div class="column desktop">
+      {% for prize in section.prizes %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod != 0 %}
+      <div class="prize{% if forloop.index == 1 %} top{% endif %}">
+        <h3>{{ prize.title }}</h3>
+        <p class="highlight">{{ prize.prize }}</p>
+        <p>{{ prize.description }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-  <div class="column desktop">
-    {% for prize in section.prizes %}
-    {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod == 0 %}
-    <div class="prize{% if forloop.index == 2 %} top{% endif %}">
-      <h3>{{ prize.title }}</h3>
-      <p class="highlight">{{ prize.prize }}</p>
-      <p>{{ prize.description }}</p>
+    <div class="column desktop">
+      {% for prize in section.prizes %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod == 0 %}
+      <div class="prize{% if forloop.index == 2 %} top{% endif %}">
+        <h3>{{ prize.title }}</h3>
+        <p class="highlight">{{ prize.prize }}</p>
+        <p>{{ prize.description }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-
-
-  <div class="column desktop blurb">
-      <p>Project submissions must be in by <b> 5:30 PM</b>, but you can continue hacking until the expo at <b>6 PM</b>.
-      At the expo, each team will present their projects for a few minutes at a time to small groups of judges in a science-fair format. After expo judging ends at
-      <b>7:30 PM</b>, the top teams will be chosen to demo onstage during our closing ceremony in front of all of Blueprint!
-      <br />
-      <br />
-      The beginner division is meant for people learning to build their first projects or attending their first hackathon this Blueprint. Otherwise, join the main division!
+    <div class="column desktop blurb">
+      <p>
+        Project submissions must be in by <b> 5:30 PM</b>, but you can continue hacking until the expo at <b>6 PM</b>.
+        At the expo, each team will present their projects for a few minutes at a time to small groups of judges in a science-fair format. After expo judging ends at <strong>7:30 PM</strong>, the top teams will be chosen to demo onstage during our closing ceremony in front of all of Blueprint!
+        <br />
+        <br />
+        The beginner division is meant for people learning to build their first projects or attending their first hackathon this Blueprint. Otherwise, join the main division!
       </p>
-
-  </div>
-
-
-  <div class="column mobile">
-    {% for prize in section.prizes %}
-    <div class="prize{% if forloop.index == 1 %} top{% endif %}">
-      <h3>{{ prize.title }}</h3>
-      <p class="highlight">{{ prize.prize }}</p>
-      <p>{{ prize.description }}</p>
     </div>
-    {% endfor %}
+    <div class="column mobile">
+      {% for prize in section.prizes %}
+        <div class="prize{% if forloop.index == 1 %} top{% endif %}">
+          <h3>{{ prize.title }}</h3>
+          <p class="highlight">{{ prize.prize }}</p>
+          <p>{{ prize.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
-</div>
 {% endfor %}

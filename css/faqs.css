@@ -1,0 +1,29 @@
+main {
+  max-width: 600px;
+}
+
+h3, p {
+  text-align: left;
+}
+
+h3 {
+  color: #34bac8;
+  letter-spacing: .05em;
+}
+
+p {
+  margin-bottom: 16px;
+  line-height: 1.5em;
+}
+
+.red {
+  color: #ec7560;
+}
+
+.yellow {
+  color: #f6c55e;
+}
+
+.blue {
+  color: #34bac8;
+}

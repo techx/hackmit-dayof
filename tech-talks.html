@@ -3,96 +3,36 @@ layout: default
 title: Tech Talks
 skinny: true
 ---
-<style type="text/css">
-    .speakers {
-      display: flex;
-      width: 760px;
-      margin-right: 0px;
-    }
-    .column {
-      flex: 1 1;
-
-    }
-    .speaker {
-      text-align: left;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      line-height: 1.5em;
-
-    }
-    .speaker.top {
-      margin-top: 0;
-      margin-right: 20px;
-      margin-bottom: 20px;
-    }
-    .speaker h3 {
-      color: #0c416c;
-      font-size: 20px;
-      margin-bottom: 4px;
-
-    }
-    .speaker img {
-      border-radius: 50%;
-      margin: 8px 0;
-      width: 75%;
-    }
-    h3 {
-      font-size: 22px;
-      margin-bottom: 24px;
-      text-align: left;
-      letter-spacing:.1em;
-
-    }
-    .highlight {
-      color: #0c416c;
-      margin-bottom: 14px;
-    }
-    @media only screen and (max-width: 760px) {
-      main .speakers {
-        display: block;
-        margin: 0 auto;
-      }
-      main .column {
-        flex: none;
-        margin: 0;
-        width: 100%;
-      }
-      main .column:nth-child(2) {
-        margin-top: 16px;
-      }
-    }
-    </style>
-    
-    <h1> speakers!</h1>
-    {% for section in site.data.speakers %}
-    <h2>{{ section.title }}</h2>
-    {% if section.description != null %}
+<h1> speakers!</h1>
+{% for section in site.data.speakers %}
+  <h2>{{ section.title }}</h2>
+  {% if section.description != null %}
     <h3>{{ section.description }}</h3>
-    {% endif %}
-    <div class="speakers">
-      <div class="column">
-        {% for speaker in section.speakers %}
-        {% assign mod = forloop.index | modulo: 2 %}
-        {% if mod != 0 %}
-        <div class="speaker{% if forloop.index == 1 %} top{% endif %}">
-          <h3>{{ speaker.name }}</h3>
-          <p class="highlight">{{ speaker.title }}</p>
-          <p>{{ speaker.description }}</p>
-        </div>
-        {% endif %}
-        {% endfor %}
+  {% endif %}
+  <div class="speakers">
+    <div class="column">
+      {% for speaker in section.speakers %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod != 0 %}
+      <div class="speaker{% if forloop.index == 1 %} top{% endif %}">
+        <h3>{{ speaker.name }}</h3>
+        <p class="highlight">{{ speaker.title }}</p>
+        <p>{{ speaker.description }}</p>
       </div>
-      <div class="column">
-        {% for speaker in section.speakers %}
-        {% assign mod = forloop.index | modulo: 2 %}
-        {% if mod == 0 %}
-        <div class="speaker{% if forloop.index == 2 %} top{% endif %}">
-          <h3>{{ speaker.name }}</h3>
-          <p class="highlight">{{ speaker.title }}</p>
-          <p>{{ speaker.description }}</p>
-        </div>
-        {% endif %}
-        {% endfor %}
-      </div>
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endfor %}
+    <div class="column">
+      {% for speaker in section.speakers %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod == 0 %}
+      <div class="speaker{% if forloop.index == 2 %} top{% endif %}">
+        <h3>{{ speaker.name }}</h3>
+        <p class="highlight">{{ speaker.title }}</p>
+        <p>{{ speaker.description }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

@@ -1,0 +1,74 @@
+.prizes {
+  display: flex;
+  width: 760px;
+  margin-right: 0px;
+}
+.column {
+  flex: 1 1;
+}
+
+.prize {
+  margin: 16px;
+  margin-left: 0px;
+  padding: 12px 16px;
+  padding-left: 0px;
+  padding-bottom: 16px;
+  text-align: left;
+}
+
+.prize.top {
+  margin-top: 0;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.prize h3 {
+  color: #0c416c ;
+  font-size: 20px;
+  margin-bottom: 4px;
+  letter-spacing: .07em;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.highlight {
+  color: black;
+  margin-bottom: 4px;
+}
+
+.column.desktop{
+  line-height: 1.5em;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inherit;
+  }
+
+  main .prizes {
+    display: block;
+    margin: 0 auto;
+  }
+
+  main .column {
+    flex: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  main .column:nth-child(2) {
+    margin-top: 16px;
+  }
+}
