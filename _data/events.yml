@@ -20,9 +20,9 @@
         - name: web
           location: 32-155
         - name: arduino
-          location: 32-144
-        - name: starthacking
           location: 32-141
+        - name: starthacking
+          location: 32-144
     - name: tech talks
       time: 11:30 AM
       color: blue
@@ -41,9 +41,9 @@
         - name: web
           location: 32-155
         - name: arduino
-          location: 32-144
-        - name: starthacking
           location: 32-141
+        - name: starthacking
+          location: 32-144
     - name: "workshop #3"
       time: 2 PM
       color: yellow
@@ -51,9 +51,9 @@
         - name: web
           location: 32-155
         - name: arduino
-          location: 32-144
-        - name: starthacking
           location: 32-141
+        - name: starthacking
+          location: 32-144
     - name: tech talks
       time: 3 PM
       color: blue
@@ -69,9 +69,9 @@
         - name: web
           location: 32-155
         - name: arduino
-          location: 32-144
-        - name: starthacking
           location: 32-141
+        - name: starthacking
+          location: 32-144
     - name: closing ceremony
       time: 4:30 PM
       location: 32-123
