@@ -1,4 +1,5 @@
 ---
+# empty front matter so that Jekyll references in this file get replaced
 ---
 var active = "{{ site.data.maps.first.name }}";
 var buttons = document.getElementsByClassName("button");
