@@ -88,7 +88,7 @@ nav .container {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 760px;
+  width: 1000px;
 }
 
 .container {
@@ -183,7 +183,7 @@ main .box p {
   display: inline;
 } */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 960px) {
   main .box-container {
     display: block;
     margin: 0 auto;
@@ -255,7 +255,7 @@ nav.mobile .hamberder {
   margin: 24px 0 0 24px;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1120px) {
   nav.desktop {
     display: none;
   }
