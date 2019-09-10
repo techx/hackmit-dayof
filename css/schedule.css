@@ -27,7 +27,7 @@ h1 {
 .day-name-box .arrow {
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-top: 12px solid #000;
+  border-top: 12px solid #231f20;
 
   width: 0;
   height: 0;
@@ -37,11 +37,11 @@ h1 {
 }
 
 .day.yellow .arrow {
-  border-top-color: #f6c55e;
+  border-top-color: #00d87b;
 }
 
 .day.red .arrow {
-  border-top-color: #ec5760;
+  border-top-color: #ff6f61;
 }
 
 .day-name h2 {
@@ -52,15 +52,14 @@ h1 {
 }
 
 .day.yellow .day-name {
-  background: #f6c55e;
+  background: #00d87b;
 }
 
 .day.red .day-name {
-  background: #ec5760;
+  background: #ff6f61;
 }
 
 .day .day-details {
-  letter-spacing: 0.05em;
   margin-top: 18px;
   margin-bottom: 22px;
 }
@@ -74,30 +73,30 @@ h1 {
 }
 
 .day.yellow .day-details span {
-  color: #f6c55e;
+  color: #00d87b;
 }
 
 .day.red .day-details span {
-  color: #ec5760;
+  color: #ff6f61;
 }
 
 .events {
-  border-left: 2px solid #f6c55e;
+  border-left: 2px solid #00d87b;
   padding-bottom: 12px;
   padding-left: 12px;
 }
 
 .day.yellow .events {
-  border-color: #f6c55e;
+  border-color: #00d87b;
 }
 
 .day.red .events {
-  border-color: #ec5760;
+  border-color: #ff6f61;
 }
 
 .event {
-  background: #dfe2e5;
-  color: #000;
+  background: #fff;
+  color: #231f20;
   margin: 8px 0;
   padding: 10px;
   width: 100%;
@@ -112,26 +111,24 @@ h1 {
 }
 
 .event.yellow {
-  background: #f6c55e;
+  background: #00d87b;
 }
 
 .event.blue {
-  background: #9fdcdf;
+  background: #2ec0cf;
 }
 
 .event.red {
-  background: #ec5760;
-  color: #fff;
+  background: #ff6f61;
+  color: #231f20;
 }
 
 .event .name {
   font-weight: 600;
-  letter-spacing: 0.05em;
   margin-bottom: 2px;
 }
 
 .event .details {
-  letter-spacing: 0.05em;
 }
 
 .heading {
@@ -139,7 +136,7 @@ h1 {
 }
 
 .heading .circle {
-  background: #f6c55e;
+  background: #00d87b;
   border-radius: 50%;
   height: 12px;
   left: -13px;
@@ -149,26 +146,25 @@ h1 {
 }
 
 .heading.blue .circle {
-  background: #9fdcdf;
+  background: #2ec0cf;
 }
 
 .heading.red .circle {
-  background: #ec5760;
+  background: #ff6f61;
 }
 
 .heading > p {
-  color: #f6c55e;
+  color: #00d87b;
   font-weight: 600;
-  letter-spacing: 0.05em;
   margin-left: 8px;
 }
 
 .heading.blue > p {
-  color: #9fdcdf;
+  color: #2ec0cf;
 }
 
 .heading.red > p {
-  color: #ec5760;
+  color: #ff6f61;
 }
 
 .heading .subevents {

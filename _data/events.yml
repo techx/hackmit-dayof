@@ -1,120 +1,128 @@
-- name: learnathon
+- name: SATURDAY
   color: yellow
-  date: saturday, feb 23
-  location: mit stata center
+  date: september 14
+  location: mit west campus
   events:
     - name: check-in & breakfast
-      time: 8:30 AM
-      location: check-in desk
+      time: 8:00 AM
+      location: tent
     - name: opening ceremony
-      time: 9:30 AM
-      location: 32-123
+      time: 10:00 AM
+      location: kresge auditorium
       color: blue
-    - name: laptop checkout
-      time: 9:45 AM
-      location: check-in desk
-    - name: "workshop #1"
+    - name: hacking starts at 11:00 AM!
       color: yellow
-      time: 10 AM
-      events:
-        - name: web
-          location: 32-155
-        - name: arduino
-          location: 32-141
-        - name: starthacking
-          location: 32-144
-    - name: tech talks
-      time: 11:30 AM
-      color: blue
-      events:
-        - name: what does computing mean for students and humanity?
-          location: 32-155
-        - name: how does a computer work?
-          location: 32-141
+      events: none
+    - name: "team formation"
+      color: yellow
+      time: 11:15 AM
+      location: kresge rehearsal room b
     - name: lunch
-      time: 12 PM
-      location: student street
-    - name: "workshop #2"
-      time: 1 PM
+      time: 12:00 PM
+      location: tent
+    - name: ibm tech talk
+      time: 1:00 PM
+      location: johnson media room
+      color: blue
+    - name: microsoft tech talk
+      time: 1:30 PM
+      location: johnson media room
+      color: blue
+    - name: veritone tech talk
+      time: 2:15 PM
+      color: blue
+      location: johnson media room
+    - name: tech talks & fun events
+      time: 3:00 PM
       color: yellow
       events:
-        - name: web
-          location: 32-155
-        - name: arduino
-          location: 32-141
-        - name: starthacking
-          location: 32-144
-    - name: "workshop #3"
-      time: 2 PM
+        - name: "aws tech talk"
+          location: johnson media room
+        - name: "petting zoo"
+          location: kresge lawn
+    - name: "salesforce tech talk"
+      time: 3:45 PM
       color: yellow
-      events:
-        - name: web
-          location: 32-155
-        - name: arduino
-          location: 32-141
-        - name: starthacking
-          location: 32-144
-    - name: tech talks
-      time: 3 PM
+      location: johnson media room
+    - name: google tech talk
+      time: 4:15 PM
+      location: johnson media room
+      color: yellow
+    - name: tech talks & fun events
+      time: 5:00 PM
       color: blue
       events:
-        - name: "decoding for dummies: how to crack ciphers using machine learning"
-          location: 32-155
-        - name: "mit rocket team: rockets 101"
-          location: 32-141
-    - name: "workshop #4"
-      time: 3:30 PM
-      color: yellow
-      events:
-        - name: web
-          location: 32-155
-        - name: arduino
-          location: 32-141
-        - name: starthacking
-          location: 32-144
-    - name: closing ceremony
-      time: 4:30 PM
-      location: 32-123
+        - name: algorand tech talk
+          location: johnson media room
+        - name: outdoor games
+          location: kresge lawn
+    - name: facebook tech talk
+      time: 5:30 PM
+      location: johnson media room
       color: blue
-- name: hackathon
+    - name: dine & learn
+      time: 6:00 pm
+      events:
+        - name: dinner
+          location: tent
+        - name: peer expo
+          location: johnson ice rink
+          color: yellow
+    - name: pitch night - stan reiss, general partner at matrix partners
+      time: 7:00 PM
+      location: johnson media room
+      color: yellow
+    - name: fireside chat 1 - paul riegle, head of product at algorand
+      time: 8:00 PM
+      location: johnson media room
+      color: yellow
+    - name: fireside chat 2 - ross finman, head of ar at niantic
+      time: 9:00 PM
+      location: johnson media room
+      color: yellow
+    - name: waffle cabin and tosci's
+      time: 10:00 PM
+      location: johnson lobby
+      color: yellow
+- name: SUNDAY
   color: red
-  date: sunday, feb 24
-  location: mit media lab
+  date: september 15
+  location: mit west campus
   events:
-    - name: check-in & breakfast
-      time: 7 AM
-      location: check-in desk
-    - name: opening ceremony
-      time: 8 AM
-      location: multi-purpose room (MPR)
-    - name: hacking starts at 8:30 AM!
-      time: 8:30 AM
+    - name: meet tim the beaver
+      time: 12:00 AM
+      location: johnson lobby
       color: red
-      events:
-        - name: laptop checkout
-          color: gray
-          location: help desk
-        - name: team formation & ideation
-          location: lecture hall
-    - name: student panel
+    - name: late night domino's pizza
+      time: 1:00 AM
+      location: johnson lobby
+      color: red
+    - name: trivia night
+      time: 2:00 AM
+      location: johnson media room
+      color: red
+    - name: breakfast
+      time: 8:00 AM
+      location: tent
+    - name: hacking ends at 11:15 AM!
+      color: red
+      events: none
+    - name: expo judging
       time: 11:30 AM
-      location: lecture hall
+      location: johnson ice rink
       color: blue
     - name: lunch
       time: 12:30 PM
-      location: kitchen
-    - name: campus excursion
-      time: 2:30 PM
-      location: MIT
-    - name: submission deadline 5:30 PM!
+      location: tent
+    - name: more judging
+      time: 1:00 PM
       color: red
-      events: none
-    - name: dinner
-      time: 5:30 PM - 7 PM
-      location: kitchen
-    - name: project judging
-      time: 6 PM - 7 PM
-      location: everywhere!
+      events:
+        - name: sponsor judging
+          location: johnson ice rink
+        - name: panel judging
+          location: johnson media room
     - name: closing ceremony
-      time: 7 PM
-      location: multi-purpose room (MPR)
+      time: 3:00 PM
+      location: kresge auditorium
+      color: blue
