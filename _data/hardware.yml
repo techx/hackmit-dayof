@@ -1,95 +1,58 @@
-- name: Actuators
+- name: CONNECTIVITY
   hardware:
-    - DC Motor
-    - High Torque Metal Gear Servo
-    - Motor Shield
-    - Stepper Motor (NEMA-17 Size)
-- name: Connectivity
-  hardware:
-    - Bluetooth Breakout
-    - Bluetooth USB Adapter
-    - FTDI Cable 3.3v
-    - FTDI Cable 5v
-    - NFC Shield
-    - USB Wi-Fi Adapter
+    - USB Micro
+    - USB Serial
+    - FTDI Cable 3.3V
+    - FTDI Cable 5V
+    - USB Bluetooth Adapter
+    - USB SD Card Adapter
+    - USB C to USB A
 - name: ICs
   hardware:
     - 555 Timer
     - 8-bit Shift Register
-    - Op Amp
-- name: Kits
+    - Op Amps
+- name: MICROCONTROLLERS
   hardware:
-    - Arduino Starter Kit
-    - Robot Chassis
-- name: Microcontrollers
-  hardware:
-    - Arduino Uno
-    - Arduino Duo
-    - Arduino MKR Wi-Fi 1010
-    - Arduino MKR Vidor 4000
-    - BeagleBone Black
-    - Cypress BLE PSoC Kit
-    - Cypress 5LP PSoC
-    - Photon Dev Kit
-    - PocketBeagle
     - Raspberry Pi 3 Model B
-    - Sparkfun Dev Kit
-- name: Output
+    - Raspberry Pi 3 Model B
+    - Arduino Starter Kit
+    - ESP32
+    - ESP32 with Camera
+    - Micro SD Cards
+- name: OUTPUT
   hardware:
-    - 16x2 LCD
-    - Assorted LEDs
-    - Audio Amplifier
-    - Neopixel Ring
-    - Neopixel Strip
-    - OLED Display
-    - Piezo Buzzers
-    - RGB Smart LED Matrix
+    - Assorted LEDs and Resistors
+    - RGB LEDs
+    - IR LEDs
     - Speaker
-- name: Passive Components
+    - Audio Amplifier
+- name: PASSIVE COMPONENTS
   hardware:
-    - Assorted Capacitors
-    - Assorted Resistors
-    - Assorted Transistors
-    - Potentiometer
-- name: Power
+    - Resistors
+    - Capacitors
+    - Transistors - 2N7000
+    - Potentiometers
+- name: POWER
   hardware:
-    - 2xAA Battery Holder
-    - 4xAA Battery Holder
     - 3.3V Voltage Regulator
     - 5V 1.5-A Fixed Linear Regulator
-    - 5V Micro USB Power Supply
-    - 9V 1000mA Power Supply (Barrel Plug)
-    - 9V Batteries
-    - 9V Battery Snap
-    - AA Batteries
-- name: Prototyping
+- name: PROTOTYPING
   hardware:
-    - 40xF/F Jumpers
-    - 40xF/M Jumpers
-    - 40xM/M Jumpers
-    - Alligator Clips
+    - M/F M/M F/F Jumpers
+    - Male and Female Headers
     - Breadboards
+    - Jumper Wire Kit
+    - Alligator Clips
     - Electrical Tape
-    - Female Headers
-    - Male Header Pins
-    - Jumper Wire Kit (140 pc)
-    - Protoboard
-- name: Sensors
+    - Duct Tape
+    - Box Cutters
+- name: INPUT
   hardware:
-    - 9 Axis Motion Shield
-    - Accelerometer
-    - Air Quality Sensor
-    - Alcohol Sensor
-    - Capacitive Touch Sensor
-    - Hall Effect Sensor
-    - IMU
-    - Kinect
     - Microphone
-    - Photoresistors
-    - Pi Camera
-    - Push Button
-    - Temperature & Humidity Sensor
+    - Camera for Pi
+    - Gas Sensor Kit
+    - Keyboards
     - Toggle Switch
-    - Ultrasonic Sensor
-    - Water Sensor
-    - Weather Shield
+    - 9-Axis Sensor
+    - Photoresistors

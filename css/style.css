@@ -71,6 +71,11 @@ h1 {
   font-size: 50px;
 }
 
+.hardware-header{
+  color: #ff6f61;
+  letter-spacing: 0.01em;
+}
+
 .hidden {
   display: none;
 }
