@@ -22,7 +22,7 @@
 }
 
 .speaker h3 {
-  color: #0c416c;
+  color: #2ec0cf;
   font-size: 20px;
   margin-bottom: 4px;
 }
@@ -41,8 +41,9 @@ h3 {
 }
 
 .highlight {
-  color: #0c416c;
+  color: #f766a6;
   margin-bottom: 14px;
+  /* font-family: "Franklin Libre Regular"; */
 }
 
 @media only screen and (max-width: 760px) {

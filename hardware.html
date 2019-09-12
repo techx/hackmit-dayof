@@ -48,7 +48,7 @@ title: Hardware
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 0 %}
     <div class="section">
-      <h2>{{ section.name }}</h2>
+      <h2 class="hardware-header">{{ section.name }}</h2>
       {% for hardware in section.hardware %}
       <p>{{ hardware }}</p>
       {% endfor %}
@@ -61,7 +61,7 @@ title: Hardware
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 1 %}
     <div class="section">
-      <h2>{{ section.name }}</h2>
+      <h2 class="hardware-header">{{ section.name }}</h2>
       {% for hardware in section.hardware %}
       <p>{{ hardware }}</p>
       {% endfor %}
