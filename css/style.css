@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-  color: #2ec0cf;
+  color: #f766a6;
 }
 
 h1 {
@@ -93,7 +93,7 @@ nav .container {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 1150px;
+  width: 1200px;
 }
 
 .container {
@@ -232,7 +232,7 @@ nav.mobile .hamberder {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0c416c;
+  background: #ff6f61;
   z-index: 100;
 }
 
@@ -260,7 +260,7 @@ nav.mobile .hamberder {
   margin: 24px 0 0 24px;
 }
 
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1260px) {
   nav.desktop {
     display: none;
   }

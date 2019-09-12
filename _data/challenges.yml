@@ -19,9 +19,9 @@
       prize: "Amazon Echos"
 - sponsor: "Facebook"
   title: "Best Hack for Building Community"
-  description: "Facebook's mission is to give people the power to build community and bring the world closer together. 
+  description: "Facebook's mission is to give people the power to build community and bring the world closer together. <br/><br/>
 
-Our judges will be evaluating the best Hack Project that focuses on building community and connecting people.
+Our judges will be evaluating the best Hack Project that focuses on building community and connecting people. <br/><br/>
 
 We are sponsoring an all-expense paid trip for each member of the winning team to visit Facebook's Headquarters in Menlo Park, CA, where they will participate in Facebook's Global Hack Finals!"
   prizes:
@@ -29,8 +29,8 @@ We are sponsoring an all-expense paid trip for each member of the winning team t
       prize: "Trip to Facebook Headquarters for the Facebook Global Hack Finals!"
 - sponsor: "IBM"
   title: "Best IBM Disaster Preparedness & Relief Solutions"
-  description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Code and Response Challenge,\" hackers need to incorporate at least one of the <a href=\"https://cloud.ibm.com/catalog\">API services</a> into their project. Submissions will be judged across 4 areas: Completeness and Transferability, Effectiveness and Efficiency, Design and Usability, and Creativity and Innovation.
-
+  description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Code and Response Challenge,\" hackers need to incorporate at least one of the <a href=\"https://cloud.ibm.com/catalog\">API services</a> into their project. Submissions will be judged across 4 areas: Completeness and Transferability, Effectiveness and Efficiency, Design and Usability, and Creativity and Innovation. <br/>
+<br/>
 We are looking for ideas that will help prevent, mitigate, or recover from natural disasters utilizing technology. Take a look at what our <a href=\"http://www.project-owl.com\">Call for Code 2018 winner Project OWL created</a>."
   prizes:
     - title: "1st"
@@ -48,33 +48,27 @@ We are looking for ideas that will help prevent, mitigate, or recover from natur
 - sponsor: "Rev"
   title: "Rev.ai Speech API Challenge"
   description: "Rev.ai is the most accurate Speech-to-Text service on the market.  This prize will go to the team that creates the most novel use of our Speech-to-Text engine. We want to see you leverage our speech API as creatively and effectively as possible.  This year we have both the real-time and asynchronous version available.
-
-Go to rev.ai to sign up."
+<br/> <br/>
+Go to <a href=\"rev.ai\">rev.ai</a> to sign up."
   prizes:
     - title: ""
       prize: "$4000"
 - sponsor: "Algorand"
   title: "Build the Financial Revolution on Algorand"
   description: "Use any of our developer tools to build an amazing application leveraging Algorand! 
+<br/> <br/>
+Using any of our dev tools qualifies your team for prizes. However, the judging team will give preference to teams that demonstrate creative competence by: <br/>
++Using one of the SDK's <br/>
++Writing to and reading from the `note` field in a transaction <br/>
++Using multiple dev tools <br/>
+<br/>
+An example solution would be to: Build a solution for easy account management using one our SDK's, the solution should be able to:<br/>
+Create and sign transactions, do the same with multisig accounts, recover accounts from mnemonic phrases<br/>
+Bonus: Build a UI for the solution (command line, web based or other) in any language.<br/>
+<br/>
 
-Using any of our dev tools qualifies your team for prizes. However, the judging team will give preference to teams that demonstrate creative competence by:
-+Using one of the SDK's
-+Writing to and reading from the `note` field in a transaction
-+Using multiple dev tools
-
-An example solution would be to: Build a solution for easy account management using one our SDK's, the solution should be able to:
-Create and sign transactions, do the same with multisig accounts, recover accounts from mnemonic phrases
-Bonus: Build a UI for the solution (command line, web based or other) in any language.
-
-Example solutions:
-Evancoin - https://medium.com/algorand/l2-applications-on-algorand-make-your-own-coin-6d62c5d5578d
-ARC-01 - https://github.com/AssetBlock/arc-01
- 
-Community Resources:
-Algorand Developer Documentation - https://developer.algorand.org/
-
-What is Algorand?
-The Algorand blockchain is a ‘Pure Proof of Stake' blockchain based on voting and registration mechanisms with Verifiable Random Functions (VRF). Leveraging these features results in near-instant transaction finality and true decentralization with respect to economic throughput and incentives."
+What is Algorand? <br/>
+The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting and registration mechanisms with Verifiable Random Functions (VRF). Leveraging these features results in near-instant transaction finality and true decentralization with respect to economic throughput and incentives."
   links:
     - section: "Example Solutions"
       section_links:
@@ -94,33 +88,33 @@ The Algorand blockchain is a ‘Pure Proof of Stake' blockchain based on voting 
 - sponsor: "Docusign"
   title: "Best Use of the DocuSign eSignature API"
   description: "The DocuSign eSignature API lets you eSign documents, request signatures, automate your forms and data, accept payments, verify identity and much more! You can integrate the eSignature REST APIs into any app, website, or embedded system that can make https requests.
-
-For more information, go to https://developers.docusign.com/esign-rest-api/code-examples/quickstart-overview"
+<br/><br/>
+For more information, view the <a href=\"https://developers.docusign.com/esign-rest-api/code-examples/quickstart-overview\">quick start code examples</a>."
   prizes:
     - title: "1st"
       prize: "$1000 Cash + internship/full-time job interview + VIP Passes to DocuSign Momentum Conference + featured on the DocuSign Developer Blog and on DocuSign's social media platforms"
     - title: "2nd"
       prize: "$500"
 - sponsor: "Ford"
-  title: "Best hack using Ford Mobility technologies"
+  title: "Best Ford Car Mobility Challenge Hack"
   description: "Best Urban Innovation hack using Ford Mobility technologies (OpenXC, Smart Device Link).  The prize will be awarded to the team that best shows creativity, innovation, and human centered design."
   prizes:
     - title: ""
       prize: "$4000"
 - sponsor: "Microsoft"
   title: "Azure Champ Prize - Hack for Good"
-  description: "Microsoft's Azure Champ Prize Challenge is all about hacking for good. Let's see which team can use Microsoft Azure to have the highest positive impact, while addressing a clear need, problem or opportunity with a clear and concise solution. Include innovations in technical design and implementation of services (Cognitive Services, Bot Services, IoT Hub, Functions) to blow us away – happy hacking!
-
-Judging criteria: 
-1. Was the project developed using Microsoft Azure and did it have a positive impact? (required for entry)
-2. Does the project address a clear need, problem, or opportunity and is the solution clearly explained? (10 points)
-3. Does the project include innovations in technical design  and/or implementation of services (e.g., Cognitive Services, Bot Services, IoT Hub, Functions)  and/or user experience? (20 points)
-4. Does the project have a clear target market or audience? (5 points)
-5. Is the project's purpose and basic functionality easily understood? (5 points)
+  description: "Microsoft's Azure Champ Prize Challenge is all about hacking for good. Let's see which team can use Microsoft Azure to have the highest positive impact, while addressing a clear need, problem or opportunity with a clear and concise solution. Include innovations in technical design and implementation of services (Cognitive Services, Bot Services, IoT Hub, Functions) to blow us away. Happy hacking!
+<br/><br/>
+Judging criteria: <br/>
+1. Was the project developed using Microsoft Azure and did it have a positive impact? (required for entry)<br/>
+2. Does the project address a clear need, problem, or opportunity and is the solution clearly explained? (10 points)<br/>
+3. Does the project include innovations in technical design  and/or implementation of services (e.g., Cognitive Services, Bot Services, IoT Hub, Functions)  and/or user experience? (20 points)<br/>
+4. Does the project have a clear target market or audience? (5 points)<br/>
+5. Is the project's purpose and basic functionality easily understood? (5 points)<br/>
 6. Does the project have a professional degree of production in terms of performance, user interface, visuals, and audio? (10 points)"
   prizes:
     - title: ""
-      prize: "$1,000 to be charity of choice + prioritized entry in Imagine Cup Semi-Finals + Surface Go's plus keyboards"
+      prize: "$1,000 to be charity of choice + prioritized entry in Imagine Cup Semi-Finals + Surface Go's plus keyboards"
 - sponsor: "Chaossearch"
   title: "Ra Water Challenge, Save Humanity"
   description: "Ancient Egyptian stories claim that humans were created from sweat and tears of the sun god, Ra. However, the water produced by Ralet, an alien bacterium set free during the raid on Area 15, has led to casualties in the thousands--and there is no end in sight. The pathogen has been converting the water supplies of all major cities in the Collegial Territories (CT) into a highly toxic sludge, termed Ra's water. All travel to and from the CT has been ceased, and all aid cut off, in the faint hopes of containing this infection. CT has been left to fend for itself against annihilation, but how long do we have? 
@@ -134,12 +128,6 @@ Judging criteria:
   prizes:
     - title: ""
       prize: "$1000 Amazon Gift Card"
-- sponsor: "Amadeus"
-  title: "Best use of Amadeus API to address large scale disasters"
-  description: "This prize will go to the best hack that utilizes Amadeus' API to help with a large scale disaster. You can just use the Amadeus API or combine it with other APIs."
-  prizes:
-    - title: ""
-      prize: "$1000 Amazon Gift Card"
 - sponsor: "DRW"
   title: "Best Data Visualization Hack"
   description: "We will be judging for the best data visualization hack. Projects will be judged on their ability to make data more accessible to more users. Can you make large data sets easily understandable at a quick glance? In a world overflowing with data, breaking it down for people is more important than ever."
@@ -148,12 +136,11 @@ Judging criteria:
       prize: "Oculus Gos"
 - sponsor: "Veritone"
   title: "Most Interesting Use of AI Automation"
-  description: "Description:
-1 - Hackers design and automate a text, image, audio, and/or video-based data analysis workflow using Veritone Automate Studio that utilizes machine learning and demonstrates an application within one of the Hack MIT tracks. Bonus for those that not only analyze data with machine learning but trigger an action based on the machine learning output.
-
-Submission requirements:
-1 - Complete workflow design in Veritone Automate Studio workspace and deploy using the workspace or automation engine runtime.
-2 - Automation can be run end-to-end to successfully produce desired data output and/or action"
+  description: "Hackers design and automate a text, image, audio, and/or video-based data analysis workflow using Veritone Automate Studio that utilizes machine learning and demonstrates an application within one of the Hack MIT tracks. Bonus for those that not only analyze data with machine learning but trigger an action based on the machine learning output. <br/>
+<br/>
+Submission requirements:<br/>
+1 - Complete workflow design in Veritone Automate Studio workspace and deploy using the workspace or automation engine runtime.<br/>
+2 - Automation can be run end-to-end to successfully produce desired data output and/or action<br/>"
   prizes:
     - title: "1st"
       prize: "AWS DeepLenses + Veritone hoodies"
@@ -162,64 +149,27 @@ Submission requirements:
     - title: "3 Honorable Mentions"
       prize: "$50 gift cards + Veritone hoodies"
 - sponsor: "Nasdaq"
-  title: "Smart Cities: Best use of Nasdaq/Quandl Datasets"
-  description: "Best use of Nasdaq/Quandl datasets applied to Smart Cities-related solutions."
+  title: "Best use of Nasdaq/Quandl Datasets"
+  description: "Nasdaq will award one overall prize for the best solution across Nasdaq's three challenges: <br/>
+  + Best use of Nasdaq/Quandl datasets applied to Smart Cities-related solutions.<br/>
+  + Best use of Nasdaq/Quandl datasets applied to Personal Financial Decisions<br/>
+  + Best use of Nasdaq/Quandl datasets applied to applications beyond capital markets."
   prizes:
     - title: ""
-      prize: "TBA"
-- sponsor: "Nasdaq"
-  title: "Personal Financial Decisions: Best Use of Nasdaq/Quandl Datasets"
-  description: "Best use of Nasdaq/Quandl datasets applied to Personal Financial Decisions."
-  prizes:
-    - title: ""
-      prize: "TBA"
-- sponsor: "Nasdaq"
-  title: "Apps Beyond Capital Markets: Best Use of Nasdaq/Quandl Datasets"
-  description: "Best use of Nasdaq/Quandl datasets applied to applications beyond capital markets."
-  prizes:
-    - title: ""
-      prize: "TBA"
-- sponsor: "Sia"
-  title: "Coolest use case for Sia's decentralized data storage"
-  description: "Decentralized storage completely changes the way files are stored in the internet. By encrypting and splitting a single file up with your private key over 30 hosts, Sia allows end-users to store data on the web in a private and censorship resistant manner. The goal of this challenge is to showcase a product or idea that leverages Sia's renter API, and uses the decentralized aspect of Sia's storage in an innovative manner.
-
-
-Docs:
-
-You can find our main api docs here: https://sia.tech/docs/
-
-Resources:
-
-Our API Quickstart guide: https://blog.sia.tech/api-quickstart-guide-f1d160c05235
-
-Our open source Golang repo is here: https://gitlab.com/NebulousLabs/Sia
-
-Our Sia-UI Electron/React/Typescript repo is here (useful for learning about how to talk to the daemon): https://gitlab.com/NebulousLabs/Sia-UI
-
-Client Libraries:
-
-Our JS Library is here: https://gitlab.com/NebulousLabs/Nodejs-Sia
-
-Our Typescript library is here: https://gitlab.com/NebulousLabs/sia-typescript
-
-Our Golang library is here: https://godoc.org/gitlab.com/NebulousLabs/Sia/node/api/client
-
-Blockchain download:
-It takes a couple hours for the blockchain to download. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table.
-
-https://sia.tech/get-started
-
-Examples: Built on Sia
-
-Filebase - Amazon S3 on Sia: https://filebase.com/
-
-PixelDrain - Rapidshare on Sia: https://pixeldrain.com/
-
-
-Judging Criteria:
-
-1. Innovative and uniqueness
-2. A viable business model"
+      prize: " dinner w/ Nasdaq's Executive Vice President and CTO, Brad Peterson"
+- sponsor: "Nebulous"
+  title: "Best Product or Idea that leverages Sia's Storage Platform"
+  description: "The goal of this challenge is to showcase a product or idea that leverages Sia's renter API, and uses the decentralized aspect of Sia's storage in an innovative manner. Decentralized storage completely changes the way files are stored in the internet. By encrypting and splitting a single file up with your private key over 30 hosts, Sia allows end-users to store data on the web in a private and censorship resistant manner. 
+<br/><br/>
+Extra consideration to:<br/>
+- Teams who make an app that deeply integrates with Sia's API features<br/>
+- Teams who build data-heavy application and/or upload the largest amount of data to the Sia Network
+<br/>
+<br/>
+Bonus: Anyone who uploads at least 100 GB of data by the end of the hackathon will also win a prize!
+<br/>
+<br/>
+It takes a couple hours for <a href=\"https://sia.tech/get-started\">the blockchain to download</a>. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table in the bleachers."
   links:
     - section: "Documentation"
       section_links:
@@ -245,183 +195,45 @@ Judging Criteria:
       section_links:
         - title: "Filebase - Amazon S3 on Sia"
           url: "https://filebase.com/"
+        - title: "Goobox - file-sharing on Sia"
+          url: "https://goobox.io/"
         - title: "PixelDrain - Rapidshare on Sia"
           url: "https://pixeldrain.com/"
+        - title: "ZeroBit - censorship resistant cloud"
+          url: "https://zero-bit.io"
+        - title: "SiaStats - Useful stats GUI to visualize the network"
+          url: "https://siastats.info/"
   prizes:
-    - title: ""
-      prize: "50,000 Siacoins and potential internship opportunity"
-- sponsor: "Sia"
-  title: "Most in-depth implementation of the Sia API"
-  description: "Want to fully understand how a decentralized system works? This challenge is for you. Dig deeper into Sia's online API docs, and make an app that deeply integrates with Sia's features. Your end product may be a business built on top of Sia (e.g. decentralized Dropbox, Youtube), a DevTool or Library that makes it easier for developers to build on Sia (e.g. Decentralizer), or an application that integrates Sia with a protocol or app (e.g. Minio, Amazon S3).
-
-
-Docs:
-
-You can find our main api docs here: https://sia.tech/docs/
-
-
-Useful resources:
-
-Our API Quickstart guide: https://blog.sia.tech/api-quickstart-guide-f1d160c05235
-
-Our open source Golang repo is here: https://gitlab.com/NebulousLabs/Sia
-
-Our Sia-UI Electron/React/Typescript repo is here (useful for learning about how to talk to the daemon): https://gitlab.com/NebulousLabs/Sia-UI
-
-
-Client Libraries:
-
-Our JS Library is here: https://gitlab.com/NebulousLabs/Nodejs-Sia
-
-Our Typescript library is here: https://gitlab.com/NebulousLabs/sia-typescript
-
-Our Golang library is here: https://godoc.org/gitlab.com/NebulousLabs/Sia/node/api/client
-
-Blockchain download:
-It takes a couple hours for the blockchain to download. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table.
-
-https://sia.tech/get-started
-
-
-Examples: Built on Sia
-
-SiaStats - useful stats GUI to visualize the network: https://siastats.info/
-
-Decentralizer - Sia companion app that provides renters with more granular controls over hosts and contracts: https://keops.cc/decentralizer
-
-
-
-Judging Criteria:
-
-1. Number of API endpoints meaningfully used
-2. Quality of API integration"
-  prizes:
-      - title: ""
-        prize: "50,000 Siacoins and potential internship opportunity"
-- sponsor: "Sia"
-  title: "Most data uploaded to the Sia network"
-  description: "Let's get uploading. This challenge seeks to find the team building the most data-heavy applications. The end product with the most (useful) data uploaded to the Sia network will win this prize. No subjectivity, no frills, just bytes.
-
-Docs:
-
-You can find our main api docs here: https://sia.tech/docs/
-
-
-Useful resources:
-
-Our API Quickstart guide: https://blog.sia.tech/api-quickstart-guide-f1d160c05235
-
-Our open source Golang repo is here: https://gitlab.com/NebulousLabs/Sia
-
-Our Sia-UI Electron/React/Typescript repo is here (useful for learning about how to talk to the daemon): https://gitlab.com/NebulousLabs/Sia-UI
-
-Client Libraries:
-
-Our JS Library is here: https://gitlab.com/NebulousLabs/Nodejs-Sia
-
-Our Typescript library is here: https://gitlab.com/NebulousLabs/sia-typescript
-
-Our Golang library is here: https://godoc.org/gitlab.com/NebulousLabs/Sia/node/api/client
-
-Blockchain download:
-It takes a couple hours for the blockchain to download. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table.
-
-https://sia.tech/get-started
-
-
-Examples: Built on Sia
-
-Goobox - file-sharing on Sia: https://goobox.io/
-
-Filebase - Amazon S3 on Sia: https://filebase.com/
-
-PixelDrain - Rapidshare on Sia: https://pixeldrain.com/
-
-ZeroBit - censorship resistant cloud: https://zero-bit.io
-
-
-
-Judging Criteria
-
-1. The team with the most data uploaded in GB/TB wins
-2. Data can be any form - text, audio or video"
-  prizes:
-    - title: ""
-      prize: "50,000 Siacoins and potential internship opportunity"
-- sponsor: "Sia"
-  title: "Best Product or Idea that leverages Sia's Storage Platform"
-  description: "The goal of this challenge is to showcase a product or idea that leverages Sia's renter API, and uses the decentralized aspect of Sia's storage in an innovative manner. Decentralized storage completely changes the way files are stored in the internet. By encrypting and splitting a single file up with your private key over 30 hosts, Sia allows end-users to store data on the web in a private and censorship resistant manner.
-Extra consideration to:
-- Teams who make an app that deeply integrates with Sia's API features
-- Teams who build data-heavy application and/or upload the largest amount of data to the Sia Network
-
-Blockchain download
-It takes a couple hours for the blockchain to download (https://sia.tech/get-started). If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table."
-  prizes:
-    - title: ""
-      prize: "200,000 Siacoin and potential internship opportunity"
-- sponsor: "Sia"
-  title: "Bonus Challenge: Put 100GB of Data on the Sia Network"
-  description: "Win a 10,000 Siacoin reward for any team that puts at least 100 GB of data by the end of the Hackathon.
-
-Docs:
-
-You can find our main api docs here: https://sia.tech/docs/
-
-Useful resources:
-
-Our API Quickstart guide: https://blog.sia.tech/api-quickstart-guide-f1d160c05235
-
-Our open source Golang repo is here: https://gitlab.com/NebulousLabs/Sia
-
-Our Sia-UI Electron/React/Typescript repo is here (useful for learning about how to talk to the daemon): https://gitlab.com/NebulousLabs/Sia-UI
-
-
-Client Libraries:
-
-Our JS Library is here: https://gitlab.com/NebulousLabs/Nodejs-Sia
-
-Our Typescript library is here: https://gitlab.com/NebulousLabs/sia-typescript
-
-Our Golang library is here: https://godoc.org/gitlab.com/NebulousLabs/Sia/node/api/client
-
-Blockchain download:
-It takes a couple hours for the blockchain to download. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table.
-
-https://sia.tech/get-started
-
-
-Judging Criteria
-
-1. Atleast 100 GB of useful data uploaded on Sia network
-2. Data can be any form - text, audio or video"
-  prizes:
-    - title: ""
-      prize: "10,000 Siacoins for each team"
+    - title: "1st"
+      prize: "250,000 Siacoins + potential internship opportunity"
+    - title: "2nd"
+      prize: "100,000 Siacoins"
+    - title: "Bonus prize"
+      prize: "10,000 Siacoin for each bonus team winner."
 - sponsor: "Instabase"
   title: "Best Use of Instabase API"
   description: "Instabase is a data processing platform providing services such as OCR, text extraction, natural language processing, and text classification. We're awarding $1,000 to the team that demonstrates the best use of our platform to solve a problem! More specifically, solve a problem using our platform to do:
-
-* Optical Character Recognition
-* Natural Language Processing
-* Clustering and classification
-* Information extraction and web scraping
-* Python Scripting
-
-Visit instabase.com/hackmit for more information about our API."
+<br/>
+* Optical Character Recognition<br/>
+* Natural Language Processing<br/>
+* Clustering and classification<br/>
+* Information extraction and web scraping<br/>
+* Python Scripting<br/>
+<br/>
+Find more information about our API <a href=\"instabase.com/hackmit \">here</a>."
   prizes:
     - title: ""
       prize: "$1000"
 - sponsor: "Lightstep"
   title: "Best Command Line Tool"
   description: "At LightStep, we build product for developers in many different companies and parts of the world. The command line is the basic starting point for a lot of our work as developers, but there's a lot that goes into making a great one. Specifically:
-
+<br/>
 - How _useful_ is it? Does this solve either a need or want for developers in their workflow? Does it make sense to build/use this as a command line tool and not as a webapp? Clear cases where a developer would turn to your tool are better than tools which try to do everything but don't address a specific problem.
-
+<br/>
 - How _usable_ is it? Is it clear what commands a developer can use, and which ones are optional or required? Is it easy to execute repetitive or common flows, as well as discover less common ones if needed? What happens when there is a very long running process - is my only option to escape, or can I run other work concurrently, and why? Do the names and commands make sense?
-
+<br/><br/>
 Note that usefulness and usability have a few key differences, and both will be important to win.
-
+<br/><br/>
 Complexity in scope, performance, and \"fun\" are bonuses :)"
   prizes:
     - title: ""
@@ -429,7 +241,7 @@ Complexity in scope, performance, and \"fun\" are bonuses :)"
 - sponsor: "Google"
   title: "Best Use of Google Cloud"
   description: "API Challenge this weekend for Best Use of Google Cloud - just use any Google Cloud product to qualify.
-
+<br/><br/>
 If you win you'll get a prize pack including a Google Home Mini, a Google Cloud Backpack, and more for each team member."
   prizes:
     - title: ""
@@ -443,16 +255,16 @@ If you win you'll get a prize pack including a Google Home Mini, a Google Cloud 
 - sponsor: "Imprivata"
   title: "Imprivata's Secure User Healthcare Data Challenge"
   description: "Hospitals and clinics around the US and the world face an unprecedented challenge in keeping patient data secure. This challenge has only increased in magnitude with the wide adoption of cloud-based solutions and applications for managing everything from billing to increasingly regulated protected health information (PHI). 
-
+<br/><br/>
 It is not atypical for Healthcare workers to have to move from room to room and from device to device throughout their day. Often, this includes having to go through lengthy and complicated logon processes for both devices and applications to do anything from simply looking at a patient chart to signing prescriptions. Imprivata provides solutions that enable those Healthcare workers with fast and easy access to all of their devices, applications and patient data. Imprivata does this while providing the most secure, but transparent approach, to handling both healthcare worker data and the data of the patients that they have to support. Keeping this in mind...
-
+<br/><br/>
 The winner(s) of this challenge will develop the most creative and secure hack that manages user data. The winning hack should focus on things such as novel approaches to user data encryption or advanced authentication methods (think password-less) to access that data. 
+<br/><br/>
+Bonus consideration will be given for hacks that include...<br/>
 
-Bonus consideration will be given for hacks that include...
-
-* Specific healthcare application 
-* Use more than one, non-password based, authentication method
-* Provide simple, fast user data access
+* Specific healthcare application <br/>
+* Use more than one, non-password based, authentication method<br/>
+* Provide simple, fast user data access <br/>
 * Leverage devices that healthcare workers already have (fitness trackers, cell phones, etc...)"
   prizes:
     - title: ""

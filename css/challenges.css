@@ -91,7 +91,7 @@ a:hover {
 
 .title {
 	font-family: "Libre Franklin", sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3em;
 
 	padding-top: 10px;
 	padding-bottom: 5px;	
@@ -99,7 +99,7 @@ a:hover {
 .sponsor {
 	font-family: "Libre Franklin", sans-serif;
 	color: #231f20;
-	font-size: 0.6em;
+	font-size: 0.9em;
 	text-align: center;
 
 	text-transform: uppercase;
@@ -200,12 +200,12 @@ a:hover {
 }
 
 .modal-content > .title {
-	font-size: 1.7em;
+	font-size: 1.9em;
 	padding-bottom: 15px;
 }
 
 .modal-content > .sponsor {
-	font-size: 0.75em;
+	font-size: 1.2em;
 }
 
 .modal-content .prize {
@@ -237,8 +237,9 @@ a:hover {
 	justify-content: left;
 	grid-gap: 15px;
 
+	padding-top: 5px;
 	margin: auto;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 
 }
 
