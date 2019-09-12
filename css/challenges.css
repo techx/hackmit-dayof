@@ -19,13 +19,13 @@
 	pointer-events: none;
 }
 
-a {
+.skinny a {
 	letter-spacing: 0em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 }
 
-a:hover {
+.skinny a:hover {
 	color: white;
 }
 
@@ -289,5 +289,18 @@ a:hover {
 
   main .column:nth-child(2) {
     margin-top: 16px;
+  }
+
+  .link-container {
+  	grid-column-start: 1;
+  }
+
+  .section-header {
+  	justify-self: center;
+  }
+
+  .modal-content {
+	margin: auto 10%;
+	max-width: 80%;
   }
 }

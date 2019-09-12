@@ -115,16 +115,9 @@ Judging criteria: <br/>
   prizes:
     - title: ""
       prize: "$1,000 to be charity of choice + prioritized entry in Imagine Cup Semi-Finals + Surface Go's plus keyboards"
-- sponsor: "Chaossearch"
-  title: "Ra Water Challenge, Save Humanity"
-  description: "Ancient Egyptian stories claim that humans were created from sweat and tears of the sun god, Ra. However, the water produced by Ralet, an alien bacterium set free during the raid on Area 15, has led to casualties in the thousands--and there is no end in sight. The pathogen has been converting the water supplies of all major cities in the Collegial Territories (CT) into a highly toxic sludge, termed Ra's water. All travel to and from the CT has been ceased, and all aid cut off, in the faint hopes of containing this infection. CT has been left to fend for itself against annihilation, but how long do we have? 
-"
-  prizes:
-    - title: "1st to solve puzzle"
-      prize: "$500 Amazon Gift Card"
 - sponsor: "Amadeus"
   title: "Best Use of Amadeus API's"
-  description: "This prize will go to the best hack that utilizes Amadeus' API. You can just use the Amadeus API or combine it with other APIs."
+  description: "Amadeus is the leading technology partner for the global travel industry. We challenge you to create the best hack that utilizes Amadeus' API for travel related challenges. You can just either use just the Amadeus API or combine it with other company APIs. If you're interested in Urban Innovation, this is the challenge for you!"
   prizes:
     - title: ""
       prize: "$1000 Amazon Gift Card"
@@ -248,7 +241,7 @@ If you win you'll get a prize pack including a Google Home Mini, a Google Cloud 
       prize: "Google Home Minis + Google Cloud Backpacks + more"
 - sponsor: "Wayfair"
   title: "Best hack to help the housing inequality crisis"
-  description: "From homelessness to hunger, there's a lot of room for innovation to drive significant social change. Think of a way to help everyone live in a home that they love, where they feel safe and comfortable."
+  description: "From homelessness to hunger, there's a lot of room for innovation to drive significant social change, especially when it comes to housing inequality. Can you find a solution to help everyone live in a home that they love, where they feel safe and comfortable? Challenge your creativity and create a project to help solve the housing inequality crisis."
   prizes:
     - title: ""
       prize: "$500 + interview at Wayfair"
