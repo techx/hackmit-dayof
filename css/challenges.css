@@ -123,14 +123,14 @@ a:hover {
 	font-family: "Libre Franklin", sans-serif;
 	font-size: 0.5em;
 
-	margin-top: 1px;
+	margin-top: 2.2px;
 	grid-column-start: 1;
 	justify-self: end;
 }
 
 .prize {
 	font-family: "Open Sans", sans-serif;
-	font-size: 0.8em;
+	font-size: 13px;
 	font-weight: 300;
 	grid-column-start: 2;
 }
@@ -144,7 +144,7 @@ a:hover {
 
 
 .dot { /* for prizes with no places*/
-	margin-top: 3px;
+	margin-top: 4px;
 	width: 8px;
 	height: 8px; 
 	border-radius: 4px;
@@ -166,6 +166,10 @@ a:hover {
 	font-size: 1.5em;
 
 	align-self: center;
+}
+
+.modal-button:focus, .close-modal:focus {
+  outline: none;
 }
 
 .modal-button:active, .close-modal:active {
@@ -205,11 +209,11 @@ a:hover {
 }
 
 .modal-content .prize {
-	font-size: 1em;
+	font-size: 14px;
 }
 
 .modal-content .dot {
-	margin-top: 3.5px;
+	margin-top: 4px;
 }
 
 .modal-content .prize-title {
