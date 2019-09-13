@@ -2,10 +2,12 @@
   title: "Best Use of AWS AI / ML Services"
   description: "We are looking for the best use of the AWS AI / ML services in your project! $100 in promotional credits will be provided to all who build for the AWS challenge."
   links:
-    - section: "Documentation"
+    - section: "API"
       section_links:
         - title: "AWS AI / ML services"
           url: "https://aws.amazon.com/machine-learning/ai-services/"
+    - section: "Documentation"
+      section_links:
         - title: "Demos and workshops"
           url: "https://s3.amazonaws.com/aiml-demo-site/index.html"
         - title: "AWS Hackathon Guide"
@@ -24,10 +26,15 @@
 Our judges will be evaluating the best Hack Project that focuses on building community and connecting people. <br/><br/>
 
 We are sponsoring an all-expense paid trip for each member of the winning team to visit Facebook's Headquarters in Menlo Park, CA, where they will participate in Facebook's Global Hack Finals!"
+  links:
+    - section: "API"
+      section_links:
+        - title: "Facebook APIs"
+          url: "https://developers.facebook.com/docs/"
   prizes:
     - title: ""
-      prize: "Trip to Facebook Headquarters for the Facebook Global Hack Finals!"
-- sponsor: "IBM"
+      prize: "Trip to Facebook Headquarters for the Facebook Global Hack Finals"
+- sponsor: "MIT-IBM Watson AI Lab"
   title: "Best IBM Disaster Preparedness & Relief Solutions"
   description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Code and Response Challenge,\" hackers need to incorporate at least one of the <a href=\"https://cloud.ibm.com/catalog\">API services</a> into their project. Submissions will be judged across 4 areas: Completeness and Transferability, Effectiveness and Efficiency, Design and Usability, and Creativity and Innovation. <br/>
 <br/>
@@ -39,12 +46,22 @@ We are looking for ideas that will help prevent, mitigate, or recover from natur
       prize: "$1000"
     - title: "3rd"
       prize: "$500"
-- sponsor: "IBM"
+  links:
+    - section: "API"
+      section_links:
+        - title: "IBM Cloud APIs"
+          url: "https://cloud.ibm.com/catalog"
+- sponsor: "MIT-IBM Watson AI Lab"
   title: "Best Use of IBM Visual Recognition"
   description: "Have a good idea that involves Visual Recognition? The team that showcases the best use of IBM Visual Recognition will win up to 5 Tello Drones. We have Visual Recognition experts on-site to help you bring your idea to reality."
   prizes:
     - title: ""
       prize: "Tello Drones"
+  links:
+    - section: "API"
+      section_links:
+        - title: "IBM Cloud APIs"
+          url: "https://cloud.ibm.com/catalog"
 - sponsor: "Rev"
   title: "Rev.ai Speech API Challenge"
   description: "Rev.ai is the most accurate Speech-to-Text service on the market.  This prize will go to the team that creates the most novel use of our Speech-to-Text engine. We want to see you leverage our speech API as creatively and effectively as possible.  This year we have both the real-time and asynchronous version available.
@@ -80,6 +97,10 @@ The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting an
       section_links:
         - title: "Algorand Developer Documentation"
           url: "https://developer.algorand.org/"
+    - section: "API"
+      section_links:
+        - title: "Algorand SDKs and REST APIs"
+          url: "https://developer.algorand.org/docs/using-sdks-and-rest-apis"
   prizes:
     - title: "1st"
       prize: "$1000 + Codrone + Thule 32L Backpack"
@@ -118,6 +139,11 @@ Judging criteria: <br/>
 - sponsor: "Amadeus"
   title: "Best Use of Amadeus API's"
   description: "Amadeus is the leading technology partner for the global travel industry. We challenge you to create the best hack that utilizes Amadeus' API for travel related challenges. You can just either use just the Amadeus API or combine it with other company APIs. If you're interested in Urban Innovation, this is the challenge for you!"
+  links:
+    - section: "API"
+      section_links:
+        - title: "Amadeus Travel APIs"
+          url: "developers.amadeus.com"
   prizes:
     - title: ""
       prize: "$1000 Amazon Gift Card"
@@ -149,7 +175,7 @@ Submission requirements:<br/>
   + Best use of Nasdaq/Quandl datasets applied to applications beyond capital markets."
   prizes:
     - title: ""
-      prize: " dinner w/ Nasdaq's Executive Vice President and CTO, Brad Peterson"
+      prize: " Dinner w/ Nasdaq's Executive Vice President and CTO, Brad Peterson"
 - sponsor: "Nebulous"
   title: "Best Product or Idea that leverages Sia's Storage Platform"
   description: "The goal of this challenge is to showcase a product or idea that leverages Sia's renter API, and uses the decentralized aspect of Sia's storage in an innovative manner. Decentralized storage completely changes the way files are stored in the internet. By encrypting and splitting a single file up with your private key over 30 hosts, Sia allows end-users to store data on the web in a private and censorship resistant manner. 
@@ -164,9 +190,9 @@ Bonus: Anyone who uploads at least 100 GB of data by the end of the hackathon wi
 <br/>
 It takes a couple hours for <a href=\"https://sia.tech/get-started\">the blockchain to download</a>. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table in the bleachers."
   links:
-    - section: "Documentation"
+    - section: "API"
       section_links:
-        - title: "Main API docs"
+        - title: "Sia Storage Platform API"
           url: "https://sia.tech/docs/"
     - section: "Resources"
       section_links:
@@ -214,6 +240,11 @@ It takes a couple hours for <a href=\"https://sia.tech/get-started\">the blockch
 * Python Scripting<br/>
 <br/>
 Find more information about our API <a href=\"instabase.com/hackmit \">here</a>."
+  links:
+    - section: "API"
+      section_links:
+        - title: "API for NLP, ML, OCR, documentation classification, and text classification"
+          url: "http://www.instabase.com/hackmit"
   prizes:
     - title: ""
       prize: "$1000"
@@ -221,9 +252,9 @@ Find more information about our API <a href=\"instabase.com/hackmit \">here</a>.
   title: "Best Command Line Tool"
   description: "At LightStep, we build product for developers in many different companies and parts of the world. The command line is the basic starting point for a lot of our work as developers, but there's a lot that goes into making a great one. Specifically:
 <br/>
-- How _useful_ is it? Does this solve either a need or want for developers in their workflow? Does it make sense to build/use this as a command line tool and not as a webapp? Clear cases where a developer would turn to your tool are better than tools which try to do everything but don't address a specific problem.
+- How <i>useful</i> is it? Does this solve either a need or want for developers in their workflow? Does it make sense to build/use this as a command line tool and not as a webapp? Clear cases where a developer would turn to your tool are better than tools which try to do everything but don't address a specific problem.
 <br/>
-- How _usable_ is it? Is it clear what commands a developer can use, and which ones are optional or required? Is it easy to execute repetitive or common flows, as well as discover less common ones if needed? What happens when there is a very long running process - is my only option to escape, or can I run other work concurrently, and why? Do the names and commands make sense?
+- How <i>usable</i> is it? Is it clear what commands a developer can use, and which ones are optional or required? Is it easy to execute repetitive or common flows, as well as discover less common ones if needed? What happens when there is a very long running process - is my only option to escape, or can I run other work concurrently, and why? Do the names and commands make sense?
 <br/><br/>
 Note that usefulness and usability have a few key differences, and both will be important to win.
 <br/><br/>

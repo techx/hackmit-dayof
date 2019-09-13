@@ -6,19 +6,6 @@
   flex: 1 1;
 }
 
-.border {
-	border: 2px solid #231f20;
-	border-radius: 20px;
-	z-index: 1;
-	position: absolute;
-	top: -5px;
-	left: -5px;
-	width: 100%;
-	height: 100%;
-	padding: 10px;
-	pointer-events: none;
-}
-
 .skinny a {
 	letter-spacing: 0em;
 	font-family: "Open Sans", sans-serif;
@@ -37,10 +24,6 @@
 	flex-direction: column;
 }
 
-.blue {
-	background-color: #2ec0cf;
-}
-
 .blue > .modal-button, .blue > .close-modal {
 	color: #2495a1;
 }
@@ -49,20 +32,12 @@
 	background-color: #2495a1;
 }
 
-.green {
-	background-color: #00d87b;
-}
-
 .green > .modal-button, .green > .close-modal {
 	color: #009f5b;
 }
 
 .green .link-container {
 	background-color: #009f5b;
-}
-
-.red {
-	background-color: #f766a6;
 }
 
 .red > .modal-button, .red > .close-modal {
@@ -190,8 +165,8 @@
 
 	background-color: rgba(0,0,0,0.6);
 
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .modal-content {

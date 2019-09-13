@@ -1,6 +1,5 @@
 .prizes {
   display: flex;
-  width: 760px;
   margin-right: 0px;
 }
 .column {
@@ -22,17 +21,55 @@
   padding-left: 0px;
 }
 
-.prize h3 {
-  color: #00d87b ;
-  font-size: 20px;
-  margin-bottom: 4px;
-  letter-spacing: .01em;
+h3 {
+  color: #2ec0cf;
+  font-family: "Norwester";
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 1.7em;
+  padding-bottom: 4px;
+  text-align: left;
 }
 
-h3 {
-  font-size: 22px;
-  margin-bottom: 24px;
-  text-align: left;
+.prize-catagory {
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 0.8em;
+}
+
+.prize {
+  position: relative;
+  border-radius: 20px;
+}
+
+.prize > p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.prize-description {
+  font-size: 0.9em;
+  line-height: 1.25em;
+}
+
+.title {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.1em;
+  padding-bottom: 5px;
+}
+
+.track-prizes {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ul {
+  padding-bottom: 30px;
 }
 
 .highlight {
@@ -49,23 +86,15 @@ h3 {
 }
 
 @media only screen and (max-width: 760px) {
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: inherit;
+  main .column {
+    flex: none;
+    margin: 0;
+    padding-bottom: 20px;
   }
 
   main .prizes {
     display: block;
     margin: 0 auto;
-  }
-
-  main .column {
-    flex: none;
-    margin: 0;
-    width: 100%;
   }
 
   main .column:nth-child(2) {

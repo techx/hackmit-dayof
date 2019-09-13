@@ -3,54 +3,38 @@ layout: default
 title: Prizes
 skinny: true
 ---
-<h1>judging and prizes!</h1>
-{% for section in site.data.prizes %}
-  <h2>{{ section.title }}</h2>
-  {% if section.description != null %}
-    <h3>{{ section.description }}</h3>
-  {% endif %}
+<h1>judging and prizes</h1>
   <div class="prizes">
     <div class="column desktop">
-      {% for prize in section.prizes %}
-      {% assign mod = forloop.index | modulo: 2 %}
-      {% if mod != 0 %}
-      <div class="prize{% if forloop.index == 1 %} top{% endif %}">
-        <h3>{{ prize.title }}</h3>
-        <p class="highlight">{{ prize.prize }}</p>
-        <p>{{ prize.description }}</p>
-      </div>
-      {% endif %}
+      <h2 class="prize-catagory">GENERAL PRIZES</h2>
+      {% for prize in site.data.prizes.prizes %}
+      {% assign modcolor = forloop.index | modulo: 3 %}
+        <div class="prize {% if modcolor == 0 %}red{% endif %}{% if modcolor == 1 %}green{% endif %}{% if modcolor == 2 %}blue{% endif %}">
+          <div class="border"></div>
+          <p class="title">{{prize.title}}</p>
+          <p class="prize-description">{{prize.prize}}</p>
+        </div>
       {% endfor %}
     </div>
-    <div class="column desktop">
-      {% for prize in section.prizes %}
-      {% assign mod = forloop.index | modulo: 2 %}
-      {% if mod == 0 %}
-      <div class="prize{% if forloop.index == 2 %} top{% endif %}">
-        <h3>{{ prize.title }}</h3>
-        <p class="highlight">{{ prize.prize }}</p>
-        <p>{{ prize.description }}</p>
-      </div>
-      {% endif %}
+    <div class="column desktop track-prizes">
+      <h2 class="prize-catagory">TRACK PRIZES</h2>
+      <h3>Tracks</h3>
+      <ul>
+      {% for track in site.data.prizes.tracks %}
+        <li>{{track.track}}</li>
       {% endfor %}
+      </ul>
+      <h3>Prizes</h3>
+      <ul>
+      {% for prize in site.data.prizes.track-prizes %}
+        <li>{{prize.prize}} </li>
+      {% endfor %}
+      </ul>
     </div>
     <div class="column desktop blurb">
       <p>
         Project submissions must be in by <b>11:15 AM on Sunday</b>.
         At the expo, each team will present their projects for a few minutes at a time to small groups of judges in a science-fair format. After expo judging ends at <strong>1:00 PM</strong>, the top teams will be chosen to sponsor judging and panel judging.
-        <br />
-        <br />
-        The beginner division is meant for people learning to build their first projects or attending their first hackathon this HackMIT. Otherwise, join the main division!
       </p>
     </div>
-    <div class="column mobile">
-      {% for prize in section.prizes %}
-        <div class="prize{% if forloop.index == 1 %} top{% endif %}">
-          <h3>{{ prize.title }}</h3>
-          <p class="highlight">{{ prize.prize }}</p>
-          <p>{{ prize.description }}</p>
-        </div>
-      {% endfor %}
-    </div>
   </div>
-{% endfor %}

@@ -1,14 +1,27 @@
-- title:
-  prizes:
-    - title: 1ST PLACE - BEGINNER
-      prize: Prize - Coolest Prize!!!
-    - title: 1ST PLACE - MAIN
-      prize: Prize - Best Prize!!!
-    - title: 2ND PLACE - BEGINNER
-      prize: Prize - Cooler Prize!!
-    - title: 2ND PLACE - MAIN
-      prize: Prize - Better Prize!!
-    - title: 3RD PLACE - BEGINNER
-      prize: Prize - Cool Prize!
-    - title: 3RD PLACE - MAIN
-      prize: Prize - Good Prize!
+prizes:
+  - title: "Grand Prize"
+    prize: "$1000 reimbursement"
+  - title: "2nd Place"
+    prize: "Sonos Beam Smart Soundbar"
+  - title: "3rd Place"
+    prize: "Bose Soundlike Wireless Headphones"
+tracks:  
+  - track: "Assistive Tech"
+  - track: "Dev Tools"
+  - track: "Education"
+  - track: "Entertainment"
+  - track: "Fintech"
+  - track: "Healthtech"
+  - track: "Social Good"
+  - track: "Urban Innovation"
+track-prizes:
+  - prize: "AirPods 2"
+  - prize: "Oculus Go"
+  - prize: "Beats Portable Speaker"
+  - prize: "iPad Air 2"
+  - prize: "Beats Solo Headphones 3"
+  - prize: "Fitbit Versa"
+  - prize: "GoPro Hero 5"
+  - prize: "Parrot Bebop 2 Camera Drone"
+  
+
