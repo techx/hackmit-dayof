@@ -1,0 +1,58 @@
+---
+layout: default
+title: Speakers
+skinny: true
+---
+<h1> speakers</h1>
+{% for section in site.data.speakers %}
+  <h2>{{ section.title }}</h2>
+  {% if section.description != null %}
+    <h3>{{ section.description }}</h3>
+  {% endif %}
+  <div class="speakers">
+    <div class="column">
+      {% for speaker in section.speakers %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% assign modcolor = forloop.index | modulo: 3 %}
+      {% if mod != 0 %}
+      <div class="speaker{% if forloop.index == 1 %} top{% endif %}">
+        <div class="speaker-header">
+          {% capture img_path %}/img/{{speaker.image}}{% endcapture %}
+          <div class="img-box">
+            <img src="{{ img_path | relative_url }}" />
+            <div class="bg {% if modcolor == 0 %}blue{% endif %}{% if modcolor == 1 %}red{% endif %}{% if modcolor == 2 %}green{% endif %}"></div>
+          </div>
+          <div class="speaker-info">
+            <h3>{{ speaker.name }}</h3>
+            <p class="highlight">{{ speaker.title }}</p>
+         </div>
+        </div>
+        <p>{{ speaker.description }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for speaker in section.speakers %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% assign modcolor = forloop.index | modulo: 3 %}
+      {% if mod == 0 %}
+      <div class="speaker{% if forloop.index == 2 %} top{% endif %}">
+        <div class="speaker-header">
+          {% capture img_path %}/img/{{speaker.image}}{% endcapture %}
+          <div class="img-box">
+            <img src="{{ img_path | relative_url }}" />
+            <div class="bg {% if modcolor == 0 %}blue{% endif %}{% if modcolor == 1 %}red{% endif %}{% if modcolor == 2 %}green{% endif %}"></div>
+          </div>
+          <div class="speaker-info">
+            <h3>{{ speaker.name }}</h3>
+            <p class="highlight">{{ speaker.title }}</p>
+         </div>
+        </div>
+        <p>{{ speaker.description }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

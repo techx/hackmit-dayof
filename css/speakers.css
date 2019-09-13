@@ -1,0 +1,107 @@
+.speakers {
+  display: flex;
+  margin-right: 0px;
+}
+
+.column {
+  flex: 1 1;
+}
+
+.speaker {
+  text-align: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+
+.speaker.top {
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.speaker h3 {
+  color: #231f20;
+  margin-bottom: 4px;
+
+  font-family: "Libre Franklin";
+  
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.speaker img {
+  border-radius: 50%;
+  margin: 8px 0;
+  width: 110px;
+  z-index: 2;
+  position: relative;
+  border: 2px solid #231f20;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-align: left;
+  letter-spacing:.1em;
+}
+
+.highlight {
+  font-family: "Libre Franklin", sans-serif;
+  color: #231f20;
+  font-size: 0.8em;
+  line-height: 1.1em;
+}
+
+.skinny a {
+	letter-spacing: 0em;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+
+.img-box {
+  position: relative;
+  border-radius: 50%;
+  padding-right: 30px;
+}
+
+.img-box > .bg {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  top: 20px;
+  left: 10px;
+  position: absolute;
+}
+
+
+.speaker-header {
+  display: flex;
+  align-items: bottom;
+
+  padding-bottom: 15px;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+  main .speakers {
+    display: block;
+    margin: 0 auto;
+  }
+
+  main .column {
+    flex: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  main .column:nth-child(2) {
+    margin-top: 16px;
+  }
+}
