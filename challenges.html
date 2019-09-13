@@ -69,7 +69,7 @@ skinny: true
 				<p class="section-header">{{ link_section.section }}</p>
 				<div class="link-container">
 				{% for link in link_section.section_links %}
-					<a href="{{ link.url }}">{{ link.title }}</a>
+					<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
 				{% endfor %}
 				</div>
 			{% endfor %}
