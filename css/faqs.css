@@ -7,8 +7,9 @@ h3, p {
 }
 
 h3 {
-  color: #34bac8;
-  letter-spacing: .05em;
+  color: #f766a6;
+  letter-spacing: .01em;
+  font-family: "Libre Franklin";
 }
 
 p {
@@ -17,13 +18,13 @@ p {
 }
 
 .red {
-  color: #ec7560;
+  color: #ff6f61;
 }
 
 .yellow {
-  color: #f6c55e;
+  color: #00d87b;
 }
 
 .blue {
-  color: #34bac8;
+  color: #2ec0cf;
 }

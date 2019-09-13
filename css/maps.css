@@ -9,7 +9,7 @@
 }
 
 .left h1 {
-  font-size: 36px;
+  /*font-size: 36px; */
   margin-bottom: 24px;
 }
 
@@ -21,18 +21,21 @@
   color: #fff;
   cursor: pointer;
   font-weight: 600;
+  text-transform: uppercase;
   margin-bottom: 24px;
-  padding: 8px;
+  padding: 15px;
   position: relative;
   text-align: center;
+  border-radius: 10px;
+  font-size: 13px;
 }
 
 .button h2 {
   margin-bottom: 0;
 }
 
-.button.yellow {
-  background: #f6c55e;
+.button.green {
+  background: #00d87b;
 }
 
 .button.red {
@@ -58,8 +61,8 @@
   display: block;
 }
 
-.button.yellow .arrow {
-  border-left-color: #f6c55e;
+.button.green .arrow {
+  border-left-color: #00d87b;
 }
 
 .button.red .arrow {

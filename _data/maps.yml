@@ -1,6 +1,3 @@
-- name: stata center
-  color: yellow
-  url: /img/stata_map.png
-- name: media lab
-  color: red
-  url: /img/medialab_map.png
+- name: kresge oval area
+  color: green
+  url: /img/kresge_lawn_area.png

@@ -1,0 +1,93 @@
+---
+layout: default
+title: Challenges
+skinny: true
+---
+<h1>SPONSOR CHALLENGES</h1>
+<div class="challenges">
+    <div class="column">
+        {% for challenge in site.data.challenges %}
+     	{% assign mod = forloop.index | modulo: 2 %}
+     	{% assign modcolor = forloop.index | modulo: 3 %}
+		{% if mod != 0 %}
+		<div class="challenge {% if modcolor == 0 %}green{% endif %}{% if modcolor == 1 %}blue{% endif %}{% if modcolor == 2 %}red{% endif %}">
+			<div class="border"></div>
+			<p class="sponsor">{{challenge.sponsor}}</p>
+			<p class="title">{{ challenge.title }}</p>
+			<div class="prizes"> 
+				{% for place in challenge.prizes %}
+					{% if place.title == ""%}
+						<div class="dot"></div>
+					{% else %}
+						<p class="prize-title"><span class="highlight">{{place.title}}</span></p>
+					{% endif %}
+					<p class="prize">{{ place.prize }}</p>
+				{% endfor %}
+			</div>
+			<button class="modal-button" data-modal-id="{{challenge.title}}">+</button>
+		</div>
+		{% endif %}
+		{% endfor %}
+    </div>
+    <div class="column">
+		{% for challenge in site.data.challenges %}
+		{% assign mod = forloop.index | modulo: 2 %}
+		{% assign modcolor = forloop.index | modulo: 3 %}
+		{% if mod == 0 %}
+		<div class="challenge {% if modcolor == 0 %}green{% endif %}{% if modcolor == 1 %}blue{% endif %}{% if modcolor == 2 %}red{% endif %}">
+			<div class="border"></div>
+			<p class="sponsor">{{challenge.sponsor}}</p>
+			<p class="title">{{ challenge.title }}</p>
+			<div class="prizes"> 
+				{% for place in challenge.prizes %}
+					{% if place.title == ""%}
+						<div class="dot"></div>
+					{% else %}
+						<p class="prize-title"><span class="highlight">{{place.title}}</span></p>
+					{% endif %}
+					<p class="prize">{{ place.prize }}</p>
+				{% endfor %}
+			</div>
+			<button class="modal-button" data-modal-id="{{challenge.title}}">+</button>
+		</div>
+		{% endif %}
+		{% endfor %}
+    </div>
+ </div>
+
+ {% for challenge in site.data.challenges %}
+ {% assign modcolor = forloop.index | modulo: 3 %}
+ <div class="modal-view" id ="{{challenge.title}}">
+ 	<div class= "modal-content {% if modcolor == 0 %}green{% endif %}{% if modcolor == 1 %}blue{% endif %}{% if modcolor == 2 %}red{% endif %}">
+ 		<div class="border"></div>
+ 		<p class="sponsor">{{challenge.sponsor}}</p>
+		<p class="title">{{ challenge.title }}</p>
+		<p class="description">{{ challenge.description }}</p>
+		{% if challenge.links != null %}
+		<div class="link-box">
+			{% for link_section in challenge.links %}
+				<p class="section-header">{{ link_section.section }}</p>
+				<div class="link-container">
+				{% for link in link_section.section_links %}
+					<a href="{{ link.url }}">{{ link.title }}</a>
+				{% endfor %}
+				</div>
+			{% endfor %}
+		</div>
+		{% endif %}
+		<div class="prizes"> 
+				{% for place in challenge.prizes %}
+					{% if place.title == ""%}
+						<div class="dot"></div>
+					{% else %}
+						<p class="prize-title"><span class="highlight">{{place.title}}</span></p>
+					{% endif %}
+					<p class="prize">{{ place.prize }}</p>
+				{% endfor %}
+		</div>
+		<button class="close-modal">x</button>
+ 	</div>
+ </div>
+ {% endfor %}
+
+ <script type="text/javascript" src="{{ "/js/challenges.js" | relative_url }}"></script>
