@@ -7,9 +7,10 @@ h3, p {
 }
 
 h3 {
-  color: #f766a6;
+  color: #2ec0cf;
   letter-spacing: .01em;
-  font-family: "Libre Franklin";
+  font-family: "Norwester";
+  letter-spacing: .15em;
 }
 
 p {

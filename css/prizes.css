@@ -31,6 +31,19 @@ h3 {
   text-align: left;
 }
 
+.blue {
+  background-color: #2ec0cf;
+}
+
+.green {
+  background-color: #00d87b;
+}
+
+.red {
+  background-color: #f766a6;
+}
+
+
 .prize-catagory {
   text-align: center;
   font-family: "Libre Franklin", sans-serif;
@@ -63,12 +76,12 @@ h3 {
   margin-right: 10px;
 }
 
-li {
+.track-prizes li {
   list-style-type: disc;
   list-style-position: inside;
 }
 
-ul {
+.track-prizes ul {
   padding-bottom: 30px;
 }
 

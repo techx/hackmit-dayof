@@ -24,6 +24,19 @@
 	flex-direction: column;
 }
 
+.blue {
+  background-color: #2ec0cf;
+}
+
+.green {
+  background-color: #00d87b;
+}
+
+.red {
+  background-color: #f766a6;
+}
+
+
 .blue > .modal-button, .blue > .close-modal {
 	color: #2495a1;
 }

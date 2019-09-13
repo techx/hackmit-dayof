@@ -87,6 +87,10 @@ Bonus: Build a UI for the solution (command line, web based or other) in any lan
 What is Algorand? <br/>
 The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting and registration mechanisms with Verifiable Random Functions (VRF). Leveraging these features results in near-instant transaction finality and true decentralization with respect to economic throughput and incentives."
   links:
+    - section: "API"
+      section_links:
+        - title: "Algorand SDKs and REST APIs"
+          url: "https://developer.algorand.org/docs/using-sdks-and-rest-apis"
     - section: "Example Solutions"
       section_links:
         - title: "Evancoin"
@@ -97,10 +101,6 @@ The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting an
       section_links:
         - title: "Algorand Developer Documentation"
           url: "https://developer.algorand.org/"
-    - section: "API"
-      section_links:
-        - title: "Algorand SDKs and REST APIs"
-          url: "https://developer.algorand.org/docs/using-sdks-and-rest-apis"
   prizes:
     - title: "1st"
       prize: "$1000 + Codrone + Thule 32L Backpack"
@@ -111,6 +111,11 @@ The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting an
   description: "The DocuSign eSignature API lets you eSign documents, request signatures, automate your forms and data, accept payments, verify identity and much more! You can integrate the eSignature REST APIs into any app, website, or embedded system that can make https requests.
 <br/><br/>
 For more information, view the <a href=\"https://developers.docusign.com/esign-rest-api/code-examples/quickstart-overview\">quick start code examples</a>."
+  links:
+    - section: "API"
+      section_links:
+        - title: "DocuSign APIs"
+          url: "https://developer.algorand.org/docs/using-sdks-and-rest-apis"
   prizes:
     - title: "1st"
       prize: "$1000 Cash + internship/full-time job interview + VIP Passes to DocuSign Momentum Conference + featured on the DocuSign Developer Blog and on DocuSign's social media platforms"

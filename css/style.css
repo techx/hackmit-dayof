@@ -181,12 +181,6 @@ main .box p {
   font-weight: 800;
 }
 
-.bubble-highlight {
-  background-color: #2ec0cf;
-  border-radius: 10px;
-  padding: 3px 9px;
-}
-
 .border {
   border: 2px solid #231f20;
   border-radius: 20px;
@@ -198,18 +192,6 @@ main .box p {
   height: 100%;
   padding: 10px;
   pointer-events: none;
-}
-
-.blue {
-  background-color: #2ec0cf;
-}
-
-.green {
-  background-color: #00d87b;
-}
-
-.red {
-  background-color: #f766a6;
 }
 
 /* main .box a {
