@@ -20,43 +20,43 @@
     - name: lunch
       time: 12:00 PM
       location: tent
-    - name: ibm tech talk
+    - name: ibm workshop
       time: 1:00 PM
       location: johnson media room
       color: blue
-    - name: microsoft tech talk
+    - name: microsoft workshop
       time: 1:30 PM
       location: johnson media room
       color: blue
-    - name: veritone tech talk
+    - name: veritone workshop
       time: 2:15 PM
       color: blue
       location: johnson media room
-    - name: tech talks & fun events
+    - name: workshops & fun events
       time: 3:00 PM
       color: yellow
       events:
-        - name: "aws tech talk"
+        - name: "aws workshop"
           location: johnson media room
         - name: "petting zoo"
           location: kresge lawn
-    - name: "salesforce tech talk"
+    - name: "salesforce workshop"
       time: 3:45 PM
       color: yellow
       location: johnson media room
-    - name: google tech talk
+    - name: google workshop
       time: 4:15 PM
       location: johnson media room
       color: yellow
-    - name: tech talks & fun events
+    - name: workshops & fun events
       time: 5:00 PM
       color: blue
       events:
-        - name: algorand tech talk
+        - name: algorand workshop
           location: johnson media room
         - name: outdoor games
           location: kresge lawn
-    - name: facebook tech talk
+    - name: facebook workshop
       time: 5:30 PM
       location: johnson media room
       color: blue
@@ -114,14 +114,10 @@
     - name: lunch
       time: 12:30 PM
       location: tent
-    - name: more judging
+    - name: sponsor judging
       time: 1:00 PM
       color: red
-      events:
-        - name: sponsor judging
-          location: johnson ice rink
-        - name: panel judging
-          location: johnson media room
+      location: johnson ice rink
     - name: closing ceremony
       time: 3:00 PM
       location: kresge auditorium

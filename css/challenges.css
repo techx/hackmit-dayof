@@ -154,6 +154,7 @@
 	font-size: 1.5em;
 
 	align-self: center;
+	cursor: pointer;
 }
 
 .modal-button:focus, .close-modal:focus {
