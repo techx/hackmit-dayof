@@ -39,7 +39,7 @@
         - name: "aws workshop - machine learning"
           location: johnson media room
         - name: "petting zoo"
-          location: kresge lawn
+          location: kresge tent
     - name: "salesforce workshop - reinforcement learning"
       time: 3:45 PM
       color: yellow
