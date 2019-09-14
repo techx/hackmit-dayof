@@ -308,30 +308,13 @@ Bonus consideration will be given for hacks that include...<br/>
   description: "Projects that put data to use in interesting ways. This could include analyzing existing datasets to solve non traditional problems or building ways to gather and study new data."
   prizes:
     - title: ""
-      prize: "TBD"
+      prize: "S100 Amazon gift cards"
 - sponsor: "Kensho"
-  title: "Best use of Kensho Knowledge Graph API"
-  description: "Use the Kensho Knowledge Graph API in the most clever/novel/creative/insightful way. We
-want you to use our API to provide some interesting insight, prediction, or visualization of some
-world event(s) (doesn't have to be finance related). <br/><br/>
-Kensho Knowledge Graph API - Be the first ever (literally, we opened this up last week!)
-non-client (think bank, hedge fund, etc) user of the Kensho Knowledge Graph API. We provide
-years of data on events, companies, people and going ons of the world of finance + geopolitics.
-Whether you're looking for data on presidential speeches, missile launches, mergers, or product
-releases, we've got it!<br/><br/>
-How to get access:<br/>
-75cabbcbb13902d342ab56354f2f24830b4ca92b<br/>
-Is an API token good for 1 request/second, shared among all hackMIT. If you just want to
-experiment that should be good to start.<br/>
-If you want to use it in your project and need more reliable access, email <a href=\"mailto:ben@kensho.com\">ben@kensho.com</a> to
-get an API access token, which should give you 1 API call per second for just your team."
-  links:
-    - section: "Documentation"
-      section_links:
-        - title: "API Docs"
-          url: "https://drive.google.com/file/d/1xVfi9vlAU_TdNNkEP7biCzBqi99461DB"
-        - title: "Python Client"
-          url: "https://gist.github.com/benjamincohen1/c98d0ee0a85df1501e2e1690184907a3"
+  title: "Data Usability Challenge"
+  description: "At Kensho we end up dealing with a lot of data.  Unfortunately for us, the data we want is often hidden in legacy systems which are hard to query, cumbersome to maintain, and have high barriers to entry to use.  
+  Because of this, we spend a lot of time thinking about and developing tools for us to better explore, query, store, and manage sources of data. 
+   We challenge you to think about and do the same--<i>make something which takes a messy data set and makes it friendlier, easier to use, or more explorable</i>.  This can be anything from a UI for data exploration to a better way of writing queries.
+   Actionable criteria for success/impressing us/real life inspirations: <a href=\"https://datastudio.google.com/u/0/\">Vastly shortens/cleans up a process involving data</a>, <a href=\"https://github.com/kensho-technologies/graphql-compiler\">provides a new abstraction for querying data</a>, <a href=\"https://github.com/graphql/graphiql\">makes querying data easier</a>."
   prizes:
     - title: "1st"
       prize: "Audio-Technica ATH-M50x or Bose QuietComfort 25 headphones"
