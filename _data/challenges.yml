@@ -303,4 +303,37 @@ Bonus consideration will be given for hacks that include...<br/>
   prizes:
     - title: ""
       prize: "Imprivata Swag Bags"
-
+- sponsor: "HRT"
+  title: "Most Interesting Use of Data"
+  description: "Projects that put data to use in interesting ways. This could include analyzing existing datasets to solve non traditional problems or building ways to gather and study new data."
+  prizes:
+    - title: ""
+      prize: "TBD"
+- sponsor: "Kensho"
+  title: "Best use of Kensho Knowledge Graph API"
+  description: "Use the Kensho Knowledge Graph API in the most clever/novel/creative/insightful way. We
+want you to use our API to provide some interesting insight, prediction, or visualization of some
+world event(s) (doesn't have to be finance related). <br/><br/>
+Kensho Knowledge Graph API - Be the first ever (literally, we opened this up last week!)
+non-client (think bank, hedge fund, etc) user of the Kensho Knowledge Graph API. We provide
+years of data on events, companies, people and going ons of the world of finance + geopolitics.
+Whether you're looking for data on presidential speeches, missile launches, mergers, or product
+releases, we've got it!<br/><br/>
+How to get access:<br/>
+75cabbcbb13902d342ab56354f2f24830b4ca92b<br/>
+Is an API token good for 1 request/second, shared among all hackMIT. If you just want to
+experiment that should be good to start.<br/>
+If you want to use it in your project and need more reliable access, email <a href=\"mailto:ben@kensho.com\">ben@kensho.com</a> to
+get an API access token, which should give you 1 API call per second for just your team."
+  links:
+    - section: "Documentation"
+      section_links:
+        - title: "API Docs"
+          url: "https://drive.google.com/file/d/1xVfi9vlAU_TdNNkEP7biCzBqi99461DB"
+        - title: "Python Client"
+          url: "https://gist.github.com/benjamincohen1/c98d0ee0a85df1501e2e1690184907a3"
+  prizes:
+    - title: "1st"
+      prize: "Audio-Technica ATH-M50x or Bose QuietComfort 25 headphones"
+    - title: "Runner Up"
+      prize: "$50 Amazon gift cards"
