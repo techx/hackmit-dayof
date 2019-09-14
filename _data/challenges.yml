@@ -70,7 +70,7 @@ Go to <a href=\"rev.ai\">rev.ai</a> to sign up."
   links:
     - section: "API"
       section_links:
-        - title: "Rev API"
+        - title: "Speech to text API"
           url: "https://www.rev.ai/"
   prizes:
     - title: ""
