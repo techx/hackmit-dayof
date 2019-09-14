@@ -67,6 +67,11 @@ We are looking for ideas that will help prevent, mitigate, or recover from natur
   description: "Rev.ai is the most accurate Speech-to-Text service on the market.  This prize will go to the team that creates the most novel use of our Speech-to-Text engine. We want to see you leverage our speech API as creatively and effectively as possible.  This year we have both the real-time and asynchronous version available.
 <br/> <br/>
 Go to <a href=\"rev.ai\">rev.ai</a> to sign up."
+  links:
+    - section: "API"
+      section_links:
+        - title: "Speech to text API"
+          url: "https://www.rev.ai/"
   prizes:
     - title: ""
       prize: "$4000"
@@ -115,7 +120,7 @@ For more information, view the <a href=\"https://developers.docusign.com/esign-r
     - section: "API"
       section_links:
         - title: "DocuSign APIs"
-          url: "https://developer.algorand.org/docs/using-sdks-and-rest-apis"
+          url: "https://developers.docusign.com/overview"
   prizes:
     - title: "1st"
       prize: "$1000 Cash + internship/full-time job interview + VIP Passes to DocuSign Momentum Conference + featured on the DocuSign Developer Blog and on DocuSign's social media platforms"
@@ -148,7 +153,7 @@ Judging criteria: <br/>
     - section: "API"
       section_links:
         - title: "Amadeus Travel APIs"
-          url: "developers.amadeus.com"
+          url: "https://developers.amadeus.com"
   prizes:
     - title: ""
       prize: "$1000 Amazon Gift Card"
