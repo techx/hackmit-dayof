@@ -331,3 +331,9 @@ education, justice and safety, international development, civic engagement, and 
   prizes:
     - title: ""
       prize: "$500"
+- sponsor: "Niantic"
+  title: "Niantic Augmented Reality Prize"
+  description: "Make the world a more interesting place with AR! We are looking for novel applications of AR that are utilitarian, assistive, or just plain cool. Use whatever APIs or hardware you want - though we are most excited by visual AR."
+  prizes:
+    - title: ""
+      prize: "$4000"
