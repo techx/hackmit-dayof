@@ -148,7 +148,7 @@ Judging criteria: <br/>
     - section: "API"
       section_links:
         - title: "Amadeus Travel APIs"
-          url: "developers.amadeus.com"
+          url: "https://developers.amadeus.com"
   prizes:
     - title: ""
       prize: "$1000 Amazon Gift Card"
