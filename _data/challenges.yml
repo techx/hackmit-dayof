@@ -337,3 +337,14 @@ get an API access token, which should give you 1 API call per second for just yo
       prize: "Audio-Technica ATH-M50x or Bose QuietComfort 25 headphones"
     - title: "Runner Up"
       prize: "$50 Amazon gift cards"
+- sponsor: "Coding it Forward"
+  title: "Best Social Impact Hack"
+  description: "Coding it Forward is a student-led nonprofit that empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces. 
+  The Best Social Impact Hack prize will be awarded to the team whose hack addresses a compelling social issue--at the community, regional, national, or international levels--and is backed up by an understanding 
+  of the underlying cause(s) of the issue. 
+<br/><br/>
+Strong submissions will be thoughtful, well-researched, and cognizant of existing solutions in the identified problem space. Submissions can address any social issue, including but not limited to: economic opportunity, 
+education, justice and safety, international development, civic engagement, and diversity and inclusion."
+  prizes:
+    - title: ""
+      prize: "$500"
