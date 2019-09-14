@@ -249,7 +249,7 @@ It takes a couple hours for <a href=\"https://sia.tech/get-started\">the blockch
 * Information extraction and web scraping<br/>
 * Python Scripting<br/>
 <br/>
-Find more information about our API <a href=\"instabase.com/hackmit \">here</a>."
+Find more information about our API <a href=\"http://www.instabase.com/hackmit \">here</a>."
   links:
     - section: "API"
       section_links:
@@ -257,7 +257,7 @@ Find more information about our API <a href=\"instabase.com/hackmit \">here</a>.
           url: "http://www.instabase.com/hackmit"
   prizes:
     - title: ""
-      prize: "$1000"
+      prize: "$1000 + internship/full-time interview"
 - sponsor: "Lightstep"
   title: "Best Command Line Tool"
   description: "At LightStep, we build product for developers in many different companies and parts of the world. The command line is the basic starting point for a lot of our work as developers, but there's a lot that goes into making a great one. Specifically:
