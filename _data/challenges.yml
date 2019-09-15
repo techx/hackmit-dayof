@@ -125,9 +125,9 @@ For more information, go to <a href=\"https://developers.docusign.com/esign-rest
           url: "https://developers.docusign.com/overview"
   prizes:
     - title: "1st"
-      prize: "$1000 Cash + internship/full-time job interview + VIP Passes to DocuSign Momentum Conference + featured on the DocuSign Developer Blog and on DocuSign's social media platforms"
+      prize: "$1000 Cash + internship/full-time job interview + featured on the DocuSign Developer Blog + showcased on DocuSign's social media platforms"
     - title: "2nd"
-      prize: "$500"
+      prize: "$500 Cash"
 - sponsor: "Ford"
   title: "Best Ford Car Mobility Challenge Hack"
   description: "Best Urban Innovation hack using Ford Mobility technologies (OpenXC, Smart Device Link).  The prize will be awarded to the team that best shows creativity, innovation, and human centered design."
