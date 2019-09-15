@@ -112,10 +112,12 @@ The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting an
     - title: "2nd"
       prize: "Gotenna + Matrix Creator + Raspberry Pi 3 B+"
 - sponsor: "Docusign"
-  title: "Best Use of the DocuSign eSignature API"
+  title: "Best Use of the DocuSign Agreement Cloud APIs"
   description: "The DocuSign eSignature API lets you eSign documents, request signatures, automate your forms and data, accept payments, verify identity and much more! You can integrate the eSignature REST APIs into any app, website, or embedded system that can make https requests.
 <br/><br/>
-For more information, view the <a href=\"https://developers.docusign.com/esign-rest-api/code-examples/quickstart-overview\">quick start code examples</a>."
+Our Click API provides an extremely easy interface through which to create, manage, and modify clickwrap agreements. 
+<br/><br/>
+For more information, go to <a href=\"https://developers.docusign.com/esign-rest-api/code-examples/quickstart-overview\">quick start code examples</a>."
   links:
     - section: "API"
       section_links:
