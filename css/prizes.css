@@ -85,6 +85,14 @@ h3 {
   padding-bottom: 30px;
 }
 
+.blurb li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.blurb ul {
+  padding: 0px 5px 20px 5px;
+}
+
 .highlight {
   color: black;
   margin-bottom: 4px;
