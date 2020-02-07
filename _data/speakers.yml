@@ -1,14 +1,14 @@
 - title:
   speakers:
-    - name: Olivia Brode-Roger
-      title: How does a computer work?
-      description: "Olivia is incredibly excited about... just about anything. At MIT, she switched majors 4 times and took a year to work for iCivics, a civic education non-profit. She’s still at MIT for her Master’s. Her days are filled by teaching: she teaches, takes classes about teaching, and is researching teaching techniques. She particularly loves taking what seems ordinary and revealing inner awesomeness - be it in her students, or in a computer system."
+    - name: Moin Nadeem
+      title: Assessing Bias in Artificial Intelligence Models
+      description: "Machine Learning is beginning to filter into daily life, with real-world use cases such as AI for resume filtering, Google Translate, and more. However, very little has been done to ensure that these systems are fair. For example, Amazon’s attempt to use AI for resume filtering actively discriminated against women, and Google Translate assumes the gender of an occupation: “He is a scientist, she is a nurse, he is an engineer, etc”. Come for a talk about the first large-scale study about bias in machine learning models, and learn more about the current state of AI! No prior programming experience required."
     - name: Divya Gopinath + Rohan Kodialam
       title: "Decoding for Dummies: How to Crack Ciphers Using Machine Learning"
-      description: Divya Gopinath and Rohan Kodialam are seniors majoring in Course 6 (Rohan’s a double major with physics, and Divya’s minoring in music). They are both from the tri-state area and think New England is overrated, with the sole exception of MIT. Their research interests lie in algorithms and machine learning, and they are both sticking around campus for another year to complete their Master’s degrees. When they are not in class, lab, rehearsal (Divya), or their frat house (Rohan), they like to lament the lack of good bagels and pizza in Boston.
-    - name: MIT Rocket Team
-      title: Rockets 101
-      description: The MIT Rocket Team is a well established independent student group focused on rocket-related projects. In its 14 year history, the team has focused on projects ranging from designing and building a custom centrifugal liquid engine to the development of lighter, stronger composite airframes.
-    - name: Babak Kia
-      title: What does computing mean for students and humanity?
-      description: Babak Kia is a Senior Lecturer at the BU College of Engineering where he focuses on the confluence of Innovation, Technology, and Education into the Engineering curriculum.
+      description: Divya Gopinath and Rohan Kodialam are Master's students at MIT, having graduated from undergrad last year (Rohan was a double major with physics, and Divya minored in music). They are both from the tri-state area and think New England is overrated, with the sole exception of MIT. Their research interests lie in algorithms and machine learning, and when not in lab, they like to lament the lack of good bagels and pizza in Boston.
+    - name: MIT Club Spotlight
+      title: Design For America
+      description: MIT Design for America was founded in 2012 by a group of students who believed that making a difference did not have to wait until after graduation. From that thought, Design for America was born as the hub of creating social impact with design and engineering at MIT.
+    - name: MIT Club Spotlight
+      title: Design Build Fly
+      description: We are a team of undergraduate and graduate students at MIT that develop aircraft for the annual AIAA Design/Build/Fly competition. Our students gain experience in conceptual design, multidisciplinary optimization, aerodynamic, sturctural and propulsive analysis, composite layups, CAD software, UAV fabrication and RC flight.

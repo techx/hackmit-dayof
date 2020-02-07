@@ -1,13 +1,14 @@
+
 @font-face {
-  font-family: "Geomanist";
+  font-family: "Hermit";
   font-weight: 300;
-  src: url(/font/Geomanist-Light.otf) format("truetype");
+  src: url(/hermit_font/Hermit-Light.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Geomanist";
+  font-family: "Hermit";
   font-weight: 400;
-  src: url(/font/Geomanist-Regular.otf) format("truetype");
+  src: url(/hermit_font/Hermit-Regular.otf) format("truetype");
 }
 
 @font-face {
@@ -17,9 +18,9 @@
 }
 
 @font-face {
-  font-family: "Geomanist";
+  font-family: "Hermit";
   font-weight: 700;
-  src: url(/font/Geomanist-Bold.otf) format("truetype");
+  src: url(/hermit_font/Hermit-Bold.otf) format("truetype");
 }
 
 * {
@@ -29,29 +30,28 @@
 }
 
 html, body {
-  background: #fff;
-}
-
-body {
-  background-size: 100px;
-  background-repeat: repeat;
-  color: #000;
-  font-family: "Geomanist", serif;
-  min-height: 100vh;
+  background-image: url("../gradient_grid.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Hermit", serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 a {
-  color: #0c416c;
+  color: #24E5FF;
   text-decoration: none;
   transition: 0.25s ease color;
 }
 
 a:hover {
-  color: #34bac8;
+  color: #4699D3;
 }
 
 h1 {
-  color: #34bac8;
+  color: #24E5FF;
   letter-spacing: .1em;
 }
 
@@ -65,6 +65,7 @@ nav {
 }
 
 nav .logo {
+  margin-top: 15px;
   height: 36px;
 }
 
@@ -95,12 +96,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #0c416c;
+  color: white;
   text-decoration: none;
 }
 
 nav ul li.active a {
-  color: #34bac8;
+  color: #4699D3;
 }
 
 main {
@@ -123,6 +124,7 @@ main h1 {
 main h2 {
   margin-bottom: 12px;
   margin-top: 32px;
+  text-align: center;
 }
 
 main h2:first-of-type {

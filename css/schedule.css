@@ -52,7 +52,7 @@ h1 {
 }
 
 .day.yellow .day-name {
-  background: #f6c55e;
+  background: #FCB417;
 }
 
 .day.red .day-name {
@@ -74,7 +74,7 @@ h1 {
 }
 
 .day.yellow .day-details span {
-  color: #f6c55e;
+  color: #FCB417;
 }
 
 .day.red .day-details span {
@@ -82,13 +82,13 @@ h1 {
 }
 
 .events {
-  border-left: 2px solid #f6c55e;
+  border-left: 2px solid #FCB417;
   padding-bottom: 12px;
   padding-left: 12px;
 }
 
 .day.yellow .events {
-  border-color: #f6c55e;
+  border-color: #FCB417;
 }
 
 .day.red .events {
@@ -96,8 +96,8 @@ h1 {
 }
 
 .event {
-  background: #dfe2e5;
-  color: #000;
+  background: white;
+  color: #23243F;
   margin: 8px 0;
   padding: 10px;
   width: 100%;
@@ -112,11 +112,12 @@ h1 {
 }
 
 .event.yellow {
-  background: #f6c55e;
+  background: #FCB417;
 }
 
 .event.blue {
-  background: #9fdcdf;
+  background: #4699D3;
+  color: #fff;
 }
 
 .event.red {
@@ -139,7 +140,7 @@ h1 {
 }
 
 .heading .circle {
-  background: #f6c55e;
+  background: #FCB417;
   border-radius: 50%;
   height: 12px;
   left: -13px;
@@ -149,7 +150,7 @@ h1 {
 }
 
 .heading.blue .circle {
-  background: #9fdcdf;
+  background: #fff;
 }
 
 .heading.red .circle {
@@ -157,14 +158,14 @@ h1 {
 }
 
 .heading > p {
-  color: #f6c55e;
+  color: #FCB417;
   font-weight: 600;
   letter-spacing: 0.05em;
   margin-left: 8px;
 }
 
 .heading.blue > p {
-  color: #9fdcdf;
+  color: #fff;
 }
 
 .heading.red > p {

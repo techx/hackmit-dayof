@@ -1,6 +1,6 @@
 - name: learnathon
   color: yellow
-  date: saturday, feb 23
+  date: saturday, feb 8
   location: mit stata center
   events:
     - name: check-in & breakfast
@@ -17,19 +17,21 @@
       color: yellow
       time: 10 AM
       events:
-        - name: web
+        - name: web beginner
           location: 32-155
+        - name: web advanced
+          location: 32-124
         - name: arduino
-          location: 32-141
-        - name: starthacking
           location: 32-144
+        - name: starthacking
+          location: 32-141
     - name: tech talks
       time: 11:30 AM
       color: blue
       events:
-        - name: what does computing mean for students and humanity?
+        - name: assessing bias in artificial intelligence models
           location: 32-155
-        - name: how does a computer work?
+        - name: cracking ciphers with ~machine learning~
           location: 32-141
     - name: lunch
       time: 12 PM
@@ -38,47 +40,57 @@
       time: 1 PM
       color: yellow
       events:
-        - name: web
+        - name: web beginner
           location: 32-155
+        - name: web advanced
+          location: 32-124
         - name: arduino
-          location: 32-141
-        - name: starthacking
           location: 32-144
-    - name: "workshop #3"
+        - name: starthacking
+          location: 32-141
+    - name: "break"
       time: 2 PM
+    - name: "workshop #3"
+      time: 2:15 PM
       color: yellow
       events:
-        - name: web
+        - name: web beginner
           location: 32-155
+        - name: web advanced
+          location: 32-124
         - name: arduino
-          location: 32-141
-        - name: starthacking
           location: 32-144
+        - name: starthacking
+          location: 32-141
     - name: tech talks
-      time: 3 PM
+      time: 3:15 PM
       color: blue
       events:
-        - name: "decoding for dummies: how to crack ciphers using machine learning"
+        - name: "mit student club: design for america"
           location: 32-155
-        - name: "mit rocket team: rockets 101"
+        - name: "mit student club: design build fly"
           location: 32-141
+    - name: "break"
+      time: 3:45 PM
     - name: "workshop #4"
       time: 3:30 PM
       color: yellow
       events:
-        - name: web
+        - name: web beginner
           location: 32-155
+        - name: web advanced
+          location: 32-124
         - name: arduino
-          location: 32-141
-        - name: starthacking
           location: 32-144
+        - name: starthacking
+          location: 32-141
     - name: closing ceremony
-      time: 4:30 PM
+      time: 5 PM
       location: 32-123
       color: blue
 - name: hackathon
   color: red
-  date: sunday, feb 24
+  date: sunday, feb 9
   location: mit media lab
   events:
     - name: check-in & breakfast
@@ -103,9 +115,18 @@
     - name: lunch
       time: 12:30 PM
       location: kitchen
+    - name: trivia
+      time: 1:30 PM
+      location: lecture hall
     - name: campus excursion
       time: 2:30 PM
       location: MIT
+    - name: puppy lab!
+      time: 3 PM
+      location: lobby
+    - name: tim the beaver m&g
+      time: 4 PM
+      location: WG (glass floor)
     - name: submission deadline 5:30 PM!
       color: red
       events: none
