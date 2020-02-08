@@ -73,7 +73,7 @@
     - name: "break"
       time: 3:45 PM
     - name: "workshop #4"
-      time: 3:30 PM
+      time: 4 PM
       color: yellow
       events:
         - name: web beginner
