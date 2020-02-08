@@ -37,7 +37,11 @@ title: Schedule
         {% else %}
         <div class="event {{ event.color | default: "" }}">
           <p class="name">{{ event.name }}</p>
-          <p class="details">{{ event.time }} | {{ event.location }}</p>
+          {% if event.name == "break" %}
+            <p class="details">{{ event.time }}</p>
+          {% else %}
+            <p class="details">{{ event.time }} | {{ event.location }}</p>
+          {% endif %}
         </div>
         {% endif %}
       {% endfor %}
