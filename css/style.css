@@ -1,13 +1,14 @@
+
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Hermit";
   font-weight: 300;
-  src: url(/font/OpenSans-Light.ttf) format("truetype");
+  src: url(/hermit_font/Hermit-Light.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Hermit";
   font-weight: 400;
-  src: url(/font/OpenSans-Regular.ttf) format("truetype");
+  src: url(/hermit_font/Hermit-Regular.otf) format("truetype");
 }
 
 @font-face {
@@ -17,21 +18,9 @@
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Hermit";
   font-weight: 700;
-  src: url(/font/OpenSans-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Norwester";
-  font-weight: 400;
-  src: url(/font/norwester.otf) format("truetype");
-}
-
-@font-face {
-  font-family: "Libre Franklin";
-  font-weight: 700;
-  src: url(/font/librefranklin-bold.ttf) format("truetype");
+  src: url(/hermit_font/Hermit-Bold.otf) format("truetype");
 }
 
 * {
@@ -41,42 +30,29 @@
 }
 
 html, body {
-  background: #fbde00;
-}
-
-body {
-  background-size: 100px;
-  background-repeat: repeat;
-  color: #231f20;
-  font-family: "Open Sans", sans-serif;
-  min-height: 100vh;
+  background-image: url("../gradient_grid.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Hermit", serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 a {
-  color: #231f20;
-  font-family: "Libre Franklin";
-  letter-spacing: 0.1em;
+  color: #24E5FF;
   text-decoration: none;
   transition: 0.25s ease color;
 }
 
 a:hover {
-  color: #2ec0cf;
+  color: #4699D3;
 }
 
 h1 {
-  color: #ff6f61;
-  letter-spacing: .15em;
-  font-family: "Norwester";
-  font-size: 50px;
-  max-width: 100%;
-
-  text-transform: uppercase;
-}
-
-.hardware-header{
-  color: #2ec0cf;
-  letter-spacing: 0.01em;
+  color: #24E5FF;
+  letter-spacing: .1em;
 }
 
 .hidden {
@@ -89,6 +65,7 @@ nav {
 }
 
 nav .logo {
+  margin-top: 15px;
   height: 36px;
 }
 
@@ -119,12 +96,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #231f20;
+  color: white;
   text-decoration: none;
 }
 
 nav ul li.active a {
-  color: #2ec0cf;
+  color: #4699D3;
 }
 
 main {
@@ -147,8 +124,7 @@ main h1 {
 main h2 {
   margin-bottom: 12px;
   margin-top: 32px;
-  font-family: "Libre Franklin";
-  letter-spacing: 0.1em;
+  text-align: center;
 }
 
 main h2:first-of-type {

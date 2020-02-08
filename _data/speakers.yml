@@ -1,22 +1,14 @@
 - title:
   speakers:
-    - name: "Guy Steele Jr."
-      title: "SOFTWARE ARCHITECT AT ORACLE LABS"
-      image: "guy.png"
-      description: "Guy L. Steele Jr. (A.B., 1975, Harvard College; S.M., 1977, MIT; Ph.D., 1980, MIT) is a Software Architect at Oracle Labs. He has taught at Carnegie-Mellon University, and worked for Tartan Laboratories, Thinking Machines Corporation, and Sun Microsystems. He is author or co-author of five books: Common Lisp: The Language, C: A Reference Manual, The Hacker's Dictionary, The High Performance Fortran Handbook, and The Java Language Specification. He is an ACM Fellow, IEEE Fellow, Fellow of the American Academy of Arts and Sciences, and a Member of the National Academy of Engineering. He and his advisor Gerald Jay Sussman created the Scheme programming language at MIT in 1975. He has served on accredited standards committees X3J11 (C language) and X3J3 (Fortran), and served as chairman of X3J13 (Common Lisp). He designed the original EMACS command set and was the first person to port TeX. He is co-chair of the Fourth ACM Conference on the History of Programming Languages, to be held in London in July, 2020."
-    - name: "Minerva Tantoco"
-      title: "COFOUNDER OF GRASSHOPPER BANK"
-      image: "minerva.png"
-      description: "Minerva Tantoco is an innovator, inventorm startup founder, investor, pioneer in mobile technology, and a frequent speaker on AI, blockain, and fintech trends. Her previous roles include Senior Product Manager at Palm,  Chief Technology Officer at Merrill Lynch and UBS, and holds four US patents on intelligent workflow. Minerva Tantoco was co-founder and Chief Technology Officer of Grasshopper Bank, the first digital commercial banke to receive a natonal bank charter, and previously served as New York City's first-ever Chief Technology Officer (CTO). Appointed in 2014, Tantoco directed the Mayor's Office of Technology and Innovation. As CTO, Tantoco launched groundbreaking initiatives in smart city policy and government tech, such as LinkNYC, CSforAll, Neighborhoods.NYC, the first-ever IoT Guidelines for New York City, and NYC's Smart+Equitable City Strategy. Based on her efforts, New York City was named \"2016 Best Smart City\" at the Global Smart City Awards.  Tantoco was named 2016 Distinguished Fellow, Barnard College, Athena Center for Leadership Studies. Tantoco serves on the Board of the <a href=nysci.org>New York Hall of Science</a>, and as Board Member, <a href=nytm.org>New York Tech Alliance</a>. Ms. Tantoco is passionate about improving inclusion in the technology idustry and using tech for good."
-    - name: "Paul Riegle"
-      title: "HEAD OF PRODUCT AT ALGORAND"
-      image: "paul.jpg"
-      description: "Over his career, Paul has led products and driven product strategy for organizations ranging from startups to Fortune 25 environments.  Prior to joining Algorand, Paul was with Carbon Black where he led product management for all strategic initiatives across a portfolio of products that produce over $200 million in recurring revenue. This role included being market facing where he pushed to educate, advocate, and contribute to thought leadership in the cybersecurity space. Prior to Carbon Black, Paul held a number of leadership positions including global product management at IBM and founding a sales oriented startup.  Paul holds a Bachelor's Degree in Integrated Science and Technology from James Madison University and an MBA from the University of Notre Dame."
-    - name: "Ross Finman"
-      title: "COFOUNDER OF ESCHER REALITY"
-      image: "ross.jpg"
-      description: "Ross Finman was previously Co-founder and CEO of Escher Reality, acquired by Niantic Labs early 2018.  He is a current Forbes 30 under 30 and previously spent a decade working in computer vision at MIT and CMU.  He has worked at NASA and SpaceX, after growing up on a llama farm."
-    - name: "Stan Reiss"
-      title: "INVESTOR AT MATRIX PARTNERS"
-      image: "stan.png"
-      description: "Stan has a degree in Electrical Engineering from Cornell, a Masters' in Electrical Engineering and Operations Research from MIT, and an MBA from Harvard. He started his career as a chip designer for National SemiConductor and as a Consultant at McKinsey before joining Matrix Partners as an investor. At Matrix, Stan focuses on early stage investments across technology sectors and works with companies including Hyper9 (acquired by Solarwinds), QPID Health (acquired by eviCore), Acacia Communications (ACIA), Xtalic, RightHand Robotics and LogRocket."
+    - name: Moin Nadeem
+      title: Assessing Bias in Artificial Intelligence Models
+      description: "Machine Learning is beginning to filter into daily life, with real-world use cases such as AI for resume filtering, Google Translate, and more. However, very little has been done to ensure that these systems are fair. For example, Amazon’s attempt to use AI for resume filtering actively discriminated against women, and Google Translate assumes the gender of an occupation: “He is a scientist, she is a nurse, he is an engineer, etc”. Come for a talk about the first large-scale study about bias in machine learning models, and learn more about the current state of AI! No prior programming experience required."
+    - name: Divya Gopinath + Rohan Kodialam
+      title: "Decoding for Dummies: How to Crack Ciphers Using Machine Learning"
+      description: Divya Gopinath and Rohan Kodialam are Master's students at MIT, having graduated from undergrad last year (Rohan was a double major with physics, and Divya minored in music). They are both from the tri-state area and think New England is overrated, with the sole exception of MIT. Their research interests lie in algorithms and machine learning, and when not in lab, they like to lament the lack of good bagels and pizza in Boston.
+    - name: MIT Club Spotlight
+      title: Design For America
+      description: MIT Design for America was founded in 2012 by a group of students who believed that making a difference did not have to wait until after graduation. From that thought, Design for America was born as the hub of creating social impact with design and engineering at MIT.
+    - name: MIT Club Spotlight
+      title: Design Build Fly
+      description: We are a team of undergraduate and graduate students at MIT that develop aircraft for the annual AIAA Design/Build/Fly competition. Our students gain experience in conceptual design, multidisciplinary optimization, aerodynamic, sturctural and propulsive analysis, composite layups, CAD software, UAV fabrication and RC flight.

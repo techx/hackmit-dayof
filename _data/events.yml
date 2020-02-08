@@ -1,7 +1,7 @@
 - name: SATURDAY
   color: yellow
-  date: september 14
-  location: mit west campus
+  date: saturday, feb 8
+  location: mit stata center
   events:
     - name: check-in & breakfast
       time: 8:00 AM
@@ -12,11 +12,24 @@
       color: blue
     - name: hacking starts at 11:00 AM!
       color: yellow
-      events: none
-    - name: "team formation"
-      color: yellow
-      time: 11:15 AM
-      location: kresge rehearsal room b
+      time: 10 AM
+      events:
+        - name: web beginner
+          location: 32-155
+        - name: web advanced
+          location: 32-124
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: tech talks
+      time: 11:30 AM
+      color: blue
+      events:
+        - name: assessing bias in artificial intelligence models
+          location: 32-155
+        - name: cracking ciphers with ~machine learning~
+          location: 32-141
     - name: lunch
       time: 12:00 PM
       location: tent
@@ -36,58 +49,63 @@
       time: 3:00 PM
       color: yellow
       events:
-        - name: "aws workshop - machine learning"
-          location: johnson media room
-        - name: "petting zoo"
-          location: kresge tent
-    - name: "salesforce workshop - reinforcement learning"
-      time: 3:45 PM
-      color: yellow
-      location: johnson media room
-    - name: google cloud tech talk
-      time: 4:15 PM
-      location: johnson media room
+        - name: web beginner
+          location: 32-155
+        - name: web advanced
+          location: 32-124
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: "break"
+      time: 2 PM
+    - name: "workshop #3"
+      time: 2:15 PM
       color: yellow
     - name: workshops & fun events
       time: 5:00 PM
       color: blue
       events:
-        - name: algorand workshop - blockchain with IoT - algorand and raspberry pis
-          location: johnson media room
-        - name: outdoor games
-          location: kresge lawn
-    - name: facebook workshop - react web apps
-      time: 5:30 PM
-      location: johnson media room
+        - name: web beginner
+          location: 32-155
+        - name: web advanced
+          location: 32-124
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: tech talks
+      time: 3:15 PM
       color: blue
     - name: dine & learn
       time: 6:00 pm
       events:
-        - name: dinner
-          location: tent
-        - name: peer expo
-          location: johnson ice rink
-          color: yellow
-    - name: pitch night - stan reiss, general partner at matrix partners
-      time: 7:00 PM
-      location: johnson media room
+        - name: "mit student club: design for america"
+          location: 32-155
+        - name: "mit student club: design build fly"
+          location: 32-141
+    - name: "break"
+      time: 3:45 PM
+    - name: "workshop #4"
+      time: 3:30 PM
       color: yellow
-    - name: fireside chat 1 - paul riegle, head of product at algorand
-      time: 8:00 PM
-      location: johnson media room
-      color: yellow
-    - name: fireside chat 2 - ross finman, head of ar at niantic
-      time: 9:00 PM
-      location: johnson media room
-      color: yellow
-    - name: waffle cabin and tosci's
-      time: 10:00 PM
-      location: johnson lobby
-      color: yellow
-- name: SUNDAY
+      events:
+        - name: web beginner
+          location: 32-155
+        - name: web advanced
+          location: 32-124
+        - name: arduino
+          location: 32-144
+        - name: starthacking
+          location: 32-141
+    - name: closing ceremony
+      time: 5 PM
+      location: 32-123
+      color: blue
+- name: hackathon
   color: red
-  date: september 15
-  location: mit west campus
+  date: sunday, feb 9
+  location: mit media lab
   events:
     - name: meet tim the beaver
       time: 12:00 AM
@@ -113,9 +131,20 @@
       color: blue
     - name: lunch
       time: 12:30 PM
-      location: tent
-    - name: sponsor judging
-      time: 1:00 PM
+      location: kitchen
+    - name: trivia
+      time: 1:30 PM
+      location: lecture hall
+    - name: campus excursion
+      time: 2:30 PM
+      location: MIT
+    - name: puppy lab!
+      time: 3 PM
+      location: lobby
+    - name: tim the beaver m&g
+      time: 4 PM
+      location: WG (glass floor)
+    - name: submission deadline 5:30 PM!
       color: red
       location: johnson ice rink
     - name: closing ceremony

@@ -52,7 +52,7 @@ h1 {
 }
 
 .day.yellow .day-name {
-  background: #00d87b;
+  background: #FCB417;
 }
 
 .day.red .day-name {
@@ -73,7 +73,7 @@ h1 {
 }
 
 .day.yellow .day-details span {
-  color: #00d87b;
+  color: #FCB417;
 }
 
 .day.red .day-details span {
@@ -81,13 +81,13 @@ h1 {
 }
 
 .events {
-  border-left: 2px solid #00d87b;
+  border-left: 2px solid #FCB417;
   padding-bottom: 12px;
   padding-left: 12px;
 }
 
 .day.yellow .events {
-  border-color: #00d87b;
+  border-color: #FCB417;
 }
 
 .day.red .events {
@@ -95,8 +95,8 @@ h1 {
 }
 
 .event {
-  background: #fff;
-  color: #231f20;
+  background: white;
+  color: #23243F;
   margin: 8px 0;
   padding: 10px;
   width: 100%;
@@ -111,11 +111,12 @@ h1 {
 }
 
 .event.yellow {
-  background: #00d87b;
+  background: #FCB417;
 }
 
 .event.blue {
-  background: #2ec0cf;
+  background: #4699D3;
+  color: #fff;
 }
 
 .event.red {
@@ -136,7 +137,7 @@ h1 {
 }
 
 .heading .circle {
-  background: #00d87b;
+  background: #FCB417;
   border-radius: 50%;
   height: 12px;
   left: -13px;
@@ -146,7 +147,7 @@ h1 {
 }
 
 .heading.blue .circle {
-  background: #2ec0cf;
+  background: #fff;
 }
 
 .heading.red .circle {
@@ -154,13 +155,13 @@ h1 {
 }
 
 .heading > p {
-  color: #00d87b;
+  color: #FCB417;
   font-weight: 600;
   margin-left: 8px;
 }
 
 .heading.blue > p {
-  color: #2ec0cf;
+  color: #fff;
 }
 
 .heading.red > p {
