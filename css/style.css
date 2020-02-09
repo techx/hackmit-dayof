@@ -38,6 +38,7 @@ html, body {
   font-family: "Hermit", serif;
   height: 100vh;
   width: 100vw;
+  background-size: cover;
 }
 
 a {
