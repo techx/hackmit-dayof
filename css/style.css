@@ -1,37 +1,37 @@
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: Muli, sans-serif;
   font-weight: 300;
-  src: url(/font/OpenSans-Light.ttf) format("truetype");
+  src: url(/font/muli.regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: Muli, sans-serif;
   font-weight: 400;
-  src: url(/font/OpenSans-Regular.ttf) format("truetype");
+  src: url(/font/muli.regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: Muli, sans-serif;
   font-weight: 600;
-  src: url(/font/OpenSans-Medium.ttf) format("truetype");
+  src: url(/font/Muli-Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: MuliBold, sans-serif;
   font-weight: 700;
-  src: url(/font/OpenSans-Bold.ttf) format("truetype");
+  src: url(/font/Muli-ExtraBold.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Norwester";
+  font-family: LemonMilkMedium;
   font-weight: 400;
-  src: url(/font/norwester.otf) format("truetype");
+  src: url(/font/LEMONMILK-Medium.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Libre Franklin";
+  font-family: LemonMilkRegular;
   font-weight: 700;
-  src: url(/font/librefranklin-bold.ttf) format("truetype");
+  src: url(/font/LEMONMILK-Regular.otf) format("truetype");
 }
 
 * {
@@ -41,33 +41,33 @@
 }
 
 html, body {
-  background: #fbde00;
+  background: #fbcdc2;
 }
 
 body {
   background-size: 100px;
   background-repeat: repeat;
-  color: #231f20;
-  font-family: "Open Sans", sans-serif;
+  color: #001d55;
+  font-family: Muli, sans-serif;
   min-height: 100vh;
 }
 
 a {
-  color: #231f20;
-  font-family: "Libre Franklin";
+  color: #001d55;
+  font-family: LemonMilkRegular;
   letter-spacing: 0.1em;
   text-decoration: none;
   transition: 0.25s ease color;
 }
 
 a:hover {
-  color: #2ec0cf;
+  color: #26acc5;
 }
 
 h1 {
-  color: #ff6f61;
+  color: #1b4481;;
   letter-spacing: .15em;
-  font-family: "Norwester";
+  font-family: LemonMilkMedium;
   font-size: 50px;
   max-width: 100%;
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 .hardware-header{
-  color: #2ec0cf;
+  color: #26acc5;
   letter-spacing: 0.01em;
 }
 
@@ -119,12 +119,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #231f20;
+  color: #001d55;
   text-decoration: none;
 }
 
 nav ul li.active a {
-  color: #2ec0cf;
+  color: #26acc5;
 }
 
 main {
@@ -147,7 +147,7 @@ main h1 {
 main h2 {
   margin-bottom: 12px;
   margin-top: 32px;
-  font-family: "Libre Franklin";
+  font-family: LemonMilkRegular;
   letter-spacing: 0.1em;
 }
 
@@ -182,7 +182,7 @@ main .box p {
 }
 
 .border {
-  border: 2px solid #231f20;
+  border: 2px solid #001d55;
   border-radius: 20px;
   z-index: 1;
   position: absolute;
@@ -249,7 +249,7 @@ nav.mobile .hamberder {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ff6f61;
+  background: #fbcdc2;
   z-index: 100;
 }
 
