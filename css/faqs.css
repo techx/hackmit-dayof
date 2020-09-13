@@ -7,9 +7,9 @@ h3, p {
 }
 
 h3 {
-  color: #2ec0cf;
+  color: #001D55;
   letter-spacing: .01em;
-  font-family: "Norwester";
+  font-family: "Muli";
   letter-spacing: .15em;
 }
 
@@ -18,14 +18,14 @@ p {
   line-height: 1.5em;
 }
 
-.red-type {
-  color: #ff6f61;
+.blue-type {
+  color: #96D0F1;
 }
 
 .yellow-type {
-  color: #00d87b;
+  color: #FFDF3F;
 }
 
-.blue-type {
-  color: #2ec0cf;
+.blue-type2 {
+  color: #26ACC5;
 }

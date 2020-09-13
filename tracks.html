@@ -1,0 +1,44 @@
+---
+layout: default
+title: Tracks
+skinny: true
+---
+<h1>Tracks</h1>
+  <!-- <div class="tracks">
+    <div class="column desktop">
+      <h2 class="prize-catagory">GENERAL PRIZES</h2>
+      {% for prize in site.data.prizes.prizes %}
+      {% assign modcolor = forloop.index | modulo: 3 %}
+        <div class="prize {% if modcolor == 0 %}red{% endif %}{% if modcolor == 1 %}green{% endif %}{% if modcolor == 2 %}blue{% endif %}">
+          <div class="border"></div>
+          <p class="title">{{prize.title}}</p>
+          <p class="prize-description">{{prize.prize}}</p>
+        </div>
+      {% endfor %}
+    </div> -->
+    <div class="column desktop track-prizes">
+      <!-- <h2 class="prize-catagory">Health Tech</h2> -->
+      <h3>Health Tech</h3>
+      <ul>
+      {% for track in site.data.tracks.tracks %}
+        <li>{{track.track}}</li>
+      {% endfor %}
+      </ul>
+      <h3>Communication/Connectivity</h3>
+      <h3>Education</h3>
+      <h3>Urban Innovation</h3>
+
+      <p>Winners of track prizes will be able to choose their prize from this list!</p>
+      <ul>
+      {% for prize in site.data.prizes.track-prizes %}
+        <li>{{prize.prize}} </li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="column desktop blurb">
+      <p>
+        Project submissions must be in by <b>11:15 AM on Sunday</b>.
+        At the expo, each team will present their projects for a few minutes at a time to small groups of judges in a science-fair format. After expo judging ends at <strong>1:00 PM</strong>, the top teams will be chosen for sponsor judging and panel judging.
+      </p>
+    </div>
+  </div>

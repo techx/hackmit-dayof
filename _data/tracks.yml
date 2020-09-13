@@ -1,0 +1,23 @@
+# prizes:
+#   - title: "Grand Prize"
+#     prize: "$1000 reimbursement to a conference of winner's choice"
+#   - title: "2nd Place"
+#     prize: "Sonos Beam Smart Soundbar"
+#   - title: "3rd Place"
+#     prize: "Bose Soundlike Wireless Headphones"
+tracks:  
+  - track: "Health Tech"
+  - track: "Communication/Connectivity"
+  - track: "Education"
+  - track: "Urban Innovation"
+# track-prizes:
+#   - prize: "AirPods 2"
+#   - prize: "Oculus Go"
+#   - prize: "Beats Portable Speaker"
+#   - prize: "iPad Air 2"
+#   - prize: "Beats Solo Headphones 3"
+#   - prize: "Fitbit Versa"
+#   - prize: "GoPro Hero 5"
+#   - prize: "Parrot Bebop 2 Camera Drone"
+  
+

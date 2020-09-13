@@ -2,17 +2,22 @@
   url: /
 - title: SCHEDULE
   url: /schedule
-- title: MAPS
-  url: /maps
+- title: TRACKS
+  url: /tracks
+# - title: MAPS
+#   url: /maps
 - title: SPEAKERS
   url: /speakers
 - title: PRIZES
   url: /prizes
 - title: CHALLENGES
   url: /challenges
-- title: HARDWARE
-  url: /hardware
-- title: TRAVEL
-  url: /travel
+# - title: HARDWARE
+#   url: /hardware
+# - title: TRAVEL
+#   url: /travel
 - title: FAQs
   url: /faqs
+- title: PLAYGROUND
+  url: /playground
+

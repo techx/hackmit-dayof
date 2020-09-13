@@ -1,0 +1,116 @@
+.prizes {
+  display: flex;
+  margin-right: 0px;
+}
+.column {
+  flex: 1 1;
+}
+
+.prize {
+  margin: 16px;
+  margin-left: 0px;
+  padding: 12px 16px;
+  padding-left: 0px;
+  padding-bottom: 16px;
+  text-align: left;
+}
+
+.prize.top {
+  margin-top: 0;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+h3 {
+  color: #26ACC5;
+  font-family: "Muli";
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 1.7em;
+  padding-bottom: 4px;
+  text-align: left;
+}
+
+.blue {
+  background-color: #FFDF3F;
+}
+
+.green {
+  background-color: #96D0F1;
+}
+
+.red {
+  background-color: #FBCDC2;
+}
+
+
+.prize-catagory {
+  text-align: center;
+  font-family: "LemonMilkMedium", sans-serif;
+  font-size: 0.8em;
+}
+
+.prize {
+  position: relative;
+  border-radius: 20px;
+}
+
+.prize > p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.prize-description {
+  font-size: 0.9em;
+  line-height: 1.25em;
+}
+
+.title {
+  font-family: "LemonMilkRegular", sans-serif;
+  font-size: 1.1em;
+  padding-bottom: 5px;
+}
+
+.track-prizes {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.track-prizes li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.track-prizes ul {
+  padding-bottom: 30px;
+}
+
+.highlight {
+  color: black;
+  margin-bottom: 4px;
+}
+
+.column.desktop{
+  line-height: 1.5em;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  main .column {
+    flex: none;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  main .prizes {
+    display: block;
+    margin: 0 auto;
+  }
+
+  main .column:nth-child(2) {
+    margin-top: 16px;
+  }
+}
