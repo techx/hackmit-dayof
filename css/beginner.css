@@ -1,0 +1,31 @@
+main {
+  max-width: 600px;
+}
+
+h3, p {
+  text-align: left;
+}
+
+h3 {
+  color: #001D55;
+  letter-spacing: .01em;
+  font-family: "Muli";
+  letter-spacing: .15em;
+}
+
+p {
+  margin-bottom: 16px;
+  line-height: 1.5em;
+}
+
+.blue-type {
+  color: #96D0F1;
+}
+
+.yellow-type {
+  color: #FFDF3F;
+}
+
+.blue-type2 {
+  color: #26ACC5;
+}

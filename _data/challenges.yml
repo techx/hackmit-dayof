@@ -1,6 +1,6 @@
-- sponsor: "Amazon Web Services"
-  title: "Best Use of AWS AI / ML Services"
-  description: "We are looking for the best use of the AWS AI / ML services in your project! $100 in promotional credits will be provided to all who build for the AWS challenge."
+- sponsor: "Intersystems"
+  title: "InterSystems Technology Challenge"
+  description: "Submit a working proof-of-concept or application using any of InterSystems tools and technology as part of the team hackathon project. To qualify for the InterSystems challenge, the final product must not only make use of InterSystems tools and technology, it must demonstrate innovation and usefulness as a technology solution as part of your hackathon project."
   links:
     - section: "API"
       section_links:
@@ -19,54 +19,9 @@
       prize: "Amazon Echo Spots"
     - title: "3rd"
       prize: "Amazon Echos"
-- sponsor: "Facebook"
-  title: "Best Hack for Building Community"
-  description: "Facebook's mission is to give people the power to build community and bring the world closer together. <br/><br/>
-
-Our judges will be evaluating the best Hack Project that focuses on building community and connecting people. <br/><br/>
-
-We are sponsoring an all-expense paid trip for each member of the winning team to visit Facebook's Headquarters in Menlo Park, CA, where they will participate in Facebook's Global Hack Finals!"
-  links:
-    - section: "API"
-      section_links:
-        - title: "Facebook APIs"
-          url: "https://developers.facebook.com/docs/"
-  prizes:
-    - title: ""
-      prize: "Trip to Facebook Headquarters for the Facebook Global Hack Finals"
-- sponsor: "MIT-IBM Watson AI Lab"
-  title: "Best IBM Disaster Preparedness & Relief Solutions"
-  description: "To qualify for the \"Best Disaster Preparedness & Relief Solutions for IBM Code and Response Challenge,\" hackers need to incorporate at least one of the <a href=\"https://cloud.ibm.com/catalog\">API services</a> into their project. Submissions will be judged across 4 areas: Completeness and Transferability, Effectiveness and Efficiency, Design and Usability, and Creativity and Innovation. <br/>
-<br/>
-We are looking for ideas that will help prevent, mitigate, or recover from natural disasters utilizing technology. Take a look at what our <a href=\"http://www.project-owl.com\">Call for Code 2018 winner Project OWL created</a>."
-  prizes:
-    - title: "1st"
-      prize: "$2000"
-    - title: "2nd"
-      prize: "$1000"
-    - title: "3rd"
-      prize: "$500"
-  links:
-    - section: "API"
-      section_links:
-        - title: "IBM Cloud APIs"
-          url: "https://cloud.ibm.com/catalog"
-- sponsor: "MIT-IBM Watson AI Lab"
-  title: "Best Use of IBM Visual Recognition"
-  description: "Have a good idea that involves Visual Recognition? The team that showcases the best use of IBM Visual Recognition will win up to 5 Tello Drones. We have Visual Recognition experts on-site to help you bring your idea to reality."
-  prizes:
-    - title: ""
-      prize: "Tello Drones"
-  links:
-    - section: "API"
-      section_links:
-        - title: "IBM Cloud APIs"
-          url: "https://cloud.ibm.com/catalog"
-- sponsor: "Rev"
-  title: "Rev.ai Speech API Challenge"
-  description: "Rev.ai is the most accurate Speech-to-Text service on the market.  This prize will go to the team that creates the most novel use of our Speech-to-Text engine. We want to see you leverage our speech API as creatively and effectively as possible.  This year we have both the real-time and asynchronous version available.
-<br/> <br/>
-Go to <a href=\"rev.ai\">rev.ai</a> to sign up."
+- sponsor: "CMT"
+  title: "CMT’s Vehicle Crash Data Challenge"
+  description: "CMT provides a vehicle crash detection service that can detect when a driver has been in a crash using sensors on their smartphone. This service is used by family safety and insurance applications that are designed to let family members, emergency 🚒 services, and insurance claims applications know that a crash has occurred. The service provides a number of pieces of information about the crash, including the time and location where it occurred, the speed and severity of the crash, what part of the vehicle was hit, etc. We have provided the data dictionary and a few sample crash reports provided by the service. The goal of the challenge is to enrich and present the crash data in the most compelling and creative way. This could include a slick mobile interface, combining other user-supplied or publicly-available data, finding a way to make it more actionable for insurance companies, emergency responders or family members: whatever makes this crash data as useful and usable as possible. Two things to remember: 1) the smartphone is a feature-rich and powerful tool, and 2) tools are only as good as humans’ ability to use them."
   links:
     - section: "API"
       section_links:
@@ -75,22 +30,21 @@ Go to <a href=\"rev.ai\">rev.ai</a> to sign up."
   prizes:
     - title: ""
       prize: "$4000"
-- sponsor: "Algorand"
-  title: "Build the Financial Revolution on Algorand"
-  description: "Use any of our developer tools to build an amazing application leveraging Algorand! 
-<br/> <br/>
-Using any of our dev tools qualifies your team for prizes. However, the judging team will give preference to teams that demonstrate creative competence by: <br/>
-+Using one of the SDK's <br/>
-+Writing to and reading from the `note` field in a transaction <br/>
-+Using multiple dev tools <br/>
-<br/>
-An example solution would be to: Build a solution for easy account management using one our SDK's, the solution should be able to:<br/>
-Create and sign transactions, do the same with multisig accounts, recover accounts from mnemonic phrases<br/>
-Bonus: Build a UI for the solution (command line, web based or other) in any language.<br/>
-<br/>
-
-What is Algorand? <br/>
-The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting and registration mechanisms with Verifiable Random Functions (VRF). Leveraging these features results in near-instant transaction finality and true decentralization with respect to economic throughput and incentives."
+- sponsor: "DRW"
+  title: "Best Data Visualization Hack"
+  description: "We will be judging for the best data visualization hack. Projects will be judged on their ability to make data more accessible to more users. Can you make large data sets easily understandable at a quick glance? In a world overflowing with data, breaking it down for people is more important than ever."
+  prizes:
+    - title: ""
+      prize: "Oculus Gos"
+- sponsor: "Goldman Sachs"
+  title: "Best Use of Marquee API by Goldman Sachs"
+  description: "Join Goldman Sachs Engineers this weekend and experience a small taste of the power of our Marquee Platform. For this weekend alone, you will be the only non-clients with access to our Marquee APIs. Explore our COVID-19 or our financial datasets and see if your hack has what it takes to win each of you a prize!
+  <br/>
+  In light of the challenges brought upon by COVID-19, our engineers—in addition to our traditional financial datasets--have compiled a series of new datasets for students to grasp the global impact of COVD-19 through technology. Understanding that not everyone has the bandwidth to study this in depth, we want to give you the opportunity to create new projects, models, and technologies surrounding a circumstance that has affected millions of lives globally. We want you to be creative and leverage new ideas to help you (and all of us) understand COVID-19 better.
+  <br/>
+  COVID-19 datasets: (https://developer.gs.com/docs/covid/)                                                                Financial datasets: (https://marquee.gs.com/s/discover/data-services/catalog)
+  <br/>
+  If you are interested in competing in this challenge, please fill out go.hackmit.org/goldmansachs in order to have access to their Marquee API prior to and during the event. This form by no means binds you to competing in their challenge."
   links:
     - section: "API"
       section_links:
@@ -111,11 +65,9 @@ The Algorand blockchain is a 'Pure Proof of Stake' blockchain based on voting an
       prize: "$1000 + Codrone + Thule 32L Backpack"
     - title: "2nd"
       prize: "Gotenna + Matrix Creator + Raspberry Pi 3 B+"
-- sponsor: "Docusign"
-  title: "Best Use of the DocuSign eSignature API"
-  description: "The DocuSign eSignature API lets you eSign documents, request signatures, automate your forms and data, accept payments, verify identity and much more! You can integrate the eSignature REST APIs into any app, website, or embedded system that can make https requests.
-<br/><br/>
-For more information, view the <a href=\"https://developers.docusign.com/esign-rest-api/code-examples/quickstart-overview\">quick start code examples</a>."
+- sponsor: "Arrowstreet"
+  title: "Best Panel Data Visualization"
+  description: "We are looking for the best data visualization hack using panel data. At Arrowstreet, we work with hundreds of financial datasets to generate thousands of statistics every day. These panel data sets (http://bit.ly/3hkb7QS) contain data for a variety of cross sections (assets, companies, countries, etc.) and time frequencies (intraday, daily, weekly, monthly, quarterly, etc.). The winning data visualization will help users to understand and explore panel data by presenting multiple dimensions, highlighting conclusions, and handling real world data challenges like missing or invalid values. The visualization can use any publicly available data set and does not need to use financial data."
   links:
     - section: "API"
       section_links:
@@ -126,181 +78,29 @@ For more information, view the <a href=\"https://developers.docusign.com/esign-r
       prize: "$1000 Cash + internship/full-time job interview + VIP Passes to DocuSign Momentum Conference + featured on the DocuSign Developer Blog and on DocuSign's social media platforms"
     - title: "2nd"
       prize: "$500"
-- sponsor: "Ford"
-  title: "Best Ford Car Mobility Challenge Hack"
-  description: "Best Urban Innovation hack using Ford Mobility technologies (OpenXC, Smart Device Link).  The prize will be awarded to the team that best shows creativity, innovation, and human centered design."
-  prizes:
-    - title: ""
-      prize: "$4000"
-- sponsor: "Microsoft"
-  title: "Azure Champ Prize - Hack for Good"
-  description: "Microsoft's Azure Champ Prize Challenge is all about hacking for good. Let's see which team can use Microsoft Azure to have the highest positive impact, while addressing a clear need, problem or opportunity with a clear and concise solution. Include innovations in technical design and implementation of services (Cognitive Services, Bot Services, IoT Hub, Functions) to blow us away. Happy hacking!
-<br/><br/>
-Judging criteria: <br/>
-1. Was the project developed using Microsoft Azure and did it have a positive impact? (required for entry)<br/>
-2. Does the project address a clear need, problem, or opportunity and is the solution clearly explained? (10 points)<br/>
-3. Does the project include innovations in technical design  and/or implementation of services (e.g., Cognitive Services, Bot Services, IoT Hub, Functions)  and/or user experience? (20 points)<br/>
-4. Does the project have a clear target market or audience? (5 points)<br/>
-5. Is the project's purpose and basic functionality easily understood? (5 points)<br/>
-6. Does the project have a professional degree of production in terms of performance, user interface, visuals, and audio? (10 points)"
-  prizes:
-    - title: ""
-      prize: "$1,000 to be charity of choice + prioritized entry in Imagine Cup Semi-Finals + Surface Go's plus keyboards"
-- sponsor: "Amadeus"
-  title: "Best Use of Amadeus API's"
-  description: "Amadeus is the leading technology partner for the global travel industry. We challenge you to create the best hack that utilizes Amadeus' API for travel related challenges. You can just either use just the Amadeus API or combine it with other company APIs. If you're interested in Urban Innovation, this is the challenge for you!"
+- sponsor: "Facebook"
+  title: "Best Hack for Building Community"
+  description: "Facebook will be sponsoring a prize for the best hack that aligns with our mission of giving people the power to build community and bringing the world closer together. We recognize this is a broad scope, but our engineers will be judging projects based on their ability to promote community building and social good."
   links:
     - section: "API"
       section_links:
-        - title: "Amadeus Travel APIs"
-          url: "https://developers.amadeus.com"
+        - title: "Facebook APIs"
+          url: "https://developers.facebook.com/docs/"
   prizes:
     - title: ""
-      prize: "$1000 Amazon Gift Card"
-- sponsor: "DRW"
-  title: "Best Data Visualization Hack"
-  description: "We will be judging for the best data visualization hack. Projects will be judged on their ability to make data more accessible to more users. Can you make large data sets easily understandable at a quick glance? In a world overflowing with data, breaking it down for people is more important than ever."
-  prizes:
-    - title: ""
-      prize: "Oculus Gos"
-- sponsor: "Veritone"
-  title: "Most Interesting Use of AI Automation"
-  description: "Hackers design and automate a text, image, audio, and/or video-based data analysis workflow using Veritone Automate Studio that utilizes machine learning and demonstrates an application within one of the Hack MIT tracks. Bonus for those that not only analyze data with machine learning but trigger an action based on the machine learning output. <br/>
-<br/>
-Submission requirements:<br/>
-1 - Complete workflow design in Veritone Automate Studio workspace and deploy using the workspace or automation engine runtime.<br/>
-2 - Automation can be run end-to-end to successfully produce desired data output and/or action<br/>"
+      prize: "Trip to Facebook Headquarters for the Facebook Global Hack Finals"
+- sponsor: "IBM"
+  title: "Best Solution Addressing the Community Response to COVID-19"
+  description: "Technology can aid how the community responds to problems caused by COVID-19 separate from government or healthcare officials. This includes how our bedrooms have become our classrooms, how we can know the information we are reading and hearing is accurate, how we can communicate in this crisis and so much more. We're looking to gauge projects outside of healthcare-related 🩺 solutions that assist or resolve other obstacles presented by this pandemic, broader categories include remote education, crisis communication, community cooperation, etc. Solutions in this category must leverage at least 1 IBM service or API."
   prizes:
     - title: "1st"
-      prize: "AWS DeepLenses + Veritone hoodies"
+      prize: "$2000"
     - title: "2nd"
-      prize: "$100 gift cards + Veritone hoodies"
-    - title: "3 Honorable Mentions"
-      prize: "$50 gift cards + Veritone hoodies"
-- sponsor: "Nasdaq"
-  title: "Best use of Nasdaq/Quandl Datasets"
-  description: "Nasdaq will award one overall prize for the best solution across Nasdaq's three challenges: <br/>
-  + Best use of Nasdaq/Quandl datasets applied to Smart Cities-related solutions.<br/>
-  + Best use of Nasdaq/Quandl datasets applied to Personal Financial Decisions<br/>
-  + Best use of Nasdaq/Quandl datasets applied to applications beyond capital markets."
-  prizes:
-    - title: ""
-      prize: " Dinner w/ Nasdaq's Executive Vice President and CTO, Brad Peterson"
-- sponsor: "Nebulous"
-  title: "Best Product or Idea that leverages Sia's Storage Platform"
-  description: "The goal of this challenge is to showcase a product or idea that leverages Sia's renter API, and uses the decentralized aspect of Sia's storage in an innovative manner. Decentralized storage completely changes the way files are stored in the internet. By encrypting and splitting a single file up with your private key over 30 hosts, Sia allows end-users to store data on the web in a private and censorship resistant manner. 
-<br/><br/>
-Extra consideration to:<br/>
-- Teams who make an app that deeply integrates with Sia's API features<br/>
-- Teams who build data-heavy application and/or upload the largest amount of data to the Sia Network
-<br/>
-<br/>
-Bonus: Anyone who uploads at least 100 GB of data by the end of the hackathon will also win a prize!
-<br/>
-<br/>
-It takes a couple hours for <a href=\"https://sia.tech/get-started\">the blockchain to download</a>. If you haven't downloaded it before the hackathon, we will provide USB sticks with pre synced blockchain to the teams. Please find us at Sia's table in the bleachers."
+      prize: "$1000"
+    - title: "3rd"
+      prize: "$500"
   links:
     - section: "API"
       section_links:
-        - title: "Sia Storage Platform API"
-          url: "https://sia.tech/docs/"
-    - section: "Resources"
-      section_links:
-        - title: "API Quickstart guide"
-          url: "https://blog.sia.tech/api-quickstart-guide-f1d160c05235"
-        - title: "Open source Golang repo"
-          url: "https://gitlab.com/NebulousLabs/Sia"
-        - title: "Sia-UI Electron/React/Typescript repo"
-          url: "https://gitlab.com/NebulousLabs/Sia-UI"
-    - section: "Client Libraries"
-      section_links:
-        - title: "JS Library"
-          url: "https://gitlab.com/NebulousLabs/Nodejs-Sia"
-        - title: "Typescript Library"
-          url: "https://gitlab.com/NebulousLabs/sia-typescript"
-        - title: "Golang library"
-          url: "https://godoc.org/gitlab.com/NebulousLabs/Sia/node/api/client"
-    - section: "Examples"
-      section_links:
-        - title: "Filebase - Amazon S3 on Sia"
-          url: "https://filebase.com/"
-        - title: "Goobox - file-sharing on Sia"
-          url: "https://goobox.io/"
-        - title: "PixelDrain - Rapidshare on Sia"
-          url: "https://pixeldrain.com/"
-        - title: "ZeroBit - censorship resistant cloud"
-          url: "https://zero-bit.io"
-        - title: "SiaStats - Useful stats GUI to visualize the network"
-          url: "https://siastats.info/"
-  prizes:
-    - title: "1st"
-      prize: "250,000 Siacoins + potential internship opportunity"
-    - title: "2nd"
-      prize: "100,000 Siacoins"
-    - title: "Bonus prize"
-      prize: "10,000 Siacoin for each bonus team winner."
-- sponsor: "Instabase"
-  title: "Best Use of Instabase API"
-  description: "Instabase is a data processing platform providing services such as OCR, text extraction, natural language processing, and text classification. We're awarding $1,000 to the team that demonstrates the best use of our platform to solve a problem! More specifically, solve a problem using our platform to do:
-<br/>
-* Optical Character Recognition<br/>
-* Natural Language Processing<br/>
-* Clustering and classification<br/>
-* Information extraction and web scraping<br/>
-* Python Scripting<br/>
-<br/>
-Find more information about our API <a href=\"http://www.instabase.com/hackmit \">here</a>."
-  links:
-    - section: "API"
-      section_links:
-        - title: "API for NLP, ML, OCR, documentation classification, and text classification"
-          url: "http://www.instabase.com/hackmit"
-  prizes:
-    - title: ""
-      prize: "$1000 + internship/full-time interview"
-- sponsor: "Lightstep"
-  title: "Best Command Line Tool"
-  description: "At LightStep, we build product for developers in many different companies and parts of the world. The command line is the basic starting point for a lot of our work as developers, but there's a lot that goes into making a great one. Specifically:
-<br/>
-- How <i>useful</i> is it? Does this solve either a need or want for developers in their workflow? Does it make sense to build/use this as a command line tool and not as a webapp? Clear cases where a developer would turn to your tool are better than tools which try to do everything but don't address a specific problem.
-<br/>
-- How <i>usable</i> is it? Is it clear what commands a developer can use, and which ones are optional or required? Is it easy to execute repetitive or common flows, as well as discover less common ones if needed? What happens when there is a very long running process - is my only option to escape, or can I run other work concurrently, and why? Do the names and commands make sense?
-<br/><br/>
-Note that usefulness and usability have a few key differences, and both will be important to win.
-<br/><br/>
-Complexity in scope, performance, and \"fun\" are bonuses :)"
-  prizes:
-    - title: ""
-      prize: "Sony Noise Cancelling Wireless Headphones"
-- sponsor: "Google"
-  title: "Best Use of Google Cloud"
-  description: "API Challenge this weekend for Best Use of Google Cloud - just use any Google Cloud product to qualify.
-<br/><br/>
-If you win you'll get a prize pack including a Google Home Mini, a Google Cloud Backpack, and more for each team member."
-  prizes:
-    - title: ""
-      prize: "Google Home Minis + Google Cloud Backpacks + more"
-- sponsor: "Wayfair"
-  title: "Best hack to help the housing inequality crisis"
-  description: "From homelessness to hunger, there's a lot of room for innovation to drive significant social change, especially when it comes to housing inequality. Can you find a solution to help everyone live in a home that they love, where they feel safe and comfortable? Challenge your creativity and create a project to help solve the housing inequality crisis."
-  prizes:
-    - title: ""
-      prize: "$500 + interview at Wayfair"
-- sponsor: "Imprivata"
-  title: "Imprivata's Secure User Healthcare Data Challenge"
-  description: "Hospitals and clinics around the US and the world face an unprecedented challenge in keeping patient data secure. This challenge has only increased in magnitude with the wide adoption of cloud-based solutions and applications for managing everything from billing to increasingly regulated protected health information (PHI). 
-<br/><br/>
-It is not atypical for Healthcare workers to have to move from room to room and from device to device throughout their day. Often, this includes having to go through lengthy and complicated logon processes for both devices and applications to do anything from simply looking at a patient chart to signing prescriptions. Imprivata provides solutions that enable those Healthcare workers with fast and easy access to all of their devices, applications and patient data. Imprivata does this while providing the most secure, but transparent approach, to handling both healthcare worker data and the data of the patients that they have to support. Keeping this in mind...
-<br/><br/>
-The winner(s) of this challenge will develop the most creative and secure hack that manages user data. The winning hack should focus on things such as novel approaches to user data encryption or advanced authentication methods (think password-less) to access that data. 
-<br/><br/>
-Bonus consideration will be given for hacks that include...<br/>
-
-* Specific healthcare application <br/>
-* Use more than one, non-password based, authentication method<br/>
-* Provide simple, fast user data access <br/>
-* Leverage devices that healthcare workers already have (fitness trackers, cell phones, etc...)"
-  prizes:
-    - title: ""
-      prize: "Imprivata Swag Bags"
-
+        - title: "IBM Cloud APIs"
+          url: "https://cloud.ibm.com/catalog"

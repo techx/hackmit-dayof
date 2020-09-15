@@ -1,0 +1,124 @@
+- name: SATURDAY
+  color: yellow
+  date: september 14
+  location: mit west campus
+  events:
+    - name: check-in & breakfast
+      time: 8:00 AM
+      location: tent
+    - name: opening ceremony
+      time: 10:00 AM
+      location: kresge auditorium
+      color: blue
+    - name: hacking starts at 11:00 AM!
+      color: yellow
+      events: none
+    - name: "team formation"
+      color: yellow
+      time: 11:15 AM
+      location: kresge rehearsal room b
+    - name: lunch
+      time: 12:00 PM
+      location: tent
+    - name: ibm workshop
+      time: 1:00 PM
+      location: johnson media room
+      color: blue
+    - name: microsoft workshop
+      time: 1:30 PM
+      location: johnson media room
+      color: blue
+    - name: veritone workshop
+      time: 2:15 PM
+      color: blue
+      location: johnson media room
+    - name: workshops & fun events
+      time: 3:00 PM
+      color: yellow
+      events:
+        - name: "aws workshop"
+          location: johnson media room
+        - name: "petting zoo"
+          location: kresge lawn
+    - name: "salesforce workshop"
+      time: 3:45 PM
+      color: yellow
+      location: johnson media room
+    - name: google workshop
+      time: 4:15 PM
+      location: johnson media room
+      color: yellow
+    - name: workshops & fun events
+      time: 5:00 PM
+      color: blue
+      events:
+        - name: algorand workshop
+          location: johnson media room
+        - name: outdoor games
+          location: kresge lawn
+    - name: facebook workshop
+      time: 5:30 PM
+      location: johnson media room
+      color: blue
+    - name: dine & learn
+      time: 6:00 pm
+      events:
+        - name: dinner
+          location: tent
+        - name: peer expo
+          location: johnson ice rink
+          color: yellow
+    - name: pitch night - stan reiss, general partner at matrix partners
+      time: 7:00 PM
+      location: johnson media room
+      color: yellow
+    - name: fireside chat 1 - paul riegle, head of product at algorand
+      time: 8:00 PM
+      location: johnson media room
+      color: yellow
+    - name: fireside chat 2 - ross finman, head of ar at niantic
+      time: 9:00 PM
+      location: johnson media room
+      color: yellow
+    - name: waffle cabin and tosci's
+      time: 10:00 PM
+      location: johnson lobby
+      color: yellow
+- name: SUNDAY
+  color: red
+  date: september 15
+  location: mit west campus
+  events:
+    - name: meet tim the beaver
+      time: 12:00 AM
+      location: johnson lobby
+      color: red
+    - name: late night domino's pizza
+      time: 1:00 AM
+      location: johnson lobby
+      color: red
+    - name: trivia night
+      time: 2:00 AM
+      location: johnson media room
+      color: red
+    - name: breakfast
+      time: 8:00 AM
+      location: tent
+    - name: hacking ends at 11:15 AM!
+      color: red
+      events: none
+    - name: expo judging
+      time: 11:30 AM
+      location: johnson ice rink
+      color: blue
+    - name: lunch
+      time: 12:30 PM
+      location: tent
+    - name: sponsor judging
+      time: 1:00 PM
+      color: red
+      location: johnson ice rink
+    - name: closing ceremony
+      time: 3:00 PM
+      location: kresge auditorium
+      color: blue

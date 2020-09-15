@@ -1,0 +1,201 @@
+h1 {
+  display: block;
+  margin: 0 auto;
+  width: 760px;
+}
+
+.schedule-container {
+  display: flex;
+  margin: 0 auto;
+  width: 760px;
+}
+
+.day {
+  flex: 1;
+  margin: 0 16px;
+}
+
+.day-name-box {
+  width: 100%;
+}
+
+.day-name {
+  padding: 8px;
+  width: 100%;
+}
+
+.day-name-box .arrow {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #231f20;
+
+  width: 0;
+  height: 0;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.day.yellow .arrow {
+  border-top-color: #00d87b;
+}
+
+.day.red .arrow {
+  border-top-color: #ff6f61;
+}
+
+.day-name h2 {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.day.yellow .day-name {
+  background: #00d87b;
+}
+
+.day.red .day-name {
+  background: #ff6f61;
+}
+
+.day .day-details {
+  margin-top: 18px;
+  margin-bottom: 22px;
+}
+
+.day .day-details p:first-of-type {
+  margin-bottom: 4px;
+}
+
+.day .day-details span {
+  font-weight: 600;
+}
+
+.day.yellow .day-details span {
+  color: #00d87b;
+}
+
+.day.red .day-details span {
+  color: #ff6f61;
+}
+
+.events {
+  border-left: 2px solid #00d87b;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+.day.yellow .events {
+  border-color: #00d87b;
+}
+
+.day.red .events {
+  border-color: #ff6f61;
+}
+
+.event {
+  background: #fff;
+  color: #231f20;
+  margin: 8px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.event:first-of-type {
+  margin-top: 0;
+}
+
+.event:last-of-type {
+  margin-bottom: 0;
+}
+
+.event.yellow {
+  background: #00d87b;
+}
+
+.event.blue {
+  background: #2ec0cf;
+}
+
+.event.red {
+  background: #ff6f61;
+  color: #231f20;
+}
+
+.event .name {
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.event .details {
+}
+
+.heading {
+  position: relative;
+}
+
+.heading .circle {
+  background: #00d87b;
+  border-radius: 50%;
+  height: 12px;
+  left: -13px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 12px;
+}
+
+.heading.blue .circle {
+  background: #2ec0cf;
+}
+
+.heading.red .circle {
+  background: #ff6f61;
+}
+
+.heading > p {
+  color: #00d87b;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.heading.blue > p {
+  color: #2ec0cf;
+}
+
+.heading.red > p {
+  color: #ff6f61;
+}
+
+.heading .subevents {
+  display: flex;
+}
+
+.heading .subevents .event {
+  flex: 1;
+  margin: 8px 4px;
+}
+
+.heading .subevents .event:first-of-type {
+  margin-left: 0;
+}
+
+.heading .subevents .event:last-of-type {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 760px) {
+  h1 {
+    text-align: center;
+    width: auto;
+  }
+
+  .schedule-container {
+    display: block;
+    width: 100%;
+  }
+
+  .day:last-of-type {
+    margin-top: 32px;
+  }
+}

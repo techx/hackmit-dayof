@@ -6,6 +6,8 @@
   url: /tracks
 # - title: MAPS
 #   url: /maps
+- title: EVENTS
+  url: /events
 - title: SPEAKERS
   url: /speakers
 - title: PRIZES
@@ -16,6 +18,8 @@
 #   url: /hardware
 # - title: TRAVEL
 #   url: /travel
+- title: BEGINNER
+  url: /beginner
 - title: FAQs
   url: /faqs
 - title: PLAYGROUND

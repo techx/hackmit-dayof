@@ -1,0 +1,47 @@
+---
+layout: default
+title: Events
+---
+<h1>events</h1>
+<div class="schedule-container">
+  {% for day in site.data.events %}
+  <div class="day {{ day.color }}">
+    <div class="day-name-box">
+      <div class="day-name">
+        <h2>{{ day.name }}</h2>
+      </div>
+      <div class="arrow"></div>
+    </div>
+    <div class="day-details">
+      <p><span>date:</span> {{ day.date }}</p>
+      <p><span>location:</span> {{ day.location }}</p>
+    </div>
+    <div class="events">
+      {% for event in day.events %}
+        {% if event.events %}
+        <div class="heading {{ event.color | default: "" }}">
+          <div class="circle"></div>
+          <p>{{ event.name }}</p>
+          <div class="subevents">
+            {% if event.events != "none" %}
+            {% for subevent in event.events %}
+            <div class="event subevent {{ subevent.color | default: event.color | default: "" }}">
+              <p class="name">{{ subevent.name }}</p>
+              <p class="details">{{ event.time }}</p>
+              <p class="details">{{ subevent.location }}</p>
+            </div>
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+        {% else %}
+        <div class="event {{ event.color | default: "" }}">
+          <p class="name">{{ event.name }}</p>
+          <p class="details">{{ event.time }} | {{ event.location }}</p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
