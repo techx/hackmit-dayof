@@ -10,7 +10,8 @@
 }
 
 .box img {
-  max-width: 85%;
+  margin-top: 100px;
+  max-width: 70%;
   height: auto;
 }
 

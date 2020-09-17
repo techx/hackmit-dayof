@@ -1,15 +1,66 @@
-- name: SATURDAY
+- name: FRIDAY
   color: yellow
-  date: september 14
-  location: mit west campus
+  date: september 18
   events:
-    - name: check-in & breakfast
-      time: 8:00 AM
-      location: tent
     - name: opening ceremony
+      time: 9:00 - 10:00 PM
+      link: opening
+    - name: team formation/ideation
+      time: 10:00 - 11:00 PM
+      link: discord
+    - name: Intersystems - Data in the Cloud with IRIS
+      time: 11:00 - 11:45 PM
+      link: workshop
+- name: SATURDAY
+  color: blue
+  date: september 19
+  events:
+    - name: beginner workshop pt. 1
+      time: 12:00 - 1:00 AM
+      link: workshop
+    - name: mini-event - speed friending
+      time: 1:00 - 2:00 AM
+      link: mini-event
+    - name: beginner workshop pt. 2
       time: 10:00 AM
-      location: kresge auditorium
-      color: blue
+      link: workshop
+    - name: beginner workshop pt. 3
+      time: 11:15 AM
+      link: workshop
+    - name: CMT tech talk
+      time: 12:30 PM
+      link: workshop
+    - name: IBM workshop
+      time: 1:30 PM
+      link: workshop
+    - name: mini-event - tiktok dance workshop
+      time: 2:15 PM
+      link: mini-event
+    - name: yext workshop
+      time: 2:30 PM
+      link: workshop
+
+    - name: facebook workshop
+      time: 3:15 PM
+      link: workshop
+    - name: IBM panel
+      time: 4:00 PM
+      link: workshop
+    - name: judging orientation option 1
+      time: 5:15 PM
+      link: workshop
+    - name: mini-event - abs w/ jenny
+      time: 5:30 PM
+      link: workshop
+    
+    - name: peer expo
+      time: 6:00 PM
+      link: play.hackmit.org
+ 
+    # - name: opening ceremony
+    #   time: 10:00 AM
+    #   location: kresge auditorium
+    #   color: blue
     - name: hacking starts at 11:00 AM!
       color: yellow
       events: none

@@ -9,8 +9,14 @@
   margin-top: 100px;
 }
 
+.box.middle {
+  /* margin-top: 100px; */
+  align-items: center;
+  text-align: center;
+}
+
 .box img {
-  max-width: 85%;
+  max-width: 20%;
   height: auto;
 }
 

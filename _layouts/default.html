@@ -4,15 +4,16 @@
   <meta name="description" content="Learn, imagine, and create at MIT's premier high school hackathon. February 23-24." />
   <meta name="keywords" content="hackmit, hackathon, mit, blueprint, high, school, event, coding, programming, hacking" />
   <meta name="theme-color" content="#34bac8" />
-  <link rel="icon" type="image/png" sizes="48x48" href="{{ "/img/icon/favicon-48.png" | relative_url }}" />
+  <!-- <link rel="icon" type="image/png" sizes="48x48" href="{{ "/img/icon/favicon.svg" | relative_url }}" />
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/icon/favicon-32.png" | relative_url }}" />
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/icon/favicon-16.png" | relative_url }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/icon/favicon-16.png" | relative_url }}" /> -->
+  <link rel="icon" href="/img/icons/favicon.svg" type="image/svg">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:url" content="https://dayof.hackmit.org" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="MIT HackMIT | Day Of" />
-  <meta property="og:description" content="Learn, imagine, and create at MIT's premier high school hackathon. February 23-24." />
-  <meta property="og:image" content="https://hackmit.org/assets/graphics/hackcover7.png" />
+  <meta property="og:description" content="HackMIT 2020: Laying the tracks for a more connected future!" />
+  <!-- <meta property="og:image" content="https://hackmit.org/assets/graphics/hackcover7.png" /> -->
   <title>{{ "HackMIT | " | append: page.title }}</title>
   <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}" />
   <link rel="stylesheet" href="{{ "/css/" | append: page.path | replace: "html", "css" | relative_url }}" />
@@ -21,7 +22,7 @@
   <nav class="desktop">
     <div class="container">
       <a href="https://hackmit.org" target="_blank">
-        <img class="logo" src="{{ "/img/logo.png" | relative_url }}" />
+        <img class="logo" src="{{ "/img/logo-main.svg" | relative_url }}" />
       </a>
       <ul>
         {% for node in site.data.pages %}
@@ -37,7 +38,7 @@
   </nav>
   <nav class="mobile">
     <img class="hamberder" id="hamberder" src="{{ "/img/icon/hamberder.svg" | relative_url }}" />
-    <img class="logo" src="{{ "/img/logo.png" | relative_url }}" />
+    <img class="logo" src="{{ "/img/logo-main.svg" | relative_url }}" />
   </nav>
   <div id="mobile-nav" class="hidden">
     <img id="close" src="{{ "/img/icon/close.svg" | relative_url }}" />
