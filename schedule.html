@@ -3,7 +3,12 @@ layout: default
 title: Schedule
 ---
 <h1>schedule</h1>
+
+<div class="flex-container">
+  <p id="Instruction">Click on the title of the event for the link.</p>
+
 <div class="schedule-container">
+  
   {% for day in site.data.schedule %}
   <div class="day {{ day.color }}">
     <div class="day-name-box">
@@ -14,10 +19,17 @@ title: Schedule
     </div>
     <div class="day-details">
       <p><span>date:</span> {{ day.date }}</p>
-      <p><span>location:</span> {{ day.location }}</p>
+      <!-- <p><span>location:</span> {{ day.location }}</p> -->
     </div>
     <div class="events">
       {% for event in day.events %}
+        {% if event.reminder %}
+        <div class="reminder {{ event.color | default: "" }}">
+          <div class="circle"></div>
+          <p>{{ event.time }} | {{ event.name }}</p>
+   
+        </div>
+        {% else %}
         {% if event.events %}
         <div class="heading {{ event.color | default: "" }}">
           <div class="circle"></div>
@@ -36,12 +48,15 @@ title: Schedule
         </div>
         {% else %}
         <div class="event {{ event.color | default: "" }}">
-          <p class="name">{{ event.name }}</p>
-          <p class="details">{{ event.time }} | {{ event.location }}</p>
+          <a href={{ event.link }} target="_blank" class="name">{{ event.name }} </a>
+          <!-- <p class="name">{{ event.name }}</p> -->
+          <p class="details">{{ event.time }}</p>
         </div>
+        {% endif %}
         {% endif %}
       {% endfor %}
     </div>
   </div>
   {% endfor %}
+</div>
 </div>

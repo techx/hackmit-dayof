@@ -4,6 +4,11 @@ h1 {
   width: 760px;
 }
 
+#Instruction {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
 .schedule-container {
   display: flex;
   margin: 0 auto;
@@ -37,7 +42,11 @@ h1 {
 }
 
 .day.yellow .arrow {
-  border-top-color: #00d87b;
+  border-top-color: #ffdf3f;
+}
+
+.day.blue .arrow {
+  border-top-color: #9cD0f1;
 }
 
 .day.red .arrow {
@@ -51,8 +60,12 @@ h1 {
   text-align: center;
 }
 
+.day.blue .day-name {
+  background: #9cD0f1;
+}
+
 .day.yellow .day-name {
-  background: #00d87b;
+  background: #ffdf3f;
 }
 
 .day.red .day-name {
@@ -72,8 +85,12 @@ h1 {
   font-weight: 600;
 }
 
+.day.blue .day-details span {
+  color: #9cD0f1;
+}
+
 .day.yellow .day-details span {
-  color: #00d87b;
+  color: #ffdf3f;
 }
 
 .day.red .day-details span {
@@ -87,12 +104,18 @@ h1 {
 }
 
 .day.yellow .events {
-  border-color: #00d87b;
+  border-color: #ffdf3f;
 }
 
 .day.red .events {
   border-color: #ff6f61;
 }
+
+.day.blue .events {
+  border-color: #9cD0f1;
+}
+
+
 
 .event {
   background: #fff;
@@ -100,6 +123,7 @@ h1 {
   margin: 8px 0;
   padding: 10px;
   width: 100%;
+  text-align: center;
 }
 
 .event:first-of-type {
@@ -111,24 +135,26 @@ h1 {
 }
 
 .event.yellow {
-  background: #00d87b;
+  background: #ffdf3f;
 }
 
 .event.blue {
-  background: #2ec0cf;
+  background: #9cD0f1;
 }
 
 .event.red {
   background: #ff6f61;
-  color: #231f20;
+  /* color: #231f20; */
 }
 
 .event .name {
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 2px;
+  font-size: 1.15vw;
 }
 
 .event .details {
+  font-size: 1.3vw;
 }
 
 .heading {
@@ -146,12 +172,44 @@ h1 {
 }
 
 .heading.blue .circle {
-  background: #2ec0cf;
+  background: #9cD0f1;
 }
 
 .heading.red .circle {
   background: #ff6f61;
 }
+
+.heading.yellow .circle {
+  background: #ffdf3f;
+}
+
+.reminder {
+  position: relative;
+}
+
+.reminder .circle {
+  background: #ffffff;
+  border-radius: 50%;
+  height: 12px;
+  left: -13px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 12px;
+}
+
+
+.reminder.blue .circle {
+  background: #9cD0f1;
+}
+
+.reminder.red .circle {
+  background: #ff6f61;
+}
+
+.reminder.yellow .circle {
+  background: #ffdf3f;
+}
+
 
 .heading > p {
   color: #00d87b;
@@ -160,12 +218,37 @@ h1 {
 }
 
 .heading.blue > p {
-  color: #2ec0cf;
+  color: #9cD0f1;
+}
+
+.heading.yellow > p {
+  color: #ffdf3f;
 }
 
 .heading.red > p {
   color: #ff6f61;
 }
+
+
+.reminder > p {
+  color: #001d55;
+  font-weight: 600;
+  margin-left: 8px;
+  font-size: 1.2vw;
+}
+
+.reminder.blue > p {
+  color: #001d55;
+}
+
+.reminder.yellow > p {
+  color: #001d55;
+}
+
+.reminder.red > p {
+  color: #001d55;
+}
+
 
 .heading .subevents {
   display: flex;

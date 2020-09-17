@@ -4,172 +4,157 @@
   events:
     - name: opening ceremony
       time: 9:00 - 10:00 PM
-      link: opening
+      link: https://go.hackmit.org/opening
+
+    - name: hacking starts!
+      time: 10:00 PM
+      color: yellow
+      reminder: hoho
+
     - name: team formation/ideation
       time: 10:00 - 11:00 PM
-      link: discord
+      link: https://go.hackmit.org/discord
     - name: Intersystems - Data in the Cloud with IRIS
       time: 11:00 - 11:45 PM
-      link: workshop
+      link: https://go.hackmit.org/workshop
 - name: SATURDAY
   color: blue
   date: september 19
   events:
+    - name: coffee chat sign-ups close
+      time: 12:00 AM
+      color: blue
+      reminder: hoho
+
+
     - name: beginner workshop pt. 1
       time: 12:00 - 1:00 AM
-      link: workshop
+      link: https://go.hackmit.org/workshop
+      # reminder: none
+
     - name: mini-event - speed friending
       time: 1:00 - 2:00 AM
-      link: mini-event
+      link: https://go.hackmit.org/mini-event
+
+    - name: fun friday form
+      time: 3:00 AM
+      color: blue
+      reminder: hoho
+
     - name: beginner workshop pt. 2
-      time: 10:00 AM
-      link: workshop
+      time: 10:00 - 11:00 AM
+      link: https://go.hackmit.org/workshop
     - name: beginner workshop pt. 3
-      time: 11:15 AM
-      link: workshop
+      time: 11:15 AM - 12:15 PM
+      link: https://go.hackmit.org/workshop
     - name: CMT tech talk
-      time: 12:30 PM
-      link: workshop
+      time: 12:30 - 1:15 PM
+      link: https://go.hackmit.org/workshop
     - name: IBM workshop
-      time: 1:30 PM
-      link: workshop
+      time: 1:30 - 2:15 PM
+      link: https://go.hackmit.org/workshop
     - name: mini-event - tiktok dance workshop
-      time: 2:15 PM
-      link: mini-event
+      time: 2:15 - 2:45 PM
+      link: https://go.hackmit.org/mini-event
     - name: yext workshop
-      time: 2:30 PM
-      link: workshop
+      time: 2:30 - 3:00 PM
+      link: https://go.hackmit.org/workshop
 
     - name: facebook workshop
-      time: 3:15 PM
-      link: workshop
+      time: 3:15 - 3:45 PM
+      link: https://go.hackmit.org/workshop
     - name: IBM panel
-      time: 4:00 PM
-      link: workshop
+      time: 4:00 - 4:30 PM
+      link: https://go.hackmit.org/workshop
     - name: judging orientation option 1
-      time: 5:15 PM
-      link: workshop
+      time: 5:15 - 6:00 PM
+      link: https://go.hackmit.org/judging-orientation
     - name: mini-event - abs w/ jenny
-      time: 5:30 PM
-      link: workshop
+      time: 5:30 - 6:00 PM
+      link: https://go.hackmit.org/mini-event
     
-    - name: peer expo
+    - name: spicy saturday survey
       time: 6:00 PM
-      link: play.hackmit.org
- 
-    # - name: opening ceremony
-    #   time: 10:00 AM
-    #   location: kresge auditorium
-    #   color: blue
-    - name: hacking starts at 11:00 AM!
-      color: yellow
-      events: none
-    - name: "team formation"
-      color: yellow
-      time: 11:15 AM
-      location: kresge rehearsal room b
-    - name: lunch
-      time: 12:00 PM
-      location: tent
-    - name: ibm workshop
-      time: 1:00 PM
-      location: johnson media room
       color: blue
-    - name: microsoft workshop
-      time: 1:30 PM
-      location: johnson media room
-      color: blue
-    - name: veritone workshop
-      time: 2:15 PM
-      color: blue
-      location: johnson media room
-    - name: workshops & fun events
-      time: 3:00 PM
-      color: yellow
-      events:
-        - name: "aws workshop"
-          location: johnson media room
-        - name: "petting zoo"
-          location: kresge lawn
-    - name: "salesforce workshop"
-      time: 3:45 PM
-      color: yellow
-      location: johnson media room
-    - name: google workshop
-      time: 4:15 PM
-      location: johnson media room
-      color: yellow
-    - name: workshops & fun events
-      time: 5:00 PM
-      color: blue
-      events:
-        - name: algorand workshop
-          location: johnson media room
-        - name: outdoor games
-          location: kresge lawn
-    - name: facebook workshop
-      time: 5:30 PM
-      location: johnson media room
-      color: blue
-    - name: dine & learn
-      time: 6:00 pm
-      events:
-        - name: dinner
-          location: tent
-        - name: peer expo
-          location: johnson ice rink
-          color: yellow
-    - name: pitch night - stan reiss, general partner at matrix partners
-      time: 7:00 PM
-      location: johnson media room
-      color: yellow
-    - name: fireside chat 1 - paul riegle, head of product at algorand
-      time: 8:00 PM
-      location: johnson media room
-      color: yellow
-    - name: fireside chat 2 - ross finman, head of ar at niantic
-      time: 9:00 PM
-      location: johnson media room
-      color: yellow
-    - name: waffle cabin and tosci's
-      time: 10:00 PM
-      location: johnson lobby
-      color: yellow
+      reminder: hoho
+
+
+    - name: peer expo
+      time: 6:00 - 7:00 PM
+      link: https://play.hackmit.org
+
+    - name: hackathon organizer meetup
+      time: 7:00 - 8:00 PM
+      link: https://go.hackmit.org/hackathon-organizer
+    - name: mini-event - escape room
+      time: 7:00 - 8:00 PM
+      link: https://go.hackmit.org/mini-event
+
+    - name: fireside chat w/ aileen lee
+      time: 8:00 - 8:45 PM
+      link: https://go.hackmit.org/fireside1
+    - name: judging orientation option 2
+      time: 8:00 - 8:45 PM
+      link: https://go.hackmit.org/mini-event
+
+    - name: fireside chat w/ linda avey
+      time: 9:00 - 9:45 PM
+      link: https://go.hackmit.org/fireside2
+    - name: fireside chat w/ tom preston-werner
+      time: 10:00 - 10:45 PM
+      link: https://go.hackmit.org/fireside3
+
+    - name: hackmit tech talk
+      time: 11:00 PM - 12:00 AM
+      link: https://go.hackmit.org/workshop
+    - name: mini-event - trivia
+      time: 11:00 PM - 12:00 AM
+      link: https://go.hackmit.org/mini-event
+
+    # - name: workshops & fun events
+    #   time: 3:00 PM
+    #   color: yellow
+    #   events:
+    #     - name: "aws workshop"
+    #       location: johnson media room
+    #     - name: "petting zoo"
+    #       location: kresge lawn
+
 - name: SUNDAY
   color: red
-  date: september 15
-  location: mit west campus
+  date: september 20
   events:
-    - name: meet tim the beaver
-      time: 12:00 AM
-      location: johnson lobby
+    - name: mini-event - typeracer tourny
+      time: 12:30 - 1:00 AM
+      link: https://go.hackmit.org/mini-event
+    
+    - name: hacking ends!
+      time: 10:00 AM
       color: red
-    - name: late night domino's pizza
-      time: 1:00 AM
-      location: johnson lobby
+      reminder: hoho
+    
+    - name: pre-judging buffer time
+      time: 10:00 - 11:00 AM
+      # link: https://go.hackmit.org/mini-event
+    
+    - name: judging starts
+      time: 11:00 AM
       color: red
-    - name: trivia night
-      time: 2:00 AM
-      location: johnson media room
-      color: red
-    - name: breakfast
-      time: 8:00 AM
-      location: tent
-    - name: hacking ends at 11:15 AM!
-      color: red
-      events: none
+      reminder: hoho
+
     - name: expo judging
-      time: 11:30 AM
-      location: johnson ice rink
-      color: blue
-    - name: lunch
-      time: 12:30 PM
-      location: tent
-    - name: sponsor judging
-      time: 1:00 PM
+      time: 11:00 AM - 1 PM
+      location: johnson media room
+    - name: panel judging
+      time: 1:15 PM - 2:30 PM
+      link: https://go.hackmit.org/panel-judging
+    
+    - name: sponsor judging results
+      time: 2:00 PM
       color: red
-      location: johnson ice rink
+      reminder: hoho
+    
     - name: closing ceremony
-      time: 3:00 PM
-      location: kresge auditorium
-      color: blue
+      time: 2:30 - 3:15 PM
+      link: https://go.hackmit.org/closing
+      # color: blue
