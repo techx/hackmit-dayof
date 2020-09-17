@@ -21,15 +21,56 @@
   padding-left: 0px;
 }
 
+h2 {
+  color: #1b4481;
+  font-family: "LemonMilkRegular";
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 2em;
+  padding-bottom: 4px;
+  padding-top: 4vw;
+  text-align: left;
+}
+
 h3 {
   color: #26ACC5;
   font-family: "Muli";
   text-transform: uppercase;
-  letter-spacing: .15em;
+  letter-spacing: .1em;
   font-size: 1.7em;
   padding-bottom: 4px;
   text-align: left;
 }
+
+
+.popup-title {
+  font-size: 2em;
+  text-align: center;
+  /* max-width: 60vw; */
+  margin-bottom: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  letter-spacing: 0.1em;
+}
+
+.popup-sub-title {
+  font-size: 1.2em;
+  text-align: center;
+  /* max-width: 60vw; */
+  width: 100%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  /* color: $accent_blue; */
+  letter-spacing: 0.01em;
+}
+
+.track-link {
+  color: #26ACC5;
+  font-family: Muli;
+  letter-spacing: 0.005em;
+}
+
 
 .blue {
   background-color: #FFDF3F;
