@@ -8,8 +8,8 @@
 #   url: /maps
 - title: EVENTS
   url: /events
-- title: SPEAKERS
-  url: /speakers
+# - title: SPEAKERS
+#   url: /speakers
 - title: PRIZES
   url: /prizes
 - title: CHALLENGES

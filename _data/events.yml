@@ -1,124 +1,127 @@
-- name: SATURDAY
+- name: FRIDAY SEPTEMBER 18
   color: yellow
-  date: september 14
-  location: mit west campus
+  date: september 18
   events:
-    - name: check-in & breakfast
-      time: 8:00 AM
-      location: tent
     - name: opening ceremony
-      time: 10:00 AM
-      location: kresge auditorium
-      color: blue
-    - name: hacking starts at 11:00 AM!
+      time: 9:00 PM ET
+      location: go.hackmit.org/opening
+      description: Come to our opening ceremony, featuring Keynote speaker Luis von Ahn, co-founder and CEO of Duolingo! We'll also have a virtual acapella performance, and will be discussing important logistical information.
+      color: light-blue
+    - name: team formation and ideation
+      color: medium-blue
+      time: 10:00 PM ET
+      location: go.hackmit.org/discord
+      description: Looking for teammates? Not sure what to build? Attend our team formation and ideation event to find teammates. Mentors and nonprofits will be available to facilitate brainstorming.
+    - name: InterSystems Tech Talk
+      time: 11:00 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
       color: yellow
-      events: none
-    - name: "team formation"
-      color: yellow
-      time: 11:15 AM
-      location: kresge rehearsal room b
-    - name: lunch
-      time: 12:00 PM
-      location: tent
-    - name: ibm workshop
-      time: 1:00 PM
-      location: johnson media room
-      color: blue
-    - name: microsoft workshop
-      time: 1:30 PM
-      location: johnson media room
-      color: blue
-    - name: veritone workshop
-      time: 2:15 PM
-      color: blue
-      location: johnson media room
-    - name: workshops & fun events
-      time: 3:00 PM
-      color: yellow
-      events:
-        - name: "aws workshop"
-          location: johnson media room
-        - name: "petting zoo"
-          location: kresge lawn
-    - name: "salesforce workshop"
-      time: 3:45 PM
-      color: yellow
-      location: johnson media room
-    - name: google workshop
-      time: 4:15 PM
-      location: johnson media room
-      color: yellow
-    - name: workshops & fun events
-      time: 5:00 PM
-      color: blue
-      events:
-        - name: algorand workshop
-          location: johnson media room
-        - name: outdoor games
-          location: kresge lawn
-    - name: facebook workshop
-      time: 5:30 PM
-      location: johnson media room
-      color: blue
-    - name: dine & learn
-      time: 6:00 pm
-      events:
-        - name: dinner
-          location: tent
-        - name: peer expo
-          location: johnson ice rink
-          color: yellow
-    - name: pitch night - stan reiss, general partner at matrix partners
-      time: 7:00 PM
-      location: johnson media room
-      color: yellow
-    - name: fireside chat 1 - paul riegle, head of product at algorand
-      time: 8:00 PM
-      location: johnson media room
-      color: yellow
-    - name: fireside chat 2 - ross finman, head of ar at niantic
-      time: 9:00 PM
-      location: johnson media room
-      color: yellow
-    - name: waffle cabin and tosci's
-      time: 10:00 PM
-      location: johnson lobby
-      color: yellow
-- name: SUNDAY
-  color: red
-  date: september 15
-  location: mit west campus
+- name: SATURDAY SEPTEMBER 19
+  color: yellow
+  date: september 19
   events:
-    - name: meet tim the beaver
-      time: 12:00 AM
-      location: johnson lobby
-      color: red
-    - name: late night domino's pizza
-      time: 1:00 AM
-      location: johnson lobby
-      color: red
-    - name: trivia night
-      time: 2:00 AM
-      location: johnson media room
-      color: red
-    - name: breakfast
-      time: 8:00 AM
-      location: tent
-    - name: hacking ends at 11:15 AM!
-      color: red
-      events: none
-    - name: expo judging
-      time: 11:30 AM
-      location: johnson ice rink
+    - name: beginner workshop 1
+      time: 12:00 AM ET
+      location: go.hackmit.org/workshop
+      description: This is part 1/3 of our beginner workshop series.
       color: blue
-    - name: lunch
-      time: 12:30 PM
-      location: tent
-    - name: sponsor judging
-      time: 1:00 PM
+    - name: mini-event speed friending
+      time: 1:00 AM ET
+      location: go.hackmit.org/mini-event
+      description: Come be matched randomly with other hackers for 3 minutes at a time and get to meet each other in this virtual world! (Can be done individually or as a pair)
+      color: blue
+    - name: beginner workshop \#2
+      time: 10:00 AM ET
+      location: go.hackmit.org/workshop
+      description: This is part 2/3 of our beginner workshop series.
+      color: blue
+    - name: beginner workshop \#3
+      time: 11:15 AM ET
+      location: go.hackmit.org/workshop
+      description: This is part 3/3 of our beginner workshop series.
+      color: blue
+    - name: CMT Tech Talk
+      time: 12:30 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
+      color: blue
+    - name: IBM Workshop
+      time: 1:30 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
+      color: blue
+    - name: mini-event tiktok dance workshop
+      time: 2:15 PM ET
+      location: go.hackmit.org/mini-event
+      description: Roll through to learn Say So and Renegade (original) and fulfill your dreams of becoming a tiktok star!
+      color: blue
+    - name: Yext workshop
+      time: 2:30 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
+      color: blue
+    - name: Facebook workshop
+      time: 3:15 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
+      color: blue
+    - name: IBM Panel
+      time: 4:00 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
+      color: blue
+    - name: mini-event abs with jenny
+      time: 5:30 PM ET
+      location: go.hackmit.org/mini-event
+      description: Take a break from coding and get a six pack with one of our HackMIT organizer alum Jenny Xu (https://www.forbes.com/profile/jenny-xu) who's both a successful entrepreneur and marathon runner!
+      color: blue
+    - name: peer expo
+      time: 6:00 PM ET
+      location: playground
+      description: wow see all the cool projects
+      color: yellow
+    - name: mini-event escape room
+      time: 7:00 PM ET
+      location: go.hackmit.org/mini-event
+      description: Come in groups of 4-8 (can be prechosen or come meet new friends) and try to virtual escape room puzzle!
+      color: blue
+    - name: fireside chat with Aileen Lee
+      time: 8:00 PM ET
+      location: go.hackmit.org/fireside1
+      description: idk fam
+      color: yellow
+    - name: fireside chat with Linda Avey
+      time: 9:00 PM ET
+      location: go.hackmit.org/fireside2
+      description: idk fam
+      color: yellow
+    - name: fireside chat with Tom Preston-Werner
+      time: 10:00 PM ET
+      location: go.hackmit.org/fireside3
+      description: idk fam
+      color: yellow
+    - name: HackMIT Tech Talk
+      time: 11:00 PM ET
+      location: go.hackmit.org/workshop
+      description: idk fam
+      color: yellow
+    - name: mini-event kahoot trivia
+      time: 11:00 PM ET
+      location: go.hackmit.org/mini-event
+      description: Trivia and prizes, you know the drill.
+      color: yellow
+- name: SUNDAY SEPTEMBER 20
+  color: red
+  date: september 20
+  events:
+    - name: mini-event typeracer tournament
+      time: 12:30 AM
+      location: go.hackmit.org/mini-event
+      description: Compete to be crowned the TypeRacer winner at HackMIT 2020.
       color: red
-      location: johnson ice rink
     - name: closing ceremony
-      time: 3:00 PM
-      location: kresge auditorium
+      time: 2:30 PM ET
+      location: go.hackmit.org/closing
+      description: Come to our closing ceremony to see some of our top projects!
       color: blue

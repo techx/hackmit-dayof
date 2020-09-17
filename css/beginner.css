@@ -8,9 +8,7 @@ h3, p {
 
 h3 {
   color: #001D55;
-  letter-spacing: .01em;
-  font-family: "Muli";
-  letter-spacing: .15em;
+  font-family: Muli, sans-serif;
 }
 
 p {
@@ -28,4 +26,16 @@ p {
 
 .blue-type2 {
   color: #26ACC5;
+}
+
+ol {
+  list-style-position: inside;
+  margin-bottom: 16px;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style-position: inside;
+  margin-bottom: 16px;
+  line-height: 1.5em;
 }
