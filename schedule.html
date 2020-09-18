@@ -32,15 +32,20 @@ title: Schedule
         {% else %}
         {% if event.events %}
         <div class="heading {{ event.color | default: "" }}">
-          <div class="circle"></div>
+          <!-- <div class="circle"></div> -->
           <p>{{ event.name }}</p>
           <div class="subevents">
             {% if event.events != "none" %}
             {% for subevent in event.events %}
             <div class="event subevent {{ subevent.color | default: event.color | default: "" }}">
-              <p class="name">{{ subevent.name }}</p>
-              <p class="details">{{ event.time }}</p>
-              <p class="details">{{ subevent.location }}</p>
+              {% if event.link %}
+              <a href={{ event.link }} target="_blank" class="name">{{ subevent.name }} </a>
+              {% else %}
+              <p class="nolink">{{ subevent.name }}</p>
+              {% endif %}
+              <!-- <p class="heading {{ event.color | default: "" }}">{{ subevent.name }}</p> -->
+              <p class="details">{{ subevent.time }}</p>
+              <!-- <p class="details">{{ subevent.location }}</p> -->
             </div>
             {% endfor %}
             {% endif %}
@@ -48,7 +53,13 @@ title: Schedule
         </div>
         {% else %}
         <div class="event {{ event.color | default: "" }}">
-          <a href={{ event.link }} target="_blank" class="name">{{ event.name }} </a>
+          {% if event.link %}
+            <a href={{ event.link }} target="_blank" class="name">{{ event.name }} </a>
+          {% else %}
+            <p class="nolink">{{ event.name }}</p>
+          {% endif %}
+
+          
           <!-- <p class="name">{{ event.name }}</p> -->
           <p class="details">{{ event.time }}</p>
         </div>

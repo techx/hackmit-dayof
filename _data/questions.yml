@@ -1,8 +1,42 @@
-- prompt: I CAME LATE / I DON'T KNOW WHERE TO GO!
-  answer: Come to Help Desk and we'll get you up to speed!
+- prompt: I DON'T KNOW WHERE TO GO!
+  answer: Head over to helpbot on our <a href="https://hackmit2020.slack.com/" target="_blank" class="track-link">Slack</a> and we'll help you figure things out!
+
 - prompt: WHAT IF I DON'T HAVE A TEAM?
-  answer: No worries! We'll be holding a team formation event Saturday morning to allow hackers who came without a team to find one. Feel free to also form spontaneous teams with new friends you meet through the HackMIT Facebook group, the HackMIT Slack, or throughout the weekend!
+  answer: No worries! We’ll be holding a team formation and ideation event on Friday at 10 pm EDT to allow hackers who came without a team to find one. Feel free to also form spontaneous teams with new friends you meet through the #team-formation channel on Slack or throughout the weekend!
+
 - prompt: HOW MANY PEOPLE ARE ALLOWED ON A TEAM?
   answer: Teams can be up to four people.
+
+- prompt: I JUST JOINED A TEAM; HOW DO WE OFFICIALLY CREATE OUR TEAM? 
+  answer: If you formed the team after registering, you will have an option to add yourself to your team when you submit your project.
+
 - prompt: WHAT AM I SUPPOSED TO BUILD OR HACK THIS WEEKEND?
-  answer: There are no constraints on what you can build this weekend! Your finished hack doesn’t have to be polished or perfect; HackMIT is also a great way to explore and learn new things. We hope our event is a launchpad for you to continue hacking on your project past this weekend!
+  answer: There are no constraints on what you can build! Your finished hack doesn’t have to be polished or perfect; HackMIT is also a great way to explore and learn new things. We hope our event is a launchpad for you to continue hacking on your project past this weekend!
+
+- prompt: DO WE HAVE TO STICK TO A TRACK?
+  answer: You can switch tracks if you’d like! We’ll ask you for your tentative track choice on Friday, but you can update it up until you submit your project on Sunday morning. Note that you can only submit to one track.
+
+- prompt: WILL THE EVENTS BE RECORDED?
+  answer: Yes! Most of our events will be recorded and published to our <a href="https://www.youtube.com/channel/UCGe5dX_aTU9SEOYGLlt5AQQ" target="_blank" class="track-link"> HackMIT Youtube Channel </a> afterwards.
+
+- prompt: HOW DO I ASK FOR HELP DURING A WORKSHOP?
+  answer: Submit a ticket through our <a href="https://q.hackmit.org/" target="_blank" class="track-link"> HelpQ </a>, choose the tag for the workshop you're in, and a workshop mentor will get to your question as soon as possible!
+
+- prompt: HOW DO I SUBMIT MY PROJECT?
+  answer: Go to <a href="https://spectacle.hackmit.org" target="_blank" class="track-link"> Spectacle </a> and login with your <a href="https://my.hackmit.org" target="_blank" class="track-link"> my.hackmit.org </a> account! From there, make a team or join one from "Manage Team" to get started! Hit "Submit Project" when you're ready, and use "Edit Project" from "Manage Team" afterwards to make any changes before the deadline. MAKE SURE TO PUT THE VIRTUAL ROOM LINK YOU WILL BE ON DURING OUR JUDGING PERIOD -- EXPO JUDGES AND SPONSORS WILL BE LOOKING FOR YOU THERE!
+
+- prompt: HOW WILL JUDGING WORK FOR OUR VIRTUAL HACKATHON?
+  answer: After the project submission deadline, you'll get a little break while we slot you in for expo judging and sponsor judging slots! Look out in your inbox for an email from <b>ballotbeans@gmail.com</b> with your schedule from 11am-1pm ET. Please make sure to be in your virtual room link during your scheduled slots!
+
+
+# - prompt: ARE INTERNATIONAL STUDENTS ELIGIBLE FOR SWAG?
+#   answer: Unfortunately no. We won’t be able to support hackers in this regard due to high shipping expenses accrued when shipping internationally. 
+
+- prompt: WHAT ARE THE REQUIREMENTS FOR RECEIVING SWAG?
+  answer: You must fill out both of our track questionnaires and submit a project to be eligible. Unfortunately our fulfillment center doesn’t ship internationally, so swag will only be shipped out domestically. Sorry for the inconvenience! If you have an alternate address in the United States, we can use that instead.
+
+- prompt: I HAVE MORE QUESTIONS ABOUT HACKMIT PLAYGROUND!
+  answer: Check out this <a href="https://go.hackmit.org/playground-article" target="_blank" class="track-link"> blog post </a> :')
+
+- prompt: WHO IS ELIGIBLE FOR COFFEE CHATS?
+  answer: If you are a high school student, then you are unfortunately not eligible for coffee chats with sponsors. Additionally, each company may have its own guidelines on conducting coffee chats with international students.

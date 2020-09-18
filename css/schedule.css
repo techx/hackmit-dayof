@@ -1,7 +1,8 @@
 h1 {
   display: block;
   margin: 0 auto;
-  width: 760px;
+  text-align: center;
+  width: 80%;
 }
 
 #Instruction {
@@ -12,7 +13,8 @@ h1 {
 .schedule-container {
   display: flex;
   margin: 0 auto;
-  width: 760px;
+  /* width: 760px; */
+  width: 100%;
 }
 
 .day {
@@ -281,4 +283,36 @@ h1 {
   .day:last-of-type {
     margin-top: 32px;
   }
+
+  .event .name {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 3vw;
+  }
+  
+  .event .details {
+    font-size: 2.5vw;
+  }
+
+  .reminder > p {
+    color: #001d55;
+    font-weight: 600;
+    margin-left: 8px;
+    font-size: 3vw;
+  }
+
+
+}
+
+
+.nolink {
+  color: #001d55;
+  font-family: LemonMilkRegular;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: 0.25s ease color;
+
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-size: 1.15vw;
 }

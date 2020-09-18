@@ -53,9 +53,7 @@
     - name: IBM workshop
       time: 1:30 - 2:15 PM
       link: https://go.hackmit.org/workshop
-    - name: mini-event - tiktok dance workshop
-      time: 2:15 - 2:45 PM
-      link: https://go.hackmit.org/mini-event
+    
     - name: yext workshop
       time: 2:30 - 3:00 PM
       link: https://go.hackmit.org/workshop
@@ -63,15 +61,24 @@
     - name: facebook workshop
       time: 3:15 - 3:45 PM
       link: https://go.hackmit.org/workshop
-    - name: IBM panel
+    
+    - name: mini-event - tiktok dance workshop
       time: 4:00 - 4:30 PM
-      link: https://go.hackmit.org/workshop
-    - name: judging orientation option 1
-      time: 5:15 - 6:00 PM
-      link: https://go.hackmit.org/judging-orientation
-    - name: mini-event - abs w/ jenny
-      time: 5:30 - 6:00 PM
       link: https://go.hackmit.org/mini-event
+
+    - name: IBM panel
+      time: 4:45 - 5:15 PM
+      link: https://go.hackmit.org/workshop
+
+    - name: 
+      events:
+
+        - name: judging orientation option 1
+          time: 5:15 - 6:00 PM
+          link: https://go.hackmit.org/judging-orientation
+        - name: mini-event - abs w/ jenny
+          time: 5:30 - 6:00 PM
+          link: https://go.hackmit.org/mini-event
     
     - name: spicy saturday survey
       time: 6:00 PM
@@ -83,19 +90,23 @@
       time: 6:00 - 7:00 PM
       link: https://play.hackmit.org
 
-    - name: hackathon organizer meetup
-      time: 7:00 - 8:00 PM
-      link: https://go.hackmit.org/hackathon-organizer
-    - name: mini-event - escape room
-      time: 7:00 - 8:00 PM
-      link: https://go.hackmit.org/mini-event
-
-    - name: fireside chat w/ aileen lee
-      time: 8:00 - 8:45 PM
-      link: https://go.hackmit.org/fireside1
-    - name: judging orientation option 2
-      time: 8:00 - 8:45 PM
-      link: https://go.hackmit.org/mini-event
+    - name:
+      events:
+      - name: hackathon organizer meetup
+        time: 7:00 - 8:00 PM
+        link: https://go.hackmit.org/hackathon-organizer
+      - name: mini-event - escape room
+        time: 7:00 - 8:00 PM
+        link: https://go.hackmit.org/mini-event
+    
+    - name:
+      events:
+      - name: fireside chat w/ aileen lee
+        time: 8:00 - 8:45 PM
+        link: https://go.hackmit.org/fireside1
+      - name: judging orientation option 2
+        time: 8:00 - 8:45 PM
+        link: https://go.hackmit.org/mini-event
 
     - name: fireside chat w/ linda avey
       time: 9:00 - 9:45 PM
@@ -103,13 +114,15 @@
     - name: fireside chat w/ tom preston-werner
       time: 10:00 - 10:45 PM
       link: https://go.hackmit.org/fireside3
-
-    - name: hackmit tech talk
-      time: 11:00 PM - 12:00 AM
-      link: https://go.hackmit.org/workshop
-    - name: mini-event - trivia
-      time: 11:00 PM - 12:00 AM
-      link: https://go.hackmit.org/mini-event
+    
+    - name:
+      events:
+      - name: hackmit tech talk
+        time: 11:00 PM - 12:00 AM
+        link: https://go.hackmit.org/workshop
+      - name: mini-event - trivia
+        time: 11:00 PM - 12:00 AM
+        link: https://go.hackmit.org/mini-event
 
     # - name: workshops & fun events
     #   time: 3:00 PM
@@ -142,12 +155,17 @@
       color: red
       reminder: hoho
 
-    - name: expo judging
-      time: 11:00 AM - 1 PM
-      location: johnson media room
+    - name:
+      events:
+      - name: expo judging
+        time: 11:00 AM - 1:00 PM
+        # location: johnson media room
+      - name: sponsor judging
+        time: 11:00 AM - 1:00 PM
+
     - name: panel judging
       time: 1:15 PM - 2:30 PM
-      link: https://go.hackmit.org/panel-judging
+      link: https://go.hackmit.org/closing
     
     - name: sponsor judging results
       time: 2:00 PM

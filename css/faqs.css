@@ -22,10 +22,20 @@ p {
   color: #96D0F1;
 }
 
+.blue1-type {
+  color: #26Acc5;
+}
+
 .yellow-type {
   color: #FFDF3F;
 }
 
-.blue-type2 {
+.blue2-type {
+  color: #1B4481;
+}
+
+.track-link {
   color: #26ACC5;
+  font-family: Muli;
+  letter-spacing: 0.005em;
 }
