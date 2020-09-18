@@ -1,27 +1,27 @@
 prizes:
   - title: "Grand Prize"
-    prize: "$1000 reimbursement to a conference of winner's choice"
+    prize: "$1000 per person"
   - title: "2nd Place"
-    prize: "Sonos Beam Smart Soundbar"
+    prize: "$750 per person"
   - title: "3rd Place"
-    prize: "Bose Soundlike Wireless Headphones"
+    prize: "$500 per person"
+  - title: "Beginner Prize (team)"
+    prize: idk
+  - title: "Meme Project Prize (team)"
+    prize: also idk
+  - title: "Meme Social Media Prize (Individual)"
+    prize: idk
 tracks:  
-  - track: "Assistive Tech"
-  - track: "Dev Tools"
+  - track: "Communication/Connectivity"
   - track: "Education"
-  - track: "Entertainment"
-  - track: "Fintech"
-  - track: "Healthtech"
-  - track: "Social Good"
+  - track: "Health Tech"
   - track: "Urban Innovation"
 track-prizes:
-  - prize: "AirPods 2"
-  - prize: "Oculus Go"
-  - prize: "Beats Portable Speaker"
-  - prize: "iPad Air 2"
-  - prize: "Beats Solo Headphones 3"
-  - prize: "Fitbit Versa"
-  - prize: "GoPro Hero 5"
-  - prize: "Parrot Bebop 2 Camera Drone"
+  - prize: "$125 per person"
+  - prize: "AirPods with Charging Case"
+  - prize: "Amazon Echo"
+  - prize: "Beats Powerbeats 4"
+  - prize: "JBL Flip 5 Waterproof Portable Speaker"
+  - prize: "Bose SoundLink Color Bluetooth Speaker II"
   
 
