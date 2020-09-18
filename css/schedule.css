@@ -10,6 +10,13 @@ h1 {
   margin-bottom: 3vw;
 }
 
+.track-link {
+  color: #26ACC5;
+  font-weight: 400;
+  font-family: Muli;
+  letter-spacing: 0.005em;
+}
+
 .schedule-container {
   display: flex;
   margin: 0 auto;
