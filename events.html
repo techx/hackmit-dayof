@@ -4,13 +4,11 @@ title: Events
 ---
 <h1>events</h1>
   {% for day in site.data.events %}
-  <!-- <div class="day {{ day.color }}"> -->
     <div class="day-name-box">
       <div class="day-name">
         <h2>{{ day.name }}</h2>
       </div>
     </div>
-    <!-- <div class="event-container"> -->
     <div class="events">
       {% for event in day.events %}
         <div class="event-container">
@@ -18,11 +16,8 @@ title: Events
           <p class="name">{{ event.name }}</p>
           <p class="details">{{ event.time }}</p>
           <p class="details"><a class="event-link" href="https://{{ event.location }}">{{ event.location }}</a></p>
-          <!-- <p class="details">{{ event.description }}</p> -->
         </div>
-        <!-- <div class="event {{ event.color | default: "" }}"> -->
         <p class="event-description">{{ event.description }}</p>
-      <!-- </div> -->
       </div>
       {% endfor %}
     </div>

@@ -8,6 +8,7 @@ h1 {
   display: flex;
   margin: 0 auto;
   width: 760px;
+  border-bottom: 2px solid #001d55;
 }
 
 /* .day {
@@ -67,6 +68,10 @@ h1 {
   color: #231f20;
 }
 
+.event.red {
+  background: #ff6f61;
+}
+
 .event .name {
   font-family: LemonMilkRegular;
   font-weight: 600;
@@ -85,7 +90,8 @@ h1 {
 
 /* override links to be lowercase */
 .event-link {
-  font-family: Muli;
+  /* font-family: Muli; */
+  font-family: Arial;
 }
 
 .heading {

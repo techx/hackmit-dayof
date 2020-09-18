@@ -8,8 +8,8 @@ skinny: true
     <div class="column desktop">
       <h2 class="prize-catagory">GENERAL PRIZES</h2>
       {% for prize in site.data.prizes.prizes %}
-      {% assign modcolor = forloop.index | modulo: 3 %}
-        <div class="prize {% if modcolor == 0 %}red{% endif %}{% if modcolor == 1 %}green{% endif %}{% if modcolor == 2 %}blue{% endif %}">
+      {% assign modcolor = forloop.index | modulo: 6 %}
+        <div class="prize {% if modcolor == 1 %}yellow{% endif %}{% if modcolor == 2 %}light-blue{% endif %}{% if modcolor == 3 %}accent-blue{% endif %}{% if modcolor == 0 or modcolor > 3 %}red{% endif %}">
           <div class="border"></div>
           <p class="title">{{prize.title}}</p>
           <p class="prize-description">{{prize.prize}}</p>
@@ -33,9 +33,10 @@ skinny: true
       </ul>
     </div>
     <div class="column desktop blurb">
+      <h2 class="prize-catagory">PROJECT SUBMISSIONS</h2>
       <p>
-        Project submissions must be in by <b>11:15 AM on Sunday</b>.
-        At the expo, each team will present their projects for a few minutes at a time to small groups of judges in a science-fair format. After expo judging ends at <strong>1:00 PM</strong>, the top teams will be chosen for sponsor judging and panel judging.
+        Project submissions must be in by <b>10:00 AM ET on Sunday</b>.
+        At the expo and sponsor judging, each team will present their projects virtually for a few minutes to a small group of judges. After expo and sponsor judging ends at <strong>1:00 PM</strong>, the top teams will be chosen for panel judging.
       </p>
     </div>
   </div>

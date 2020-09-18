@@ -22,8 +22,8 @@
 }
 
 h3 {
-  color: #2ec0cf;
-  font-family: "Norwester";
+  color: #1b4481;
+  font-family: "LemonMilkRegular";
   text-transform: uppercase;
   letter-spacing: .15em;
   font-size: 1.7em;
@@ -31,22 +31,26 @@ h3 {
   text-align: left;
 }
 
-.blue {
-  background-color: #2ec0cf;
+.light-blue {
+  background-color: #96d0f1;
 }
 
-.green {
-  background-color: #00d87b;
+.accent-blue {
+  background-color: #26acc5;
+}
+
+.yellow {
+  background-color: #ffdf3f;
 }
 
 .red {
-  background-color: #f766a6;
+  background-color: #ff6f61;
 }
 
 
 .prize-catagory {
   text-align: center;
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "LemonMilkMedium";
   font-size: 0.8em;
 }
 
