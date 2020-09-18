@@ -24,20 +24,20 @@
 	flex-direction: column;
 }
 
-.blue {
-  background-color: #2ec0cf;
+.light-blue {
+  background-color: #96d0f1;
 }
 
-.green {
-  background-color: #00d87b;
+.accent-blue {
+  background-color: #26acc5;
 }
 
-.red {
+/* .red {
   background-color: #f766a6;
-}
+} */
 
 
-.blue > .modal-button, .blue > .close-modal {
+/* .blue > .modal-button, .blue > .close-modal {
 	color: #2495a1;
 }
 
@@ -55,11 +55,14 @@
 
 .red > .modal-button, .red > .close-modal {
 	color: #b53b7c;
-}
+} */
 
-.red .link-container {
+/* .red .link-container {
 	background-color: #b53b7c;
-}
+} */
+
+/* .link-description {
+} */
 
 /* challenge grid */
 
@@ -86,7 +89,7 @@
 }
 .sponsor {
 	font-family: "Libre Franklin", sans-serif;
-	color: #231f20;
+	color: #001d55;
 	font-size: 0.9em;
 	text-align: center;
 
@@ -124,7 +127,7 @@
 }
 
 .prize-title > .highlight {
-	background-color: #fbde00;
+	background-color: #ffdf3f;
 	border-radius: 4px;
 	padding-left: 4px;
 	padding-right: 4px;
@@ -136,9 +139,13 @@
 	width: 8px;
 	height: 8px; 
 	border-radius: 4px;
-	background-color: #fbde00;
+	background-color: #ffdf3f;
 }
 
+.more-info {
+	text-align: center;
+	font-size: 13px;
+}
 
 /* modal view of expanded info */
 .modal-button, .close-modal {

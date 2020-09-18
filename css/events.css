@@ -24,75 +24,19 @@ h1 {
   width: 100%;
 }
 
-/* .day-name-box .arrow {
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-top: 12px solid #231f20;
-
-  width: 0;
-  height: 0;
-
-  display: block;
-  margin: 0 auto;
-} */
-
-/* .day.yellow .arrow {
-  border-top-color: #00d87b;
-}
-
-.day.red .arrow {
-  border-top-color: #ff6f61;
-} */
-
 .day-name h2 {
   color: #fff;
   font-weight: 600;
-  margin: 0;
   text-align: left;
+  margin: 0 auto;
+  width: 760px;
 }
-
-/* .day.yellow .day-name {
-  background: #00d87b;
-}
-
-.day.red .day-name {
-  background: #ff6f61;
-}
-
-.day .day-details {
-  margin-top: 18px;
-  margin-bottom: 22px;
-}
-
-.day .day-details p:first-of-type {
-  margin-bottom: 4px;
-}
-
-.day .day-details span {
-  font-weight: 600;
-}
-
-.day.yellow .day-details span {
-  color: #00d87b;
-}
-
-.day.red .day-details span {
-  color: #ff6f61;
-} */
 
 .events {
-  border-left: 2px solid #00d87b;
+  /* border-left: 2px solid #00d87b; */
   padding-bottom: 12px;
   padding-left: 12px;
 }
-
-/* .day.yellow .events {
-  border-color: #00d87b;
-}
-
-.day.red .events {
-  border-color: #ff6f61;
-} */
 
 .event {
   background: #fff;
@@ -114,7 +58,7 @@ h1 {
   background: #96d0f1;
 }
 
-.event.medium-blue {
+.event.accent-blue {
   background: #26acc5;
 }
 
@@ -124,6 +68,7 @@ h1 {
 }
 
 .event .name {
+  font-family: LemonMilkRegular;
   font-weight: 600;
   margin-bottom: 2px;
 }
@@ -133,8 +78,14 @@ h1 {
 
 .event-description {
   margin-left: 10px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   width: 100%;
+}
+
+/* override links to be lowercase */
+.event-link {
+  font-family: Muli;
 }
 
 .heading {

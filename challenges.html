@@ -8,9 +8,9 @@ skinny: true
     <div class="column">
         {% for challenge in site.data.challenges %}
      	{% assign mod = forloop.index | modulo: 2 %}
-     	{% assign modcolor = forloop.index | modulo: 3 %}
+     	{% assign modcolor = forloop.index | modulo: 4 %}
 		{% if mod != 0 %}
-		<div class="challenge {% if modcolor == 0 %}green{% endif %}{% if modcolor == 1 %}blue{% endif %}{% if modcolor == 2 %}red{% endif %}">
+		<div class="challenge {% if modcolor == 1 %}light-blue{% endif %}{% if modcolor == 3 %}accent-blue{% endif %}">
 			<div class="border"></div>
 			<p class="sponsor">{{challenge.sponsor}}</p>
 			<p class="title">{{ challenge.title }}</p>
@@ -24,7 +24,10 @@ skinny: true
 					<p class="prize">{{ place.prize }}</p>
 				{% endfor %}
 			</div>
-			<button class="modal-button" data-modal-id="{{challenge.title}}">+</button>
+			<button class="modal-button" data-modal-id="{{challenge.title}}">
+				<p class="more-info">more info / apis / datasets</p>
+				+
+			</button>
 		</div>
 		{% endif %}
 		{% endfor %}
@@ -32,9 +35,9 @@ skinny: true
     <div class="column">
 		{% for challenge in site.data.challenges %}
 		{% assign mod = forloop.index | modulo: 2 %}
-		{% assign modcolor = forloop.index | modulo: 3 %}
+		{% assign modcolor = forloop.index | modulo: 4 %}
 		{% if mod == 0 %}
-		<div class="challenge {% if modcolor == 0 %}green{% endif %}{% if modcolor == 1 %}blue{% endif %}{% if modcolor == 2 %}red{% endif %}">
+		<div class="challenge {% if modcolor == 0 %}light-blue{% endif %}{% if modcolor == 2 %}accent-blue{% endif %}">
 			<div class="border"></div>
 			<p class="sponsor">{{challenge.sponsor}}</p>
 			<p class="title">{{ challenge.title }}</p>
@@ -48,7 +51,10 @@ skinny: true
 					<p class="prize">{{ place.prize }}</p>
 				{% endfor %}
 			</div>
-			<button class="modal-button" data-modal-id="{{challenge.title}}">+</button>
+			<button class="modal-button" data-modal-id="{{challenge.title}}">
+				<p class="more-info">more info / apis / datasets</p>
+				+
+			</button>
 		</div>
 		{% endif %}
 		{% endfor %}
@@ -56,9 +62,9 @@ skinny: true
  </div>
 
  {% for challenge in site.data.challenges %}
- {% assign modcolor = forloop.index | modulo: 3 %}
+ {% assign modcolor = forloop.index | modulo: 4 %}
  <div class="modal-view" id ="{{challenge.title}}">
- 	<div class= "modal-content {% if modcolor == 0 %}green{% endif %}{% if modcolor == 1 %}blue{% endif %}{% if modcolor == 2 %}red{% endif %}">
+ 	<div class= "modal-content {% if modcolor == 0 or modcolor == 1%}light-blue{% endif %}{% if modcolor == 2 or modcolor == 3 %}accent-blue{% endif %}">
  		<div class="border"></div>
  		<p class="sponsor">{{challenge.sponsor}}</p>
 		<p class="title">{{ challenge.title }}</p>
@@ -70,6 +76,7 @@ skinny: true
 				<div class="link-container">
 				{% for link in link_section.section_links %}
 					<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+					<!-- <p class="description">{{ link.description }}</p> -->
 				{% endfor %}
 				</div>
 			{% endfor %}

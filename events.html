@@ -3,14 +3,12 @@ layout: default
 title: Events
 ---
 <h1>events</h1>
-<!-- <div class="schedule-container"> -->
   {% for day in site.data.events %}
   <!-- <div class="day {{ day.color }}"> -->
     <div class="day-name-box">
       <div class="day-name">
         <h2>{{ day.name }}</h2>
       </div>
-      <!-- <div class="arrow"></div> -->
     </div>
     <!-- <div class="event-container"> -->
     <div class="events">
@@ -19,7 +17,7 @@ title: Events
         <div class="event {{ event.color | default: "" }}">
           <p class="name">{{ event.name }}</p>
           <p class="details">{{ event.time }}</p>
-          <p class="details"><a href="https://{{ event.location }}">{{ event.location }}</a></p>
+          <p class="details"><a class="event-link" href="https://{{ event.location }}">{{ event.location }}</a></p>
           <!-- <p class="details">{{ event.description }}</p> -->
         </div>
         <!-- <div class="event {{ event.color | default: "" }}"> -->
@@ -29,4 +27,3 @@ title: Events
       {% endfor %}
     </div>
   {% endfor %}
-<!-- </div> -->
