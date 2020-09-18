@@ -1,18 +1,55 @@
 .box-container {
-  left: 50%;
-  position: absolute;
-  top: 48%;
-  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  position: static;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 1vw;
+  /* top: 48%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.checklist-container {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  position: static;
+  /* margin-left: 2vw; */
+  margin-top: 2vw;
+  align-items: center;
+  line-height: 30px;
+}
+
+/* .front-list  {
+  font-weight: 300;
+} */
+
+.track-link {
+  color: #26ACC5;
+  font-weight: 400;
+  font-family: Muli;
+  letter-spacing: 0.005em;
+}
+
+.home_logo{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 .box.right {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
+.box.left {
+  text-align: center;
+  display: block;
+}
 .box img {
-  margin-top: 100px;
+  margin-top: 50px;
+  
   max-width: 70%;
   height: auto;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -30,8 +67,12 @@ h1 {
   margin-left: -24px;
 }
 
+h3 {
+  text-align: center;
+}
+
 p {
-  font-weight: 300;
+  font-weight: 345;
 }
 
 table {
@@ -41,20 +82,24 @@ table {
 .info td {
   padding: 4px 8px;
   vertical-align: top;
+  /* width: 100% */
 }
 
 .info td:first-of-type {
-  font-weight: 600;
+  font-weight: 450;
   letter-spacing: 0.05em;
+  /* width: 105%; */
 }
 
 .info td:last-of-type {
   font-weight: 300;
+  /* width: 150% */
 }
 
 .links td {
   padding: 2px 8px;
   vertical-align: top;
+  
 }
 
 .links td a {
@@ -66,19 +111,38 @@ table {
   main .box-container {
     display: table;
     left: inherit;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 1vw;
+    margin-right: 1vw;
     position: static;
     top: inherit;
     transform: none;
-    width: auto;
+    width: 100%;
   }
 
-  .box img {
-    display: block;
-    margin-top: -32px;
+  table{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size:3vw;
+  }
+  
+  h1 {
+    font-size: 10vw;
+    text-align: center;
+  }
+  h2 {
+    font-size: 6vw;
+    margin-left: 2vw;
   }
 
-  h1, h2 {
+  #contacts{
+    font-size: 9px;
+  }
+  /* h1, h2 {
     margin-left: 0;
-  }
+  } */
 }
+
+/* #contacts{
+  text-align: center;
+} */

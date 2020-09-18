@@ -127,6 +127,12 @@ nav ul li.active a {
   color: #26acc5;
 }
 
+ul {
+  margin: 1vw;
+  font-family: Muli;
+  text-align: left;
+}
+
 main {
   box-sizing: border-box;
   display: block;
