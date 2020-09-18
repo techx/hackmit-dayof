@@ -24,6 +24,8 @@ h1 {
   width: 100%;
 }
 
+
+
 .day {
   flex: 1;
   margin: 0 16px;
@@ -48,6 +50,24 @@ h1 {
 
   display: block;
   margin: 0 auto;
+}
+
+.date-badge {
+  border-radius: 14px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+}
+.day.yellow .date-badge {
+  background-color: #ffdf3f;
+}
+
+.day.blue .date-badge {
+  background-color: #9cD0f1;
+}
+
+.day.red .date-badge {
+  background-color: #ff6f61;
 }
 
 .day.yellow .arrow {
@@ -94,7 +114,11 @@ h1 {
   font-weight: 600;
 }
 
-.day.blue .day-details span {
+.day .day-details p {
+  color: white;
+}
+
+/* .day.blue .day-details span {
   color: #9cD0f1;
 }
 
@@ -104,7 +128,7 @@ h1 {
 
 .day.red .day-details span {
   color: #ff6f61;
-}
+} */
 
 .events {
   border-left: 2px solid #00d87b;

@@ -95,7 +95,7 @@ nav .logo {
 nav .container {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 1200px;
 }
 

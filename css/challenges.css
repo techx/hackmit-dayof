@@ -1,3 +1,8 @@
+p {
+  font-family: "Muli";
+}
+
+
 .challenges {
 	display: flex;
 }
@@ -8,7 +13,7 @@
 
 .skinny a {
 	letter-spacing: 0em;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Muli", sans-serif;
 	font-weight: 600;
 }
 
@@ -81,14 +86,14 @@
 }
 
 .title {
-	font-family: "Libre Franklin", sans-serif;
+	font-family: "Muli", sans-serif;
 	font-size: 1.3em;
 
 	padding-top: 10px;
 	padding-bottom: 5px;	
 }
 .sponsor {
-	font-family: "Libre Franklin", sans-serif;
+	font-family: "Muli", sans-serif;
 	color: #001d55;
 	font-size: 0.9em;
 	text-align: center;
@@ -111,8 +116,8 @@
 }
 
 .prize-title {
-	font-family: "Libre Franklin", sans-serif;
-	font-size: 0.5em;
+	font-family: "Muli", sans-serif;
+	font-size: 0.8em;
 
 	margin-top: 2.2px;
 	grid-column-start: 1;
@@ -120,7 +125,7 @@
 }
 
 .prize {
-	font-family: "Open Sans", sans-serif;
+	font-family: "LemonMilkRegular", sans-serif;
 	font-size: 13px;
 	font-weight: 300;
 	grid-column-start: 2;
@@ -149,7 +154,7 @@
 
 /* modal view of expanded info */
 .modal-button, .close-modal {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Muli", sans-serif;
 	font-weight: 800;
 	text-align: center;
 
@@ -219,7 +224,7 @@
 .description {
 	overflow-wrap: break-word;
 	padding-bottom: 10px;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Muli", sans-serif;
 	font-weight: 300;
 	line-height: 1.2em;
 
@@ -240,16 +245,16 @@
 }
 
 .link-box a {
-	font-size: 0.7em;
+	font-size: 1.25em;
 
 }
 
 .section-header {
 	grid-column-start: 1;
 
-	font-family: "Libre Franklin", sans-serif;
+	font-family: "Muli", sans-serif;
 	text-transform: uppercase;
-	font-size: 0.7em;
+	font-size: 1.6em;
 
 	padding-top: 10px;
 	justify-self: right;

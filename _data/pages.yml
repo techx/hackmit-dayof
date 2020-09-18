@@ -2,26 +2,27 @@
   url: /
 - title: SCHEDULE
   url: /schedule
-- title: TRACKS
-  url: /tracks
+- title: More info after opening!
+# - title: TRACKS
+#   url: /tracks
 # - title: MAPS
 #   url: /maps
-- title: EVENTS
-  url: /events
+# - title: EVENTS
+#   url: /events
 # - title: SPEAKERS
 #   url: /speakers
-- title: PRIZES
-  url: /prizes
-- title: CHALLENGES
-  url: /challenges
+# - title: PRIZES
+#   url: /prizes
+# - title: CHALLENGES
+#   url: /challenges
 # - title: HARDWARE
 #   url: /hardware
 # - title: TRAVEL
 #   url: /travel
-- title: BEGINNER
-  url: /beginner
-- title: FAQs
-  url: /faqs
-- title: PLAYGROUND
-  url: /playground
+# - title: BEGINNER
+#   url: /beginner
+# - title: FAQs
+#   url: /faqs
+# - title: PLAYGROUND
+#   url: /playground
 

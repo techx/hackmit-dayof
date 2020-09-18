@@ -17,7 +17,8 @@
       link: https://go.hackmit.org/discord
       description: Looking for teammates? Not sure what to build? Attend our team formation and ideation event to find teammates. Mentors and nonprofits will be available to facilitate brainstorming.
 
-    - name: Intersystems - Data in the Cloud with IRIS
+    - name: Intersystems Tech Talk
+      popup_name: "InterSystems Tech Talk: Data in the Cloud with InterSystem’s IRIS platform."
       time: 11:00 - 11:45 PM
       link: https://go.hackmit.org/workshop
       description: "Build high performance, data intensive, machine learning enabled applications easily with InterSystems IRIS® cloud-first data platform -- our platform provides a fast, reliable database, web services, analytics, ML and AI, forming a strong backbone for the IT architecture of any company! 
@@ -47,7 +48,7 @@
       link: https://go.hackmit.org/mini-event
       description: Come be matched randomly with other hackers for 3 minutes at a time and get to meet each other in this virtual world! (Can be done individually or as a pair)
 
-    - name: fun friday form
+    - name: fun friday form due!
       time: 3:00 AM
       color: blue
       reminder: hoho
@@ -63,11 +64,13 @@
       description: This is part 3/3 of our beginner workshop series. You'll learn how to use databases and APIs for you projects!
 
     - name: CMT tech talk
+      popup_name: "CMT Tech Talk: Detecting Vehicle Crashes with Smartphones"
       time: 12:30 - 1:15 PM
       link: https://go.hackmit.org/workshop
       description: We will talk about how Cambridge Mobile Telematics has built a platform, used by millions of drivers daily, for measuring driver safety and detection crashes using smartphones and IoT devices.  We will describe the types of data we use, and the technical challenges involved in crash detection, and introduce our challenge around analyzing driving data to determine if a crash occurred.
 
     - name: IBM workshop
+      popup_name: "IBM: Build a COVID-19 crisis communication chatbot using IBM Cloud technologies"
       time: 1:30 - 2:15 PM
       link: https://go.hackmit.org/workshop
       description: In times of crisis, communications systems are often overwhelmed with people trying to find basic information about testing, symptoms, community response, and other resources. When communication lines get clogged, people who need real help can't get through. Chatbots help respond to tens, even hundreds, of thousands of messages a day.
@@ -77,11 +80,13 @@
         All code and instructions for this workshop have been made available at <a href="https://github.com/Call-for-Code/Solution-Starter-Kit-Communication-2020">https://github.com/Call-for-Code/Solution-Starter-Kit-Communication-2020</a>
 
     - name: yext workshop
+      popup_name: "Yext: An Intro to REST APIs"
       time: 2:30 - 3:00 PM
       link: https://go.hackmit.org/workshop
       description: Are you a Hackathon beginner? If so, come to our workshop where we'll do an intro to REST APIs. Learn about REST API basics, how to use Insomnia and Postman, and spin up some Python code to programmatically hit some APIs.
 
     - name: facebook workshop
+      popup_name: "Facebook: Modern Web Apps with React"
       time: 3:15 - 3:45 PM
       link: https://go.hackmit.org/workshop
       description: "Want to learn about the framework that powers the frontend for Instragram, Dropbox and Airbnb? Come and learn React from the company that brought it to you, Facebook! In this workshop, we'll be teaching you how to build web apps using Facebook tech and React!"
@@ -107,15 +112,15 @@
 
         - name: judging orientation option 1
           time: 5:15 - 6:00 PM
-          link: https://go.hackmit.org/judging-orientation
-          description: Orientation for Judges
+          link: 
+          description: "Orientation for judges. <br> Judges: Please check your emails when the time comes for the access link!"
         - name: mini-event - abs w/ jenny
           time: 5:30 - 6:00 PM
           link: https://go.hackmit.org/mini-event
           description: Take a break from coding and get a six pack with one of our HackMIT organizer alum <a href="https://www.forbes.com/profile/jenny-xu">Jenny Xu</a> who's both a successful entrepreneur and marathon runner!
 
     
-    - name: spicy saturday survey
+    - name: spicy saturday survey due!
       time: 6:00 PM
       color: blue
       reminder: hoho
@@ -146,8 +151,8 @@
 
       - name: judging orientation option 2
         time: 8:00 - 8:45 PM
-        link: https://go.hackmit.org/mini-event
-        description: Orientation for judges
+        link: 
+        description: "Orientation for judges. <br> Judges: Please check your emails when the time comes for the access link!"
     - name: fireside chat w/ linda avey
       time: 9:00 - 9:45 PM
       link: https://go.hackmit.org/fireside2
