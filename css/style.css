@@ -1,37 +1,37 @@
 @font-face {
-  font-family: Muli, sans-serif;
+  font-family: Muli;
   font-weight: 300;
-  src: url(/font/muli.regular.ttf) format("truetype");
+  src: url("/font/muli.regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Muli, sans-serif;
+  font-family: "Muli";
   font-weight: 400;
-  src: url(/font/muli.regular.ttf) format("truetype");
+  src: url("/font/muli.regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Muli, sans-serif;
+  font-family: "Muli";
   font-weight: 600;
-  src: url(/font/Muli-Medium.ttf) format("truetype");
+  src: url("/font/Muli-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: MuliBold, sans-serif;
+  font-family: "MuliBold";
   font-weight: 700;
-  src: url(/font/Muli-ExtraBold.ttf) format("truetype");
+  src: url("/font/Muli-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: LemonMilkMedium;
   font-weight: 400;
-  src: url(/font/LEMONMILK-Medium.otf) format("truetype");
+  src: url("/font/LEMONMILK-Medium.otf") format("truetype");
 }
 
 @font-face {
   font-family: LemonMilkRegular;
   font-weight: 700;
-  src: url(/font/LEMONMILK-Regular.otf) format("truetype");
+  src: url("/font/LEMONMILK-Regular.otf") format("truetype");
 }
 
 * {

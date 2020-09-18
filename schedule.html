@@ -31,28 +31,41 @@ title: Schedule
         </div>
         {% else %}
         {% if event.events %}
+        
         <div class="heading {{ event.color | default: "" }}">
           <!-- <div class="circle"></div> -->
           <p>{{ event.name }}</p>
           <div class="subevents">
             {% if event.events != "none" %}
             {% for subevent in event.events %}
-            <div class="event subevent {{ subevent.color | default: event.color | default: "" }}">
-              {% if event.link %}
-              <a href={{ event.link }} target="_blank" class="name">{{ subevent.name }} </a>
-              {% else %}
-              <p class="nolink">{{ subevent.name }}</p>
-              {% endif %}
-              <!-- <p class="heading {{ event.color | default: "" }}">{{ subevent.name }}</p> -->
-              <p class="details">{{ subevent.time }}</p>
-              <!-- <p class="details">{{ subevent.location }}</p> -->
+            <div class="popover__wrapper">
+              <div class="event subevent {{ subevent.color | default: event.color | default: "" }}">
+                {% if subevent.link %}
+                <a href={{ subevent.link }} target="_blank" class="name">{{ subevent.name }} </a>
+                {% else %}
+                <p class="nolink">{{ subevent.name }}</p>
+                {% endif %}
+                <!-- <p class="heading {{ event.color | default: "" }}">{{ subevent.name }}</p> -->
+                <p class="details">{{ subevent.time }}</p>
+                <!-- <p class="details">{{ subevent.location }}</p> -->
+                {% if subevent.description %}
+                  <div class="popover__content subevent-content">
+                    <h3>{{ subevent.name }}</h3>
+                    <p class="popover__message">
+                    {{ subevent.description }}
+                    </p>
+                  </div>
+                {% endif %}
+              </div>
             </div>
             {% endfor %}
             {% endif %}
           </div>
         </div>
+          
         {% else %}
-        <div class="event {{ event.color | default: "" }}">
+        <div class="popover__wrapper">
+          <div class="event {{ event.color | default: "" }}">
           {% if event.link %}
             <a href={{ event.link }} target="_blank" class="name">{{ event.name }} </a>
           {% else %}
@@ -62,6 +75,15 @@ title: Schedule
           
           <!-- <p class="name">{{ event.name }}</p> -->
           <p class="details">{{ event.time }}</p>
+          {% if event.description %}
+            <div class="popover__content">
+              <h3>{{event.name}}</h3>
+              <p class="popover__message">
+              {{ event.description }}
+              </p>
+            </div>
+          {% endif %}
+          </div>
         </div>
         {% endif %}
         {% endif %}

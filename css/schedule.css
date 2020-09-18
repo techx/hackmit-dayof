@@ -323,3 +323,85 @@ h1 {
   margin-bottom: 2px;
   font-size: 1.15vw;
 }
+
+
+
+
+
+.popover__title {
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgb(228, 68, 68);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.popover__wrapper {
+  position: relative;
+  /* margin: 8px 0; */
+  padding: 7px;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 10px);
+  background-color: rgb(156, 208, 241);
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px 0 rgb(156, 208, 241);
+  width: 40vw;
+  left: -9vw; 
+  bottom: 130%;
+}
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  right: calc(50% - 10px);
+  bottom: -10px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+  border-color: rgb(156, 208, 241) transparent transparent transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.popover__content h3 {
+  color: white;
+  font-family: LemonMilkRegular;
+}
+.popover__message {
+  text-align: center;
+  font-size: 1.3vw;
+  color: white;
+  font-weight: 600;
+}
+
+.popover__content.subevent-content {
+  left: -15vw;
+  bottom: 115%;
+}
+
+@media only screen and (max-width: 760px) {
+  .popover__content.subevent-content {
+    width: 200%;
+    left: -50%;
+  }
+
+  .popover__content {
+    width: 100%;
+    left: 0;
+  }
+
+  .popover__message {
+    font-size: 2.5vw;
+  }
+}
