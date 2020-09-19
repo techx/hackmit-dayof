@@ -204,3 +204,30 @@ h3 {
     font-size: 1.4em;
   }
 }
+
+
+.track-buttons a {
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.yellow {
+  background-color: #ffdf3f;
+}
+
+.blue {
+  background-color: #9cD0f1;
+}
+
+.red {
+  background-color: #ff6f61;
+}
+
+.accent-blue {
+  background-color: #26acc5;
+}
+
+
+a.accent-blue:hover {
+  color: #9cD0f1;
+}

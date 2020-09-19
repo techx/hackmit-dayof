@@ -1,5 +1,6 @@
 main {
-  max-width: 600px;
+  /* max-width: 600px; */
+  /* width: 50%; */
 }
 
 h3, p {
@@ -39,4 +40,23 @@ p {
   font-family: Muli;
   letter-spacing: 0.005em;
   font-weight: 500;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 10px;
+}
+
+.project li {
+  margin-left: 30px;
+  margin-bottom: 5px;
+
 }
