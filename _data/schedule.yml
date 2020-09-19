@@ -20,7 +20,7 @@
     - name: Intersystems Tech Talk
       popup_name: "InterSystems Tech Talk: Data in the Cloud with InterSystem’s IRIS platform."
       time: 11:00 - 11:45 PM
-      link: https://go.hackmit.org/workshop
+      link: https://youtu.be/PzbtTWiXGiE
       description: "Build high performance, data intensive, machine learning enabled applications easily with InterSystems IRIS® cloud-first data platform -- our platform provides a fast, reliable database, web services, analytics, ML and AI, forming a strong backbone for the IT architecture of any company! 
         <br/><br/>
         The database is truly multi-model, with relational, document and object views on a single source of data. Work with it via SQL or your favorite programming language! 
@@ -39,7 +39,7 @@
 
     - name: beginner workshop pt. 1
       time: 12:00 - 1:00 AM
-      link: https://go.hackmit.org/workshop
+      link: https://mit.zoom.us/j/2710728325
       description: This is part 1/3 of our beginner workshop series. You'll learn how to use Git and how to use HTML and CSS to create a frontend!
       # reminder: none
 
@@ -57,7 +57,7 @@
       events:
       - name: beginner workshop pt. 2
         time: 10:00 - 11:00 AM
-        link: https://go.hackmit.org/workshop
+        link: https://mit.zoom.us/j/91840562860
         description: This is part 2/3 of our beginner workshop series. You'll learn how to create a backend with Flask and connect it to your frontend with Javascript!
       - name: chat with MISTI
         time: 10:30 - 11:00 AM
@@ -66,19 +66,19 @@
 
     - name: beginner workshop pt. 3
       time: 11:15 AM - 12:15 PM
-      link: https://go.hackmit.org/workshop
+      link: https://mit.zoom.us/j/91840562860
       description: This is part 3/3 of our beginner workshop series. You'll learn how to use databases and APIs for you projects!
 
     - name: CMT tech talk
       popup_name: "CMT Tech Talk: Detecting Vehicle Crashes with Smartphones"
       time: 12:30 - 1:15 PM
-      link: https://go.hackmit.org/workshop
+      link: https://youtu.be/9UEk2Gqme68
       description: We will talk about how Cambridge Mobile Telematics has built a platform, used by millions of drivers daily, for measuring driver safety and detection crashes using smartphones and IoT devices.  We will describe the types of data we use, and the technical challenges involved in crash detection, and introduce our challenge around analyzing driving data to determine if a crash occurred.
 
     - name: IBM workshop
       popup_name: "IBM: Build a COVID-19 crisis communication chatbot using IBM Cloud technologies"
       time: 1:30 - 2:15 PM
-      link: https://go.hackmit.org/workshop
+      link: https://youtu.be/vPbRbily9gg
       description: In times of crisis, communications systems are often overwhelmed with people trying to find basic information about testing, symptoms, community response, and other resources. When communication lines get clogged, people who need real help can't get through. Chatbots help respond to tens, even hundreds, of thousands of messages a day.
         <br/><br/>
         This workshop will use IBM Cloud technologies to build a virtual assistant able to understand and respond to common questions about COVID-19, scan COVID-19 news articles, and respond to COVID statistics inquires with data from trusted sources. This workshop will using Watson Assistant to build a chatbot, Watson Discovery to find information from trusted sources, and optionally integrate with Slack or Node-RED.
@@ -88,13 +88,13 @@
     - name: yext workshop
       popup_name: "Yext: An Intro to REST APIs"
       time: 2:30 - 3:00 PM
-      link: https://go.hackmit.org/workshop
+      link: https://youtu.be/6C_Jd41_7Eg
       description: Are you a Hackathon beginner? Want to build efficient and powerful applications that can connect with various large databases and services? If so, come to our workshop where we'll do an intro to REST APIs! Learn about REST API basics, how to use Insomnia and Postman, and spin up some Python code to programmatically hit some APIs.
 
     - name: facebook workshop
       popup_name: "Facebook: Modern Web Apps with React"
       time: 3:15 - 3:45 PM
-      link: https://go.hackmit.org/workshop
+      link: https://youtu.be/4PMq8cL-wbo
       description: "Want to learn about the framework that powers the frontend for Instragram, Dropbox and Airbnb? Come and learn React from the company that brought it to you, Facebook! In this workshop, we'll be teaching you how to build web apps using Facebook tech and React!"
 
     - name: mini-event - tiktok dance workshop
@@ -109,7 +109,7 @@
 
     - name: IBM panel
       time: 4:45 - 5:15 PM
-      link: https://go.hackmit.org/workshop
+      link: https://youtu.be/24Mx9vwtoqk
       description: "The existential threats of the COVID-19 pandemic have proven how AI and machine learning tools can serve a critical role in preventing disease transmission, tracking and responding to virus outbreaks, and expediting drug and vaccine development processes that are traditionally far too expensive and inefficient.  Yet while these tools have revolutionized how critical data on COVID-19 is gathered, analyzed, and acted upon, there is still all too much work to be done in effectively preventing, tracking, and treating the virus.  Technology alone is only a starting point: effective public health innovations cannot succeed without an underlying commitment to equity, access, and affordability.  Furthermore, while there is an exponential growth in relevant apps, digital interfaces, and virtual diagnostic tools that seek to address the COVID-19 pandemic, all too many of these efforts are siloed within standalone organizations, campaigns, or research centers.  This panel will highlight best practice and key challenges facing these efforts to date, and will explore how to:
         <br/><br/>
         1)  Focus on equity and accessibility in all COVID-19 prevention and response strategies so that these efforts don’t perpetuate existing biases and disenfranchisement in healthcare systems;
@@ -178,7 +178,7 @@
       events:
       - name: hackmit tech talk
         time: 11:00 PM - 12:00 AM
-        link: https://go.hackmit.org/workshop
+        link: https://mit.zoom.us/j/91840562860
         description: Want to organize your own virtual hackathon? Come learn about HackMIT's open source tools that can help you lead a successful virtual hackathon!
       - name: mini-event - trivia
         time: 11:00 PM - 12:00 AM
