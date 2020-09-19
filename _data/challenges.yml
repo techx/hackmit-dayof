@@ -21,7 +21,7 @@
     - title: "2nd"
       prize: "$1,000"
     - title: "3rd"
-      prize: "$750"
+      prize: "prize of up to $750 in value"
 - sponsor: "DRW"
   title: "Best Data Visualization Hack"
   description: "We will be judging for the best data visualization hack. Projects will be judged on their ability to make data more accessible to more users. Can you make large data sets easily understandable at a quick glance? In a world overflowing with data, breaking it down for people is more important than ever."
