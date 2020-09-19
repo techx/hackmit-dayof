@@ -13,7 +13,7 @@
       location: go.hackmit.org/discord
       description: Looking for teammates? Not sure what to build? Attend our team formation and ideation event to find teammates. Mentors and nonprofits will be available to facilitate brainstorming.
     - name: "InterSystems Tech Talk: Data in the Cloud with InterSystem’s IRIS platform."
-      time: 11:00 PM ET
+      time: 11:00 PM ET"
       location: go.hackmit.org/workshop
       description: "Build high performance, data intensive, machine learning enabled applications easily with InterSystems IRIS® cloud-first data platform -- our platform provides a fast, reliable database, web services, analytics, ML and AI, forming a strong backbone for the IT architecture of any company! 
         <br/><br/>
@@ -62,7 +62,7 @@
     - name: "Yext: An Intro to REST APIs"
       time: 2:30 PM ET
       location: go.hackmit.org/workshop
-      description: Are you a Hackathon beginner? If so, come to our workshop where we'll do an intro to REST APIs. Learn about REST API basics, how to use Insomnia and Postman, and spin up some Python code to programmatically hit some APIs.
+      description: Are you a Hackathon beginner? Want to build efficient and powerful applications that can connect with various large databases and services? If so, come to our workshop where we'll do an intro to REST APIs! Learn about REST API basics, how to use Insomnia and Postman, and spin up some Python code to programmatically hit some APIs.
       color: accent-blue
     - name: "Facebook: Modern Web Apps with React"
       time: 3:15 PM ET
