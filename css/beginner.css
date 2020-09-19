@@ -39,3 +39,10 @@ ul {
   margin-bottom: 16px;
   line-height: 1.5em;
 }
+
+.big-link {
+  margin: 20px auto;
+  display: block;
+  color: #26acc5;
+  font-size: 1.5em;
+}
