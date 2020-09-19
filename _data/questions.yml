@@ -35,8 +35,9 @@
 - prompt: WHAT ARE THE REQUIREMENTS FOR RECEIVING SWAG?
   answer: You must fill out both of our track questionnaires and submit a project to be eligible. Unfortunately our fulfillment center doesn’t ship internationally, so swag will only be shipped out domestically. Sorry for the inconvenience! If you have an alternate address in the United States, we can use that instead.
 
+- prompt: WHO IS ELIGIBLE FOR COFFEE CHATS?
+  answer: If you are a high school student, then you are unfortunately not eligible for coffee chats with sponsors. Additionally, each company may have its own guidelines on conducting coffee chats with international students.
+
 - prompt: I HAVE MORE QUESTIONS ABOUT HACKMIT PLAYGROUND!
   answer: Check out this <a href="https://go.hackmit.org/playground-article" target="_blank" class="track-link"> blog post </a> :')
 
-- prompt: WHO IS ELIGIBLE FOR COFFEE CHATS?
-  answer: If you are a high school student, then you are unfortunately not eligible for coffee chats with sponsors. Additionally, each company may have its own guidelines on conducting coffee chats with international students.
