@@ -2,15 +2,15 @@ prizes:
   - title: "Grand Prize"
     prize: "$1000 per person"
   - title: "2nd Place"
-    prize: "$750 per person"
+    prize: "Prize of up to $750 per person"
   - title: "3rd Place"
-    prize: "$500 per person"
+    prize: "Prize of up to $500 per person"
   - title: "Beginner Prize (team)"
     prize:  Squishables
   - title: "Superb Sunday Submission (team)"
     prize:  Roku Streaming Stick
   - title: "Meme Social Media Prize (Individual)"
-    prize:  The best pair of slippers you will every own
+    prize:  The best pair of slippers you will ever own
 tracks:  
   - track: "Communication / Connectivity"
   - track: "Education"
